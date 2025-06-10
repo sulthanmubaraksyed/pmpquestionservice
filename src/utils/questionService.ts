@@ -75,7 +75,7 @@ export async function retrieveRecordsFromFile({
   processGroup,
   knowledgeArea,
   count = 100,
-  isValid
+  isValid = false
 }: RetrieveParams): Promise<QAResponseIndividual[]> {
   try {
     // Debug log for imports
@@ -100,11 +100,11 @@ export async function retrieveRecordsFromFile({
     // Helper function to filter questions based on criteria
     const filterQuestions = (questions: BaseQuestion[]) => {
       return questions.filter(q => {
-        // Always filter out attempted questions
-        if (q.is_attempted) return false;
-
-        // Filter by is_valid if specified
-        if (isValid !== undefined && q.is_valid !== isValid) return false;
+        // Filter based on isValid parameter
+        if (isValid !== undefined) {
+          if (isValid && q.is_valid !== true) return false;
+          if (!isValid && q.is_valid !== false) return false;
+        }
 
         // Handle 'all' for processGroup
         const matchesProcessGroup = 
@@ -158,8 +158,7 @@ export async function retrieveRecordsFromFile({
 
         logger.debug("Distribution (counts per group):", distribution);
         logger.debug("Initiating (inQuestions) total:", allQuestions.inQuestions.length);
-        const unattemptedInitiating = allQuestions.inQuestions.filter(q => !q.is_attempted);
-        logger.debug("Unattempted Initiating:", unattemptedInitiating.length);
+        logger.debug("All Initiating questions:", allQuestions.inQuestions.length);
 
         // First pass: Get questions from each category according to distribution
         for (const [group, questions] of Object.entries(allQuestions)) {

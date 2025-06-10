@@ -1,0 +1,307 @@
+in.ts - Question 1:
+  ID: 1717049940186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 2:
+  ID: 1717049941186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 3:
+  ID: 1717049942186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 4:
+  ID: 1717049943186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 5:
+  ID: 1717049944186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 6:
+  ID: 1717049945186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 7:
+  ID: 1717049946186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 8:
+  ID: 1717049947186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 9:
+  ID: 1717049948186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+in.ts - Question 10:
+  ID: 1717049949186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+pl.ts - Question 1:
+  ID: 1717049950186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+pl.ts - Question 2:
+  ID: 1717049951186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+pl.ts - Question 3:
+  ID: 1717049952186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+pl.ts - Question 4:
+  ID: 1717049953186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+pl.ts - Question 5:
+  ID: 1717049954186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+ex.ts - Question 1:
+  ID: 1717049960186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+ex.ts - Question 2:
+  ID: 1717049961186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+ex.ts - Question 3:
+  ID: 1717049962186
+  is_valid: true (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: true
+
+ex.ts - Question 4:
+  ID: 1717049963186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+ex.ts - Question 5:
+  ID: 1717049964186
+  is_valid: true (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: true
+
+mc.ts - Question 1:
+  ID: 1717049970186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+mc.ts - Question 2:
+  ID: 1717049971186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+mc.ts - Question 3:
+  ID: 1717049972186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+mc.ts - Question 4:
+  ID: 1717049973186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+mc.ts - Question 5:
+  ID: 1717049974186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 1:
+  ID: 1717049980186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 2:
+  ID: 1717049981186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 3:
+  ID: 1717049982186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 4:
+  ID: 1717049983186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 5:
+  ID: 1717049984186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 6:
+  ID: 1717049985186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 7:
+  ID: 1717049986186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 8:
+  ID: 1717049987186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 9:
+  ID: 1717049988186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 10:
+  ID: 1717049989186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 11:
+  ID: 1717049990186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 12:
+  ID: 1717049991186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 13:
+  ID: 1717049992186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 14:
+  ID: 1717049993186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 15:
+  ID: 1717049994186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 16:
+  ID: 1717049995186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 17:
+  ID: 1717049996186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 18:
+  ID: 1717049997186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 19:
+  ID: 1717049998186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 20:
+  ID: 1717049999186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 21:
+  ID: 1717050000186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 22:
+  ID: 1717050001186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 23:
+  ID: 1717050002186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 24:
+  ID: 1717050003186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+cl.ts - Question 25:
+  ID: 1717050004186
+  is_valid: false (type: boolean)
+  hasOwnProperty('is_valid'): true
+  q.is_valid !== false: false
+
+
+SUMMARY:
+Total Questions: 50
+Valid (TRUE): 2
+Invalid (FALSE): 48
+Undefined/Null: 0
+Expected to be returned by filter: 48
