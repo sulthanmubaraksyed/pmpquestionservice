@@ -1,10 +1,28 @@
-import express from 'express';
-import { retrieveRecordsFromFile } from '../utils/questionService.js';
+import express, { Request, Response, RequestHandler } from 'express';
+import { retrieveRecordsFromFile, saveRecordToFile, getQuestion } from '../utils/questionService.js';
 import { listApiKeys } from '../utils/apiKeyService.js';
 import { requireApiKey } from '../middleware/apiKeyAuth.js';
+import { logger } from '../utils/logger.js';
 import type { RetrieveParams } from '../types/index.js';
 
 const router = express.Router();
+
+// Request logging middleware
+const logRequest = (req: Request, res: Response, next: Function) => {
+  const start = Date.now();
+  const originalSend = res.send;
+  
+  res.send = function(data) {
+    const duration = Date.now() - start;
+    logger.apiRequest(req.method, req.path, res.statusCode, duration, req.ip);
+    return originalSend.call(this, data);
+  };
+  
+  next();
+};
+
+// Apply request logging to all routes
+router.use(logRequest);
 
 /**
  * @api {get} /api/pmp-questions Get PMP Questions
@@ -43,13 +61,15 @@ router.get('/pmp-questions', requireApiKey, async (req, res) => {
     const params: RetrieveParams = {
       processGroup: req.query.processGroup as string,
       knowledgeArea: req.query.knowledgeArea as string,
-      count: req.query.count ? parseInt(req.query.count as string) : undefined
+      count: req.query.count ? parseInt(req.query.count as string) : undefined,
+      isValid: req.query.isValid !== undefined ? req.query.isValid === 'true' : undefined
     };
 
+    logger.info('PMP Questions API called', { params });
     const questions = await retrieveRecordsFromFile(params);
     res.json({ questions });
   } catch (error) {
-    console.error('Error retrieving questions:', error);
+    logger.error('Error retrieving questions:', error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
@@ -72,8 +92,126 @@ router.get('/pmp-questions', requireApiKey, async (req, res) => {
  * @apiError (403) Forbidden Invalid API key
  */
 router.get('/api-keys', requireApiKey, (req, res) => {
+  logger.info('API Keys list requested');
   const keys = listApiKeys();
   res.json({ keys });
 });
+
+/**
+ * @api {post} /api/saveRecord Save or Update a PMP Question Record
+ * @apiName SaveRecord
+ * @apiGroup Questions
+ * @apiVersion 1.0.0
+ *
+ * @apiHeader {String} X-API-Key API key for authentication
+ *
+ * @apiBody {QAResponseIndividual} record The record to update (must include id and process_group)
+ *
+ * @apiSuccess {string} message Success message
+ * @apiError (400) BadRequest Invalid input or missing fields
+ * @apiError (404) NotFound Record not found
+ * @apiError (500) InternalServerError Failed to update record
+ */
+const saveRecordHandler: RequestHandler = async (req, res) => {
+  logger.info('SAVE RECORD API CALL RECEIVED', {
+    id: req.body.id,
+    processGroup: req.body.process_group,
+    knowledgeArea: req.body.knowledge_area,
+    isValid: req.body.is_valid,
+    isVerified: req.body.is_verified,
+    isAttempted: req.body.is_attempted,
+    selectedOption: req.body.selected_option,
+    didUserGetItRight: req.body.did_user_get_it_right,
+    additionalNotes: req.body.analysis?.additional_notes
+  });
+  
+  try {
+    const record = req.body;
+    if (!record || !record.id || !record.process_group) {
+      logger.error('VALIDATION ERROR: Missing id or process_group in request body', { record });
+      res.status(400).json({ error: 'Missing id or process_group in request body' });
+      return;
+    }
+    logger.info('Request validation passed');
+    
+    logger.info('Calling saveRecordToFile service...');
+    await saveRecordToFile(record);
+    logger.info('saveRecordToFile service completed successfully');
+    
+    logger.info('Sending success response to client...');
+    res.json({ message: 'Record updated successfully' });
+    logger.info('Success response sent');
+    
+  } catch (error: any) {
+    logger.error('ERROR OCCURRED DURING SAVE PROCESS:', {
+      errorType: error.message,
+      recordId: req.body.id,
+      processGroup: req.body.process_group
+    });
+    
+    if (error.message === 'Record not found') {
+      logger.warn('Sending 404 response for record not found', { recordId: req.body.id });
+      res.status(404).json({ error: 'Record not found' });
+      return;
+    } else if (error.message === 'Invalid process_group') {
+      logger.warn('Sending 400 response for invalid process_group', { processGroup: req.body.process_group });
+      res.status(400).json({ error: 'Invalid process_group' });
+      return;
+    } else {
+      logger.error('Sending 500 response for internal server error', { error: error.message });
+      res.status(500).json({ error: 'Failed to update record' });
+      return;
+    }
+  }
+};
+
+router.post('/saveRecord', requireApiKey, saveRecordHandler);
+
+/**
+ * @api {get} /api/getQuestion Get Question by ID
+ * @apiName GetQuestion
+ * @apiGroup Questions
+ * @apiVersion 1.0.0
+ * 
+ * @apiHeader {String} X-API-Key API key for authentication
+ * 
+ * @apiQuery {string} id Question ID to retrieve
+ * 
+ * @apiSuccess {QAResponseIndividual} question The question object
+ * @apiError (400) BadRequest Missing question ID
+ * @apiError (404) NotFound Question not found
+ * @apiError (401) Unauthorized API key is missing
+ * @apiError (403) Forbidden Invalid API key
+ */
+const getQuestionHandler: RequestHandler = async (req, res) => {
+  try {
+    const { id } = req.query;
+    
+    logger.info('Get Question API called', { questionId: id });
+    
+    if (!id || typeof id !== 'string') {
+      logger.warn('Missing or invalid question ID', { id });
+      res.status(400).json({ error: 'Missing or invalid question ID' });
+      return;
+    }
+
+    const question = await getQuestion(id);
+    
+    if (!question) {
+      logger.warn('Question not found', { questionId: id });
+      res.status(404).json({ error: 'Question not found' });
+      return;
+    }
+
+    logger.info('Question found and returned', { questionId: id });
+    res.json({ question });
+  } catch (error) {
+    logger.error('Error getting question:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+    return;
+  }
+};
+
+router.get('/getQuestion', requireApiKey, getQuestionHandler);
 
 export default router; 

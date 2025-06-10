@@ -26,12 +26,15 @@ export interface QAResponseIndividual {
   analysis: BaseQuestion['analysis'];
   is_verified: boolean;
   did_user_get_it_right?: boolean;
+  is_valid?: boolean;
+  additional_notes?: string;
 }
 
 export interface RetrieveParams {
   processGroup?: string;
   knowledgeArea?: string;
   count?: number;
+  isValid?: boolean;
 }
 
 export interface BaseQuestion {
@@ -53,6 +56,8 @@ export interface BaseQuestion {
     tool: string;
     suggested_read: string | string[];
     concepts_to_understand: string;
+    additional_notes?: string;
   };
   is_attempted?: boolean;
+  is_valid?: boolean;
 } 

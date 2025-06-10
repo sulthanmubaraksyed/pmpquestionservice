@@ -1,4 +1,5 @@
 import crypto from 'crypto';
+import { logger } from './logger.js';
 
 // Persistent API key for the service
 const PERSISTENT_API_KEY = 'pmp_service_key_2024';
@@ -26,6 +27,7 @@ apiKeys.set(PERSISTENT_API_KEY, {
  */
 export function validateApiKey(key: string): boolean {
   if (!key || !apiKeys.has(key)) {
+    logger.warn('Invalid API key attempt', { key: key ? key.substring(0, 8) + '...' : 'undefined' });
     return false;
   }
 
@@ -34,6 +36,7 @@ export function validateApiKey(key: string): boolean {
   if (keyData) {
     keyData.lastUsed = new Date();
     apiKeys.set(key, keyData);
+    logger.debug('API key validated successfully', { key: key.substring(0, 8) + '...' });
   }
 
   return true;
@@ -44,6 +47,7 @@ export function validateApiKey(key: string): boolean {
  * @returns Array of API key metadata
  */
 export function listApiKeys() {
+  logger.info('API keys list requested');
   return Array.from(apiKeys.values()).map(({ key, ...metadata }) => ({
     ...metadata,
     key: key.substring(0, 8) + '...' // Only show first 8 characters
@@ -56,8 +60,14 @@ export function listApiKeys() {
  * @returns boolean indicating if the key was revoked
  */
 export function revokeApiKey(key: string): boolean {
-  return apiKeys.delete(key);
+  const wasRevoked = apiKeys.delete(key);
+  if (wasRevoked) {
+    logger.info('API key revoked', { key: key.substring(0, 8) + '...' });
+  } else {
+    logger.warn('Attempted to revoke non-existent API key', { key: key.substring(0, 8) + '...' });
+  }
+  return wasRevoked;
 }
 
 // Log the persistent API key on startup
-console.log('PMP Service API Key:', PERSISTENT_API_KEY); 
+logger.info('PMP Service API Key initialized', { key: PERSISTENT_API_KEY }); 
