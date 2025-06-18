@@ -33,6 +33,7 @@ export interface QAResponseIndividual {
 export interface RetrieveParams {
   processGroup?: string;
   knowledgeArea?: string;
+  tool?: string;
   count?: number;
   isValid?: boolean;
 }

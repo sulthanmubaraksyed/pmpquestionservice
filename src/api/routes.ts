@@ -1,5 +1,5 @@
 import express, { Request, Response, RequestHandler } from 'express';
-import { retrieveRecordsFromFile, saveRecordToFile, getQuestion } from '../utils/questionService.js';
+import { retrieveRecordsFromFile, saveRecordToFile, getQuestion, deleteQuestion } from '../utils/questionService.js';
 import { listApiKeys } from '../utils/apiKeyService.js';
 import { requireApiKey } from '../middleware/apiKeyAuth.js';
 import { logger } from '../utils/logger.js';
@@ -58,12 +58,20 @@ router.use(logRequest);
  */
 router.get('/pmp-questions', requireApiKey, async (req, res) => {
   try {
+    console.log('=== ROUTE DEBUG ===');
+    console.log('Query parameters received:', req.query);
+    console.log('isValid query param:', req.query.isValid);
+    console.log('isValid type:', typeof req.query.isValid);
+    
     const params: RetrieveParams = {
       processGroup: req.query.processGroup as string,
       knowledgeArea: req.query.knowledgeArea as string,
       count: req.query.count ? parseInt(req.query.count as string) : undefined,
-      isValid: req.query.isValid !== undefined ? req.query.isValid === 'true' : undefined
+      ...(req.query.isValid !== undefined ? { isValid: req.query.isValid === 'true' } : {})
     };
+
+    console.log('Params object created:', params);
+    console.log('=== END ROUTE DEBUG ===');
 
     logger.info('PMP Questions API called', { params });
     const questions = await retrieveRecordsFromFile(params);
@@ -213,5 +221,63 @@ const getQuestionHandler: RequestHandler = async (req, res) => {
 };
 
 router.get('/getQuestion', requireApiKey, getQuestionHandler);
+
+/**
+ * @api {delete} /api/deleteQuestion Delete Question by ID and Process Group
+ * @apiName DeleteQuestion
+ * @apiGroup Questions
+ * @apiVersion 1.0.0
+ * 
+ * @apiHeader {String} X-API-Key API key for authentication
+ * 
+ * @apiQuery {string} id Question ID to delete
+ * @apiQuery {string} processGroup Process group of the question
+ * 
+ * @apiSuccess {string} message Success message
+ * @apiError (400) BadRequest Missing question ID or process group
+ * @apiError (404) NotFound Question not found
+ * @apiError (401) Unauthorized API key is missing
+ * @apiError (403) Forbidden Invalid API key
+ * @apiError (500) InternalServerError Failed to delete question
+ */
+const deleteQuestionHandler: RequestHandler = async (req, res) => {
+  try {
+    const { id, processGroup } = req.query;
+    
+    logger.info('Delete Question API called', { questionId: id, processGroup });
+    
+    if (!id || typeof id !== 'string') {
+      logger.warn('Missing or invalid question ID', { id });
+      res.status(400).json({ error: 'Missing or invalid question ID' });
+      return;
+    }
+    
+    if (!processGroup || typeof processGroup !== 'string') {
+      logger.warn('Missing or invalid process group', { processGroup });
+      res.status(400).json({ error: 'Missing or invalid process group' });
+      return;
+    }
+
+    await deleteQuestion(id, processGroup);
+    
+    logger.info('Question deleted successfully', { questionId: id, processGroup });
+    res.json({ message: 'Question deleted successfully' });
+  } catch (error: any) {
+    logger.error('Error deleting question:', error);
+    
+    if (error.message === 'Question not found') {
+      res.status(404).json({ error: 'Question not found' });
+      return;
+    } else if (error.message === 'Invalid process_group') {
+      res.status(400).json({ error: 'Invalid process group' });
+      return;
+    } else {
+      res.status(500).json({ error: 'Failed to delete question' });
+      return;
+    }
+  }
+};
+
+router.delete('/deleteQuestion', requireApiKey, deleteQuestionHandler);
 
 export default router; 
