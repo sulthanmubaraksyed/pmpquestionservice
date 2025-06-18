@@ -346,9 +346,9 @@ export const questionsData = {
         "OPTION_C": "Send out daily email reminders about the benefits of the new CRM system to motivate users.",
         "OPTION_D": "Develop a new set of highly detailed technical manuals to provide more comprehensive information."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -359,11 +359,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Feedback Techniques",
-        "suggested_read": "['PMBOK Guide - Section 10.2.2.2 Communication Skills (for active listening and feedback)', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for engaging stakeholders effectively)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2.2.2 Communication Skills (for active listening and feedback)', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for engaging stakeholders effectively)']"
+        ],
         "concepts_to_understand": "Effective communication involves not just sending information but ensuring it is received, understood, and acted upon. When user adoption is low, and feedback indicates specific issues, gathering direct qualitative feedback (e.g., through focus groups) is crucial. This allows the project manager to understand the communication barriers from the users' perspective and tailor communication strategies and support effectively to promote understanding and engagement.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question highlights a common challenge in project communication management—information overload. When team members are overwhelmed by excessive communication, even important details can be missed, leading to mistakes, delays, and reduced engagement. The project manager’s role includes ensuring that communication is clear, effective, and appropriately tailored to stakeholder needs. In this scenario, the issue is not a lack of communication but rather too much of it, delivered in a way that hinders understanding and action.\n\nTo address this effectively, the project manager must first understand the root cause of the problem. Conducting focus groups is a proactive and targeted approach that allows for direct engagement with team members to gather specific feedback. These sessions create a space for open dialogue where individuals can express the particular challenges they face with current communication methods—such as frequency, format, content clarity, or channel overload.\n\nThis feedback provides actionable insights that the project manager can use to streamline communication strategies, filter out non-essential information, and redesign reporting structures to be more user-friendly. Unlike simply sending fewer emails or issuing new guidelines, focus groups ensure that the solution is grounded in actual user experience, increasing the likelihood of sustainable improvement and better information flow across the project.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025431551",
@@ -658,9 +662,9 @@ export const questionsData = {
         "OPTION_C": "Insufficient project management software for document management.",
         "OPTION_D": "Stakeholders are not actively engaging with the project documents."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -671,11 +675,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Information Management Systems",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for defining distribution)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for defining distribution)']"
+        ],
         "concepts_to_understand": "The effectiveness of project management hinges on accurate and up-to-date information. If registers are outdated because updates are not consistently communicated to their custodians, the most probable cause is an ineffective information distribution process. This highlights the importance of well-defined communication channels and protocols within the Manage Communications process to ensure timely dissemination and maintenance of critical project information.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "Understanding this question requires an appreciation of how communication processes impact project documentation accuracy and, ultimately, decision-making. Project documents such as the stakeholder register and risk register are dynamic and must be continuously updated as new information becomes available or conditions change. These documents inform many critical project decisions, and any outdated or inaccurate data can lead to misaligned actions, resource misallocations, or failure to address evolving risks or stakeholder expectations.\n\nIn this scenario, the fact that the documents are not being properly updated is not due to a lack of data or oversight in their content but rather a breakdown in how updated information is being communicated to those responsible for maintaining the records. This points to a flaw in the information distribution process—specifically, the system for ensuring that updates are shared with the right people in a timely and reliable manner.\n\nThe root cause is likely an ineffective communication mechanism that fails to notify or track updates, leading to outdated entries persisting in important project documents. This makes \"an ineffective information distribution process\" the most appropriate answer. A well-functioning project relies not just on generating information but also on distributing it consistently, which is essential for ensuring accuracy and informed decision-making.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025442678",
@@ -1106,9 +1114,9 @@ export const questionsData = {
         "OPTION_C": "Advise the team to create email filters and dedicate specific times for reading reports.",
         "OPTION_D": "Reduce the frequency of all scheduled project reports and meetings by 50%."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1119,11 +1127,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Audits",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.3 Monitor Communications (for evaluating effectiveness)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.3 Monitor Communications (for evaluating effectiveness)']"
+        ],
         "concepts_to_understand": "Communication overload can hinder rather than help information flow, leading to important messages being missed. When this occurs, a systematic review of communication effectiveness, or a 'communications audit,' is essential. This allows the project manager to identify redundancies, optimize channels, and streamline content, ensuring that communication is efficient, purposeful, and delivers necessary information without overwhelming the recipients, which is a key part of effective communication management.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the reasoning behind the correct answer, it is important to consider the nature and goals of project communications management. Effective communication is vital to project success, but excessive or poorly structured communication can be just as harmful as insufficient communication. In this scenario, the team is receiving an overwhelming amount of information through emails and reports, causing key messages to be lost or ignored. This indicates not a lack of communication, but rather a lack of communication effectiveness.\n\nThe most appropriate step for the project manager is to conduct a communication effectiveness review. This review is a tool used to assess whether project communications are achieving their intended purpose—ensuring the right people receive the right information, in the right format, at the right time. It involves examining the existing communication channels, content, frequency, and audience to identify inefficiencies or overloads.\n\nBy conducting this review, the project manager can identify redundant or non-value-adding communications and restructure them into more digestible, targeted, and actionable formats. This not only improves team productivity but also reduces the risk of missing critical project information. It reflects a proactive and adaptive leadership approach to maintaining team engagement and ensuring that project objectives remain on track.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025458865",
@@ -1162,9 +1174,9 @@ export const questionsData = {
         "OPTION_C": "Prepare a concise risk summary highlighting the key implications and proposed mitigation, suitable for executive review.",
         "OPTION_D": "Email the full risk register and highlight the critical risk entry for their review."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1175,11 +1187,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Skills",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for tailoring communication)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for tailoring communication)']"
+        ],
         "concepts_to_understand": "Effective communication involves tailoring the message and delivery method to the specific needs and preferences of the audience. For high-level stakeholders like sponsors, conciseness and focus on key implications (rather than granular detail) are often preferred. Providing information in an executive summary format ensures that critical messages are absorbed efficiently, facilitating timely decision-making and engagement.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To effectively address this question, it's important to recognize the significance of tailoring communication methods to stakeholder preferences, especially when dealing with high-level individuals such as project sponsors. Project sponsors are typically senior executives who oversee the strategic alignment of a project and have limited time to absorb detailed information. They rely on succinct and relevant updates that help them make decisions quickly and effectively.\n\nIn this scenario, the project manager has identified a critical risk—something that could significantly impact project success. Communicating this to the sponsor is essential for ensuring alignment, securing support for mitigation strategies, or obtaining a decision. However, the method and format of communication must be appropriate for the audience. Since the sponsor prefers short, executive-style summaries, a lengthy technical breakdown or detailed risk register would be ineffective and potentially counterproductive.\n\nThe best approach is to prepare a concise risk summary that clearly outlines the nature of the risk, its potential impact on project objectives (such as cost, schedule, or scope), and the proposed mitigation plan. This format respects the sponsor's time constraints while ensuring they are adequately informed and engaged. It allows the sponsor to quickly grasp the seriousness of the risk and offer guidance or authorization as needed",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025460886",
@@ -1274,9 +1290,9 @@ export const questionsData = {
         "OPTION_C": "Direct phone calls to key customers and regulatory contacts.",
         "OPTION_D": "An internal memo circulated among project team members."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1287,11 +1303,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Methods",
-        "suggested_read": "['PMBOK Guide - Section 10.2.2.3 Communication Methods', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for external stakeholders)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2.2.3 Communication Methods', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for external stakeholders)']"
+        ],
         "concepts_to_understand": "Communicating crucial warnings, especially those impacting product safety or regulatory compliance, to external stakeholders demands a formal, precise, and documented approach. A press release issued through official channels provides a controlled and verifiable method for widespread dissemination, ensuring that the message is consistent, accurate, and provides a clear record, which is essential for managing external project communications and maintaining public trust.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the reasoning behind the correct answer, it is important to consider both the nature of the message and the characteristics of the intended audience. The project manager is dealing with a critical situation—a potential defect in a product that is under testing. Since the issue involves risk to quality or safety and may have regulatory implications, the communication must be handled with care and formality.\n\nThe audience includes external stakeholders such as customers and regulatory agencies, which means the communication cannot be informal or limited in reach. It must be accurate, transparent, traceable, and sanctioned by the organization. In such high-stakes situations, official documentation and clarity of language are essential, not just for ethical reasons but also to protect the organization from legal or reputational damage.\n\nA press release issued through official company channels is the most appropriate method in this context. It ensures that the message is formally vetted, approved, and delivered to a wide audience in a controlled and professional manner. It also becomes part of the public record, which is important when regulatory bodies are involved. This approach allows the company to demonstrate responsibility, transparency, and due diligence in managing communication during a potential crisis.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025464944",
@@ -1414,9 +1434,9 @@ export const questionsData = {
         "OPTION_C": "Provide a factual update on the delay, including causes, impact, and proposed corrective actions and their implications.",
         "OPTION_D": "Avoid communicating the delay until a definitive recovery plan is fully approved and implemented."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1427,11 +1447,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Skills",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for managing expectations)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for managing expectations)']"
+        ],
         "concepts_to_understand": "Communicating negative project performance requires a balanced and proactive approach. Rather than focusing solely on the problem, an effective project manager presents the facts, explains the root causes, outlines the implications, and, most importantly, proposes clear corrective actions. This demonstrates accountability, a commitment to problem-solving, and empowers decision-makers, which is critical for maintaining trust and ensuring effective communication with high-level stakeholders, especially those who are risk-averse.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To answer this question effectively, it is essential to consider both the content and tone of communication, especially when delivering unfavorable news to a key stakeholder such as a risk-averse sponsor. Sponsors who prioritize predictability typically value clarity, control, and proactive management of deviations. When a project falls behind schedule, they are likely to be concerned about the reliability of future timelines, impacts to business outcomes, and the effectiveness of the project manager’s leadership.\n\nTherefore, the most effective strategy is to present a factual and structured update that outlines not only the extent of the delay but also the specific reasons behind it. This includes identifying the root causes—whether internal delays, external dependencies, or resource shortfalls—and explaining how they have affected the timeline. However, simply reporting a problem is not enough for such stakeholders.\n\nThe project manager must also propose actionable corrective steps that aim to bring the project back on track, such as resource reallocation, fast-tracking, or schedule re-baselining. These proposed actions should be accompanied by an honest discussion of their potential trade-offs or risks. This approach reassures the sponsor that the project manager is in control, is being transparent, and is taking responsible, forward-looking steps to manage the situation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025470010",

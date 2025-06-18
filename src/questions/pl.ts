@@ -295,9 +295,9 @@ export const questionsData = {
         "OPTION_C": "Analogous estimating, comparing the assembly process to a similar past project's overall duration.",
         "OPTION_D": "Bottom-up estimating, breaking down 'Component Assembly' into its individual steps and summing them."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -308,11 +308,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "Three-point estimating (optimistic, pessimistic, most likely) and its application in situations with uncertainty. Distinguishing it from analogous, parametric, and bottom-up estimating based on the level of detail and type of data used.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the correct answer to this question, it's essential to focus on how project managers deal with uncertainty and variability in estimating activity durations. The activity 'Component Assembly' has been identified as unpredictable in past projects due to factors like varying worker expertise and material inconsistencies. When historical data reflects a wide range of possible outcomes, a single-point estimate is often insufficient to represent the likely duration accurately.\n\nIn such cases, three-point estimating is an ideal technique. It incorporates three scenarios: the optimistic estimate (O), which represents the best-case scenario; the pessimistic estimate (P), which accounts for the worst-case delays; and the most likely estimate (M), which is based on typical performance. These three values are then used to calculate a weighted average duration, often using the Program Evaluation and Review Technique (PERT) formula: (O + 4M + P) / 6.\n\nThis method is particularly valuable in situations where there is a history of variability and where relying on a single estimate could lead to unrealistic expectations. By applying this technique to 'Component Assembly,' the project manager is acknowledging inherent uncertainty and using a structured approach to produce a more reliable and risk-aware duration estimate. This leads directly to the use of three-point estimating.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023028283",
@@ -323,9 +327,9 @@ export const questionsData = {
         "OPTION_C": "Bottom-up estimating, by decomposing the work to the lowest level possible and securing expert judgment for each work package or activity.",
         "OPTION_D": "Three-point estimating, utilizing optimistic, pessimistic, and most likely scenarios derived from hypothetical future breakthroughs."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -336,11 +340,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Bottom-up estimating, Expert Judgment",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment']\"]"
+        ],
         "concepts_to_understand": "Bottom-up estimating as the most accurate method when detailed information is available or can be obtained through decomposition. The critical role of expert judgment in innovative projects where historical data is lacking. Limitations of other techniques in such scenarios.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question explores the challenges of estimating activity durations in highly uncertain and unprecedented project environments, such as innovative research initiatives. In these situations, traditional analogous or parametric estimating techniques are often unsuitable because they rely heavily on historical data, which is either unavailable or irrelevant due to the novel nature of the work. Therefore, the project manager must turn to an estimation method that does not depend on past trends but instead leverages a more detailed, bottom-up approach.\n\nBottom-up estimating is particularly well-suited for projects where accuracy is critical and historical data is limited. This method involves breaking down the project scope into the smallest, most manageable components—typically at the work package or activity level within the Work Breakdown Structure (WBS). Once decomposed, the project manager can consult subject matter experts to estimate the duration of each individual component based on current understanding, available resources, and task-specific complexity.\n\nBy aggregating these individual estimates, the project manager develops a comprehensive and highly detailed schedule. This approach accommodates the unique aspects of the project and allows for more precision, even in the absence of historical benchmarks. Given the demand for accuracy and the high degree of uncertainty, bottom-up estimating is the most reliable technique in this scenario.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023029293",
@@ -351,9 +359,9 @@ export const questionsData = {
         "OPTION_C": "Three-point estimating, which typically uses a weighted average or simple average of the three estimates.",
         "OPTION_D": "Bottom-up estimating, by breaking the activity down into smaller, more manageable sub-activities."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -364,11 +372,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "Three-point estimating and its purpose in addressing uncertainty and differing expert opinions by considering a range of possibilities (optimistic, pessimistic, most likely).",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "o understand the reasoning behind the correct answer, it's important to recognize the challenge being faced by the project manager: conflicting views among team members regarding how long a specific activity will take. One team member provides an overly optimistic estimate, likely assuming that everything will go smoothly, while another offers a pessimistic viewpoint based on past difficulties. These differing opinions can create uncertainty and tension when trying to finalize a schedule.\n\nTo address this, the project manager uses three-point estimating, a technique designed to provide a more balanced and realistic duration estimate by incorporating a range of possible outcomes. This method involves collecting three estimates for the activity: the optimistic (O), the most likely (M), and the pessimistic (P). These values are then used to calculate an expected duration, either as a simple average or, more commonly, using the Program Evaluation and Review Technique (PERT) formula, which gives more weight to the most likely estimate.\n\nBy applying three-point estimating, the project manager is not only accounting for variability and risk but also promoting team alignment by validating each perspective. This approach leads to a more data-informed and consensus-driven estimate, improving the reliability of the overall schedule.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023030305",
@@ -547,9 +559,9 @@ export const questionsData = {
         "OPTION_C": "Apply analogous estimating by comparing it to a past story of similar complexity and duration from a different team.",
         "OPTION_D": "Add a fixed contingency of 25% to the base parametric estimate due to the new API integration uncertainty."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -560,11 +572,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2.2: Parametric Estimating (contextual understanding)']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2.2: Parametric Estimating (contextual understanding)']\"]"
+        ],
         "concepts_to_understand": "Combining parametric baseline with three-point estimating for specific uncertainties. The use of three-point estimating when an activity has known variability or unknown elements, even if historical data exists for similar activities. Understanding that even in agile, some activities benefit from detailed estimation beyond story points.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question and arrive at the correct answer, it's important to focus on the nature of uncertainty and how it impacts schedule estimation. In this case, the availability of a key resource—the UX designer—is not fixed, and this introduces variability into how long the 'Front-end Development' activity might take. Since the designer is also supporting another critical project, their time may not be consistently available, making it difficult to apply a single-point duration estimate with confidence.\n\nIn such situations, three-point estimating is the most effective technique. It addresses uncertainty by asking the team to provide three duration estimates: an optimistic estimate (if everything goes smoothly), a most likely estimate (based on expected conditions), and a pessimistic estimate (if the UX designer’s availability causes significant delays). These three estimates are then used to calculate either a simple average or a weighted average, most commonly through the PERT formula, to provide a more realistic duration.\n\nBy involving the team in this estimating process, the project manager also gains better insights into the risks and assumptions behind the numbers. This leads to more informed planning, better stakeholder communication, and more resilient scheduling in the face of resource uncertainty.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750023037372",
@@ -631,9 +647,9 @@ export const questionsData = {
         "OPTION_C": "Add a contingency reserve of 10 days to the 5-day estimate for 'Data Cleansing' to account for poor data quality.",
         "OPTION_D": "Document the 5-day estimate and track data quality as a risk to be escalated if it becomes poor."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -644,11 +660,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating, PERT analysis",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "The appropriate application of three-point estimating for activity durations with inherent variability and a known range of outcomes. Distinction between variability (best handled by three-point estimates) and discrete risk events (best handled by contingency reserves).",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question thoroughly, one must focus on how uncertainty and variability in inputs affect schedule estimates and how project managers can reflect that variability in a structured and defensible way. The activity 'Data Cleansing' is influenced by the unpredictable quality of the source data, which introduces a wide range of possible durations. While the team believes it will most likely take five days, they acknowledge that under poor conditions it may stretch to fifteen days, and if the data quality is exceptionally high, it may take only three days.\n\nRather than using a single-point estimate, which could either underestimate or overestimate the true duration, the most effective approach is to apply three-point estimating, specifically the Program Evaluation and Review Technique (PERT). This method incorporates the optimistic, most likely, and pessimistic durations to calculate a weighted average. The formula typically used is (O + 4M + P) ÷ 6, which in this case becomes (3 + 4×5 + 15) ÷ 6 = 6 days.\n\nThis approach gives a realistic and risk-informed duration estimate that can be included in the baseline schedule. It allows the project manager to reflect uncertainty explicitly while supporting better forecasting and risk management throughout the project lifecycle.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023040408",
@@ -687,9 +707,9 @@ export const questionsData = {
         "OPTION_C": "Bottom-up estimating, decomposing the analysis into granular steps and validating estimates with domain experts, while identifying related risks.",
         "OPTION_D": "Three-point estimating, getting optimistic, pessimistic, and most likely durations from the team based on their best guesses."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -700,11 +720,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Bottom-up Estimating, Expert Judgment, Reserve Analysis (implied by identifying risks)",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment']\"]"
+        ],
         "concepts_to_understand": "The superiority of bottom-up estimating for complex activities with dependencies, especially when combined with expert judgment and risk identification. Limitations of other methods in highly uncertain and dependent scenarios.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the logic behind this answer, it's important to consider the nature of the project and the conditions surrounding the activity. The activity 'Analyze Research Data' is described as complex, uncertain, and heavily dependent on prior outcomes and external resources, such as analytical software. These characteristics indicate a high degree of variability and potential for change, which makes superficial or top-down estimating approaches unreliable in this context.\n\nBottom-up estimating is particularly suited for situations where complexity and risk are high. This technique involves breaking the activity into smaller, more manageable components or tasks. Each component is estimated individually, often with input from subject matter experts who understand the technical challenges involved. By working at a granular level, the project manager can better assess time requirements, resource constraints, and interdependencies.\n\nAdditionally, bottom-up estimating allows the project manager to surface and document specific risks associated with each sub-component, especially those stemming from external dependencies like software availability. This level of detail not only improves estimate accuracy but also supports defensibility when justifying timelines to stakeholders. In a scientific research environment where unpredictability is common, using bottom-up estimating ensures that estimates are built on expert input and aligned closely with the actual work to be performed.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023042433",
@@ -883,9 +907,9 @@ export const questionsData = {
         "OPTION_C": "Three-point estimating, involving a detailed discussion with the marketing team to get optimistic, pessimistic, and most likely scenarios.",
         "OPTION_D": "Analogous estimating, using the duration of the previous year's campaign as a basis and adjusting for scale."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -896,11 +920,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Analogous Estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.6: Analogous Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.6: Analogous Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "The application of analogous estimating for quick, high-level estimates, particularly in the early stages of a project when detailed information is limited but historical data from similar projects is available.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question highlights a common scenario in project initiation, where stakeholders request early estimates before detailed planning is possible. At this stage, project details may be limited, but decision-makers still need preliminary figures for budgeting or timeline forecasting. The key factor here is the lack of granular data and the urgency of providing a quick, high-level estimate.\n\nAnalogous estimating is the most appropriate technique in this context. It involves using historical data from a similar past project—in this case, the marketing campaign launched last year—as the foundation for estimating the new project’s duration. Since the previous campaign had a comparable scope, and only minor adjustments are needed for the difference in scale, analogous estimating allows the project manager to produce a credible estimate quickly.\n\nThis method does not require a detailed work breakdown or individual task-level analysis, which aligns well with the current limitations in project data. While it may not be as precise as bottom-up or parametric estimating, it provides sufficient accuracy for early-stage planning and supports timely decision-making. Therefore, using analogous estimating based on the prior campaign’s duration, with adjustments for scale, is the most logical and efficient approach under these circumstances.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023049511",
@@ -971,9 +999,9 @@ export const questionsData = {
         "OPTION_C": "Pessimistic estimate, as it accounts for all potential risks and uncertainties.",
         "OPTION_D": "Most likely estimate, as it represents the normal conditions and typical outcomes."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -984,11 +1012,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating, PERT analysis",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "The PERT formula and its application in three-point estimating. Understanding why it is preferred over a simple average when the most likely estimate is considered more probable, and how it helps account for uncertainty in activity durations.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the reasoning behind the correct answer, it's important to consider the nature of the activity and the estimating technique being used. In this scenario, the activity ‘Develop Prototype’ involves high uncertainty because of innovative elements, making it difficult to rely solely on a single-point estimate. When uncertainty is high, using three-point estimating provides a more realistic and risk-informed view of the activity's likely duration.\n\nThe project manager receives three duration estimates: optimistic, most likely, and pessimistic. These estimates reflect different possible outcomes, ranging from the best-case scenario to the worst-case delay. The most accurate way to calculate a single, weighted average estimate that appropriately reflects the likely outcome is to use the PERT (Program Evaluation and Review Technique) formula.\n\nThe PERT formula is designed to give greater weight to the most likely estimate while still considering the potential for delays or early completion. The formula is: (Optimistic + 4 × Most Likely + Pessimistic) ÷ 6. This method balances realism with uncertainty and avoids over-reliance on extremes. By using PERT, the project manager can produce a more statistically sound and credible estimate, which is especially useful for planning activities with unpredictable outcomes, like innovation-driven tasks.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023052541",
@@ -1283,9 +1315,9 @@ export const questionsData = {
         "OPTION_C": "10 days, allowing for flexibility within the sprint.",
         "OPTION_D": "6 days, adding a small buffer for unforeseen complexities."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1296,11 +1328,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Parametric Estimating (Velocity-based)",
-        "suggested_read": "[\"['Agile Practice Guide - Section 4.2.1: Velocity', 'PMBOK Guide - Section 6.4.2.2: Parametric Estimating']\"]",
+        "suggested_read": [
+          "[\"['Agile Practice Guide - Section 4.2.1: Velocity', 'PMBOK Guide - Section 6.4.2.2: Parametric Estimating']\"]"
+        ],
         "concepts_to_understand": "Parametric estimating in agile projects using velocity and story points. Converting story points to estimated duration in calendar days based on the team's historical performance. The precision offered by velocity as an estimation metric.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand how to arrive at the correct answer, it is important to translate agile estimation metrics—such as story points and velocity—into calendar-based durations when requested by stakeholders. In Scrum, story points represent relative effort or complexity, and velocity is the amount of work the team completes in one sprint. The team’s average velocity of 20 story points per 10-day sprint provides a clear productivity benchmark that can be used to calculate how long it typically takes to complete a given number of story points.\n\nThe backlog item in question, 'Implement User Profile Management,' is estimated at 8 story points. Using the known velocity, the project manager can determine how many days the team would likely need to complete this item. If the team completes 20 story points in 10 working days, they complete 2 story points per day (20 ÷ 10). Dividing the 8 story points by this daily completion rate (8 ÷ 2) yields an estimated duration of 4 working days.\n\nSince this estimation is based on historical data and actual team performance, it provides a realistic and data-driven answer. The use of consistent velocity across sprints also reinforces the accuracy of the 4-day estimate.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750023065663",
@@ -1483,9 +1519,9 @@ export const questionsData = {
         "OPTION_C": "Adding a substantial contingency reserve to the 'Install Heavy Machinery' activity to absorb any delays from the supplier.",
         "OPTION_D": "Implementing fast tracking or crashing to compress the schedule, mitigating the supplier risk."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1496,11 +1532,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2.5: Reserve Analysis (distinguishing its use)']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2.5: Reserve Analysis (distinguishing its use)']\"]"
+        ],
         "concepts_to_understand": "The application of three-point estimating to activities with significant inherent uncertainty or variability, especially those influenced by external factors like supplier performance. Distinguishing its use from contingency reserves (for discrete risk events) and schedule compression techniques (for shortening an already estimated schedule).",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it is important to recognize the role of uncertainty in duration estimation and how specific techniques can be applied to address it. The activity in question, ‘Install Heavy Machinery,’ has an initial estimate of 30 days. However, that estimate is threatened by a key uncertainty: the reliance on timely delivery of custom-fabricated parts from a new international supplier. Because this dependency introduces variability that can significantly impact the activity’s duration, a more nuanced estimating approach is required.\n\nThree-point estimating is particularly suited for such scenarios. This technique involves collecting three estimates for an activity: the optimistic duration (assuming everything goes better than expected), the most likely duration (based on a realistic assessment), and the pessimistic duration (accounting for possible delays or problems). By using these values, a weighted average or expected duration can be calculated, providing a more realistic and risk-adjusted estimate.\n\nIn this case, the project manager should apply three-point estimating in collaboration with both the installation team and the supplier. Their combined input will reflect practical insight into installation processes and shipping lead times. This method ensures that the schedule reflects a more realistic duration by factoring in the potential variance introduced by the delivery risk.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023072724",
@@ -1771,9 +1811,9 @@ export const questionsData = {
         "OPTION_C": "Utilize a structured, anonymous online questionnaire with multiple rounds of feedback.",
         "OPTION_D": "Delegate the risk assessment to a small, local team and distribute their findings later."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1784,11 +1824,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Data Gathering (Delphi Technique)",
-        "suggested_read": "['PMBOK Guide - Section 4.1.2.2 Expert Judgment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 4.1.2.2 Expert Judgment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']"
+        ],
         "concepts_to_understand": "The Delphi Technique, often implemented through structured questionnaires or online platforms, is highly effective for gathering and reconciling expert opinions, especially when experts are geographically dispersed or when anonymity is desired to prevent undue influence from dominant personalities. This method is a key part of leveraging expert judgment in Perform Qualitative Risk Analysis.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To properly interpret this question, it’s important to understand both the nature of the project environment and the decision-making process required. The project involves a global team dispersed across various time zones, which makes synchronous communication like in-person workshops or live meetings logistically challenging. Additionally, the risk in question is both technological and highly uncertain, meaning that subjective judgment from experts is needed rather than hard data.\n\nIn qualitative risk analysis, when expert opinion is required under such constraints, the Delphi Technique is a powerful and well-regarded approach. This technique involves collecting input from a panel of experts through multiple rounds of anonymous questionnaires. After each round, a facilitator summarizes the responses and shares them with the group, allowing participants to revise their views in light of others’ opinions. This iterative process continues until a consensus or convergence of opinion is reached.\n\nThe anonymity of the Delphi Technique is particularly valuable, as it reduces bias and prevents dominant voices from influencing the group. Conducting it online allows global participation without the need for real-time engagement. Therefore, using a structured, anonymous, multi-round online questionnaire is the most effective method in this scenario, as it ensures timely, unbiased, and high-quality input from a geographically dispersed team.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750026051847",
@@ -1943,9 +1987,9 @@ export const questionsData = {
         "OPTION_C": "Utilize expert judgment and assumptions, documenting the rationale for the assessments.",
         "OPTION_D": "Immediately escalate these risks to quantitative analysis for precise numerical assessment."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1956,11 +2000,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Expert Judgment, Data Analysis (Risk Data Quality Assessment)",
-        "suggested_read": "['PMBOK Guide - Section 4.1.2.2 Expert Judgment', 'PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 4.1.2.2 Expert Judgment', 'PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment']"
+        ],
         "concepts_to_understand": "When dealing with ambiguous or uncertain risks in Perform Qualitative Risk Analysis, expert judgment is paramount. Project managers should leverage the knowledge and experience of subject matter experts, stakeholders, and the project team to assess these risks. It's crucial to document any assumptions made during this process, along with the rationale, to ensure transparency and enable future adjustments as more information becomes available. Risk data quality assessment can also identify deficiencies in understanding these risks.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To fully understand this question, it’s important to appreciate the challenges that come with assessing risks that are ambiguous or lack clear historical precedent, especially in complex projects like those in the aerospace industry. Qualitative risk analysis involves evaluating the probability and impact of identified risks using subjective judgment rather than numerical data. When historical data is scarce or when risks are new or uncertain in nature, it becomes difficult to rely solely on data-driven models or standard risk matrices.\n\nIn such situations, expert judgment becomes a critical tool. Experts, whether internal or external, can offer insights based on comparable experiences, technical knowledge, or industry standards. These experts can help assess risks even when the available information is incomplete or vague. However, to avoid introducing bias or confusion later, the assumptions made during this process must be clearly documented. This transparency allows the project team and stakeholders to understand the basis of the risk ratings and revisit them if circumstances change.\n\nBy combining expert input with carefully recorded assumptions, the project manager ensures that qualitative risk analysis remains both structured and adaptable. This approach maintains integrity in the assessment process while allowing flexibility in how uncertainties are managed as more information becomes available.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026057924",
@@ -2335,9 +2383,9 @@ export const questionsData = {
         "OPTION_C": "Encourage further discussion and require evidence or rationale for each probability estimate, referencing risk data quality.",
         "OPTION_D": "Assign the probability based on the most vocal or senior team member's assessment."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2348,11 +2396,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Data Quality Assessment, Expert Judgment, Meetings",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']"
+        ],
         "concepts_to_understand": "Effective Perform Qualitative Risk Analysis requires a critical assessment of risk data quality and a structured approach to reconciling differing opinions. When there is wide disagreement on a qualitative parameter like probability, the project manager should encourage discussion, examine the basis of each opinion (e.g., data quality, assumptions), and leverage expert judgment to arrive at a consensus that reflects the best available information and understanding, rather than just averaging or deferring to authority. This iterative process improves the reliability of the qualitative assessment.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To fully understand this question, it’s important to consider the goals and techniques used during the Perform Qualitative Risk Analysis process. This process evaluates the probability and impact of identified risks to prioritize them for further analysis or action. It relies heavily on team input, expert judgment, and subjectivity. In this scenario, the team has reached consensus on the high impact of a data breach, but there is significant disagreement on the likelihood of the event occurring. Such variance in opinions can undermine the reliability of the risk assessment if not resolved thoughtfully.\n\nThe project manager's role is to facilitate constructive dialogue and ensure that risk assessments are based on informed judgment rather than speculation. To manage the disagreement effectively, the project manager should encourage further discussion and request supporting evidence or rationale for each viewpoint. This approach ensures that probability estimates are anchored in actual data, past incidents, environmental factors, or system vulnerabilities.\n\nBy referencing risk data quality, the project manager emphasizes the need for high-confidence inputs and promotes transparency in how risk probabilities are determined. This results in a more credible and consistent risk assessment, helping the team reach a rational consensus and ultimately improving the quality of the risk management process.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026072095",
@@ -2615,9 +2667,9 @@ export const questionsData = {
         "OPTION_C": "Updates to the risk register.",
         "OPTION_D": "Risk response strategies."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2628,11 +2680,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Register (Output)",
-        "suggested_read": "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.2.3.1 Risk Register']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.2.3.1 Risk Register']"
+        ],
         "concepts_to_understand": "Perform Qualitative Risk Analysis assesses and prioritizes identified risks. The key deliverable of this process is an updated Risk Register, which now contains qualitative information about each risk, such as its probability, impact, risk score, and priority ranking. This allows the project manager to focus attention and resources on the most critical risks.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it is important to focus on the purpose and outcomes of the Perform Qualitative Risk Analysis process. This process occurs after risks have been initially identified and recorded in the risk register. Its main objective is to prioritize risks for further analysis or action by assessing their probability of occurrence and potential impact on project objectives. Teams often use tools such as probability and impact matrices to evaluate and categorize risks systematically.\n\nDuring this stage, no new risks are being identified, and no quantitative modeling is being done. Instead, the analysis is focused on determining which risks deserve the most attention based on their relative importance. The team assigns qualitative scores or categories to each risk, considering factors such as urgency, proximity, manageability, and the organization’s risk tolerance.\n\nThe primary output of this process is updates to the risk register. These updates reflect changes in the prioritization and classification of risks, including the assignment of probability and impact ratings, risk categories, and any new data that affects risk characteristics. These updates form the basis for subsequent risk response planning and, if needed, quantitative risk analysis. Therefore, “updates to the risk register” is the most accurate and appropriate output of this process.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026082209",
@@ -3003,28 +3059,32 @@ export const questionsData = {
       "question_pmp": "The project manager has completed Perform Qualitative Risk Analysis for a critical infrastructure upgrade project. The output is an updated risk register, which now includes a 'watch list' of low-priority risks. What should the project manager ensure is done with these 'watch list' risks in the subsequent project phases?",
       "options_pmp": {
         "OPTION_A": "Immediately delete them to reduce project overhead.",
-        "OPTION_B": "Periodically re-evaluate them as part of Control Risks.",
+        "OPTION_B": "Periodically re-evaluate them as part of Monitor Risks.",
         "OPTION_C": "Develop full response plans for them in the next planning cycle.",
         "OPTION_D": "Escalate them to the change control board for approval."
       },
-      "is_attempted": false,
+      "is_attempted": true,
       "is_valid": false,
-      "selected_option": "",
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
         "option_a_result": "INCORRECT - Deleting risks, even low-priority ones, is a poor practice. Their status can change, or they can combine with other risks, requiring later attention.",
-        "option_b_result": "CORRECT - Risks on the watch list are not ignored. They are periodically revisited and re-evaluated during the Control Risks process (Monitoring and Controlling Process Group) to determine if their probability or impact has changed, or if other risk characteristics make them more critical, warranting further analysis or active management. This ensures ongoing vigilance without over-investing resources.",
+        "option_b_result": "CORRECT - Risks on the watch list are not ignored. They are periodically revisited and re-evaluated during the Monitor Risks process (Monitoring and Controlling Process Group) to determine if their probability or impact has changed, or if other risk characteristics make them more critical, warranting further analysis or active management. This ensures ongoing vigilance without over-investing resources.",
         "option_c_result": "INCORRECT - Developing full response plans for watch list risks defeats the purpose of categorizing them as low priority. Response plans are typically for higher-priority risks.",
         "option_d_result": "INCORRECT - Escalating watch list risks to the change control board is unnecessary and inefficient. The change control board handles change requests, not routine monitoring of low-priority risks.",
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Register (Output)",
-        "suggested_read": "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.6 Control Risks']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.6 Control Risks']"
+        ],
         "concepts_to_understand": "The 'watch list' is a crucial outcome of Perform Qualitative Risk Analysis. It allows the project manager to maintain visibility over low-priority risks without allocating significant resources to them immediately. These risks are not forgotten; rather, they are continuously monitored as part of the Control Risks process to detect any changes in their characteristics that might elevate their priority and necessitate a more active response.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To fully understand this question, it is important to recognize the role of the 'watch list' and how it fits into the ongoing risk management process. During the Perform Qualitative Risk Analysis process, risks are prioritized based on their probability of occurrence and impact on project objectives. Not all identified risks are considered critical or high priority; some are categorized as low-priority risks due to their limited potential effect on scope, schedule, cost, or quality. These low-priority risks are not ignored but are documented in a 'watch list' within the risk register.\n\nThe watch list allows the project manager and team to keep track of these risks without allocating immediate mitigation resources. However, risks are dynamic and can evolve as the project progresses. A risk that was once low-priority may become more significant due to changes in project conditions, external factors, or new information.\n\nTherefore, it is the responsibility of the project manager to ensure that these watch list risks are periodically reviewed during the Monitor Risks process. This ensures that if any risk escalates in severity or likelihood, it can be addressed proactively. Re-evaluating the watch list as part of Monitor Risks maintains ongoing risk awareness and strengthens the project's overall risk response strategy.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750026096390",
