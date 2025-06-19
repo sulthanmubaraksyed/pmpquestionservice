@@ -391,9 +391,9 @@ export const questionsData = {
         "OPTION_C": "Three-point estimating, considering best, worst, and most likely scenarios.",
         "OPTION_D": "Bottom-up estimating, breaking down the pour into smaller segments."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -404,11 +404,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Parametric Estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "Parametric estimating and its applicability when there is a statistically relevant relationship between historical data and a parameter, such as quantity or rate. Distinguishing it from other techniques.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the logic behind this question, it's important to consider the nature of the work and the availability of historical performance data. Estimating techniques in project management are selected based on the characteristics of the activity, including how predictable it is, the level of detail available, and the relationship between variables like time, quantity, or cost.\n\nIn this scenario, the activity—pouring concrete for a foundation—is closely tied to a measurable physical quantity: the volume of concrete. Historical data provides the team with a rate at which this task has been completed in the past, such as the number of cubic meters poured per hour or per day. When such a consistent and quantifiable relationship exists, parametric estimating is the most appropriate approach.\n\nParametric estimating relies on statistical or mathematical models to calculate estimates based on the relationship between variables. It is particularly useful when the work involves repetitive elements with well-known productivity rates. By multiplying the total volume of concrete required by the historical rate of pouring, the project manager can produce a reliable duration estimate. This approach provides both accuracy and efficiency, especially when backed by sound data, making parametric estimating the most logical choice in this case.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023031312",
@@ -447,9 +451,9 @@ export const questionsData = {
         "OPTION_C": "Utilize expert judgment from the senior legal counsel, combined with a decomposition of the DPIA into smaller, manageable steps.",
         "OPTION_D": "Perform three-point estimating by asking multiple team members for their optimistic, pessimistic, and most likely durations."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -460,11 +464,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Expert Judgment, Bottom-up Estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.1: Expert Judgment', 'PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.1: Expert Judgment', 'PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating']\"]"
+        ],
         "concepts_to_understand": "The combined power of expert judgment and bottom-up estimating when historical data is limited and specific expertise is available. Understanding the limitations of analogous and parametric estimating in novel situations.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the reasoning behind this answer, it's important to focus on the conditions described in the question. The key challenge is the absence of direct historical data for estimating the duration of the 'Data Privacy Impact Assessment' due to recent regulatory changes. This limits the ability to use analogous or parametric estimating techniques, which rely heavily on past data. However, the presence of senior legal counsel with significant experience in similar privacy assessments provides a valuable resource.\n\nIn such scenarios, expert judgment becomes one of the most reliable tools for estimation. Experts, particularly those familiar with both past practices and evolving regulations, can offer insights into potential complexities, resource requirements, and realistic timelines based on their deep domain knowledge. Their judgment helps bridge the gap where quantitative data is lacking.\n\nTo further enhance the accuracy of the estimate, the project manager can decompose the DPIA activity into smaller, well-defined steps using bottom-up estimating principles. This allows the expert to assess each component individually, making the overall estimate more structured and grounded. By combining expert judgment with decomposition, the project manager can produce a practical, informed estimate that accounts for the uniqueness of the task while reducing the uncertainty typically associated with new regulatory work.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023033335",
@@ -475,9 +483,9 @@ export const questionsData = {
         "OPTION_C": "Calculate the simple average of the three estimates (Optimistic + Most Likely + Pessimistic) / 3.",
         "OPTION_D": "Select the pessimistic estimate of 20 days to ensure schedule safety."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -488,11 +496,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating, PERT analysis",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "The PERT formula and its purpose in three-point estimating to provide a weighted average for activity durations, accounting for uncertainty. The difference between PERT and triangular distribution, and why PERT is often preferred for schedule estimates due to its weighting of the most likely scenario.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To effectively answer this question, it is important to understand the role of uncertainty in project scheduling and how specific estimating techniques help manage it. In this scenario, the activity ‘Develop User Interface’ is part of the critical path, meaning any delay in its completion can directly affect the project's overall timeline. The team has provided three estimates: optimistic, most likely, and pessimistic. These reflect a range of possible outcomes, indicating the presence of uncertainty due to stakeholder influence and unproven technology.\n\nWhen there is notable variability or risk around how long an activity might take, using a single-point estimate can be misleading. Instead, the three-point estimating technique offers a more accurate approach by considering best-case, most probable, and worst-case scenarios. Among the different methods for three-point estimating, the Program Evaluation and Review Technique (PERT) is especially useful for calculating a weighted average that leans more toward the most likely scenario while still accounting for the extremes.\n\nThe PERT formula—(Optimistic + 4 × Most Likely + Pessimistic) ÷ 6—is specifically designed for such cases. It provides a realistic and statistically sound estimate of duration by factoring in uncertainty and producing a balanced forecast. Therefore, applying the PERT formula is the most appropriate method in this situation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023034343",
@@ -503,9 +515,9 @@ export const questionsData = {
         "OPTION_C": "Increase the overall project management reserve to cover any delays caused by resource allocation issues.",
         "OPTION_D": "Use analogous estimating from a past project where a similar resource constraint was encountered."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -516,11 +528,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Reserve Analysis",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.5: Reserve Analysis', 'PMBOK Guide - Section 11.6.3.1: Reserve Analysis (Risk Management context)']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.5: Reserve Analysis', 'PMBOK Guide - Section 11.6.3.1: Reserve Analysis (Risk Management context)']\"]"
+        ],
         "concepts_to_understand": "The purpose and application of contingency reserves for known risks. Distinction between contingency reserves (for known-unknowns) and management reserves (for unknown-unknowns). The importance of addressing identified risks explicitly in duration estimates.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question explores how a project manager should handle uncertainty during schedule development, especially when a critical resource has limited or unpredictable availability. In this case, the 'Front-end Development' activity depends heavily on a specialized UX designer whose involvement is essential for progress but who is also committed to another important project. The uncertainty around this designer’s availability introduces a risk that could delay the schedule if not properly accounted for.\n\nWhen estimating activity durations, project managers must factor in both known constraints and potential risks. In situations where there is a specific risk—such as the possible unavailability of a resource—it is best practice to incorporate a contingency reserve. This is additional time added to the activity duration to account for known or anticipated risks that could cause delays. It is not arbitrary padding but a calculated buffer based on risk analysis.\n\nBy including a contingency reserve for the 'Front-end Development' activity, the project manager is proactively managing the risk of delay due to resource unavailability. This approach ensures that the schedule remains realistic and achievable even if the designer is temporarily unavailable. It also supports better stakeholder communication and planning, as it demonstrates a structured response to identified risks within the schedule.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023035349",
@@ -531,9 +547,9 @@ export const questionsData = {
         "OPTION_C": "Perform three-point estimating, getting optimistic, pessimistic, and most likely estimates from the geological experts for the new conditions.",
         "OPTION_D": "Break down the 'Tunnel Boring' into smaller segments and estimate each segment using bottom-up estimating."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -544,11 +560,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Parametric Estimating, Expert Judgment, Data Analysis (e.g., historical information review)",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment']\"]"
+        ],
         "concepts_to_understand": "Refined application of parametric estimating by adjusting parameters based on specific project variables or expert judgment. Understanding when parametric estimating is more appropriate than other techniques, especially when quantifiable relationships and historical data are available but need adjustment.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "o accurately determine the duration of the 'Tunnel Boring' activity in this scenario, it’s critical to consider both the nature of the activity and the available data. 'Tunnel Boring' is a measurable, repetitive task where productivity can be quantified in consistent units—meters per day. The historical data provides a benchmark rate of progress (5 meters/day), which is an excellent foundation for parametric estimating, a technique used when a statistical relationship exists between historical data and the activity being estimated.\n\nHowever, the project manager also faces a complicating factor: the current tunnel involves different geological conditions that are expected to impact performance. The availability of geological survey data and expert opinion allows for a more refined and realistic estimate. Instead of relying on a simple historical average, the project manager can apply a parametric model by adjusting the known rate of 5 meters per day downward by 10–20%, as suggested by experts. This results in a new estimated rate, likely between 4.0 to 4.5 meters per day.\n\nBy combining historical productivity rates with expert-adjusted factors, parametric estimating provides a quantifiable, evidence-based method for forecasting duration. This makes it the most effective and appropriate approach under the given circumstances.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023036363",
@@ -679,9 +699,9 @@ export const questionsData = {
         "OPTION_C": "Use a PERT three-point estimate for 'Graphic Design Creation' to incorporate the uncertainty from feedback.",
         "OPTION_D": "Document the potential delay as a risk in the risk register and monitor it during execution without adjusting the duration."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -692,11 +712,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Reserve Analysis",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.5: Reserve Analysis', 'PMBOK Guide - Section 11.6.3.1: Reserve Analysis (Risk context)']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.5: Reserve Analysis', 'PMBOK Guide - Section 11.6.3.1: Reserve Analysis (Risk context)']\"]"
+        ],
         "concepts_to_understand": "The function of contingency reserves in addressing identified risks that could impact activity durations. The distinction between general activity uncertainty (sometimes handled by three-point estimates) and specific, identified risk events that require a dedicated contingency. Importance of proactive risk management in scheduling.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the logic behind the correct answer, it's important to recognize the difference between base activity duration estimates and the incorporation of known risks. In project scheduling, once an activity like 'Graphic Design Creation' is estimated—here, at 5 days—this figure reflects the expected time under normal working conditions, without disruptions. However, when a known and recurring risk exists, such as client feedback delays causing unpredictable extensions, it becomes necessary to plan for that uncertainty.\n\nRather than inflating the base estimate arbitrarily, a better practice is to apply a contingency reserve. Contingency reserves are time buffers added to the schedule to account for identified risks. They are part of the project schedule baseline and are managed by the project manager to ensure that the schedule remains realistic and achievable, even when risks materialize.\n\nIn this scenario, since client feedback delays are a documented issue in similar past projects, the project manager should proactively address this by adding a contingency reserve specific to this activity. This allows the project to remain on track despite potential feedback loops or rework. It also reflects responsible risk management and avoids misleading stakeholders with underestimated timelines. Hence, adding a contingency reserve is the most appropriate approach.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750023041421",
@@ -739,9 +763,9 @@ export const questionsData = {
         "OPTION_C": "Three-point estimating, asking the team for optimistic, pessimistic, and most likely durations for the entire activity, considering the new module.",
         "OPTION_D": "Bottom-up estimating, breaking down the 'System Integration Testing' into minute components and summing their estimates for maximum detail."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -752,11 +776,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Parametric Estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "The optimal application of parametric estimating when historical data and quantifiable relationships exist, even with new elements that require adjustment. Comparing the efficiency and accuracy of parametric estimating with other techniques under specific project conditions.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question explores how a project manager should handle uncertainty related to a known risk when estimating activity durations. The activity in question—‘Website Content Creation’—has a base estimate of 8 days provided by the marketing team. However, the project manager is aware from prior experience that final legal approvals often introduce unpredictable delays. Since this is a known and specific risk based on historical project behavior, it must be properly incorporated into the schedule to produce a realistic duration estimate.\n\nWhile several estimating techniques are available, parametric estimating is especially useful when historical data supports a clear relationship between activity variables and outcomes. In this case, if past data shows that for every legal review point, a specific number of hours or days are typically added due to legal processing, the project manager can apply that rate to the current situation. For example, if previous projects required two additional days per round of legal review, and this activity includes similar review cycles, then the base estimate can be adjusted accordingly using parametric estimating.\n\nThis approach enables the project manager to ground the estimate in data-driven logic rather than guesswork, reflecting both the known scope and the known risk. Therefore, using parametric estimating is the most accurate and responsible approach in this scenario.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750023043446",
@@ -795,9 +823,9 @@ export const questionsData = {
         "OPTION_C": "Parametric estimating, using the known relationship of 8 hours per user and the total number of users.",
         "OPTION_D": "Three-point estimating, considering optimistic, pessimistic, and most likely durations for a single user's training."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -808,11 +836,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Parametric Estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.2: Parametric Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "Parametric estimating and its applicability when there is a statistically relevant relationship between historical data and a parameter, such as quantity per unit. Understanding when it is the most efficient and accurate method.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question revolves around the concept of estimating duration based on quantifiable data and repeatable units of work. The key to solving it lies in recognizing that the task—training users—is a repetitive activity where the effort required per unit (in this case, per user) is consistent and well-documented. Each user requires exactly 8 hours of training, and the total number of users is clearly defined as 500. This type of scenario is ideally suited to parametric estimating.\n\nParametric estimating involves using a statistical or mathematical relationship between historical data and project variables to calculate an estimate. In this case, the historical data indicates a fixed rate of 8 hours per user. By multiplying this rate by the number of users (500 × 8), the total effort required for training is determined to be 4,000 hours. This method is not only efficient but also highly accurate when the underlying parameters remain stable and consistent, as they do here.\n\nOther estimation techniques, like analogous estimating, might rely on overall past project similarities but lack the precision that parametric estimating offers in this scenario. Since the work is repetitive and the rate is well-established, parametric estimating is the most appropriate and effective technique to use.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023045469",
@@ -823,9 +855,9 @@ export const questionsData = {
         "OPTION_C": "Bottom-up estimating, breaking down the MVP into the smallest possible tasks and estimating each.",
         "OPTION_D": "Analogous estimating, comparing it to a broadly similar web application developed internally by an experienced team."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -836,11 +868,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Analogous Estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.1: Expert Judgment', 'PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.1: Expert Judgment', 'PMBOK Guide - Section 6.4.2.4: Bottom-Up Estimating']\"]"
+        ],
         "concepts_to_understand": "Limitations of analogous estimating when projects are not truly similar or when internal historical data/experience is irrelevant to the new context. Understanding which techniques are appropriate for high uncertainty and limited internal expertise.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To effectively understand this question, it's crucial to evaluate the suitability of various estimating techniques given the specific context of the project. In this scenario, the project involves developing a mobile application, which the organization has no prior experience with. Furthermore, the development team is inexperienced with the technology stack required, and there is significant pressure to deliver a minimum viable product (MVP) quickly due to the strategic importance to the startup’s success.\n\nAnalogous estimating relies on historical data from similar past projects to estimate the effort, duration, or cost of a current activity. While it is often a fast and low-cost method, its reliability depends heavily on the similarity between the current project and the one being used for comparison. In this case, the only reference available is a web application developed internally by a more experienced team. However, a mobile application differs significantly from a web application in terms of development tools, deployment processes, and user interaction patterns.\n\nGiven the technological and contextual differences, using analogous estimating based on a web application would likely result in inaccurate estimates. It fails to reflect the current team’s limited expertise and the unique challenges of mobile development. Therefore, it is the least appropriate technique in this scenario.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023046481",
@@ -879,9 +915,9 @@ export const questionsData = {
         "OPTION_C": "Three-point estimating, incorporating an optimistic, most likely, and pessimistic duration based on the presence or absence of bedrock.",
         "OPTION_D": "Bottom-up estimating, breaking down excavation into minute steps to get a highly detailed estimate."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -892,11 +928,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2: Tools and Techniques for Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "Application of three-point estimating when there is significant uncertainty and a range of possible outcomes due to specific potential events or conditions, such as geological findings. How it produces a single, probabilistic estimate that captures variability.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the reasoning behind the correct answer, it's important to consider how uncertainty and risk influence duration estimates. In this case, the activity ‘Excavate Foundation’ normally takes 10 days under typical conditions. However, the presence of potential bedrock—identified through geological surveys—introduces a significant variable that could delay the work. Because this is a specific, quantifiable risk with a known probability and high potential impact, it must be reflected in the estimate to ensure the schedule remains realistic.\n\nThree-point estimating is particularly useful in this scenario because it allows the project manager to model the uncertainty. This technique involves establishing three possible durations: an optimistic estimate (if no bedrock is encountered), a most likely estimate (based on typical conditions), and a pessimistic estimate (if bedrock delays excavation). These values help create a weighted average or range that better reflects the potential outcomes of the activity.\n\nUsing three-point estimating not only helps incorporate risk into the estimate in a structured way but also supports communication with stakeholders by showing that the team has thoughtfully considered the potential variability. It’s a valuable technique for managing uncertainty without arbitrarily inflating estimates, ultimately leading to better risk-informed scheduling decisions.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023048505",
@@ -1059,9 +1099,9 @@ export const questionsData = {
         "OPTION_C": "Apply analogous estimating by finding a similar user story from a past project with a legacy system integration, even if on a different team.",
         "OPTION_D": "Add a fixed contingency of 50% to the initial 5-day estimate to account for the legacy system complexity."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1072,11 +1112,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment (as an input to O, M, P)']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4.2.1: Expert Judgment (as an input to O, M, P)']\"]"
+        ],
         "concepts_to_understand": "When to apply more detailed estimation techniques like three-point estimating even within Agile frameworks, particularly for high-uncertainty items. Understanding the limitations of relying solely on velocity for atypical or complex user stories. The importance of engaging the team in detailed estimation for complex tasks.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand and answer this question correctly, one must be familiar with how estimation works in Agile environments, especially when dealing with uncertainty. Agile teams typically estimate work using story points, which are relative measures of effort and complexity rather than exact durations. The team’s velocity—how many story points they typically complete in a sprint—can help translate story points into time estimates, but this translation assumes that stories have a predictable level of complexity and risk.\n\nIn this case, the user story \"User Authentication\" has been assigned 5 story points, and the team has a velocity of 10 story points per 10-day sprint. At first glance, one might assume that the story could take approximately half a sprint, or 5 days. However, this user story involves integration with a legacy system that is poorly documented and known to be complex. Such uncertainty makes a direct conversion from story points to days unreliable.\n\nThe best approach in this situation is to engage the team in a focused, collaborative discussion—a mini-workshop—to perform three-point estimating. This method considers the optimistic (O), most likely (M), and pessimistic (P) scenarios, providing a risk-adjusted duration range. This ensures that the estimation realistically reflects the added uncertainty due to legacy system integration.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750023054558",
@@ -1143,9 +1187,9 @@ export const questionsData = {
         "OPTION_C": "To allow for padding within the schedule, providing buffers for unforeseen issues without needing contingency reserves.",
         "OPTION_D": "To determine the longest possible duration for the activity, setting a conservative baseline."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1156,11 +1200,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Three-point estimating",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.4.2.3: Three-Point Estimating', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "The fundamental purpose of three-point estimating: to derive a single, more accurate duration estimate by systematically accounting for uncertainty and variability in activities, rather than just using a single best guess or extreme value. Distinguishing it from padding or simply identifying the range.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it's important to recognize the role of uncertainty in project scheduling and how three-point estimating addresses it. In real-world projects, especially those involving complex or environmental variables like bridge construction, uncertainty is a major factor. Conditions such as unknown subsurface rock formations can significantly impact the time it takes to complete activities. Therefore, relying on a single-point estimate may not capture the full risk or potential variation involved in the work.\n\nThree-point estimating is a technique that uses three different duration estimates to better model uncertainty: the optimistic estimate assumes everything goes better than expected, the most likely estimate reflects the normal conditions or expected outcome, and the pessimistic estimate considers delays or complications. These estimates are often used to calculate a weighted average, typically using the Program Evaluation and Review Technique (PERT) formula, to arrive at a more balanced and realistic forecast.\n\nThe primary purpose of this approach is not just to recognize that uncertainty exists, but to quantify it in a structured way. By integrating all three scenarios, the project manager can develop a single duration estimate that incorporates variability, reducing the likelihood of underestimation and improving overall schedule reliability. This supports better planning, risk management, and stakeholder communication.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750023057588",
@@ -1491,9 +1539,9 @@ export const questionsData = {
         "OPTION_C": "Instruct the marketing team to revise their estimate to include the external agency review and legal approval time within the existing activity.",
         "OPTION_D": "Document the missing time as a project risk and monitor it throughout the execution phase."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1504,11 +1552,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Activity Decomposition, Rolling Wave Planning",
-        "suggested_read": "[\"['PMBOK Guide - Section 6.3.2.1: Activity Attributes', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]",
+        "suggested_read": [
+          "[\"['PMBOK Guide - Section 6.3.2.1: Activity Attributes', 'PMBOK Guide - Section 6.4: Estimate Activity Durations']\"]"
+        ],
         "concepts_to_understand": "The importance of granular activity definition and decomposition for accurate scheduling. Distinguishing between discrete activities and components of an activity. Why separate activities are preferred for distinct, mandatory work steps, especially with external dependencies, versus padding or treating as a general risk.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand and answer this question effectively, it’s important to consider how project schedules are built and refined during the planning process. In particular, activity duration estimating must account for all the work and dependencies necessary to complete a deliverable. When an estimate, like the 15 days for “Develop Marketing Collateral,” omits essential follow-on steps such as external agency review and legal approval, the schedule becomes unrealistic and incomplete.\n\nThe role of the project manager includes not only collecting estimates from teams but also validating and refining them to reflect the full scope of work. In this case, the review and approval processes are mandatory and will take additional time that impacts the overall timeline. Ignoring them would cause schedule slippage later during execution. Simply inflating the original estimate or leaving it unchanged would obscure visibility into task ownership and dependencies.\n\nThe best approach is to create a separate activity for “External Agency Review & Legal Approval” and logically link it as a successor to “Develop Marketing Collateral.” This preserves clarity, allows each step to be tracked independently, and ensures the schedule reflects real-world sequencing. It also supports better risk analysis, resource allocation, and stakeholder communication. Hence, this action is the most professional and effective response.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750023071716",
@@ -1695,9 +1747,9 @@ export const questionsData = {
         "OPTION_C": "To develop specific risk response strategies for each identified risk.",
         "OPTION_D": "To determine the overall project risk exposure."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1708,11 +1760,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Probability and Impact Matrix",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment', 'PMBOK Guide - Section 11.3.2.4 Probability and Impact Matrix']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment', 'PMBOK Guide - Section 11.3.2.4 Probability and Impact Matrix']"
+        ],
         "concepts_to_understand": "The probability and impact matrix is a grid that maps the probability of a risk occurring against the impact it would have if it did occur. It is used in Perform Qualitative Risk Analysis to assign qualitative ratings (e.g., very high, high, medium, low, very low) to risks, helping the project team prioritize risks for further analysis or response planning.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it’s important to explore the goal of the Perform Qualitative Risk Analysis process and how a probability and impact matrix supports that goal. This process helps the project team assess and prioritize risks so they can focus their attention and resources on the most significant threats or opportunities. It involves evaluating each risk's likelihood of occurring and the impact it would have on project objectives such as scope, time, cost, or quality.\n\nThe probability and impact matrix is a key tool in this analysis. It allows the team to categorize and visualize risks based on two main criteria: how likely a risk is to happen and how severe its consequences would be if it did. Risks are plotted on the matrix where one axis represents probability and the other represents impact. The result is a graphical representation that helps distinguish between low-priority and high-priority risks.\n\nBy using the matrix, the team can make informed decisions about which risks require immediate attention, which ones can be monitored, and which ones may be accepted without action. Therefore, the primary purpose of the matrix is not just to evaluate risks, but to prioritize them based on their relative importance, guiding the team’s risk response planning.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026047807",
@@ -1723,9 +1779,9 @@ export const questionsData = {
         "OPTION_C": "To immediately escalate this risk to senior management for a decision.",
         "OPTION_D": "To defer the risk analysis until more information about the regulation becomes available."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1736,11 +1792,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Urgency Assessment",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment', 'PMBOK Guide - Section 11.3.2.3 Other Risk Parameters']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment', 'PMBOK Guide - Section 11.3.2.3 Other Risk Parameters']"
+        ],
         "concepts_to_understand": "Perform Qualitative Risk Analysis involves assessing the priority of identified risks using qualitative parameters. Beyond probability and impact, factors like urgency (the time within which a risk response needs to be implemented), proximity (how soon the risk might occur), dormancy (how long a risk may remain undetected), and interconnectedness (how one risk relates to others) are considered to gain a richer understanding of the risk's qualitative characteristics.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it's important to recognize the purpose and key considerations involved in qualitative risk analysis. This process is focused on evaluating and prioritizing risks based on their characteristics, such as probability of occurrence and impact on project objectives. Unlike quantitative analysis, which involves numerical analysis, qualitative risk analysis is more subjective and often relies on expert judgment, risk matrices, and categorization.\n\nIn this scenario, the project team has identified a regulatory risk that could significantly affect the schedule, but the likelihood and timing of the regulation’s enactment are unclear. When dealing with such uncertainty, the project manager must look beyond just the probability and impact. One important factor to consider in qualitative risk analysis is the urgency of the risk—how soon the risk might occur and how much lead time is available for response planning.\n\nUrgency becomes particularly important when a risk may require immediate attention or decision-making despite having incomplete data. In this case, even though the regulation may not be imminent, its potential to disrupt the schedule could justify early planning or monitoring. Therefore, alongside probability and impact, the project manager should consider urgency to determine how soon the risk might need to be addressed or escalated.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026048818",
@@ -1872,8 +1932,8 @@ export const questionsData = {
         "OPTION_D": "Control Risks."
       },
       "is_attempted": true,
-      "is_valid": false,
-      "selected_option": "B",
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1888,11 +1948,11 @@ export const questionsData = {
           "['PMBOK Guide - Section 11.1 Plan Risk Management', 'PMBOK Guide - Section 11.3 Perform Qualitative Risk Analysis']"
         ],
         "concepts_to_understand": "The sequence of Project Risk Management processes is crucial. After identifying risks, Perform Qualitative Risk Analysis is typically the first step to assess and prioritize them. It helps to determine which risks warrant further quantitative analysis and which can be directly moved to response planning or monitoring, making the risk management effort more efficient.",
-        "additional_notes": "o understand the correct sequence of processes in project risk management, it's important to first consider the overall flow. After the project manager identifies potential risks through the Identify Risks process, the next logical step is to assess these risks to determine which ones require further analysis or response. At this stage, there typically isn't enough detailed information to conduct complex numerical analysis, especially for a large number of identified risks.\n\nThis is where the Perform Qualitative Risk Analysis process comes in. It is designed to evaluate the probability and impact of each identified risk using a structured, yet non-numerical, approach. The goal is to prioritize the risks based on their relative significance to the project. This helps the project team focus their efforts on the most important risks before investing time and resources into more detailed quantitative analysis.\n\nQualitative analysis often involves tools such as probability and impact matrices, expert judgment, and risk categorization. These techniques enable the project manager to screen and sort risks in a practical and timely way. Therefore, after completing the initial risk identification, the most appropriate next step is to perform qualitative risk analysis, as it provides a necessary foundation before moving into quantitative analysis or response planning.",
+        "additional_notes": "To understand the correct answer to this question, it is important to follow the logical sequence of the risk management processes outlined in the PMBOK Guide. Risk management begins with the process of risk identification, during which the project team and stakeholders work together to document potential risks that could affect the project’s objectives. This is a broad and inclusive step, focusing on capturing as many relevant risks as possible.\n\nOnce risks are identified, the next logical step is to prioritize them to determine which ones warrant deeper analysis or immediate attention. This is where the Perform Qualitative Risk Analysis process comes in. It involves evaluating the likelihood and impact of each identified risk using relative scales. The purpose is not to quantify the risks in precise numerical terms, but to categorize and rank them so the project team can focus on the most significant threats or opportunities.\n\nOnly after qualitative analysis is complete does the project move into the Perform Quantitative Risk Analysis phase, which uses numerical methods to model risk impact on objectives. Since the project manager in this question has completed identification and wants to quickly prioritize risks, the appropriate next step is to Perform Qualitative Risk Analysis.",
         "difficulty_level": "easy"
       },
       "process_group": "Planning",
-      "did_user_get_it_right": false
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026053875",
@@ -2019,9 +2079,9 @@ export const questionsData = {
         "OPTION_C": "Cause and Effect Diagram.",
         "OPTION_D": "Monte Carlo Simulation."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2032,11 +2092,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Data Quality Assessment",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']"
+        ],
         "concepts_to_understand": "Perform Qualitative Risk Analysis relies heavily on the quality of the input risk data. Risk Data Quality Assessment is a technique specifically designed to evaluate the completeness, accuracy, and reliability of risk information. If risk descriptions or impact statements are vague, this assessment helps identify those deficiencies and prompts further refinement or data gathering to ensure meaningful qualitative analysis.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "Understanding this question requires knowledge of the risk management processes, specifically during the Perform Qualitative Risk Analysis phase. Before risks can be effectively prioritized or analyzed for probability and impact, the quality of the data describing each risk must be sufficient. If the preliminary risk register contains vague entries or lacks clarity in terms of causes, potential effects, or risk triggers, the analysis that follows will be unreliable.\n\nThe issue described in the question is that the risks are not well-defined; they lack detailed descriptions and do not clearly outline their impact. This prevents the team from assigning accurate probability and impact scores or determining which risks should be addressed more urgently. In such cases, the project manager needs a structured approach to verify whether the risk information is robust enough for further analysis.\n\nThe appropriate tool to address this situation is the Risk Data Quality Assessment. This tool evaluates the degree to which the risk data is useful, complete, and accurate. It helps determine whether the available risk information is detailed enough to support qualitative analysis. By applying this tool, the project manager can identify gaps in the data and take steps to clarify and strengthen the risk descriptions, ensuring a more effective risk prioritization process.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026058938",
@@ -2075,9 +2139,9 @@ export const questionsData = {
         "OPTION_C": "Exclude team members with strong biases from future risk discussions.",
         "OPTION_D": "Accept the strong opinions as valid and proceed with the majority view."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2088,11 +2152,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Data Gathering (Delphi Technique)",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment', 'PMBOK Guide - Section 4.1.2.2 Expert Judgment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment', 'PMBOK Guide - Section 4.1.2.2 Expert Judgment']"
+        ],
         "concepts_to_understand": "Biases are a common challenge in qualitative risk analysis. Techniques like the Delphi Technique are valuable for overcoming these. By ensuring anonymity and providing structured feedback loops, the Delphi technique allows experts to reconsider and refine their initial assessments based on summarized group responses, without the pressure of direct peer influence, thus leading to more objective and less biased qualitative risk ratings.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question focuses on the challenge of subjective bias during qualitative risk analysis and how a project manager can promote objectivity in risk evaluation. Qualitative risk analysis involves assessing the probability and impact of identified risks to determine their relative significance. While this process is valuable for prioritizing risks, it can be heavily influenced by the personal judgments, experiences, and emotions of those involved. In group settings such as workshops, dominant voices or strong opinions may sway the discussion, leading to distorted assessments.\n\nIn this scenario, team members are expressing biases—some are overestimating risks due to previous bad experiences, while others may be underestimating risks they perceive as less likely. To counteract this, the Delphi technique is a highly effective tool. It involves gathering input from a panel of experts through multiple rounds of anonymous questionnaires. The responses are aggregated and shared with the group in each round, allowing participants to refine their judgments without peer pressure or influence from authority figures.\n\nBy anonymizing the input and promoting independent thinking, the Delphi technique reduces the impact of individual biases and helps the team converge on a more balanced and objective assessment of risk. Therefore, implementing this technique is the most appropriate course of action in this context.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026060966",
@@ -2159,9 +2227,9 @@ export const questionsData = {
         "OPTION_C": "Assess its probability and impact, and add it to the risk register.",
         "OPTION_D": "Initiate a change request to modify the risk management plan."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2172,11 +2240,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Register (Output update)",
-        "suggested_read": "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.2.3.1 Risk Register']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.2.3.1 Risk Register']"
+        ],
         "concepts_to_understand": "The risk register is a dynamic document updated throughout the project life cycle, including during Perform Qualitative Risk Analysis. Any newly identified risks, regardless of their initial perceived priority, should be formally captured, assessed qualitatively for their probability and impact, and then added to the risk register. This ensures a comprehensive and up-to-date view of all project risks.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To properly interpret this question, it's important to understand the purpose of the qualitative risk analysis process and how it fits into overall risk management. Qualitative risk analysis is a process within the Project Risk Management knowledge area, focused on prioritizing identified risks based on their probability of occurrence and the potential impact on project objectives. This helps the project team determine which risks require more immediate attention or further analysis.\n\nIn this scenario, the team identifies a new risk during the qualitative risk analysis phase, which is not unusual. Risk identification is an iterative process, and new risks can emerge as more information becomes available or as project conditions evolve. When a new risk is discovered, even during qualitative analysis, it must first be formally documented.\n\nThe appropriate action for the project manager is to assess the risk’s probability and impact as part of the ongoing analysis and then update the risk register to reflect the newly identified risk. Even though the impact is low, the high probability makes it relevant enough to be tracked and potentially monitored. Adding it to the risk register ensures visibility and provides a foundation for any future mitigation planning, escalation, or quantitative analysis if required.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026063997",
@@ -2299,9 +2371,9 @@ export const questionsData = {
         "OPTION_C": "Risk Management Plan.",
         "OPTION_D": "Project Charter."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2312,11 +2384,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Management Plan (Input)",
-        "suggested_read": "['PMBOK Guide - Section 11.1.3.1 Risk Management Plan', 'PMBOK Guide - Section 11.3 Perform Qualitative Risk Analysis: Inputs']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.1.3.1 Risk Management Plan', 'PMBOK Guide - Section 11.3 Perform Qualitative Risk Analysis: Inputs']"
+        ],
         "concepts_to_understand": "The Risk Management Plan is established during the Plan Risk Management process and serves as a crucial input to Perform Qualitative Risk Analysis. It provides the standardized definitions, processes, tools, and categories (such as the Risk Breakdown Structure or a list of risk categories) that will be used to conduct the qualitative assessment. This ensures consistency and clarity in how risks are classified and evaluated.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To correctly answer this question, it's important to understand the structure and purpose of the Risk Management Plan within the broader context of the Perform Qualitative Risk Analysis process. This process, part of the Project Risk Management knowledge area, involves prioritizing risks for further analysis or action based on their probability of occurrence and impact on project objectives. During this step, the team often uses tools such as risk probability and impact matrices, and categorizes risks to better understand patterns and areas of exposure.\n\nThe use of pre-defined categories—like technical, external, organizational, and environmental—helps to group and analyze risks more effectively. These categories are known as the risk breakdown structure (RBS), which is typically defined in the Risk Management Plan. This plan is developed during the Plan Risk Management process and serves as a foundational input for all subsequent risk processes.\n\nThe Risk Management Plan outlines not only how risk activities will be performed but also includes definitions, methodologies, roles, and tools for risk analysis. Specifically, it includes the risk categories to ensure consistency across the team when identifying and analyzing risks. Therefore, in this scenario, the Risk Management Plan is the document that defines the categories being used by the team during qualitative risk analysis.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026069057",
@@ -2415,9 +2491,9 @@ export const questionsData = {
         "OPTION_C": "Risk Register.",
         "OPTION_D": "Stakeholder Engagement Plan."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2428,11 +2504,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Register (Output update)",
-        "suggested_read": "['PMBOK Guide - Section 11.2.3.1 Risk Register', 'PMBOK Guide - Section 11.3.3.1 Updates to Project Documents']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.2.3.1 Risk Register', 'PMBOK Guide - Section 11.3.3.1 Updates to Project Documents']"
+        ],
         "concepts_to_understand": "The Risk Register is a key output of Perform Qualitative Risk Analysis. It is updated with the results of the qualitative assessment, including the qualitative probability and impact ratings for each risk. This updated information is crucial for prioritizing risks and informing subsequent risk management processes, such as quantitative analysis and response planning.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it’s important to recognize the purpose and outputs of the Qualitative Risk Analysis process. This process helps the project team prioritize risks by assessing their probability of occurrence and the impact they could have on project objectives, such as cost, time, scope, or quality. The result of this analysis guides which risks require more attention, further analysis, or immediate response planning.\n\nIn this case, the project team identifies a risk related to delays in receiving regulatory approvals, a common real-world concern in many industries. The team evaluates this risk using qualitative measures, assigning a “medium” probability and a “high” impact to the project’s schedule. This type of assessment does not involve numerical modeling or detailed calculations; rather, it is based on expert judgment, risk matrices, or predefined rating scales.\n\nThe outcome of qualitative risk analysis is documented in the Risk Register, which is the central repository for all identified risks. The Risk Register includes updated risk descriptions, category, probability and impact ratings, potential triggers, and any required risk responses or monitoring plans. Since the question focuses on capturing the assessment of the regulatory delay risk, the correct output where this evaluation is documented is the Risk Register.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026073107",
@@ -2527,9 +2607,9 @@ export const questionsData = {
         "OPTION_C": "Risk traceability.",
         "OPTION_D": "Risk residual impact."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2540,11 +2620,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Other Risk Parameters (Urgency, Proximity)",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.3 Other Risk Parameters', 'PMBOK Guide - Section 11.3.3.1 Updates to Project Documents']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.3 Other Risk Parameters', 'PMBOK Guide - Section 11.3.3.1 Updates to Project Documents']"
+        ],
         "concepts_to_understand": "Perform Qualitative Risk Analysis goes beyond just probability and impact. Other risk parameters such as urgency (how quickly a response is needed), proximity (how soon the risk might occur), dormancy (how long it might remain undetected), and interconnectedness (dependencies with other risks) are used to refine the qualitative assessment. These parameters help in a more nuanced prioritization of risks, especially when resources are constrained and timing is critical.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To answer this question effectively, it's important to understand that Perform Qualitative Risk Analysis is a process in which identified risks are evaluated based on their characteristics to determine their relative priority. While probability and impact are the primary parameters used in this assessment, they are not the only factors that influence how a risk should be ranked or handled. Additional parameters help provide more context and refinement to the prioritization process.\n\nIn the scenario presented, the project faces a moderate likelihood of adverse weather, but the potential consequences could be severe in terms of delay and budget overrun. While that already signals concern, the project manager must also consider when this risk might occur and how quickly it may need a response. This is where the concepts of risk urgency and proximity become critical.\n\nRisk urgency refers to how soon a response is required, while proximity addresses the time frame in which the risk might occur. For a project with a tight deadline, even a moderately probable risk can become more critical if it is likely to occur soon or requires immediate mitigation planning. Considering urgency and proximity allows the project manager to make more informed, timely decisions and ensures that high-priority risks receive the appropriate attention.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026077152",
@@ -2699,9 +2783,9 @@ export const questionsData = {
         "OPTION_C": "The probability and impact definitions and matrix scales.",
         "OPTION_D": "The overall project budget allocated for risk management activities."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2712,11 +2796,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Management Plan (Input)",
-        "suggested_read": "['PMBOK Guide - Section 11.1.3.1 Risk Management Plan', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.1.3.1 Risk Management Plan', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']"
+        ],
         "concepts_to_understand": "Consistency in applying qualitative scales for probability and impact is essential for effective Perform Qualitative Risk Analysis. If inconsistency exists, it often stems from ambiguities in the definitions themselves. The Risk Management Plan, as an input, provides these definitions. Clarifying or refining the qualitative scales for probability and impact helps ensure that all team members and stakeholders apply the criteria uniformly, leading to more reliable and comparable risk assessments.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To fully understand and answer this question, it's crucial to consider how qualitative risk analysis functions, especially in projects characterized by high uncertainty, such as research and development efforts. Perform Qualitative Risk Analysis is the process where identified risks are assessed for their probability of occurrence and potential impact on project objectives. This analysis helps prioritize risks for further analysis or action based on their relative importance.\n\nIn order for this process to be effective, the project team must use consistent and agreed-upon definitions and criteria when evaluating risks. These are typically outlined in the risk management plan through tools like the probability and impact matrix, which provides standardized scales and definitions to ensure alignment. When teams struggle to assess risks consistently, especially in innovative projects lacking historical data or precedents, it usually points to a weakness or ambiguity in the risk assessment criteria.\n\nIf probability and impact definitions are too vague, or if the matrix scales do not reflect the unique context of the project, team members will likely interpret risks subjectively and inconsistently. Therefore, revisiting and clarifying these definitions and matrix scales within the risk management plan is essential to guide the team in making more objective, aligned, and comparable assessments.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026083218",
@@ -2727,9 +2815,9 @@ export const questionsData = {
         "OPTION_C": "To develop detailed risk response strategies for all identified risks.",
         "OPTION_D": "To calculate the Expected Monetary Value (EMV) for each risk."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2740,11 +2828,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk prioritization",
-        "suggested_read": "['PMBOK Guide - Section 11.3 Perform Qualitative Risk Analysis: Purpose', 'PMBOK Guide - Section 11.3.3.1 Updates to Project Documents']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3 Perform Qualitative Risk Analysis: Purpose', 'PMBOK Guide - Section 11.3.3.1 Updates to Project Documents']"
+        ],
         "concepts_to_understand": "Perform Qualitative Risk Analysis is a key process for efficient risk management. When dealing with a large number of risks, it acts as a filter, allowing the project team to focus their attention and resources on the most critical risks that warrant detailed analysis (quantitative) or immediate response planning, while less critical risks can be monitored. This ensures that risk management efforts are proportionate to the level of threat or opportunity posed by each risk.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "In this scenario, the project manager is dealing with a large volume of identified risks—150 in total—which is common in complex software projects. With limited time and resources, it is neither practical nor efficient to subject all these risks to detailed, data-driven quantitative analysis. This is where the Perform Qualitative Risk Analysis process becomes critical. Its primary function is to assess and prioritize risks based on their probability of occurrence and potential impact on project objectives.\n\nQualitative risk analysis does not involve numerical simulation or statistical modeling. Instead, it uses techniques like risk probability and impact assessment, risk categorization, and expert judgment to assign relative ratings to each risk. This allows the project manager and team to distinguish which risks are high priority and demand immediate attention, and which are less critical and may be monitored or addressed later.\n\nBy conducting qualitative analysis first, the project manager ensures that time and resources are focused only on the most significant risks during subsequent quantitative analysis or response planning. This approach streamlines decision-making, supports better allocation of mitigation efforts, and enhances the overall effectiveness of the risk management process. Hence, the primary purpose here is to prioritize risks efficiently for deeper analysis or action.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026084228",
@@ -2755,9 +2847,9 @@ export const questionsData = {
         "OPTION_C": "Delay the risk assessment until the team member's intentions are clear.",
         "OPTION_D": "Record all individual subjective assessments in the risk register without attempting to achieve consensus."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2768,11 +2860,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Data Quality Assessment, Expert Judgment, Meetings",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.2 Risk Data Quality Assessment', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']"
+        ],
         "concepts_to_understand": "Perform Qualitative Risk Analysis often involves subjective assessments, making it critical to ensure consistency and clarity. When opinions vary, the project manager should facilitate a review of the defined probability and impact scales, encourage team members to provide the rationale for their ratings, and apply risk data quality assessment principles. This helps to overcome biases and achieve a more objective and consistent qualitative rating for risks, ensuring effective prioritization.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question centers on the Perform Qualitative Risk Analysis process, which involves evaluating and prioritizing risks based on their probability of occurrence and potential impact on project objectives. Unlike quantitative risk analysis, which relies on numerical data and simulations, qualitative analysis often depends on expert judgment and subjective evaluation. Therefore, consistency and clarity in interpreting probability and impact are critical for making reliable assessments.\n\nIn this scenario, the team is divided over how likely it is that a key team member might resign and what the consequences of that resignation would be. These disagreements can stem from varying perspectives, experience levels, or interpretations of what constitutes \"high,\" \"medium,\" or \"low\" probability and impact. Without clear alignment on these definitions, the risk analysis may become skewed, leading to misinformed prioritization and planning.\n\nTo address this, the project manager’s most appropriate course of action is to guide the team through a structured review of the predefined risk probability and impact matrix. This ensures that everyone shares a common understanding of the evaluation criteria. By also asking the team to provide justification for their assessments, the project manager encourages transparency, reduces bias, and promotes a more balanced and objective consensus, strengthening the overall risk analysis process.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026085242",
@@ -2811,9 +2907,9 @@ export const questionsData = {
         "OPTION_C": "Utilize qualitative risk analysis to assess their probability and impact, even if broad, and consider 'risk urgency' and 'proximity' as key factors.",
         "OPTION_D": "Immediately initiate contingency plans for all of them due to their potential future impact."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2824,11 +2920,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Other Risk Parameters (Urgency, Proximity), Expert Judgment",
-        "suggested_read": "['PMBOK Guide - Section 11.3.2.3 Other Risk Parameters', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.2.3 Other Risk Parameters', 'PMBOK Guide - Section 11.3.2.1 Risk Probability and Impact Assessment']"
+        ],
         "concepts_to_understand": "Perform Qualitative Risk Analysis is well-suited for assessing emerging and highly uncertain risks. Rather than deferring or simplifying, the process encourages leveraging expert judgment to make informed, albeit broad, assessments of probability and impact. Furthermore, considering 'other risk parameters' like urgency and proximity helps in prioritizing these risks, even when detailed data is lacking, determining if they need close monitoring on a 'watch list' or merit further analysis.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it is important to recognize the purpose of the Perform Qualitative Risk Analysis process. This process is aimed at prioritizing risks for further analysis or action by assessing their probability of occurrence and potential impact. In many projects, particularly those involving innovation or new technology, new and ambiguous risks can emerge over time. These risks may not have clear data or historical references, making them difficult to quantify precisely.\n\nDespite the uncertainty surrounding these emerging risks, qualitative risk analysis still provides a structured way to assess and prioritize them. Even if exact values are not available, the project manager can work with the team to evaluate the relative likelihood and impact of these risks in broad terms. This helps to establish a ranked list of threats and opportunities, which is vital for proactive risk management.\n\nIn cases where risks are highly uncertain, factors such as risk urgency (how soon a risk may occur) and proximity (how near in time its effects may be felt) become critical. These help in determining how quickly a response might be needed. Therefore, using qualitative analysis to assess emerging risks, while emphasizing urgency and proximity, is the most effective and appropriate approach in this situation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026087274",
@@ -2895,9 +2995,9 @@ export const questionsData = {
         "OPTION_C": "Updated with 'low' probability, 'medium' impact, and assigned a qualitative priority.",
         "OPTION_D": "Moved to the change log for future consideration."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2908,11 +3008,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Register (Output update)",
-        "suggested_read": "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.2.3.1 Risk Register']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 11.3.3.1 Updates to Project Documents', 'PMBOK Guide - Section 11.2.3.1 Risk Register']"
+        ],
         "concepts_to_understand": "The Risk Register is a key output and continuously updated document in project risk management. After Perform Qualitative Risk Analysis, the risk register is updated with the qualitative assessments (probability, impact) for each risk, leading to an assigned qualitative priority. This prioritization guides further risk management efforts, ensuring that appropriate attention is given to each risk according to its assessed level.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand the correct answer to this question, it's important to focus on the purpose of the Perform Qualitative Risk Analysis process. This process is part of the Project Risk Management knowledge area and occurs after risks have been identified. Its objective is to evaluate the probability and impact of each risk, determine its priority, and decide which risks warrant a response plan. It does not attempt to quantify risk in numerical terms; rather, it uses scales such as “low,” “medium,” or “high” to categorize probability and impact.\n\nIn the scenario, the risk of data corruption has been assessed with a low probability of occurring but a medium impact if it does occur. During qualitative risk analysis, such characteristics are documented in the risk register, along with a priority level based on the organization's risk matrix. This helps the project team focus on the most significant risks without spending excessive time or resources analyzing every possibility in detail.\n\nThe result of the Perform Qualitative Risk Analysis process is an updated risk register where each risk is evaluated based on its likelihood and consequences, and then prioritized accordingly. Therefore, the best answer reflects the correct outcome: the risk is documented with its assessed probability, impact, and qualitative priority rating.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026090320",
@@ -3064,8 +3168,8 @@ export const questionsData = {
         "OPTION_D": "Escalate them to the change control board for approval."
       },
       "is_attempted": true,
-      "is_valid": false,
-      "selected_option": "C",
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3084,7 +3188,7 @@ export const questionsData = {
         "difficulty_level": "easy"
       },
       "process_group": "Planning",
-      "did_user_get_it_right": false
+      "did_user_get_it_right": true
     },
     {
       "id": "1750026096390",

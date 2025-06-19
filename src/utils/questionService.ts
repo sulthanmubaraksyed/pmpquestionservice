@@ -133,12 +133,9 @@ export async function retrieveRecordsFromFile({
       console.log(`After tool filter (${tool}): ${filteredQuestions.length} questions`);
     }
     
-    // Always filter by is_valid === false (ignoring the isValid parameter)
-    console.log('🚨🚨🚨 APPLYING is_valid === false FILTER 🚨🚨🚨');
-    console.log('Before filter - sample questions is_valid values:', filteredQuestions.slice(0, 3).map(q => q.is_valid));
+    // ALWAYS filter for is_valid === false (ignoring the isValid parameter)
     filteredQuestions = filteredQuestions.filter(q => q.is_valid === false);
     console.log(`After is_valid === false filter: ${filteredQuestions.length} questions`);
-    console.log('After filter - sample questions is_valid values:', filteredQuestions.slice(0, 3).map(q => q.is_valid));
     
     // Limit the number of questions
     if (count && count > 0) {

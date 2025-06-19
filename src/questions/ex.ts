@@ -550,9 +550,9 @@ export const questionsData = {
         "OPTION_C": "Refer the sponsor to the project risk register for self-service information retrieval.",
         "OPTION_D": "Update the Communications Management Plan to reflect a new, more frequent schedule for risk reporting."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -563,11 +563,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Methods",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement']"
+        ],
         "concepts_to_understand": "Effective communication involves proactively addressing stakeholder needs and expectations, even if they deviate from the initial plan. When a key stakeholder like the sponsor expresses a need for more frequent or tailored information, the project manager must respond by adjusting the communication approach to ensure their needs are met. This responsiveness builds trust and ensures adequate information flow for decision-making.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this question, it is important to consider the project manager’s responsibility in maintaining effective stakeholder communication and adapting communication strategies when necessary. The Communications Management Plan serves as the initial guide for determining how, when, and to whom project information is shared. In this case, the plan specifies monthly risk reviews with the sponsor. However, communication plans are not rigid; they are meant to support stakeholder engagement and can be revised if they do not meet stakeholder expectations.\n\nThe sponsor has raised a legitimate concern about not receiving timely information regarding critical project risks. This indicates a misalignment between what the plan dictates and what the sponsor actually needs to stay informed and involved. Ignoring this concern could result in reduced trust, delayed decisions, or escalated issues later in the project.\n\nThe most appropriate action for the project manager is to respond proactively by increasing the frequency of risk updates. Additionally, these updates should be tailored to address the sponsor’s specific concerns—focusing on high-priority or emerging risks rather than standard risk logs. This not only demonstrates responsiveness and leadership but also reinforces stakeholder engagement, which is essential for project success. Adapting communication to stakeholder needs is a key principle in effective project management.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750025438627",
@@ -578,9 +582,9 @@ export const questionsData = {
         "OPTION_C": "Engage with the team member to understand the root cause of the delay and offer support.",
         "OPTION_D": "Assign a peer to assist the team member with completing their status updates."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -591,11 +595,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Interpersonal and Team Skills",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 9.5 Develop Team (for addressing performance issues)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 9.5 Develop Team (for addressing performance issues)']"
+        ],
         "concepts_to_understand": "When a team member struggles with communication responsibilities, a project manager's role is to facilitate and support, not just enforce. Engaging in a one-on-one discussion to understand the root cause (e.g., skill gap, workload, misunderstanding of importance) is crucial. This allows for tailored support or coaching, fostering a positive team environment and ensuring effective information flow, which is paramount during project execution.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To answer this question effectively, it is important to consider the principles of effective communication management and leadership within a project team. A key responsibility of the project manager during project execution is to ensure timely and accurate communication among team members so that project progress can be monitored and reported reliably. When a team member repeatedly fails to provide timely status updates, it disrupts this communication flow and can lead to delays, misaligned expectations, or flawed decision-making.\n\nWhile a reminder about expectations has already been given, the issue has persisted. Simply issuing more reminders may not be effective at this stage. The situation requires a more empathetic and problem-solving approach. Instead of making assumptions or escalating the issue prematurely, the most professional and constructive next step is to engage directly with the team member. The project manager should initiate a private and supportive conversation to understand why the delays are occurring—whether it’s due to workload, misunderstanding, lack of tools, or personal challenges.\n\nBy identifying the root cause, the project manager can work collaboratively to remove barriers or provide the necessary support. This approach fosters trust, accountability, and a team culture where challenges are addressed through communication and resolution rather than blame.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025439640",
@@ -722,9 +730,9 @@ export const questionsData = {
         "OPTION_C": "Require all recipients to confirm receipt and understanding via email.",
         "OPTION_D": "Provide separate, tailored versions of the document for each stakeholder group."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -735,11 +743,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Skills",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1.2.3 Communication Methods']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1.2.3 Communication Methods']"
+        ],
         "concepts_to_understand": "When communicating complex information to a diverse audience, adapting the message to different stakeholder needs is crucial. Using an executive summary allows high-level stakeholders to quickly grasp the core message and implications, while a glossary helps bridge technical knowledge gaps for others. This approach optimizes clarity and ensures effective understanding across varied backgrounds, which is a key aspect of managing communications during project execution.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To answer this question, one must consider the diverse backgrounds and needs of the stakeholders involved in the project. When communicating a complex technical document, especially to an audience that includes both technical and non-technical stakeholders, it is critical to ensure clarity and accessibility. Stakeholders such as technical experts may be able to understand detailed specifications with ease, while functional managers or external vendors might not have the same level of familiarity with technical jargon or system architecture.\n\nThe best communication strategy in such scenarios is to tailor the message in a way that all audience groups can comprehend and act upon. An executive summary serves as a high-level overview of the document, providing a concise, non-technical explanation of its purpose, scope, and key points. This allows functional managers and decision-makers to grasp the essentials without getting lost in the technical depth.\n\nAdditionally, including a glossary of technical terms ensures that those unfamiliar with specific terminology can refer to definitions and avoid misinterpretation. This approach fosters better understanding, improves collaboration, and reduces the likelihood of confusion or miscommunication. Therefore, combining an executive summary with a glossary is the most effective way to make complex technical content accessible and meaningful to all intended recipients.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750025444701",
@@ -918,9 +930,9 @@ export const questionsData = {
         "OPTION_C": "Facilitating open and transparent discussion to reach a mutually acceptable decision or clear next steps.",
         "OPTION_D": "Presenting only the information that supports the project manager's preferred solution."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -931,11 +943,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Facilitation",
-        "suggested_read": "['PMBOK Guide - Section 10.2.2.2 Communication Skills (facilitation, conflict management)', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2.2.2 Communication Skills (facilitation, conflict management)', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement']"
+        ],
         "concepts_to_understand": "Effective facilitation of critical meetings, especially those with conflicting stakeholder interests, demands a focus on fostering open and transparent dialogue. The project manager's role is to ensure all perspectives are heard, guide the discussion constructively, and lead the group toward a decision or clear path forward, even if it involves compromise rather than full consensus. This demonstrates strong communication and interpersonal skills in managing project information and stakeholder engagement.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "In a high-stakes decision-making meeting involving stakeholders with conflicting interests, the project manager plays a crucial role as a facilitator rather than simply a decision-maker. The presence of differing viewpoints is a normal part of stakeholder engagement, especially in complex projects. The project manager's objective should be to guide the group toward a productive and collaborative environment, ensuring that every stakeholder has an opportunity to voice their concerns and that those concerns are acknowledged with respect and neutrality.\n\nFocusing on open and transparent discussion creates the conditions for trust, clarity, and alignment. This means encouraging honest input, clarifying misunderstandings, and mediating when tension arises. It also involves active listening and managing group dynamics to ensure that no one party dominates the conversation. The goal is not necessarily to reach a final decision within the meeting itself but to foster enough understanding and consensus that the group can either arrive at a mutually acceptable decision or identify the next steps to move closer to one.\n\nBy emphasizing process over position and enabling transparent communication, the project manager increases the likelihood of an outcome that respects diverse interests while maintaining the project’s integrity and momentum. This approach aligns with best practices in stakeholder management and conflict resolution.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025451781",
@@ -974,9 +990,9 @@ export const questionsData = {
         "OPTION_C": "Schedule a series of public town hall meetings to directly address community concerns.",
         "OPTION_D": "Engage a crisis communication expert to manage the immediate media fallout."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -987,11 +1003,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Expert Judgment",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for updating the plan)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for updating the plan)']"
+        ],
         "concepts_to_understand": "When communication deficiencies (like insufficient public relations) lead to negative outcomes, it indicates a gap in the Communications Management Plan. The project manager's critical next step is to revise this plan to address the identified deficiency proactively. This involves incorporating a robust public relations strategy, defining appropriate channels, and outlining responsibilities to ensure systematic and effective communication with external stakeholders, thereby mitigating negative perceptions and supporting project success.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand this scenario, it is important to recognize the role and adaptability of the Communications Management Plan within the context of a project. The Communications Management Plan outlines how information will be distributed, who needs what information, when they need it, and how it will be delivered. In this case, the plan has proven to be incomplete because it did not anticipate or provide sufficient guidance for public outreach, a crucial component for high-visibility infrastructure projects.\n\nWhen a project affects the public or is subject to media attention, proactive communication becomes essential not only for stakeholder engagement but also for maintaining the project's reputation and social license to operate. Since the current plan failed to account for this aspect, the project manager must take corrective action that goes beyond simple damage control.\n\nThe most appropriate next step is to revise the Communications Management Plan itself. This ensures that the gap is addressed formally and systematically, incorporating a public relations strategy that includes communication objectives, target audiences, messaging, appropriate channels such as media briefings or community forums, and feedback mechanisms. By updating the plan, the project manager aligns future communication efforts with stakeholder expectations and mitigates risks of continued public misunderstanding or opposition.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025453805",
@@ -1002,9 +1022,9 @@ export const questionsData = {
         "OPTION_C": "Update the Communications Management Plan to include specific instructions for handling sensitive data.",
         "OPTION_D": "Inform senior management of the breach and await their instructions on how to proceed."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1015,11 +1035,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Information Management Systems",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 11.6 Implement Risk Responses (for immediate risk mitigation)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 11.6 Implement Risk Responses (for immediate risk mitigation)']"
+        ],
         "concepts_to_understand": "When a breach of confidentiality occurs due to improper information storage, the project manager's immediate priority is containment and mitigation. This involves swiftly restricting access to the exposed information and relocating it to a secure environment. This proactive risk response is critical for protecting sensitive data and maintaining data integrity, demonstrating effective management of project communications and information security during project execution.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question focuses on the responsibilities of the project manager in maintaining data security and protecting sensitive information. In projects involving confidential or highly sensitive data—such as financial records, personal information, proprietary algorithms, or government-regulated content—it is the project manager’s duty to ensure that appropriate safeguards are in place to prevent unauthorized access, use, or distribution. When a lapse is discovered, swift and decisive corrective action is required to minimize the risk of data breaches and potential legal or compliance issues.\n\nIn the given scenario, the confidential documents have been stored in a location with broad access, potentially exposing them to individuals who do not have the appropriate clearance. The first and most appropriate step is to restrict access immediately. This helps prevent further unauthorized viewing or dissemination of the sensitive content. Simply notifying stakeholders or planning future changes is insufficient in the face of an active risk.\n\nAfter access is restricted, the sensitive files must be relocated to a secure, access-controlled repository that aligns with the organization’s data protection policies. This controlled repository should enforce user-level access permissions and logging to monitor any future interactions with the data. Acting promptly and securely in this situation demonstrates the project manager’s responsibility in protecting project integrity and stakeholder interests.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025454817",
@@ -1030,9 +1054,9 @@ export const questionsData = {
         "OPTION_C": "Verbal announcements during departmental team meetings by functional managers.",
         "OPTION_D": "Posting printed notices on company bulletin boards."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1043,11 +1067,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Methods",
-        "suggested_read": "['PMBOK Guide - Section 10.2.2.3 Communication Methods', 'PMBOK Guide - Section 10.1.2.3 Communication Models (for redundancy)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2.2.3 Communication Methods', 'PMBOK Guide - Section 10.1.2.3 Communication Models (for redundancy)']"
+        ],
         "concepts_to_understand": "For significant project updates impacting a broad audience, a multi-channel communication strategy is most effective. Different channels cater to varied preferences and learning styles, ensuring redundancy and reinforcing the message. Combining push communication (emails, intranet) with interactive opportunities (workshops) maximizes awareness, understanding, and allows for feedback and clarification, which is critical for successful information dissemination during project execution.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To answer this question effectively, one must consider the nature of the message, the scale of the audience, and the potential impact of the communication. The scenario involves a critical system upgrade nearing go-live, which means that the change will likely affect many users across different departments. It is not only time-sensitive but also high-impact, requiring users to understand new processes, prepare for changes, and know where to go for assistance.\n\nRelying on a single method of communication may lead to gaps in awareness, especially when dealing with a diverse audience that may have varying levels of engagement or access. Email alone, for instance, may be overlooked or ignored. Intranet announcements are useful for documentation and updates, but not all users may routinely check them. Informational workshops provide a forum for engagement and clarification but may not reach everyone due to time constraints or scheduling conflicts.\n\nTherefore, a multi-channel approach is most effective. It ensures that the message is repeated through different formats, catering to different learning styles and preferences. This redundancy strengthens the likelihood that all users will be informed, understand the change, and know how to seek help if needed, which is vital to a successful and smooth go-live transition.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750025455828",
@@ -1146,9 +1174,9 @@ export const questionsData = {
         "OPTION_C": "Schedule a direct meeting with the stakeholder to reinforce the communication plan and agree on preferred channels.",
         "OPTION_D": "Limit the stakeholder's access to project information to only formal, scheduled reports."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1159,11 +1187,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Interpersonal and Team Skills",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for managing expectations)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for managing expectations)']"
+        ],
         "concepts_to_understand": "When influential stakeholders bypass established communication channels, it can lead to information inconsistencies and undermine project control. The project manager must address this directly and diplomatically. Engaging in a discussion to explain the importance of following communication protocols, while also being open to understanding and potentially accommodating their specific information needs within the framework of the communication plan, is key to maintaining control, consistency, and strong stakeholder relationships during execution.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question explores stakeholder engagement and communication management—two critical aspects of successful project execution. A stakeholder with high power and high interest is considered a key stakeholder whose involvement and influence can significantly affect the project’s outcome. When such a stakeholder begins bypassing the formal communication structure, it can create misalignment, inconsistent messaging, and confusion within the team. This behavior undermines the integrity of the communication plan, which is designed to ensure that information flows in a controlled, consistent, and transparent manner.\n\nWhile it may be tempting to rely on email reminders or indirect methods to redirect the stakeholder, these approaches are unlikely to be effective given the stakeholder’s level of authority and interest. The most effective and professional course of action is for the project manager to address the issue directly by scheduling a meeting with the stakeholder. This allows for open dialogue and provides an opportunity to review the communication plan, explain the impact of the stakeholder’s current approach, and collaboratively agree on the most appropriate and efficient communication channels going forward.\n\nBy engaging the stakeholder respectfully but firmly, the project manager not only resolves the immediate issue but also strengthens the relationship and reinforces proper governance within the project.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025459877",
@@ -1234,9 +1266,9 @@ export const questionsData = {
         "OPTION_C": "To manage stakeholder expectations and celebrate progress, fostering positive engagement.",
         "OPTION_D": "To formally close out the current project phase."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1247,11 +1279,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Skills",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement']"
+        ],
         "concepts_to_understand": "Communicating project milestones is a critical aspect of managing stakeholder expectations and engagement. It serves to demonstrate progress, validate achievements, build confidence in the project's ability to deliver, and provide opportunities to celebrate successes. This proactive and positive communication strategy helps maintain strong stakeholder relationships and sustained support throughout the project lifecycle.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "Understanding the primary purpose of communicating milestone achievements to stakeholders requires a broader view of stakeholder engagement and communication management in project management. Milestones represent significant points or events in the project timeline that typically indicate the completion of a major deliverable or phase. When a milestone is achieved, informing stakeholders is not just a procedural update; it plays a vital role in maintaining transparency and alignment across the project.\n\nCommunicating a milestone serves to reinforce trust and credibility by demonstrating that the project is progressing as planned. It helps manage stakeholder expectations by confirming that key objectives are being met within the expected time frame or scope. This is especially important if future project phases depend on stakeholder approvals, funding, or support, as it signals reliability and keeps stakeholders confident in the project’s trajectory.\n\nAdditionally, recognizing progress through milestone communication can significantly contribute to stakeholder morale and engagement. Acknowledging achievements, particularly major ones, creates a sense of momentum and shared success. It also opens the door for positive feedback, reinforces stakeholder commitment, and enhances collaboration. Therefore, the primary purpose of such communication is to manage expectations while simultaneously fostering a sense of shared accomplishment and maintaining strong stakeholder relationships.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025462927",
@@ -1350,9 +1386,9 @@ export const questionsData = {
         "OPTION_C": "Using a parking lot to capture off-topic discussions and address them later.",
         "OPTION_D": "Directly challenging any stakeholder who deviates from the agenda to keep them focused."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1363,11 +1399,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Meetings",
-        "suggested_read": "['PMBOK Guide - Section 10.2.2.2 Communication Skills (facilitation)', 'PMBOK Guide - Section 4.6 Perform Integrated Change Control (for change meetings)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2.2.2 Communication Skills (facilitation)', 'PMBOK Guide - Section 4.6 Perform Integrated Change Control (for change meetings)']"
+        ],
         "concepts_to_understand": "Effective facilitation of critical meetings, especially with strong personalities, begins with thorough preparation and clear communication of expectations. Pre-circulating key documents and a detailed agenda sets the stage for a focused discussion. This proactive approach helps manage stakeholder expectations, directs attention to the core objectives, and minimizes diversions, significantly increasing the likelihood of achieving desired outcomes, which is critical for managing communications effectively.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question centers around effective stakeholder engagement and meeting facilitation—two crucial skills for any project manager, especially when navigating high-stakes discussions involving strong personalities. When dealing with a significant scope change, tensions can run high as different stakeholders may have conflicting priorities, concerns about risk, or differing levels of authority and influence. Therefore, the project manager must ensure the meeting is structured, focused, and aligned with its objectives.\n\nPre-circulating the change request, along with clear objectives and a defined agenda, allows all participants to review the proposal in advance, gather their thoughts, and arrive better prepared for meaningful discussion. This approach reduces the likelihood of the meeting devolving into unproductive debate or being derailed by emotional reactions or off-topic arguments. It also helps level the playing field by giving quieter or less assertive participants the chance to process the material and prepare input in advance.\n\nBy setting expectations and providing context beforehand, the project manager facilitates a more balanced, thoughtful, and time-efficient dialogue. This technique demonstrates proactive leadership and ensures that decision-makers focus on the content of the change request, not on personal dynamics or ad-hoc reactions. As such, it is the most suitable technique for this scenario.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025466973",
@@ -1378,9 +1418,9 @@ export const questionsData = {
         "OPTION_C": "Reduce the frequency of reporting to allow more time for consistent compilation.",
         "OPTION_D": "Purchase a new project management reporting software to automate reporting."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1391,11 +1431,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Information Management Systems",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for defining reporting structure)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for defining reporting structure)']"
+        ],
         "concepts_to_understand": "Inconsistent reporting hinders effective information analysis and decision-making. Standardizing reporting formats through templates provides clear guidelines and promotes uniformity in data collection. Coupled with training, this ensures that team members provide accurate, consistent information, which is fundamental for efficient information flow and effective communication management throughout project execution.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question touches on the challenges of communication management, specifically in relation to the quality and consistency of project reporting. Inconsistent progress reports can lead to confusion, misinterpretation, and delays in decision-making. When each team member or department uses their own reporting format or includes varying levels of detail, it becomes difficult for the project manager to compile, compare, and interpret data accurately across different work streams.\n\nTo resolve this issue, the most effective solution is to implement a standardized reporting template. A standardized format ensures that all reports follow the same structure, include the necessary data points, and use common terminology, which streamlines aggregation and allows for more accurate and timely analysis. This improves communication efficiency, enhances stakeholder understanding, and supports better-informed project control.\n\nHowever, simply distributing a template may not be enough. Team members must understand how to use it correctly. Providing training ensures that everyone knows what is expected in each section of the report, how to input data accurately, and the importance of timely and consistent reporting. This dual approach—standardization plus training—addresses both the structural and human factors contributing to inconsistency, making it the most comprehensive and sustainable solution to the problem described.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025467984",
@@ -1494,9 +1538,9 @@ export const questionsData = {
         "OPTION_C": "Schedule daily synchronous video calls, rotating times to accommodate all time zones.",
         "OPTION_D": "Invest in real-time virtual reality collaboration software to simulate co-location."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1507,11 +1551,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Technology",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for defining processes)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for defining processes)']"
+        ],
         "concepts_to_understand": "Effective asynchronous communication requires more than just the right tools; it demands clear protocols and structure. When discussions are fragmented and slow, it indicates a need for better organization of information, clearer calls to action, and defined processes for decision-making within the asynchronous channels. This ensures that information exchange is purposeful and efficient, supporting timely collaboration and decision-making in distributed teams.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question centers on a common challenge in global or distributed project teams: asynchronous communication. When team members are in different time zones, real-time communication becomes difficult, and reliance on asynchronous methods—like email, shared documents, or messaging platforms—increases. However, without structure, these tools can lead to fragmented conversations, misaligned expectations, and delays in decision-making, as seen in this scenario.\n\nThe use of shared collaboration tools, while helpful, is only effective when supported by clear protocols. Simply having tools is not enough; teams must know how to use them efficiently. The key lies in providing structure to asynchronous exchanges. This includes specifying communication objectives, assigning deadlines for responses, setting clear expectations for participation, and defining how and when decisions will be made. For example, when posting a discussion thread or sharing a document for review, the team should include a summary of what is being asked, when feedback is due, and how the decision will be finalized.\n\nThis approach reduces ambiguity and helps keep the team aligned despite time zone differences. It allows members to contribute effectively during their working hours while still moving the project forward efficiently. Therefore, implementing more structured communication protocols is the most effective solution for the problem presented.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025472034",
@@ -1522,9 +1570,9 @@ export const questionsData = {
         "OPTION_C": "An executive dashboard with key performance indicators (KPIs) and visual trends.",
         "OPTION_D": "A series of meeting minutes summarizing all recent team discussions."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1535,11 +1583,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Information Management Systems",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.2.3.1 Work Performance Reports']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.2.3.1 Work Performance Reports']"
+        ],
         "concepts_to_understand": "Tailoring communication to the audience's preferences is fundamental for effective information exchange. For busy senior executives, visual, concise formats like dashboards that highlight key performance indicators (KPIs) and trends are ideal. This allows for rapid assimilation of critical information and supports quick decision-making, which is a key part of managing project communications.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To effectively address this question, it's important to consider both the communication style of stakeholders and the nature of executive-level reporting. Senior executives typically operate under tight schedules and are required to make high-level decisions quickly. They often prefer brief, high-impact information that gives them a clear view of a project’s status without getting lost in technical details or extensive narrative.\n\nAn executive dashboard is specifically designed to serve this purpose. It consolidates critical project information into a single visual interface, highlighting key performance indicators (KPIs), trends, milestones, risks, and variances in a digestible format. The use of charts, gauges, and color-coded indicators allows for rapid comprehension and efficient decision-making. Dashboards can also be interactive, allowing the executive to drill down into specific areas if they need more detail, but still function effectively at a summary level.\n\nOther reporting formats, such as lengthy status reports or detailed technical logs, may contain valuable information but are often too time-consuming or granular for a busy executive audience. In contrast, an executive dashboard provides the high-level, visually-oriented summary that aligns with the preferences described in the scenario. Therefore, prioritizing a dashboard with KPIs and visual trends is the most logical and effective choice.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750025473048",
@@ -1582,9 +1634,9 @@ export const questionsData = {
         "OPTION_C": "Call an emergency meeting with all relevant stakeholders to discuss the issue thoroughly.",
         "OPTION_D": "Prepare a formal presentation with multiple slides covering all aspects of the urgent issue."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1595,11 +1647,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Communication Skills",
-        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for influencing)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for influencing)']"
+        ],
         "concepts_to_understand": "When communicating urgent issues to busy, high-level stakeholders, efficiency and clarity are paramount. The 'recommendation first' approach, where the proposed solution and required action are presented upfront, allows the decision-maker to quickly understand the core issue and what is needed from them. This respects their limited time and facilitates rapid decision-making, which is crucial for managing critical information flow during project execution.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This question centers on effective stakeholder communication, particularly under pressure and time constraints. In project management, tailoring communication to suit the stakeholder’s availability, stress level, and decision-making needs is essential for timely and effective outcomes. The sponsor in this scenario operates in a high-stress environment and has limited time, which means the project manager must adopt a direct, solution-oriented approach rather than presenting a lengthy background or multiple options.\n\nThe best way to manage such situations is to lead with clarity and brevity. Scheduling a short, in-person meeting allows for a focused exchange, where non-verbal cues and tone can also help convey urgency and importance. Starting the conversation with the recommended solution and the immediate decision required respects the sponsor’s time and facilitates prompt action. This approach demonstrates the project manager’s preparedness and confidence, making it easier for the sponsor to assess the situation quickly and make an informed choice without wading through unnecessary detail.\n\nBy prioritizing the sponsor’s perspective and decision-making context, the project manager ensures the issue is addressed swiftly, reduces the risk of delays, and maintains momentum in project execution. This aligns with best practices for managing communications with high-level stakeholders in time-sensitive environments.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     }
   ]
 };
