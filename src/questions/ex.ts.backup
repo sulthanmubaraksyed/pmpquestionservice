@@ -310,6 +310,34 @@ export const questionsData = {
       }
     },
     {
+      "id": "1750025429528",
+      "question_pmp": "A project manager discovers that a critical project deliverable, which was previously communicated as on schedule, is now facing a significant delay due to unforeseen technical challenges. Several key stakeholders will be impacted. What is the MOST appropriate immediate action?",
+      "options_pmp": {
+        "OPTION_A": "Draft an official change request to formally document the schedule deviation.",
+        "OPTION_B": "Analyze the impact of the delay on scope, cost, and quality before communicating.",
+        "OPTION_C": "Inform key stakeholders immediately about the potential delay and its reasons.",
+        "OPTION_D": "Hold a team meeting to identify solutions to mitigate the delay before any external communication."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While a change request might be necessary later, the immediate priority is to communicate the critical information about the delay to affected stakeholders. Formal processes should follow initial transparent communication.",
+        "option_b_result": "INCORRECT - Analyzing the full impact is important, but delaying the initial communication about a critical deviation can erode trust and prevent stakeholders from making necessary adjustments on their end. Transparency, even with incomplete information, is often preferred for critical issues.",
+        "option_c_result": "CORRECT - In a situation with a significant, unforeseen delay impacting stakeholders, immediate and transparent communication is crucial. Even if the full impact isn't yet assessed, informing them promptly allows them to prepare and demonstrates accountability. This proactive communication builds trust and manages expectations, which is a core aspect of managing communications during execution.",
+        "option_d_result": "INCORRECT - While identifying solutions is important, delaying communication until solutions are found can be detrimental. Stakeholders need to be informed of critical changes as soon as they are known, allowing them to adjust their plans. Solutions can be communicated subsequently.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Skills",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.3 Monitor Communications (for effectiveness of communication)']",
+        "concepts_to_understand": "Timely and transparent communication of critical project changes, especially those impacting schedule or scope, is paramount for maintaining stakeholder trust and managing expectations. Proactively informing stakeholders about potential issues, even before a full impact analysis or solution is ready, prevents surprises and allows them to adjust their plans accordingly. This demonstrates effective communication management during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
       "id": "1750025430538",
       "question_pmp": "A project team is implementing a new customer relationship management (CRM) system. User adoption is low despite comprehensive training and documentation. Feedback indicates that users find the system difficult to use and the training materials overwhelming. What is the MOST effective approach for the project manager to improve communication and adoption?",
       "options_pmp": {
@@ -342,6 +370,62 @@ export const questionsData = {
       "did_user_get_it_right": true
     },
     {
+      "id": "1750025431551",
+      "question_pmp": "A critical report needs to be distributed to senior management, but it contains sensitive financial data. The project manager must ensure the information is delivered securely and confidentially. What communication method is MOST appropriate?",
+      "options_pmp": {
+        "OPTION_A": "Sending the report as an attachment in a standard email.",
+        "OPTION_B": "Uploading the report to a public cloud storage platform with a shared link.",
+        "OPTION_C": "Distributing printed copies of the report via internal mail.",
+        "OPTION_D": "Using a secure, encrypted digital platform or a password-protected document with controlled access."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Standard email is generally not considered a secure method for sensitive information, as it can be vulnerable to interception or unauthorized access. It lacks the necessary security controls.",
+        "option_b_result": "INCORRECT - Uploading to a public cloud platform with a shared link, unless explicitly secured with robust access controls and encryption, is highly insecure for sensitive data and poses significant confidentiality risks.",
+        "option_c_result": "INCORRECT - While internal mail might seem secure, physical documents can be misplaced, accessed by unauthorized personnel, or copied. It also lacks the audit trail and speed of digital methods.",
+        "option_d_result": "CORRECT - For sensitive financial data, using a secure, encrypted digital platform or password-protected documents with controlled access is the most appropriate communication method. This ensures confidentiality, integrity, and controlled dissemination, aligning with the need to protect sensitive information during the Manage Communications process.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Technology",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.3 Communication Technology', 'PMBOK Guide - Section 11.2 Identify Risks (for considering information security risks)']",
+        "concepts_to_understand": "When managing communications, especially with sensitive information, security and confidentiality are paramount. Choosing appropriate communication technology involves considering the nature of the information and the required level of protection. Secure digital platforms with encryption and access controls are essential for transmitting confidential data to prevent unauthorized access and maintain data integrity.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "easy"
+      }
+    },
+    {
+      "id": "1750025432563",
+      "question_pmp": "A project manager notices that two critical team members are consistently misinterpreting each other's written instructions, leading to rework. Their communication styles are very different, one being concise and direct, the other highly detailed and verbose. What communication technique should the project manager recommend to improve their interaction?",
+      "options_pmp": {
+        "OPTION_A": "Suggest they only communicate verbally to avoid written misinterpretations.",
+        "OPTION_B": "Advise them to use communication models to better understand message encoding and decoding.",
+        "OPTION_C": "Provide training on active listening and feedback techniques specific to written communication.",
+        "OPTION_D": "Assign a third team member to mediate all their written communications to ensure clarity."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While verbal communication can clarify, avoiding written communication entirely is not a sustainable or efficient solution for complex project instructions, especially if an audit trail is needed. It also doesn't address the underlying issue of differing communication styles for written content.",
+        "option_b_result": "CORRECT - Understanding communication models, particularly the concept of encoding and decoding messages, helps individuals recognize how their communication style impacts how others receive and interpret information. By understanding these models, the team members can better adapt their communication styles (e.g., being more explicit, confirming understanding) to minimize misinterpretation, which is a key aspect of effective communication during execution.",
+        "option_c_result": "INCORRECT - Active listening and feedback are critical for verbal communication. While the *principles* apply, the core issue here is *written* interpretation. Training specific to written communication would focus more on clarity, conciseness, and structured writing, rather than just 'active listening' which is primarily for verbal exchanges.",
+        "option_d_result": "INCORRECT - Assigning a mediator for all written communication is inefficient and creates an unnecessary bottleneck. It's a symptomatic treatment rather than resolving the root cause of the communication style differences between the two individuals.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Models",
+        "suggested_read": "['PMBOK Guide - Section 10.1.2.2 Communication Models', 'PMBOK Guide - Section 10.2.2.2 Communication Skills']",
+        "concepts_to_understand": "Communication models illustrate how messages are encoded, transmitted, and decoded, highlighting potential areas for misinterpretation (e.g., noise, sender/receiver biases). When team members have differing communication styles leading to misunderstanding, understanding these models can help them consciously adapt their encoding (how they write) and improve their decoding (how they read and interpret) to bridge the communication gap, which is essential for effective information flow during execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
       "id": "1750025433574",
       "question_pmp": "A large-scale construction project involves multiple contractors and subcontractors. The project manager receives numerous, often conflicting, daily reports, making it difficult to get a clear picture of overall progress. What is the BEST approach to streamline reporting and ensure accurate information flow?",
       "options_pmp": {
@@ -372,6 +456,90 @@ export const questionsData = {
       },
       "process_group": "Executing",
       "did_user_get_it_right": true
+    },
+    {
+      "id": "1750025434588",
+      "question_pmp": "The project manager of an agile software development project observes that the daily stand-up meetings are becoming less effective, with team members frequently getting sidetracked and not focusing on progress, impediments, and plans. What should the project manager do FIRST to improve these meetings?",
+      "options_pmp": {
+        "OPTION_A": "Cancel the daily stand-ups and replace them with written daily reports.",
+        "OPTION_B": "Reiterate the purpose and ground rules of the daily stand-up meeting to the team.",
+        "OPTION_C": "Implement a strict timer for each team member's update during the meeting.",
+        "OPTION_D": "Invite more senior stakeholders to the daily stand-ups to ensure focus."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Daily stand-ups serve a specific purpose in agile for quick, direct team synchronization. Replacing them with written reports removes the benefit of immediate interaction and problem-solving. This would be a drastic step without first addressing the core issue of focus.",
+        "option_b_result": "CORRECT - The first step when meetings become ineffective is often to remind participants of the meeting's purpose and established ground rules. This simple reiteration can realign the team, reinforcing expected behavior and ensuring the meeting stays focused on its intended objectives. This is a direct application of effective communication management, ensuring information flow is purposeful.",
+        "option_c_result": "INCORRECT - While a timer can help with efficiency, it's a prescriptive solution that might not address the underlying reason for getting sidetracked (e.g., lack of understanding of purpose, unresolved issues). It's a secondary step after clarifying expectations.",
+        "option_d_result": "INCORRECT - Inviting more senior stakeholders might create a more formal environment but could also inhibit open discussion and transparency among team members. It doesn't directly address the team's internal focus issue and could change the dynamic of an agile stand-up inappropriately.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Meetings",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.1 Communication Skills (facilitation)', 'Agile Practice Guide - Section 5.3 Daily Stand-up']",
+        "concepts_to_understand": "For recurring meetings, especially in agile contexts, maintaining their effectiveness requires adherence to their defined purpose and structure. When meetings deviate, the first and most fundamental step is to re-establish and remind participants of the agreed-upon purpose and ground rules. This helps reset expectations and guide the team back to productive discussions, ensuring efficient information flow and team synchronization.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
+      "id": "1750025435597",
+      "question_pmp": "During a cross-cultural project, the project manager notices that feedback provided by team members from a high-context culture is often misinterpreted by members from a low-context culture, leading to misunderstandings. What is the MOST appropriate action for the project manager?",
+      "options_pmp": {
+        "OPTION_A": "Require all team members to strictly adhere to a low-context communication style for all formal communications.",
+        "OPTION_B": "Implement training sessions on cultural awareness and communication styles for the entire team.",
+        "OPTION_C": "Assign a cultural liaison to mediate all communication between the two groups of team members.",
+        "OPTION_D": "Provide detailed written guidelines for interpreting implicit messages from high-context communicators."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Requiring everyone to adopt a single communication style can be insensitive and difficult to enforce, potentially leading to resentment and hindering natural communication rather than facilitating it. It doesn't build cultural understanding.",
+        "option_b_result": "CORRECT - Cultural differences in communication are a common challenge in global projects. Implementing cultural awareness and communication style training for the entire team is the most effective long-term solution. It empowers team members to understand and adapt to different communication norms, improving mutual understanding and reducing misinterpretations, which is critical for effective communication management.",
+        "option_c_result": "INCORRECT - While a cultural liaison can offer temporary relief, it creates a bottleneck and doesn't build the team's inherent capacity to communicate effectively across cultures. It's a short-term workaround, not a sustainable solution for fostering understanding.",
+        "option_d_result": "INCORRECT - Providing guidelines is helpful, but it's a passive approach. Active training and engagement are more effective in changing communication behaviors and fostering genuine understanding of different cultural communication nuances, especially regarding implicit messages.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Skills",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.2 Communication Skills (cultural awareness)', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for cultural aspects of engagement)']",
+        "concepts_to_understand": "Cultural differences significantly impact communication. High-context cultures rely on implicit cues and shared understanding, while low-context cultures prioritize explicit verbal messages. When these styles clash, it leads to misunderstandings. Providing cultural awareness training empowers team members to recognize and adapt to these differences, fostering more effective and empathetic communication, crucial for successful project execution in diverse environments.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
+      "id": "1750025436610",
+      "question_pmp": "A project manager is overseeing a remote team scattered across three continents. Due to the diverse locations, information is often fragmented, and team members report feeling disconnected from overall project progress. What is the MOST effective approach to improve team cohesion and information flow?",
+      "options_pmp": {
+        "OPTION_A": "Schedule daily mandatory video conferences for all team members at a time convenient for the project manager.",
+        "OPTION_B": "Implement a collaborative online workspace with dashboards for real-time progress tracking and shared document repositories.",
+        "OPTION_C": "Send out weekly comprehensive email summaries of project progress and upcoming tasks.",
+        "OPTION_D": "Encourage more informal, ad-hoc phone calls between team members for updates."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Scheduling daily mandatory video conferences at a time convenient only for the project manager would likely disadvantage and exclude team members in other time zones, increasing disconnection rather than improving it.",
+        "option_b_result": "CORRECT - For geographically dispersed teams, a collaborative online workspace with real-time dashboards and shared repositories is highly effective. It provides a centralized source of truth, allows asynchronous access to information, fosters transparency, and promotes a sense of shared understanding and cohesion by enabling all team members to see and contribute to project progress, which is a core component of managing communications effectively.",
+        "option_c_result": "INCORRECT - While weekly email summaries are useful, they are a one-way, static form of communication. They don't provide real-time updates, foster collaboration, or create the sense of cohesion that a dynamic online workspace offers.",
+        "option_d_result": "INCORRECT - Encouraging informal calls is good for building rapport, but it doesn't solve the problem of fragmented information or ensure everyone gets consistent, comprehensive updates. It's too unstructured for ensuring critical project information flow.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Project Management Information System (PMIS)",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.3 Communication Technology', 'PMBOK Guide - Section 4.3.2.3 Project Management Information System']",
+        "concepts_to_understand": "Effective communication for remote teams requires leveraging appropriate technology to overcome geographical barriers. A collaborative online workspace, often part of a PMIS, provides a centralized, accessible, and dynamic platform for information sharing, real-time progress visualization, and document management. This promotes transparency, reduces information fragmentation, and fosters team cohesion, ensuring efficient and effective communication during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
     },
     {
       "id": "1750025437617",
@@ -438,6 +606,62 @@ export const questionsData = {
       "did_user_get_it_right": true
     },
     {
+      "id": "1750025439640",
+      "question_pmp": "The project manager is informed by a key vendor that a critical component delivery will be delayed by two weeks, directly impacting the project schedule. The project's communications management plan dictates that significant delays must be communicated to the sponsor and affected functional managers within 24 hours. What is the CORRECT response?",
+      "options_pmp": {
+        "OPTION_A": "Immediately update the project schedule and then communicate the revised dates to all stakeholders.",
+        "OPTION_B": "Communicate the delay to the sponsor and affected functional managers within the stipulated timeframe.",
+        "OPTION_C": "Convene an urgent meeting with the project team to brainstorm solutions for the delay before communicating externally.",
+        "OPTION_D": "Initiate a change request to formally document the schedule impact and await its approval before communicating."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While updating the schedule is necessary, communicating the delay *before* the formal update to impacted parties is critical. Transparency and timeliness are prioritized over internal administrative updates for initial notification.",
+        "option_b_result": "CORRECT - The project's communications management plan explicitly states the need for immediate communication of significant delays to specific stakeholders. Adhering to the established communication plan is the correct response to ensure timely and effective dissemination of critical information, demonstrating proper execution of the Manage Communications process.",
+        "option_c_result": "INCORRECT - Brainstorming solutions is important, but it should not delay the immediate notification of a critical delay to key stakeholders as per the communications plan. They need to be aware of the problem promptly.",
+        "option_d_result": "INCORRECT - A change request is a formal process for managing changes, but it should not prevent the immediate communication of a critical schedule impact as dictated by the communications plan. The notification precedes the formal change control process.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Methods",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for adhering to the plan)']",
+        "concepts_to_understand": "Adhering to the established Communications Management Plan is fundamental during project execution. When a critical event occurs that triggers a defined communication requirement (e.g., informing stakeholders of a delay within a certain timeframe), the project manager's correct response is to follow that plan explicitly. This ensures consistency, timeliness, and appropriate dissemination of information, maintaining stakeholder trust and facilitating informed decision-making.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "easy"
+      }
+    },
+    {
+      "id": "1750025440652",
+      "question_pmp": "During a monthly project status meeting, a particularly vocal stakeholder consistently monopolizes the discussion, preventing other, less assertive stakeholders from contributing their valuable insights. This leads to an imbalance of input and less comprehensive decision-making. What is the MOST appropriate action for the project manager to take during the meeting to ensure balanced participation?",
+      "options_pmp": {
+        "OPTION_A": "Politely ask the vocal stakeholder to limit their contributions to allow others to speak.",
+        "OPTION_B": "Implement a 'round robin' approach where each attendee gets a dedicated time slot to speak.",
+        "OPTION_C": "Address the issue offline with the vocal stakeholder after the meeting to provide feedback.",
+        "OPTION_D": "Facilitate the discussion by directly inviting comments from quieter stakeholders and managing time for each topic."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While direct, this can be confrontational and might not be effective if the stakeholder isn't self-aware. It could also make the vocal stakeholder feel singled out, potentially creating a negative dynamic.",
+        "option_b_result": "INCORRECT - A 'round robin' can be rigid and sometimes unnatural, especially for discussions. While it ensures everyone speaks, it may not foster dynamic interaction and might make the meeting less efficient by forcing contributions even when not necessary.",
+        "option_c_result": "INCORRECT - Addressing it offline is important for ongoing behavior, but it doesn't resolve the immediate issue during the meeting where important insights are being missed. The project manager needs an in-the-moment technique.",
+        "option_d_result": "CORRECT - As a facilitator, the project manager's role is to ensure productive discussion and balanced input. Directly inviting quieter stakeholders, using open-ended questions, and skillfully managing time (e.g., by summarizing points and moving on) are effective techniques to encourage broader participation and ensure all voices are heard without singling out or alienating any specific individual. This demonstrates effective communication skills in action during the meeting.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Facilitation",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.2 Communication Skills (facilitation)', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for fostering collaboration)']",
+        "concepts_to_understand": "Effective meeting facilitation is crucial for productive communication. When one stakeholder dominates, the project manager must actively manage the discussion. Techniques like inviting contributions from quieter members, redirecting focus, and structuring discussion time ensure balanced participation, leading to richer insights and more informed decisions. This demonstrates strong interpersonal and communication skills in managing information flow.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
       "id": "1750025441665",
       "question_pmp": "The project manager observes that some project documents, such as the stakeholder register and risk register, contain outdated information because updates are not being consistently communicated to those responsible for maintaining them. This leads to decisions being made based on incorrect data. What is the MOST likely cause?",
       "options_pmp": {
@@ -468,6 +692,34 @@ export const questionsData = {
       },
       "process_group": "Executing",
       "did_user_get_it_right": true
+    },
+    {
+      "id": "1750025442678",
+      "question_pmp": "During a project execution, a newly onboarded team member expresses confusion about their specific tasks and reporting lines, despite receiving initial onboarding documents. The project manager needs to ensure this team member is fully integrated and clear on their responsibilities. What is the MOST appropriate action for the project manager?",
+      "options_pmp": {
+        "OPTION_A": "Refer the new team member to the project charter for clarification on roles and responsibilities.",
+        "OPTION_B": "Schedule a meeting with the team member to review the work breakdown structure (WBS) and communications plan.",
+        "OPTION_C": "Ask the team member's functional manager to provide additional guidance and oversight.",
+        "OPTION_D": "Provide access to the project management information system (PMIS) and instruct the team member to explore relevant documents."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - The project charter provides high-level project information and overall roles, but not specific task clarity or detailed reporting lines for individual team members. It would not resolve their specific confusion.",
+        "option_b_result": "CORRECT - A one-on-one meeting to review the WBS (which defines work packages and associated tasks) and the communications plan (which outlines reporting lines and communication responsibilities) is the most effective way to ensure a new team member understands their specific tasks and how they fit into the project's communication structure. This directly addresses their confusion and facilitates their integration, which is part of managing communications effectively.",
+        "option_c_result": "INCORRECT - While the functional manager has a role, the project manager is responsible for clarifying project-specific roles and ensuring the team member understands their contribution to the project. Delegating this entirely may not resolve the project-specific clarity needed.",
+        "option_d_result": "INCORRECT - Simply giving access to a PMIS without guidance, especially if the team member is already confused, is likely to overwhelm them and exacerbate the problem. It's not a substitute for directed, personal clarification.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Interpersonal and Team Skills",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 9.5 Develop Team (for team integration)']",
+        "concepts_to_understand": "Integrating new team members effectively involves ensuring they understand their specific roles, responsibilities, and how their work contributes to the project, as well as how they fit into the communication structure. A personalized review of relevant project documents like the WBS and the communications management plan provides the necessary clarity and direct guidance, enabling their productive participation and ensuring proper information flow within the team.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
     },
     {
       "id": "1750025443692",
@@ -502,6 +754,174 @@ export const questionsData = {
       "did_user_get_it_right": false
     },
     {
+      "id": "1750025444701",
+      "question_pmp": "A project is experiencing frequent changes to requirements, which are being communicated informally through various channels. This results in confusion among team members and missed updates. What should the project manager implement to better manage these communications?",
+      "options_pmp": {
+        "OPTION_A": "Conduct daily informal meetings to capture all requirement changes.",
+        "OPTION_B": "Establish a formal change control process, including a standardized communication channel for approved changes.",
+        "OPTION_C": "Request that all requirement changes be communicated directly to the project manager only.",
+        "OPTION_D": "Increase the frequency of email updates to capture all new requirements."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Daily informal meetings will likely exacerbate the problem of informal, fragmented communication rather than resolving it. They lack the structure needed for managing formal changes.",
+        "option_b_result": "CORRECT - The problem describes informal, fragmented communication of frequent requirement changes, leading to confusion. Establishing a formal change control process, which includes defining a standardized, formal communication channel for approved changes, is the most effective way to bring order, clarity, and control to requirement communication, ensuring all relevant parties are informed consistently. This is a critical part of managing communications during execution.",
+        "option_c_result": "INCORRECT - Centralizing communication through the PM can create a bottleneck and doesn't solve the problem of informal communication occurring elsewhere. It also puts undue burden on the PM.",
+        "option_d_result": "INCORRECT - Increasing email frequency without a standardized process for communication of changes will only lead to more noise and continued confusion, not better management of requirement changes.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Information Management Systems",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 4.6 Perform Integrated Change Control']",
+        "concepts_to_understand": "Informal and fragmented communication of changes, especially requirements, leads to confusion and rework. Implementing a formal change control process, which inherently includes defined communication channels and procedures for approved changes, is essential. This ensures that all changes are systematically documented, approved, and then formally communicated through consistent and agreed-upon channels, bringing order and clarity to information flow during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
+      "id": "1750025445711",
+      "question_pmp": "A project manager observes that weekly team meetings, designed for progress updates and issue resolution, consistently run over time and often deviate from the agenda. Team members express frustration with their length and lack of clear outcomes. What is the PRIMARY reason for this ineffectiveness?",
+      "options_pmp": {
+        "OPTION_A": "Lack of commitment from team members to stick to the agenda.",
+        "OPTION_B": "Absence of a strong meeting facilitator.",
+        "OPTION_C": "Insufficient preparation by team members before the meeting.",
+        "OPTION_D": "Too many action items being assigned during the meeting."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While commitment is a factor, it's often a symptom rather than the root cause. Without proper facilitation, even committed teams can get sidetracked.",
+        "option_b_result": "CORRECT - Meetings that consistently run over time and deviate from the agenda are primarily indicative of a lack of effective meeting facilitation. A strong facilitator guides the discussion, keeps it on track, manages time, and ensures clear outcomes, which are essential for efficient information exchange and decision-making during the Manage Communications process.",
+        "option_c_result": "INCORRECT - While preparation is important, a skilled facilitator can often steer unprepared discussions back on track and ensure outcomes, even if initial input is lacking. Lack of preparation might contribute, but poor facilitation allows it to derail the meeting.",
+        "option_d_result": "INCORRECT - Assigning action items is a positive outcome of a meeting, not a cause of it running over or being ineffective in terms of deviation. The issue is about managing the *discussion* itself.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Meetings",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.2 Communication Skills (facilitation)', 'PMBOK Guide - Section 10.2 Manage Communications']",
+        "concepts_to_understand": "Effective meetings are a critical component of managing project communications. When meetings are consistently unproductive, it often points to a deficiency in facilitation skills. A strong meeting facilitator is crucial for keeping discussions focused, adhering to the agenda, managing time, and ensuring clear outcomes, thereby maximizing the efficiency and effectiveness of information exchange and decision-making during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "easy"
+      }
+    },
+    {
+      "id": "1750025446726",
+      "question_pmp": "The project manager has recently implemented a new communication channel for project updates. However, feedback from team members indicates that they are still relying on older, informal channels, leading to inconsistent information dissemination. What is the BEST approach to encourage adoption of the new channel?",
+      "options_pmp": {
+        "OPTION_A": "Remove access to all older, informal communication channels immediately.",
+        "OPTION_B": "Communicate the benefits of the new channel and provide hands-on training and support.",
+        "OPTION_C": "Issue a stern warning that non-compliance with the new channel will result in disciplinary action.",
+        "OPTION_D": "Gradually transition to the new channel by reducing updates on old channels over time."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Immediately removing access to old channels without sufficient buy-in and training can cause resistance, frustration, and a potential breakdown in communication, rather than seamless adoption.",
+        "option_b_result": "CORRECT - To encourage adoption of a new communication channel, it's most effective to clearly communicate its benefits, provide comprehensive hands-on training, and offer ongoing support. This addresses resistance to change, builds proficiency, and demonstrates the value of the new approach, facilitating effective information flow, which is a core part of managing communications.",
+        "option_c_result": "INCORRECT - Issuing stern warnings or threats creates a negative environment and is unlikely to foster genuine adoption. It addresses symptoms, not the root cause of resistance or lack of understanding.",
+        "option_d_result": "INCORRECT - While a gradual transition can be part of a strategy, simply reducing updates on old channels without actively promoting and supporting the new one can lead to information gaps and confusion. A proactive engagement approach is better.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Technology",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for fostering buy-in)']",
+        "concepts_to_understand": "Successful adoption of new communication channels requires more than just making them available. It involves understanding user behavior, clearly articulating the value proposition, providing adequate training, and offering continuous support. This proactive approach helps overcome resistance to change, builds user proficiency, and ensures that the intended communication channels become the preferred and effective means of information exchange during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
+      "id": "1750025447739",
+      "question_pmp": "The project manager is managing a project with a high number of virtual team members working remotely. Due to limited face-to-face interaction, informal communication channels are less effective, leading to a feeling of isolation among some team members and a potential impact on morale and collaboration. Which tool or technique is MOST appropriate to foster better informal communication and team cohesion?",
+      "options_pmp": {
+        "OPTION_A": "Regularly scheduled formal team-building workshops.",
+        "OPTION_B": "Establishing a dedicated instant messaging group or virtual 'water cooler' channel.",
+        "OPTION_C": "Increasing the frequency of individual performance reviews to address concerns.",
+        "OPTION_D": "Mandating daily written updates from each team member."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Formal team-building workshops are valuable but typically less frequent and don't address the daily, informal communication needs that foster ongoing cohesion and counter isolation in a virtual setting.",
+        "option_b_result": "CORRECT - For virtual teams, facilitating informal communication is crucial to build cohesion and counter isolation. Establishing a dedicated instant messaging group or a virtual 'water cooler' channel provides a platform for spontaneous, non-work-related interactions and quick, informal project-related queries, mimicking the serendipitous communication that occurs in physical offices. This enhances team dynamics and communication flow, which is part of effective communication management.",
+        "option_c_result": "INCORRECT - Increasing individual performance reviews is a formal process focused on performance, not a tool for fostering informal communication or addressing team cohesion and feelings of isolation. It's unlikely to build morale.",
+        "option_d_result": "INCORRECT - Mandating daily written updates is a formal communication requirement that increases administrative burden and does nothing to foster informal interaction or address feelings of isolation. It's counterproductive to building cohesion.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Technology",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 9.5 Develop Team (for building team cohesion)']",
+        "concepts_to_understand": "Informal communication is vital for team cohesion and morale, especially in virtual environments where traditional 'water cooler' conversations are absent. Leveraging communication technology to create virtual spaces for informal interaction (e.g., dedicated chat channels) helps bridge geographical gaps, allows for spontaneous information exchange, and fosters a sense of community among remote team members, which is important for effective communication management.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
+      "id": "1750025448752",
+      "question_pmp": "The project manager learns that a key stakeholder, who holds significant influence over project funding, is receiving inconsistent messages about project status from various team members. This is creating confusion and eroding trust. What is the MOST immediate action the project manager should take?",
+      "options_pmp": {
+        "OPTION_A": "Remind all team members of the communication protocol for status updates.",
+        "OPTION_B": "Schedule a meeting with the key stakeholder to clarify the current project status.",
+        "OPTION_C": "Review the Communications Management Plan to identify gaps in stakeholder communication.",
+        "OPTION_D": "Centralize all formal project status reporting through the project manager."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While reminding the team is important, it's not the *most immediate* action to address the *eroding trust* with the key stakeholder. The stakeholder needs clarification first.",
+        "option_b_result": "CORRECT - The *most immediate* action is to address the stakeholder's confusion and eroded trust directly. Scheduling a meeting allows the project manager to provide a consistent, authoritative update, acknowledge the issue of inconsistent messages, and rebuild trust. Subsequent actions can then address the root cause within the team or plan. This is critical for managing stakeholder expectations and information flow during execution.",
+        "option_c_result": "INCORRECT - Reviewing the plan is a good subsequent step to identify the root cause of inconsistent messaging, but the immediate priority is to rectify the miscommunication with the key stakeholder and stabilize their perception.",
+        "option_d_result": "INCORRECT - Centralizing reporting might be a long-term solution, but it's not the *immediate* action to mitigate the current erosion of trust and confusion for the already impacted stakeholder. A direct intervention is needed first.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Skills",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement']",
+        "concepts_to_understand": "When a key stakeholder receives inconsistent information, especially from multiple sources, it leads to confusion and a loss of trust, directly impacting stakeholder engagement. The immediate priority is to address this by personally clarifying the situation with the affected stakeholder, providing accurate information, and demonstrating responsiveness. Subsequent actions can then focus on identifying and correcting the underlying communication process breakdown to prevent recurrence.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
+      "id": "1750025449761",
+      "question_pmp": "A project manager is facing a situation where a critical deliverable relies on inputs from multiple external departments. There are frequent delays in receiving these inputs, and communication often occurs informally, leading to missed deadlines. What is the BEST approach to improve the flow of these critical inputs?",
+      "options_pmp": {
+        "OPTION_A": "Escalate the issue to senior management to enforce compliance from external departments.",
+        "OPTION_B": "Formalize the communication process for input delivery, including clear agreements, channels, and escalation paths.",
+        "OPTION_C": "Offer incentives to external departments for timely delivery of their inputs.",
+        "OPTION_D": "Assign a dedicated project team member to manually track and chase all external inputs."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Escalation can be necessary, but it's often a last resort. Starting with improving the process directly is more collaborative and sustainable before resorting to higher authority.",
+        "option_b_result": "CORRECT - When critical inputs are delayed due to informal communication, formalizing the process is the most effective solution. This involves establishing clear agreements (e.g., service level agreements, MOUs), defining specific communication channels for submission and reminders, and setting up clear escalation paths. This proactive approach ensures structured and reliable information flow, which is essential for managing communications effectively and avoiding project delays.",
+        "option_c_result": "INCORRECT - Offering incentives might provide short-term gains but doesn't address the systemic issue of informal communication and undefined processes. It's not a sustainable solution for consistent adherence.",
+        "option_d_result": "INCORRECT - Assigning a dedicated tracker is a reactive and inefficient solution. It adds overhead without addressing the root cause of the informal and unreliable communication process for external inputs.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Methods",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 10.1 Plan Communications Management (for defining processes)']",
+        "concepts_to_understand": "Informal communication for critical inputs often leads to delays and missed deadlines. Formalizing the communication process by defining clear agreements, established channels, and escalation paths ensures that information exchange is structured, predictable, and reliable. This proactive approach to managing communications is crucial for ensuring timely input delivery and maintaining project schedule integrity during execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
       "id": "1750025450773",
       "question_pmp": "The project manager is facilitating a critical decision-making meeting. There are several key stakeholders with conflicting interests present. To ensure an effective outcome, what should be the project manager's primary focus during the meeting?",
       "options_pmp": {
@@ -532,6 +952,34 @@ export const questionsData = {
       },
       "process_group": "Executing",
       "did_user_get_it_right": true
+    },
+    {
+      "id": "1750025451781",
+      "question_pmp": "A project manager needs to communicate sensitive information about potential layoffs to a specific group of employees affected by a project restructuring. Which communication method would be MOST appropriate to ensure empathy, clarity, and controlled dissemination?",
+      "options_pmp": {
+        "OPTION_A": "A company-wide email announcement from the CEO.",
+        "OPTION_B": "Individual face-to-face meetings with affected employees, followed by a formal written notice.",
+        "OPTION_C": "A group meeting with all affected employees to deliver the news simultaneously.",
+        "OPTION_D": "Posting the information on the internal company intranet portal."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - A company-wide email is impersonal, lacks empathy, and cannot control the emotional impact or provide individual support, especially for sensitive news like layoffs. It is inappropriate for this type of communication.",
+        "option_b_result": "CORRECT - For highly sensitive information like potential layoffs, individual face-to-face meetings are the MOST appropriate. They allow for empathy, direct two-way communication, and controlled dissemination. This can be followed by a formal written notice for documentation purposes. This method prioritizes human connection and supports individuals through a difficult message, a critical aspect of managing communications ethically and effectively.",
+        "option_c_result": "INCORRECT - A group meeting, while offering some direct interaction, can still be impersonal and overwhelming for individuals, preventing personalized support or questions. It lacks the privacy and empathy of one-on-one communication for such sensitive news.",
+        "option_d_result": "INCORRECT - Posting sensitive information like layoffs on a public intranet is highly impersonal, lacks empathy, and can lead to immediate public discussion without proper support mechanisms in place. It's inappropriate for such critical, sensitive communication.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Methods",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.3 Communication Methods', 'PMBOK Guide - Section 10.2.2.2 Communication Skills (for empathy and active listening)']",
+        "concepts_to_understand": "When communicating highly sensitive or negative information, the choice of communication method significantly impacts the message's reception and the project manager's perceived empathy. Face-to-face, one-on-one communication allows for personal connection, allows for immediate questions and emotional responses, and facilitates tailored support, ensuring that the message is delivered with appropriate care and control, which is essential for effective and ethical communication management.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
     },
     {
       "id": "1750025452794",
@@ -630,6 +1078,62 @@ export const questionsData = {
       "did_user_get_it_right": false
     },
     {
+      "id": "1750025455828",
+      "question_pmp": "A project manager is asked by a functional manager to provide a detailed report on the individual performance of team members from their department. The Communications Management Plan only specifies aggregated team performance reporting to functional managers. What should the project manager do?",
+      "options_pmp": {
+        "OPTION_A": "Provide the detailed individual performance report as requested to support the functional manager.",
+        "OPTION_B": "Decline the request, citing the Communications Management Plan and privacy concerns.",
+        "OPTION_C": "Consult with HR and legal departments to understand the implications of providing such a report.",
+        "OPTION_D": "Negotiate with the functional manager to understand their specific need and explore alternative ways to provide aggregated insights."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Providing individual performance data without explicit authorization or a defined process can violate privacy policies, trust, and the Communications Management Plan. It's a breach of protocol.",
+        "option_b_result": "INCORRECT - While citing the plan is correct, a blunt refusal might damage stakeholder relations. A better approach involves collaboration and understanding the underlying need.",
+        "option_c_result": "INCORRECT - Consulting HR/Legal is a good general practice for privacy, but the immediate action from a communication management perspective should be to address the request directly and explore compliant solutions. It's a supportive action to ensure compliance, not the initial communication step.",
+        "option_d_result": "CORRECT - When a request deviates from the Communications Management Plan, especially concerning sensitive individual data, the project manager should first engage with the stakeholder to understand the underlying need. This negotiation allows the PM to explain the existing policy and privacy considerations while exploring if aggregated or anonymized data, or other forms of insight, can still meet the functional manager's objective without violating established protocols. This demonstrates effective communication and negotiation skills in managing information flow ethically and compliantly.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Interpersonal and Team Skills",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for negotiation)']",
+        "concepts_to_understand": "Responding to requests for information that deviate from the Communications Management Plan, especially concerning sensitive data like individual performance, requires careful consideration. The project manager should first engage in negotiation to understand the stakeholder's true need, explain the existing communication protocols and privacy constraints, and explore compliant alternatives that can still meet the underlying objective. This balances adherence to the plan with stakeholder satisfaction and ethical information management.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
+      "id": "1750025456838",
+      "question_pmp": "A key deliverable is complete and ready for stakeholder acceptance. The project manager needs to formally present the deliverable and gather feedback. Which communication method is BEST for this purpose, balancing formality, interaction, and documentation?",
+      "options_pmp": {
+        "OPTION_A": "Distribute the deliverable via email and request written feedback.",
+        "OPTION_B": "Schedule a formal presentation meeting with key stakeholders, followed by a review period.",
+        "OPTION_C": "Host an informal demo session to gather initial reactions.",
+        "OPTION_D": "Upload the deliverable to a shared drive and track access logs."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Email lacks the interactive element needed for a formal presentation and robust feedback gathering, especially for a key deliverable. It can also lead to fragmented or delayed responses.",
+        "option_b_result": "CORRECT - A formal presentation meeting allows for direct interaction, explanation, and immediate clarification of questions. Following it with a review period allows stakeholders to thoroughly examine the deliverable and provide detailed feedback. This combination provides the right balance of formality, interaction, and ensures documentation, which is crucial for managing communications during project execution, especially for acceptance.",
+        "option_c_result": "INCORRECT - An informal demo is suitable for early-stage feedback but lacks the formality and comprehensive feedback mechanisms required for final deliverable acceptance.",
+        "option_d_result": "INCORRECT - While a shared drive is for distribution, it's a passive method and doesn't facilitate interaction, explanation, or direct feedback collection, which are essential for acceptance.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Meetings",
+        "suggested_read": "['PMBOK Guide - Section 10.2.2.3 Communication Methods', 'PMBOK Guide - Section 10.2.2.2 Communication Skills (for presentations)']",
+        "concepts_to_understand": "Formal deliverable presentation and acceptance require a communication method that balances structured information delivery with interactive feedback. A formal presentation meeting allows for real-time engagement, addressing questions, and ensuring clarity. Supplementing this with a review period ensures stakeholders have sufficient time for detailed evaluation. This structured approach to communication is vital for achieving formal acceptance during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "easy"
+      }
+    },
+    {
       "id": "1750025457853",
       "question_pmp": "The project manager is informed by the team that they are overwhelmed by the sheer volume of emails and reports related to the project. This is leading to important information being overlooked. What is the MOST appropriate action for the project manager?",
       "options_pmp": {
@@ -726,6 +1230,34 @@ export const questionsData = {
       "did_user_get_it_right": true
     },
     {
+      "id": "1750025460886",
+      "question_pmp": "The project manager is managing a highly regulated project, where compliance documentation requires strict adherence to format and content. The team members, however, are accustomed to informal reporting. This often leads to non-compliant documentation and rework. What is the MOST effective approach to ensure compliance?",
+      "options_pmp": {
+        "OPTION_A": "Implement a mandatory training program on regulatory compliance and documentation standards.",
+        "OPTION_B": "Assign a dedicated quality assurance person to review all project documentation for compliance.",
+        "OPTION_C": "Develop and enforce standardized templates and checklists for all required documentation.",
+        "OPTION_D": "Escalate non-compliance issues to the functional managers for disciplinary action."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While training is important, simply training might not be enough to change ingrained habits of informal reporting. It also doesn't provide the practical structure for *how* to comply.",
+        "option_b_result": "INCORRECT - A dedicated QA person is a reactive measure to catch errors. The goal should be to prevent them by enabling the team to produce compliant documentation from the start. It adds a layer of inspection rather than prevention.",
+        "option_c_result": "CORRECT - For highly regulated projects where documentation format and content are critical, developing and enforcing standardized templates and checklists is the MOST effective approach. This provides clear guidelines, reduces ambiguity, and ensures consistency and compliance at the point of creation, thereby minimizing rework and facilitating effective information management for regulatory purposes.",
+        "option_d_result": "INCORRECT - Resorting to disciplinary action without first providing clear tools and processes is counterproductive and damages team morale. Enforcement should follow clear guidance and support.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Information Management Systems",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 8.2 Manage Quality (for ensuring quality of deliverables, including documents)']",
+        "concepts_to_understand": "In highly regulated environments, compliance in documentation is paramount. Standardized templates and checklists provide clear, practical guidance for team members on the required format, content, and quality of documentation. This proactive approach facilitates adherence to regulatory standards, minimizes errors and rework, and ensures that communications meet necessary compliance criteria, which is a key part of managing information flow in such projects.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
       "id": "1750025461900",
       "question_pmp": "The project manager has just completed a major project milestone. What is the PRIMARY purpose of communicating this milestone achievement to stakeholders?",
       "options_pmp": {
@@ -758,6 +1290,34 @@ export const questionsData = {
       "did_user_get_it_right": true
     },
     {
+      "id": "1750025462927",
+      "question_pmp": "A project manager is receiving inconsistent status updates from different team members regarding the same work package. Some updates are overly optimistic, while others are overly pessimistic. This makes it difficult to ascertain the true project status. What is the MOST probable outcome of this situation?",
+      "options_pmp": {
+        "OPTION_A": "Increased team morale due to diverse reporting styles.",
+        "OPTION_B": "Improved transparency and accountability within the team.",
+        "OPTION_C": "Inaccurate project forecasts and potential for missed deadlines.",
+        "OPTION_D": "Reduced need for project manager oversight due to varied inputs."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Inconsistent and unreliable updates lead to confusion and frustration, not increased morale. It undermines trust and efficiency.",
+        "option_b_result": "INCORRECT - Inconsistent reporting directly reduces transparency and accountability, as it becomes unclear who is providing accurate information or why discrepancies exist.",
+        "option_c_result": "CORRECT - Inconsistent and unreliable status updates from team members directly lead to inaccurate project forecasts and a high potential for missed deadlines. Without a clear and truthful understanding of project progress, the project manager cannot effectively manage the schedule, resources, or risks, making this the most probable negative outcome of poor communication.",
+        "option_d_result": "INCORRECT - Varied and inconsistent inputs *increase* the need for project manager oversight to reconcile information and ascertain the true status, rather than reducing it.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Information Management Systems",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 4.5 Manage Project Knowledge']",
+        "concepts_to_understand": "Consistent and accurate status reporting is fundamental for effective project control. When updates are inconsistent or biased, it directly compromises the project manager's ability to make informed decisions, leading to inaccurate forecasts, unrealistic expectations, and a high probability of missing project deadlines. This underscores the critical importance of reliable information flow during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
       "id": "1750025463936",
       "question_pmp": "A project manager needs to convey a crucial warning about a potential defect in a product currently in testing to a broad external audience, including customers and regulatory bodies. The message must be precise and officially documented. What communication method is BEST suited for this scenario?",
       "options_pmp": {
@@ -788,6 +1348,34 @@ export const questionsData = {
       },
       "process_group": "Executing",
       "did_user_get_it_right": true
+    },
+    {
+      "id": "1750025464944",
+      "question_pmp": "A project manager discovers that several team members are sending project-related emails to personal email addresses, which violates company policy and poses a security risk. What should the project manager do FIRST?",
+      "options_pmp": {
+        "OPTION_A": "Report the team members to the IT security department for policy violation.",
+        "OPTION_B": "Issue a formal memo threatening disciplinary action for non-compliance.",
+        "OPTION_C": "Remind the team of the company's communication and security policies and the proper channels.",
+        "OPTION_D": "Block personal email access from company devices for all team members."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Immediately reporting to IT security without first addressing the team directly can be seen as overly punitive and might damage team morale and trust. It should be a later step if the behavior persists after direct communication.",
+        "option_b_result": "INCORRECT - Threatening disciplinary action is a heavy-handed approach and not the first step. The project manager should first assume a misunderstanding or oversight and educate.",
+        "option_c_result": "CORRECT - The FIRST action should be to remind the team of the company's communication and security policies, explain the associated risks (e.g., security, compliance), and reiterate the proper, secure communication channels. This educative and reinforcing approach addresses the root cause (potential lack of awareness or understanding) and reinforces compliance without immediate punitive measures. This is a crucial aspect of managing communications and ensuring compliance.",
+        "option_d_result": "INCORRECT - Blocking access is an extreme measure that can impede legitimate work and morale. It's a technical enforcement, not a communication or management solution to the initial behavioral issue.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Skills",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 9.5 Develop Team (for team conduct)']",
+        "concepts_to_understand": "When a policy violation related to communication (like using personal emails for project work) is identified, the project manager's initial response should be educative and reinforcing. Reminding the team of existing policies, explaining the risks, and reiterating proper procedures is the most appropriate first step. This approach prioritizes clear communication and fosters compliance by ensuring team members understand the expectations and consequences, which is essential for effective information management and security during project execution.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "easy"
+      }
     },
     {
       "id": "1750025465959",
@@ -854,6 +1442,34 @@ export const questionsData = {
       "did_user_get_it_right": true
     },
     {
+      "id": "1750025467984",
+      "question_pmp": "A stakeholder consistently complains about receiving too much detailed information, leading to them missing key updates relevant to their decision-making. The project manager needs to adjust the communication strategy for this stakeholder. What is the BEST approach?",
+      "options_pmp": {
+        "OPTION_A": "Stop sending any project updates to this stakeholder to avoid overwhelming them.",
+        "OPTION_B": "Send only high-level executive summaries, eliminating all detailed reports.",
+        "OPTION_C": "Engage with the stakeholder to understand their specific information needs and preferred format.",
+        "OPTION_D": "Provide all updates through a project management information system, allowing them to self-select information."
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Ceasing all communications is detrimental to stakeholder engagement and could lead to major issues if the stakeholder feels excluded or misses critical information.",
+        "option_b_result": "INCORRECT - While sending executive summaries might be part of the solution, unilaterally eliminating all detailed reports without understanding the stakeholder's specific needs might result in them missing necessary details for *their* decision-making, even if they want less volume. A dialogue is needed.",
+        "option_c_result": "CORRECT - The BEST approach is to engage directly with the stakeholder. This allows the project manager to understand precisely what information they need (and don't need), in what format, and at what frequency, ensuring communication is tailored to their specific requirements. This direct engagement is crucial for effective communication management and maintaining positive stakeholder relationships.",
+        "option_d_result": "INCORRECT - While PMIS can offer self-service, it doesn't guarantee the stakeholder will find or prioritize the 'key updates' if they are already overwhelmed by volume. It shifts the burden of filtering to the stakeholder, which might not address their core complaint.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Skills",
+        "suggested_read": "['PMBOK Guide - Section 10.2 Manage Communications', 'PMBOK Guide - Section 13.3 Manage Stakeholder Engagement (for tailoring communications)']",
+        "concepts_to_understand": "Effective communication is tailored to the audience. When a stakeholder is overwhelmed by information, the project manager must proactively engage them to understand their specific informational needs, preferred format, and level of detail. This direct interaction ensures that the right information is delivered in the right way, preventing information overload and ensuring that critical messages are received and understood, which is essential for successful stakeholder engagement.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "difficult"
+      }
+    },
+    {
       "id": "1750025468997",
       "question_pmp": "A project is running behind schedule, and the project manager needs to communicate this negative status to a risk-averse sponsor who prioritizes predictability. What is the MOST effective communication strategy to present this information?",
       "options_pmp": {
@@ -884,6 +1500,34 @@ export const questionsData = {
       },
       "process_group": "Executing",
       "did_user_get_it_right": true
+    },
+    {
+      "id": "1750025470010",
+      "question_pmp": "A project manager is receiving varied requests for project status information from different stakeholders. Some prefer high-level dashboards, while others demand granular details. What document should the project manager refer to FIRST to streamline how information is provided?",
+      "options_pmp": {
+        "OPTION_A": "Stakeholder Register",
+        "OPTION_B": "Project Management Plan",
+        "OPTION_C": "Communications Management Plan",
+        "OPTION_D": "Work Performance Reports"
+      },
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - The Stakeholder Register identifies stakeholders and their power/interest, but not their specific communication requirements or how to streamline information flow.",
+        "option_b_result": "INCORRECT - The Project Management Plan is a comprehensive document but does not contain the specific details on how and when to communicate with various stakeholders.",
+        "option_c_result": "CORRECT - The Communications Management Plan details who needs what information, when, in what format, and through which channels. It is the primary document to refer to for streamlining and tailoring communication to different stakeholder needs, ensuring efficient information flow during project execution.",
+        "option_d_result": "INCORRECT - Work Performance Reports are outputs of monitoring and controlling processes; they are the *information* being communicated, not the plan for *how* to communicate it.",
+        "process_group": "Executing",
+        "knowledge_area": "Communications",
+        "tool": "Communication Management Plan",
+        "suggested_read": "['PMBOK Guide - Section 10.2.3.1 Work Performance Reports (input)', 'PMBOK Guide - Section 10.1 Plan Communications Management (for plan content)']",
+        "concepts_to_understand": "The Communications Management Plan is the foundational document that defines how project communications will be managed throughout the project lifecycle. It outlines stakeholder communication requirements, methods, formats, and frequencies. When varied requests for information arise, referring to this plan ensures that communications are delivered consistently, efficiently, and tailored to individual stakeholder needs, which is a key part of managing information flow effectively.",
+        "additional_notes": "No quick reads available for this process",
+        "difficulty_level": "easy"
+      }
     },
     {
       "id": "1750025471024",

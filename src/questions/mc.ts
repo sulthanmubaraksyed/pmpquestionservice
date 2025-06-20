@@ -152,34 +152,6 @@ export const questionsData = {
       }
     },
     {
-      "id": "1750024006452",
-      "question_pmp": "A project manager is overseeing a complex IT project where a key software component is being developed by an external vendor. During routine performance reviews, the project manager notices significant deviations from the agreed-upon delivery schedule and quality metrics. The contract includes provisions for performance incentives and penalties. What is the MOST appropriate action for the project manager to take NEXT?",
-      "options_pmp": {
-        "OPTION_A": "Immediately issue a formal breach of contract notice to the vendor and begin legal proceedings as per the contract terms.",
-        "OPTION_B": "Conduct a procurement performance review with the vendor, analyze the root causes of the deviations, and explore potential corrective actions or contract modifications.",
-        "OPTION_C": "Terminate the contract with the current vendor and initiate the process for selecting a new vendor to complete the remaining work, as they are clearly failing.",
-        "OPTION_D": "Escalate the issue to senior management and request their intervention in negotiating with the vendor, bypassing direct communication."
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - Issuing a formal breach notice immediately without prior communication or attempts to resolve the issue through performance reviews is premature and could damage the relationship and escalate costs. The PMP approach emphasizes collaboration and problem-solving before resorting to drastic measures.",
-        "option_b_result": "CORRECT - The Control Procurements process involves managing procurement relationships, monitoring contract performance, and making necessary changes or corrections. A procurement performance review is the appropriate first step to understand the deviations, discuss potential solutions, and decide on corrective actions or contract adjustments in alignment with PMBOK principles.",
-        "option_c_result": "INCORRECT - Terminating a contract is a severe action and typically a last resort after all other attempts to remedy the situation have failed. It can lead to significant delays, increased costs, and potential legal disputes, which is not the most appropriate immediate action.",
-        "option_d_result": "INCORRECT - While escalation might be necessary eventually, bypassing direct communication and negotiation with the vendor initially undermines the project manager's responsibility for managing the procurement and can strain the relationship. Direct engagement to resolve issues is preferred.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Procurement performance reviews",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)', 'PMBOK Guide - Section 12.3 (Control Procurements)']",
-        "concepts_to_understand": "Control Procurements involves managing procurement relationships, monitoring contract performance, and ensuring compliance with contract terms. Key activities include conducting performance reviews, managing changes, and administering payments. The goal is to ensure that both parties meet their contractual obligations. Effective communication and issue resolution are paramount.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "difficult"
-      }
-    },
-    {
       "id": "1750024007456",
       "question_pmp": "During the Control Procurements process, a project manager discovers that a vendor is consistently delivering subpar quality materials, which is impacting the project schedule. The contract has clear quality standards defined.",
       "options_pmp": {
@@ -220,9 +192,9 @@ export const questionsData = {
         "OPTION_C": "Managing cost-reimbursable incentives and disincentives.",
         "OPTION_D": "Auditing the vendor's internal project management processes for compliance."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -233,11 +205,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Procurement performance reviews",
-        "suggested_read": "['PMBOK Guide - Section 12.1.1.5 (Time and Material Contracts)', 'PMBOK Guide - Section 12.3 (Control Procurements)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.1.1.5 (Time and Material Contracts)', 'PMBOK Guide - Section 12.3 (Control Procurements)']"
+        ],
         "concepts_to_understand": "Control Procurements involves managing various contract types. For Time and Material (T&M) contracts, careful monitoring of the time expended and materials used by the vendor is crucial. This helps control costs and ensures the project only pays for validated work and consumption. This differs significantly from fixed-price contracts which focus on deliverables.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "In a time and material (T&M) contract, the buyer agrees to pay the seller based on the actual time spent and materials used to complete the work. This type of contract blends aspects of both cost-reimbursable and fixed-price agreements and is often used when the exact scope of work is not fully known at the beginning of the project. Because the seller is reimbursed for time and materials, there is a higher financial risk for the buyer if proper controls are not in place. Therefore, close monitoring becomes critical.\n\nDuring the Control Procurements process, one of the most important tasks in a T&M contract is verifying the accuracy and validity of the invoices submitted by the seller. This includes confirming the hours worked by the vendor’s personnel, ensuring they align with approved time sheets or logs, and matching them against the agreed hourly rates. Additionally, the project manager must validate the quantity, type, and pricing of materials billed by the seller. These verification activities help prevent overbilling, fraud, or mischarging.\n\nBy systematically verifying hours and materials, the project manager ensures the integrity of the procurement process, manages costs effectively, and ensures the project budget is not misused, thereby fulfilling fiduciary responsibility.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024009470",
@@ -248,9 +224,9 @@ export const questionsData = {
         "OPTION_C": "Review the contract, communicate with the supplier to understand the full impact, and explore potential mitigation strategies or alternative solutions.",
         "OPTION_D": "Inform all project stakeholders about the impending delay and adjust the project baseline immediately."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -261,11 +237,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Negotiations",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)', 'PMBOK Guide - Section 12.3.2.3 (Claims Administration)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)', 'PMBOK Guide - Section 12.3.2.3 (Claims Administration)']"
+        ],
         "concepts_to_understand": "When unforeseen events impact a procurement, the project manager must engage with the supplier, understand the situation, and apply contract terms (e.g., force majeure). The focus is on proactive problem-solving, mitigation, and open communication to find mutually agreeable solutions before escalating to claims or termination. Understanding contractual clauses is crucial.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "In this scenario, the project manager is confronted with a serious supplier delay that could significantly affect the project’s critical path. The delay arises from an external and uncontrollable event — a labor strike — which introduces complexity in handling the contractual and scheduling consequences. The contract includes both a force majeure clause, which may excuse the supplier from penalties due to extraordinary events, and a liquidated damages clause, which outlines penalties for delays. These clauses can seem contradictory but serve distinct purposes depending on the nature of the delay and the circumstances surrounding it.\n\nThe project manager must first understand the contractual implications and the legitimacy of the supplier’s claim under force majeure. This begins by thoroughly reviewing the contract to assess whether labor strikes are covered under force majeure, and what documentation is required to validate such a claim. Simultaneously, the project manager should initiate communication with the supplier to understand the timeline of the delay, the extent of its impact on deliverables, and whether any workaround or acceleration is possible.\n\nBefore invoking penalties or escalating, the priority is to explore all feasible mitigation strategies. This ensures compliance with contract obligations while also preserving the working relationship and aiming to protect the project schedule.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024010479",
@@ -276,9 +256,9 @@ export const questionsData = {
         "OPTION_C": "To identify potential cost overruns for the entire project.",
         "OPTION_D": "To prepare for future procurement audits and ensure all documentation is in order."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -289,39 +269,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Payment systems",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.4 (Payment Systems)', 'PMBOK Guide - Section 12.3 (Control Procurements)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.2.4 (Payment Systems)', 'PMBOK Guide - Section 12.3 (Control Procurements)']"
+        ],
         "concepts_to_understand": "Payment administration is a key part of Control Procurements. This involves verifying that invoices are accurate, correspond to delivered goods/services, and align with contract terms. Proper invoice review helps prevent erroneous payments, ensures compliance, and contributes to effective cost control within the procurement process.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "Reviewing vendor invoices is a key activity during the Control Procurements process, which focuses on monitoring and controlling procurement relationships to ensure that all parties are meeting contractual obligations. When a project manager examines invoices submitted by a vendor, the primary goal is not merely to authorize payment but to ensure that what is being billed aligns accurately with the agreed contract terms and the actual goods or services delivered. This verification process helps prevent overpayments, billing for unapproved changes, or charges for incomplete work.\n\nIn many projects, procurement contracts include detailed specifications, delivery timelines, payment milestones, and performance criteria. An invoice must be cross-checked against these elements to confirm that the work was completed satisfactorily before funds are disbursed. For example, if the contract stipulates payment upon delivery of a certain number of software licenses or the completion of a construction phase, the project manager must verify that these deliverables have been met before approving the invoice.\n\nThis careful review helps ensure transparency, fiscal responsibility, and contract compliance, reducing the risk of financial discrepancies or disputes. Therefore, the primary purpose of reviewing invoices in this context is to validate that the vendor’s charges are justified based on the contract and performance.",
         "difficulty_level": "easy"
-      }
-    },
-    {
-      "id": "1750024011496",
-      "question_pmp": "A project manager is managing a construction project where a critical specialized component is being supplied by a vendor under a fixed-price contract. The vendor has recently submitted a formal request for a significant increase in the contract price, citing unforeseen material cost escalations. The contract does not have a clause for such price adjustments. What is the MOST appropriate action for the project manager to take?",
-      "options_pmp": {
-        "OPTION_A": "Approve the price increase given the market conditions and the criticality of the component to avoid project delays.",
-        "OPTION_B": "Reject the price increase, reiterate the fixed-price nature of the contract, and refer to the contract change control system for any proposed changes.",
-        "OPTION_C": "Negotiate a reduced price increase with the vendor to share the burden of the unforeseen cost escalation.",
-        "OPTION_D": "Escalate the issue to the project sponsor for a decision, as it involves a significant financial impact."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - Approving a price increase without contractual basis undermines the fixed-price agreement and sets a dangerous precedent. This can lead to uncontrolled cost escalation on the project.",
-        "option_b_result": "CORRECT - In a fixed-price contract, the risk of cost increases typically rests with the seller. The project manager's most appropriate action is to adhere to the contract terms. Rejecting the request and directing the vendor to the formal change control process for any legitimate, contractually supported modifications is the correct approach to maintain contractual integrity.",
-        "option_c_result": "INCORRECT - Negotiating a reduced increase implies acknowledging some responsibility for the cost increase, which contradicts the fixed-price nature of the contract when there's no contractual basis for such a change. This can erode the strength of the contract.",
-        "option_d_result": "INCORRECT - While the sponsor should be informed of significant issues, the project manager's role is to manage the contract first. Escalation should occur after the project manager has taken initial appropriate steps to enforce or address the contractual matter directly.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Contract change control system",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 12.1.1.1 (Fixed-Price Contracts)']",
-        "concepts_to_understand": "Control Procurements emphasizes adherence to contract terms. For fixed-price contracts, the seller assumes cost risk. Any requests for changes must go through the formal contract change control system, which requires a valid reason and mutual agreement. The project manager must protect the project's interests by enforcing the existing contractual agreements.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "difficult"
-      }
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024012507",
@@ -354,34 +310,6 @@ export const questionsData = {
       },
       "process_group": "Monitoring and Controlling",
       "did_user_get_it_right": true
-    },
-    {
-      "id": "1750024013520",
-      "question_pmp": "A project manager identifies a discrepancy between the project's technical requirements and a vendor's proposed solution during the Control Procurements process. This discrepancy was not identified during the Plan Procurements or Conduct Procurements processes. What is the MOST appropriate next step for the project manager?",
-      "options_pmp": {
-        "OPTION_A": "Issue a formal notice to the vendor demanding compliance with the original technical requirements immediately.",
-        "OPTION_B": "Initiate a change request to modify the project's technical requirements to match the vendor's proposed solution.",
-        "OPTION_C": "Engage in discussions with the vendor and relevant project team members to understand the discrepancy and determine the best course of action, which may include a change request.",
-        "OPTION_D": "Terminate the contract with the vendor due to non-compliance with technical specifications and find a new supplier."
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - A formal demand for compliance may be necessary if the vendor is truly non-compliant, but understanding the root cause and discussing options collaboratively is a better first step, especially if the discrepancy was missed earlier.",
-        "option_b_result": "INCORRECT - Modifying project requirements to fit a vendor's solution without proper analysis and stakeholder approval can compromise project objectives and is generally not the first or best course of action.",
-        "option_c_result": "CORRECT - When a discrepancy is found, the project manager should engage in a collaborative dialogue. This involves discussing the issue with the vendor and internal stakeholders (e.g., technical experts) to understand the root cause, evaluate the impact, and determine if a change request (for the contract or project requirements) or alternative solution is necessary. This aligns with effective issue resolution in procurement.",
-        "option_d_result": "INCORRECT - Terminating a contract is a drastic measure and should be a last resort. It is inappropriate as an immediate response to a newly discovered discrepancy without attempts at resolution.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Negotiations",
-        "suggested_read": "['PMBOK Guide - Section 12.3 (Control Procurements)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']",
-        "concepts_to_understand": "Control Procurements involves continuous monitoring of vendor performance and deliverables against contractual requirements. When discrepancies arise, the project manager must first understand the issue, engage relevant parties, and then follow the integrated change control process if changes to the contract or project baselines are deemed necessary. Collaboration is key.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "difficult"
-      }
     },
     {
       "id": "1750024014531",
@@ -448,34 +376,6 @@ export const questionsData = {
       "did_user_get_it_right": false
     },
     {
-      "id": "1750024016545",
-      "question_pmp": "A software development project is utilizing an offshore vendor for coding. During weekly progress meetings, the project manager observes a consistent pattern of missed deadlines and incomplete work packages, despite continuous communication. The vendor attributes the delays to internal resource constraints. The contract includes performance clauses and a clear Statement of Work (SOW). What is the MOST effective course of action for the project manager to take NEXT?",
-      "options_pmp": {
-        "OPTION_A": "Issue a formal warning to the vendor and withhold the next payment until the performance issues are fully resolved, as per the contract.",
-        "OPTION_B": "Schedule a dedicated meeting with the vendor's senior management to discuss the performance issues, re-evaluate the vendor's capacity, and collaboratively develop a recovery plan.",
-        "OPTION_C": "Immediately activate the dispute resolution process outlined in the contract, as repeated delays indicate a breach of terms.",
-        "OPTION_D": "Begin searching for an alternative vendor to take over the remaining coding work to mitigate further project schedule impact."
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - Withholding payment, while potentially allowed by contract, is a strong measure and should typically come after attempts to resolve the issue through direct communication and planning. It risks escalating the conflict unnecessarily without first seeking a collaborative solution.",
-        "option_b_result": "CORRECT - When ongoing performance issues persist despite regular communication, escalating the discussion to the vendor's senior management is crucial. This facilitates a higher-level discussion on root causes, commitment to a recovery plan, and potential re-allocation of resources by the vendor. This is a constructive step before resorting to more drastic contractual measures.",
-        "option_c_result": "INCORRECT - Activating the formal dispute resolution process is a significant step, usually reserved for situations where direct negotiation and problem-solving attempts have failed. It is premature to do this immediately after observing a consistent pattern, especially if senior management engagement hasn't occurred.",
-        "option_d_result": "INCORRECT - Searching for an alternative vendor is a drastic action that implies contract termination is imminent. This should only be considered as a last resort after all attempts to remediate the current vendor's performance have failed.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Negotiations",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)', 'PMBOK Guide - Section 12.3.2.3 (Claims Administration)']",
-        "concepts_to_understand": "Control Procurements involves proactive management of vendor performance. When issues arise, the project manager should first engage the vendor through formal channels, escalating to appropriate levels of management as needed. The aim is to collaborate on a solution and implement corrective actions before resorting to contractual claims or termination. Sustained effort to resolve is key.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "difficult"
-      }
-    },
-    {
       "id": "1750024017557",
       "question_pmp": "A project manager is receiving deliverables from a vendor and notices that the documentation provided is incomplete, despite the contract stipulating comprehensive documentation. Which of the following is the MOST appropriate action?",
       "options_pmp": {
@@ -516,9 +416,9 @@ export const questionsData = {
         "OPTION_C": "Work performance information",
         "OPTION_D": "Organizational process assets updates"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -529,67 +429,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Data analysis",
-        "suggested_read": "['PMBOK Guide - Section 12.3.3.1 (Work Performance Information)', 'PMBOK Guide - Section 4.5.3.1 (Work Performance Information)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.3.1 (Work Performance Information)', 'PMBOK Guide - Section 4.5.3.1 (Work Performance Information)']"
+        ],
         "concepts_to_understand": "Work performance information is the transformed and analyzed work performance data that is then communicated to stakeholders. In Control Procurements, it provides insight into vendor progress, quality, and adherence to schedule and budget, allowing for informed decision-making and corrective actions. It's a key element of monitoring and controlling processes.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "The Control Procurements process involves monitoring supplier performance, ensuring contract compliance, and making necessary changes or corrections. One of the key responsibilities of the project manager during this process is to track and evaluate how well sellers are performing against the terms of their contracts, including quality, schedule, and cost commitments. This evaluation is crucial for managing relationships and ensuring project objectives are met.\n\nThe primary output that captures these performance details is Work Performance Information (WPI). This output is more than just raw data—it includes interpreted information derived from work performance data, such as status reports, progress measurements, and forecasts. In the context of procurement, WPI specifically refers to analyzed information about seller performance. For example, it may show whether a vendor is meeting delivery timelines or if there are repeated quality issues.\n\nWork Performance Information is critical because it feeds into performance reports and can trigger changes to procurement documents or even contract terms if performance is lacking. It also becomes an input to other monitoring and controlling processes. Therefore, when thinking about what Control Procurements produces in terms of evaluating how the procurement activities are going, WPI is the most accurate and appropriate output tied to operational performance.",
         "difficulty_level": "easy"
-      }
-    },
-    {
-      "id": "1750024019583",
-      "question_pmp": "A project manager is overseeing a major IT system integration project. A third-party vendor responsible for developing a critical module has significantly underestimated the complexity and is now requesting additional funds to complete the work, citing scope creep that they claim was informally approved by a project team member. The contract is a firm-fixed-price type. What should the project manager do FIRST?",
-      "options_pmp": {
-        "OPTION_A": "Reject the request for additional funds outright, as the contract is firm-fixed-price and does not allow for such adjustments.",
-        "OPTION_B": "Review the contract, the project's change log, and communication records to ascertain if any scope changes were formally approved or documented.",
-        "OPTION_C": "Initiate a formal dispute resolution process as the vendor is attempting to renegotiate a firm-fixed-price contract.",
-        "OPTION_D": "Authorize the additional funds to avoid project delays, provided the vendor commits to the original timeline."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - While the contract is firm-fixed-price, outright rejection without investigation is not the first best step. There's a claim of informal approval, which needs to be verified.",
-        "option_b_result": "CORRECT - The first step is always to investigate the claim. The project manager must refer to the contract, the change control system (change log), and communication records (e.g., meeting minutes, emails) to verify if any scope changes were formally approved. This due diligence is crucial before responding to the vendor's request, especially given the firm-fixed-price nature of the contract.",
-        "option_c_result": "INCORRECT - Initiating a formal dispute resolution process is premature. It should only be considered if the investigation reveals a genuine breach or inability to resolve through negotiation after verifying facts.",
-        "option_d_result": "INCORRECT - Authorizing additional funds without validating the claim of scope creep and without going through a formal change process for a firm-fixed-price contract is a serious breach of project financial control and can expose the project to uncontrolled costs.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Contract change control system",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']",
-        "concepts_to_understand": "When a vendor requests changes or additional funds, especially under a fixed-price contract, the project manager's first duty is to verify the validity of the request against the contract and formal project documentation. This includes reviewing change logs and communication records. Adherence to the contract change control system is paramount to prevent scope and cost creep.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "difficult"
-      }
-    },
-    {
-      "id": "1750024020588",
-      "question_pmp": "During Control Procurements, what is a key focus when dealing with a cost-plus-fixed-fee (CPFF) contract?",
-      "options_pmp": {
-        "OPTION_A": "Ensuring the seller manages all cost risks.",
-        "OPTION_B": "Monitoring seller's actual costs to prevent overbilling.",
-        "OPTION_C": "Verifying delivery of fixed price items by specified dates.",
-        "OPTION_D": "Administering incentives based on performance metrics."
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - In CPFF contracts, the buyer typically bears most of the cost risk, not the seller.",
-        "option_b_result": "CORRECT - For CPFF contracts, the project manager's key focus is on closely monitoring and auditing the seller's actual incurred costs to ensure they are allowable and properly allocated, preventing overbilling or unjustified expenses. The fee is fixed, but the costs are variable and need careful oversight.",
-        "option_c_result": "INCORRECT - This is characteristic of fixed-price contracts, not CPFF.",
-        "option_d_result": "INCORRECT - Administering incentives is more typical for Cost-Plus-Incentive-Fee (CPIF) or Cost-Plus-Award-Fee (CPAF) contracts, not standard CPFF.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Audits",
-        "suggested_read": "['PMBOK Guide - Section 12.1.1.3 (Cost-Reimbursable Contracts)', 'PMBOK Guide - Section 12.3 (Control Procurements)']",
-        "concepts_to_understand": "Control Procurements varies based on contract type. For cost-reimbursable contracts like CPFF, controlling costs is paramount. This involves scrutinizing the seller's incurred costs, ensuring compliance with contract terms, and preventing waste or fraud. The buyer is exposed to cost risk, hence rigorous monitoring is necessary.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "easy"
-      }
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750024021598",
@@ -792,9 +640,9 @@ export const questionsData = {
         "OPTION_C": "Evaluate the proposal's benefits and risks with the project team and relevant stakeholders, then submit a change request for formal approval if deemed beneficial.",
         "OPTION_D": "Request the vendor to implement the solution and then submit a change order retroactively for documentation purposes."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -805,11 +653,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Contract change control system",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']"
+        ],
         "concepts_to_understand": "Control Procurements emphasizes managing changes to contracts. Even beneficial changes must go through the formal contract change control system. This ensures proper evaluation, approval, and documentation, maintaining contractual integrity and project control while allowing for innovation where appropriate.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "In this scenario, the project manager is presented with a vendor-initiated proposal that deviates slightly from the agreed technical specifications. Even though the deviation is minor, it holds the potential to greatly enhance the product’s performance. This introduces a conflict between innovation and contractual compliance. The project manager must balance openness to beneficial change with adherence to formal project governance procedures.\n\nUnderstanding the procurement environment is key here. Contracts are legally binding agreements that define what is to be delivered, how, and under what conditions. Any modification, even if seemingly minor or advantageous, must be treated as a formal change. This ensures traceability, accountability, and the ability to assess the broader impact on scope, cost, quality, schedule, and risk.\n\nThe project manager cannot unilaterally accept the vendor’s proposal, nor should they reject it outright without due consideration. The appropriate course of action involves a systematic evaluation with the internal team and stakeholders to determine if the proposed change adds value and aligns with project objectives. If it is found beneficial, a change request should be submitted through the formal change control process to ensure proper documentation, approvals, and integration into the project baseline. This approach safeguards both innovation and compliance.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024028670",
@@ -852,9 +704,9 @@ export const questionsData = {
         "OPTION_C": "Approve the additional costs to maintain good vendor relations and then implement a stricter change control process going forward.",
         "OPTION_D": "Escalate the issue immediately to legal counsel, as the informal changes represent a potential breach of contract by the project team."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -865,39 +717,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Negotiations",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.3 (Claims Administration)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.2.3 (Claims Administration)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']"
+        ],
         "concepts_to_understand": "Dealing with informally agreed changes requires careful management. The project manager's responsibility is to investigate, validate the claims, and then work towards a formal resolution, even if it means retroactively formalizing changes through the contract change control system. The focus is on protecting the project while addressing legitimate vendor concerns, ensuring all parties are clear on obligations.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This scenario highlights a common risk in contract administration: scope creep through informal agreements that bypass formal change control processes. The issue arises from operational-level decisions made without adhering to the documented contract procedures, leading to undocumented commitments and misunderstandings. In this case, the vendor is leveraging these informal changes to justify additional costs, putting the project budget in jeopardy.\n\nTo manage this situation, the project manager cannot immediately reject the vendor’s claims, nor can they authorize payment without a thorough review. The appropriate course of action is to investigate and clarify the situation by engaging both the internal operational teams and the vendor. This collaboration aims to uncover the specific changes made, assess their cumulative effect on the contract scope and cost, and determine whether the vendor’s cost claims have merit.\n\nThis step is vital because it aligns with the Control Procurements process, which emphasizes performance reviews, contract compliance, and proper documentation. By understanding the history and implications of the informal changes, the project manager can pursue a fair, formal resolution—either through a contract modification, negotiation, or corrective action. This preserves the integrity of the procurement process and protects the project’s financial interests while maintaining a professional relationship with the vendor.",
         "difficulty_level": "difficult"
-      }
-    },
-    {
-      "id": "1750024030688",
-      "question_pmp": "What is the key purpose of claims administration in the Control Procurements process?",
-      "options_pmp": {
-        "OPTION_A": "To formalize the closure of procurement contracts.",
-        "OPTION_B": "To ensure accurate payment of vendor invoices.",
-        "OPTION_C": "To manage and resolve disputed changes and potential breaches of contract.",
-        "OPTION_D": "To conduct performance reviews with all active vendors."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - Contract closure is a separate activity, though claims resolution may precede it.",
-        "option_b_result": "INCORRECT - This is part of payment systems, not claims administration specifically.",
-        "option_c_result": "CORRECT - Claims administration is the process of managing and resolving disputed changes or potential breaches of contract that cannot be resolved through routine communication and the contract change control system. It aims to achieve a mutually acceptable resolution or escalate to alternative dispute resolution (ADR) if necessary.",
-        "option_d_result": "INCORRECT - While claims might arise from performance issues, claims administration is distinct from routine performance reviews; it addresses formal disputes.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Claims administration",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.3 (Claims Administration)', 'PMBOK Guide - Section 12.3 (Control Procurements)']",
-        "concepts_to_understand": "Claims administration is a crucial aspect of Control Procurements, particularly for complex or problematic contracts. It provides a structured approach to addressing and resolving disagreements, changes that fall outside the contract change control system, or alleged breaches. The goal is to reach a fair resolution, potentially through negotiation, mediation, or arbitration.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "easy"
-      }
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024031694",
@@ -964,34 +792,6 @@ export const questionsData = {
       "did_user_get_it_right": true
     },
     {
-      "id": "1750024033706",
-      "question_pmp": "The project manager is reviewing vendor invoices against the contract. This activity falls under which process of the Monitoring and Controlling process group?",
-      "options_pmp": {
-        "OPTION_A": "Validate Scope",
-        "OPTION_B": "Control Costs",
-        "OPTION_C": "Control Procurements",
-        "OPTION_D": "Monitor Risks"
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - Validate Scope involves formal acceptance of deliverables by the customer/sponsor.",
-        "option_b_result": "INCORRECT - While it involves costs, the specific activity of reviewing vendor invoices against a contract is primarily a procurement control activity.",
-        "option_c_result": "CORRECT - Reviewing vendor invoices against contract terms is a key activity within the Control Procurements process. It ensures payments align with agreed-upon terms, delivered goods/services, and quality, directly supporting contract administration.",
-        "option_d_result": "INCORRECT - Monitor Risks involves tracking identified risks and identifying new ones.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Payment systems",
-        "suggested_read": "['PMBOK Guide - Section 12.3 (Control Procurements)', 'PMBOK Guide - Section 12.3.2.4 (Payment Systems)']",
-        "concepts_to_understand": "Control Procurements is the process of managing procurement relationships, monitoring contract performance, and making changes and corrections as appropriate. A key part of this involves verifying invoices and payments, ensuring compliance with the contract's financial terms and conditions.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "easy"
-      }
-    },
-    {
       "id": "1750024034710",
       "question_pmp": "A project manager identifies that a key supplier is struggling financially, which could impact their ability to deliver on a critical component under a fixed-price contract. This information was gathered through ongoing market research and supplier monitoring. What is the MOST appropriate action for the project manager to take in the Control Procurements process?",
       "options_pmp": {
@@ -1032,9 +832,9 @@ export const questionsData = {
         "OPTION_C": "Statement of Work (SOW)",
         "OPTION_D": "Bid documents"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1045,11 +845,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Procurement performance reviews",
-        "suggested_read": "['PMBOK Guide - Section 12.3.1 (Control Procurements: Inputs)', 'PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.1 (Control Procurements: Inputs)', 'PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)']"
+        ],
         "concepts_to_understand": "Procurement performance reviews require comparing actual performance against the contracted agreement. The Statement of Work (SOW) clearly outlines the deliverables, requirements, and responsibilities, making it a foundational document for evaluating vendor performance. It dictates what was promised and how it should be delivered.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "To understand why the Statement of Work (SOW) is considered an input for a procurement performance review, it's important to revisit the purpose of this process within the Control Procurements knowledge area. A procurement performance review is conducted to assess the vendor’s performance against the agreed-upon contractual obligations, which include cost, schedule, technical compliance, and quality metrics. The project manager and other stakeholders use this review to determine whether the seller is meeting expectations or if corrective actions are needed.\n\nThe SOW plays a critical role in this context because it defines the exact deliverables, scope, work requirements, and performance standards that the vendor was originally contracted to provide. Without the SOW, the project manager lacks a formal benchmark against which to measure progress or compliance. During the performance review, the team examines what was promised in the SOW and compares it with what has been delivered so far.\n\nThis document ensures both parties are aligned on expectations and helps identify any deviations early. Therefore, the SOW is not just a contract artifact from the past; it is an active input that guides the assessment of current performance and informs future procurement decisions or contract modifications.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024036733",
@@ -1060,9 +864,9 @@ export const questionsData = {
         "OPTION_C": "It dictates the type of contract to be used for future procurements.",
         "OPTION_D": "It primarily assists in identifying qualified sellers during the selection process."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1073,11 +877,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Documentation",
-        "suggested_read": "['PMBOK Guide - Section 12.3.3.2 (Project Documents Updates)', 'PMBOK Guide - Section 4.7.2.4 (Organizational Process Assets)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.3.2 (Project Documents Updates)', 'PMBOK Guide - Section 4.7.2.4 (Organizational Process Assets)']"
+        ],
         "concepts_to_understand": "Robust procurement documentation is vital for transparency, accountability, and legal defensibility. It provides a historical record of all aspects of the procurement, enabling effective auditing, supporting claims administration, and serving as a factual basis for resolving any disputes that may arise during or after the project.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "In the Control Procurements process, procurement documentation plays a crucial role in ensuring transparency, accountability, and consistency in managing seller relationships. This documentation includes contracts, change requests, performance reports, payment records, and any correspondence with vendors. By maintaining detailed and organized procurement records, the project manager ensures that there is a clear history of all procurement-related decisions, approvals, and communications throughout the lifecycle of the contract.\n\nThis record is essential when it comes to audits, as it provides objective evidence that procurement activities were conducted in accordance with the organization's policies and contractual obligations. It supports compliance with both internal governance standards and external regulatory requirements. Furthermore, if disputes or misunderstandings arise between the buyer and seller regarding contract terms, performance, or deliverables, the procurement documentation serves as an authoritative reference to resolve such issues efficiently.\n\nProper documentation helps protect the interests of both parties, minimizes legal risks, and reinforces contractual accountability. It also facilitates performance reviews, lessons learned, and ongoing process improvement. In summary, procurement documentation is not just administrative paperwork—it is an essential control tool that ensures procurement activities remain traceable, justifiable, and aligned with the project's objectives.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024037744",
@@ -1120,9 +928,9 @@ export const questionsData = {
         "OPTION_C": "Lessons learned register",
         "OPTION_D": "Risk management plan"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1133,11 +941,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Organizational process assets updates",
-        "suggested_read": "['PMBOK Guide - Section 12.3.3.3 (Organizational Process Assets Updates)', 'PMBOK Guide - Section 4.4.3.1 (Organizational Process Assets Updates)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.3.3 (Organizational Process Assets Updates)', 'PMBOK Guide - Section 4.4.3.1 (Organizational Process Assets Updates)']"
+        ],
         "concepts_to_understand": "Lessons learned are critical for organizational improvement. Control Procurements provides ample opportunities to capture insights from managing contracts, including effective communication strategies, common challenges with vendors, successful mitigation techniques, and best practices for contract administration. These are documented in the lessons learned register.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "The Control Procurements process involves managing procurement relationships, monitoring contract performance, and making changes and corrections as appropriate. It ensures that both the buyer and the seller meet contractual obligations. As part of this process, the project manager tracks performance, conducts audits, and resolves disputes to maintain smooth execution of the contract. When managing this process, several project documents may be updated based on outcomes from procurement reviews, negotiations, or performance analysis.\n\nOne key output that is frequently updated during this process is the lessons learned register. As procurement activities unfold, various insights are gathered—such as what worked well in vendor selection, how contract terms impacted delivery timelines, or what negotiation strategies proved effective. These experiences provide valuable input for future procurements or even other project management processes, and therefore are recorded in the lessons learned register. The register becomes a repository of practical knowledge, contributing to organizational process assets and continuous improvement.\n\nOther documents may be updated as well, such as risk register or issue logs, but among them, the lessons learned register is particularly aligned with reflecting what was learned during procurement execution. That makes it the most likely document to be updated during Control Procurements.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024039770",
@@ -1148,9 +960,9 @@ export const questionsData = {
         "OPTION_C": "Initiate a formal change request to assess the suitability of the alternative components, their impact on quality and performance, and obtain stakeholder approval before proceeding.",
         "OPTION_D": "Escalate the issue to the project sponsor and legal team, citing a serious breach of contract by the vendor."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1161,11 +973,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Contract change control system",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']"
+        ],
         "concepts_to_understand": "Control Procurements requires strict adherence to contract terms. Any deviation, even if presented as beneficial, must go through the formal change control process. This ensures that proposed changes are properly evaluated for their impact on scope, quality, cost, and schedule, and are formally approved by all necessary parties before implementation.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "This scenario tests your understanding of contract administration and change control procedures within the context of procurement management. The question revolves around a situation where a vendor deviates from the contractually agreed specifications by substituting components without prior approval. Even though the vendor argues that the alternative components are equivalent and would help avoid delays, the central issue is not just quality—it is compliance with contract terms and governance over any deviation.\n\nIn project procurement management, especially in contracts involving technical or custom-built items, the Bill of Materials (BOM) is a legally binding part of the contract. Any deviation from it, regardless of intent or perceived equivalence, must be formally reviewed and approved. Accepting changes informally could compromise project quality, introduce unverified risks, or even lead to legal consequences if the end deliverables fail to meet contractual or regulatory standards.\n\nThe correct response emphasizes the need to follow the change control process. By initiating a formal change request, the project manager ensures that the alternative components are properly evaluated, their impact on quality and performance is assessed, and all relevant stakeholders are consulted. This maintains transparency, adheres to contract obligations, and preserves the integrity of project governance.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": false
     },
     {
       "id": "1750024040777",
@@ -1304,9 +1120,9 @@ export const questionsData = {
         "OPTION_C": "Contract change control system",
         "OPTION_D": "Payment systems"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1317,11 +1133,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Procurement",
         "tool": "Contract change control system",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']",
+        "suggested_read": [
+          "['PMBOK Guide - Section 12.3.2.2 (Contract Change Control System)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']"
+        ],
         "concepts_to_understand": "The contract change control system is integral to Control Procurements and aligns with the Perform Integrated Change Control process. It provides the necessary governance and auditability for all contractual modifications, ensuring that any alterations are mutually agreed upon and formally documented.",
-        "additional_notes": "No quick reads available for this process",
+        "additional_notes": "Understanding the term Contract change control system requires familiarity with how changes are governed in project procurement. During the execution of a project, it is not uncommon for the terms and conditions of a contract to require adjustments due to unforeseen circumstances, scope changes, delays, or evolving requirements. However, since a contract is a legally binding agreement between the buyer and seller, any modification must be handled carefully, documented thoroughly, and approved through formal procedures. This ensures that all parties maintain clarity and legal compliance, and it reduces the risk of disputes or claims later in the project.\n\nThe contract change control system is a subset of the overall integrated change control system. It provides the standardized processes, tools, and templates to initiate, evaluate, approve or reject, and implement changes to the contract. This system is agreed upon during procurement planning and becomes the authoritative method for managing any contractual modifications. It includes roles and responsibilities, review and approval steps, documentation procedures, and how contract updates are communicated to stakeholders. Understanding this process is crucial for project managers because improper handling of contract changes can lead to financial loss, project delays, or even legal action. Hence, selecting \"Contract change control system\" as the correct answer reflects sound project management practice.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
     },
     {
       "id": "1750024045828",
@@ -1354,34 +1174,6 @@ export const questionsData = {
       },
       "process_group": "Monitoring and Controlling",
       "did_user_get_it_right": false
-    },
-    {
-      "id": "1750024046837",
-      "question_pmp": "A project manager discovers that a vendor providing materials for a critical construction phase is consistently delaying deliveries by a few days, causing minor but accumulating impacts on downstream activities. The contract specifies strict delivery deadlines but no explicit penalty for minor delays. What is the MOST appropriate action for the project manager to take FIRST?",
-      "options_pmp": {
-        "OPTION_A": "Issue a formal notice to the vendor threatening contract termination if delays continue.",
-        "OPTION_B": "Initiate discussions with the vendor to understand the root cause of the delays and collaboratively identify solutions to improve adherence to the schedule.",
-        "OPTION_C": "Absorb the delays into the project schedule and adjust subsequent tasks, as there are no direct penalties.",
-        "OPTION_D": "Immediately find an alternative supplier for future material deliveries to avoid further delays."
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - Threatening termination for minor delays without prior attempts at resolution is an aggressive approach that can quickly damage the relationship and may not be proportional to the issue.",
-        "option_b_result": "CORRECT - The first and most constructive step is to engage in direct communication with the vendor during a procurement performance review. This allows the project manager to understand the underlying causes of the consistent minor delays and work collaboratively with the vendor to develop a corrective action plan that ensures future adherence to the schedule. This is a proactive problem-solving approach.",
-        "option_c_result": "INCORRECT - Absorbing delays without addressing the root cause can lead to continued poor performance and eventually significant schedule overruns. Even minor delays require attention to prevent accumulation.",
-        "option_d_result": "INCORRECT - Seeking an alternative supplier is a drastic measure and should be considered only after attempts to resolve the issue with the current vendor have failed. It involves additional costs and risks.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Procurement performance reviews",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)', 'PMBOK Guide - Section 10.2 (Manage Communications)']",
-        "concepts_to_understand": "Control Procurements involves proactive management of vendor performance. When recurring issues like minor delays arise, the project manager should first seek to understand and collaborate with the vendor to find solutions. Open communication and joint problem-solving are preferred over immediate punitive measures, aiming to maintain a productive relationship while ensuring project objectives are met.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "difficult"
-      }
     },
     {
       "id": "1750024047847",
@@ -1512,38 +1304,6 @@ export const questionsData = {
       "did_user_get_it_right": true
     },
     {
-      "id": "1750024052899",
-      "question_pmp": "The project manager is engaging in negotiations to resolve a disputed contract clause with a vendor. This activity is part of which component of Control Procurements?",
-      "options_pmp": {
-        "OPTION_A": "Procurement performance reviews",
-        "OPTION_B": "Claims administration",
-        "OPTION_C": "Contract change control system",
-        "OPTION_D": "Payment systems"
-      },
-      "is_attempted": true,
-      "is_valid": false,
-      "selected_option": "A",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - While performance reviews might surface disputes, the specific management of a disputed clause is distinct.",
-        "option_b_result": "CORRECT - Engaging in negotiations to resolve a disputed contract clause falls directly under Claims Administration. This process manages and resolves all contested changes and potential breaches, often through negotiation, and sometimes through alternative dispute resolution methods.",
-        "option_c_result": "INCORRECT - This system manages agreed-upon changes, not disputes over existing clauses.",
-        "option_d_result": "INCORRECT - Payment systems handle invoicing and payments, not clause disputes.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Claims administration",
-        "suggested_read": [
-          "['PMBOK Guide - Section 12.3.2.3 (Claims Administration)', 'PMBOK Guide - Section 12.3 (Control Procurements)']"
-        ],
-        "concepts_to_understand": "Claims administration is a formal process for handling disagreements or disputes arising from the contract. When a specific contract clause is disputed, negotiations are typically the first step in claims administration to achieve a mutually acceptable resolution, avoiding formal legal action if possible.",
-        "additional_notes": "To answer this question accurately, it is important to understand the role of claims administration within the Control Procurements process. Control Procurements is part of the Monitoring and Controlling process group and focuses on ensuring that the seller's performance meets the contractual requirements and that any deviations are addressed appropriately. When conflicts or disputes arise regarding the interpretation or execution of contract clauses, the process to resolve them falls under claims administration.\n\nClaims administration involves managing and resolving disputes, contested changes, or any variances in understanding between the buyer and seller. These may include disagreements over scope, cost, timelines, or contract terms. Negotiation is often the first step in resolving such issues before they escalate to more formal procedures such as mediation, arbitration, or litigation.\n\nIn this scenario, the project manager is involved in direct negotiations with the vendor to settle a disagreement related to a contract clause. This indicates that a claim or potential claim has been raised, and the parties are working toward a mutually agreeable resolution. This activity fits squarely within claims administration, as it involves addressing a formal or informal dispute that could impact contract performance. Therefore, the correct answer is claims administration, as it best describes the effort to resolve the issue.",
-        "difficulty_level": "easy"
-      },
-      "process_group": "Monitoring and Controlling",
-      "did_user_get_it_right": false
-    },
-    {
       "id": "1750024053908",
       "question_pmp": "During the Control Procurements process, a project manager is monitoring a critical vendor's compliance with environmental regulations as specified in the contract. The vendor has recently received a public warning from a regulatory body for a minor environmental infraction unrelated to the project deliverables, but it raises concerns about their overall compliance capabilities. The project is being conducted in a highly regulated industry. What is the BEST response from the project manager?",
       "options_pmp": {
@@ -1606,34 +1366,6 @@ export const questionsData = {
       },
       "process_group": "Monitoring and Controlling",
       "did_user_get_it_right": true
-    },
-    {
-      "id": "1750024055927",
-      "question_pmp": "The project team informs the project manager that the vendor has delivered a component, but it does not fully integrate with other system components as expected, despite meeting individual component specifications. This suggests an issue with the overall integration rather than just the single component's quality. What is the MOST appropriate action for the project manager to take NEXT?",
-      "options_pmp": {
-        "OPTION_A": "Reject the deliverable and demand the vendor re-engineer the component to achieve seamless integration, citing the overall system requirements.",
-        "OPTION_B": "Initiate discussions with the vendor and the internal technical team to jointly analyze the integration issue, identify its root cause, and determine the most cost-effective and timely solution, which may involve a change request.",
-        "OPTION_C": "Accept the component with the known integration issue and assign internal resources to resolve the problem to avoid delaying the project schedule.",
-        "OPTION_D": "Escalate the issue to the project sponsor, recommending contract termination for the vendor's failure to deliver an integrated solution."
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - While re-engineering might be a solution, a blanket demand without prior joint analysis of the complex integration problem might be premature and lead to disputes. The issue may stem from both sides.",
-        "option_b_result": "CORRECT - When an integration issue arises, especially one where the individual component meets specs but overall integration fails, it requires a collaborative approach. The project manager should facilitate a meeting between the vendor and the internal technical team to jointly diagnose the root cause (e.g., miscommunication of interfaces, incomplete requirements). Based on this analysis, the best course of action (which could involve a change request to the contract or project plan, or a negotiated solution) can be determined to achieve proper integration while considering cost and schedule.",
-        "option_c_result": "INCORRECT - Accepting a known integration issue and fixing it internally shifts the responsibility, cost, and potential liability to the project, undermining the contract and potentially leading to more complex problems later.",
-        "option_d_result": "INCORRECT - Terminating a contract is a drastic step for an integration issue, especially when the individual component meets specs. It can lead to significant delays and costs. Investigation and resolution attempts should precede such action.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Procurement",
-        "tool": "Procurement performance reviews",
-        "suggested_read": "['PMBOK Guide - Section 12.3.2.1 (Procurement Performance Reviews)', 'PMBOK Guide - Section 4.6 (Perform Integrated Change Control)']",
-        "concepts_to_understand": "Complex issues like integration problems often require collaborative problem-solving. In Control Procurements, the project manager must engage both the vendor and internal technical teams to thoroughly analyze the root cause. This collaborative approach helps identify the most effective solution, which may involve contractual adjustments through the change control system, ensuring the project's overall technical success.",
-        "additional_notes": "No quick reads available for this process",
-        "difficulty_level": "difficult"
-      }
     }
   ]
 };
