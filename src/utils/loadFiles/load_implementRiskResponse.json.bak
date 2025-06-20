@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": "IRR-Q001",
+            "question_pmp": "During the execution phase of a large-scale IT infrastructure project, a known risk, 'insufficient network bandwidth during peak usage,' has materialized, causing intermittent system slowdowns. The risk response plan specified upgrading the network infrastructure. The project manager identifies that the previously allocated budget for this upgrade is now insufficient due to unforeseen component cost increases. What should the project manager do NEXT?",
+            "options_pmp": {
+              "OPTION_A": "Escalate the budget shortfall to the project sponsor and key stakeholders immediately.",
+              "OPTION_B": "Revisit the risk register to identify alternative response strategies that fit the current budget constraints.",
+              "OPTION_C": "Issue a change request to secure additional funding and update the project management plan.",
+              "OPTION_D": "Direct the team to implement a temporary workaround while investigating long-term solutions."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - While escalation might eventually be necessary, it's premature before exploring internal options or formally requesting a change. Escalating without a clear proposed solution or a comprehensive assessment of the impact on project objectives could be perceived as ineffective.",
+              "option_b_result": "INCORRECT - Re-evaluating the risk register for alternative strategies might be part of a broader re-planning effort, but the immediate and most appropriate action when a planned response is no longer viable due to a budget issue is to formalize the need for a change. The risk response itself was already defined.",
+              "option_c_result": "CORRECT - When a planned risk response cannot be executed as defined, especially due to a significant budget variance, the most appropriate next step is to initiate a change request. This formalizes the problem, allows for proper assessment of impact on cost and schedule baselines, and secures the necessary approvals to either re-plan the response or secure additional funds, ensuring all stakeholders are aware and formally agree to the deviation. This aligns with integrated change control.",
+              "option_d_result": "INCORRECT - Implementing a temporary workaround might mitigate the immediate impact but does not address the underlying issue of the failed original risk response or the budget shortfall. This action should follow a formal decision through change control regarding the primary response.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Change Control System",
+              "suggested_read": [
+                "PMBOK Guide - Section 4.6 Perform Integrated Change Control",
+                "PMBOK Guide - Section 11.6 Implement Risk Responses"
+              ],
+              "concepts_to_understand": "This question tests the understanding of implementing risk responses within the context of integrated change control. When a planned risk response becomes unfeasible, it often necessitates a change request to adapt the project management plan, baselines, or secure additional resources. It emphasizes that risk response implementation is not just about executing predefined actions but also managing deviations and changes effectively when unforeseen challenges arise during implementation.",
+              "additional_notes": "The core of this question lies in recognizing the need for formal change management when a planned risk response cannot be executed as originally intended, specifically due to resource constraints. The project manager has a responsibility to maintain control over the project and its baselines. Simply escalating or seeking alternatives without a formal process could lead to unmanaged changes. An issue with a risk response is an issue that needs to be addressed through proper project governance, which often involves a change request to adjust the budget, scope, or schedule. This approach ensures transparency, stakeholder alignment, and proper documentation of decisions.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q002",
+            "question_pmp": "A manufacturing project is experiencing delays due to the late delivery of custom-fabricated parts, a risk identified early in planning. The risk response plan involved activating a backup supplier. What is the PRIMARY purpose of executing this response?",
+            "options_pmp": {
+              "OPTION_A": "To update the project's risk register with the new status of the risk.",
+              "OPTION_B": "To minimize the negative impact of the risk event on project objectives.",
+              "OPTION_C": "To inform all project stakeholders about the activated contingency plan.",
+              "OPTION_D": "To analyze the root cause of the supplier's delay and prevent recurrence."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Updating the risk register is a crucial part of ongoing risk management, but it is a consequence or a supporting activity, not the primary purpose of *implementing* the response itself. The implementation aims to deal with the event.",
+              "option_b_result": "CORRECT - The primary purpose of implementing any risk response, whether it's a mitigation, avoidance, or contingency plan, is to directly address the materialized risk event and minimize its negative impact on project objectives such as schedule, cost, scope, or quality. All other actions are supportive.",
+              "option_c_result": "INCORRECT - While communication is vital, informing stakeholders is an outcome or a necessary communication activity associated with the response, not the fundamental purpose of activating the backup supplier. The purpose is impact reduction.",
+              "option_d_result": "INCORRECT - Root cause analysis is part of identifying new risks or improving processes, often after a risk event has occurred and been responded to. It's a valuable learning exercise but not the direct purpose of implementing a pre-planned response.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": null,
+              "suggested_read": [
+                "PMBOK Guide - Section 11.6 Implement Risk Responses",
+                "PMBOK Guide - Section 11.5 Plan Risk Responses"
+              ],
+              "concepts_to_understand": "This question focuses on the core objective of implementing risk responses. The primary purpose is always to address and counteract the effects of a materialized risk event, thereby protecting the project's objectives. While communication, updates, and analysis are important related activities, they are secondary to the immediate goal of mitigating the impact.",
+              "additional_notes": "Understanding the fundamental objective of 'Implement Risk Responses' is key here. The process is about putting the planned actions into effect when a risk event occurs. In this scenario, the risk has materialized (late delivery). The planned response is to activate a backup supplier. The immediate and overriding goal of this action is to prevent or reduce the adverse effects on the project, such as further delays. Other options represent subsequent or supporting activities, but they are not the primary reason for performing the response itself.",
+              "difficulty_level": "easy"
+            }
+          },
+          {
+            "id": "IRR-Q003",
+            "question_pmp": "A software development project is nearing its release, but a critical security vulnerability, previously identified as a low-probability, high-impact risk, has been discovered during final testing. The risk response plan included a contingency of engaging a third-party cybersecurity firm if this risk materialized. The project manager quickly engages the firm, but their initial assessment indicates the fix will take longer and cost more than anticipated in the contingency budget. What is the MOST appropriate action for the project manager?",
+            "options_pmp": {
+              "OPTION_A": "Authorize the firm to proceed, absorbing the additional cost and schedule impact to meet the urgent security need.",
+              "OPTION_B": "Consult with the project sponsor and key stakeholders, presenting the new estimates and discussing potential adjustments to scope or timeline.",
+              "OPTION_C": "De-escalate the issue, as the firm is engaged, and focus on other urgent project activities.",
+              "OPTION_D": "Direct the internal team to attempt to resolve the vulnerability to avoid external costs."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Authorizing significant deviations from the plan (cost and schedule impacts) without consulting stakeholders or going through formal change control is irresponsible and goes against sound project governance. The project manager does not have unlimited authority to absorb such impacts.",
+              "option_b_result": "CORRECT - When a risk response results in greater impacts than originally planned, especially in critical areas like security, the project manager must communicate this to relevant stakeholders and involve them in decision-making. This aligns with Perform Integrated Change Control, ensuring transparency and getting necessary approvals for deviations from baselines. The project manager needs to provide options and implications.",
+              "option_c_result": "INCORRECT - This approach is negligent. A critical security vulnerability with higher-than-expected resolution costs and time implications requires immediate and focused attention, not de-escalation. Ignoring the financial and schedule impacts can lead to project failure.",
+              "option_d_result": "INCORRECT - While attempting an internal fix might seem cost-saving, it contradicts the pre-planned response of engaging a specialist firm, especially for a critical security vulnerability. This could introduce further delays or ineffective fixes if the internal team lacks specialized expertise, potentially increasing overall risk.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Meetings, Expert Judgment",
+              "suggested_read": [
+                "PMBOK Guide - Section 4.6 Perform Integrated Change Control",
+                "PMBOK Guide - Section 11.6 Implement Risk Responses"
+              ],
+              "concepts_to_understand": "This scenario highlights the dynamic nature of risk management and the interconnectedness with integrated change control. Even a planned response might not proceed exactly as anticipated. When deviations occur, especially those impacting baselines, proactive communication with stakeholders and engaging in formal change processes are crucial. A project manager's authority is not limitless, and significant changes require stakeholder involvement and approval.",
+              "additional_notes": "This question emphasizes that implementing risk responses isn't a purely mechanistic process. Even with a well-defined contingency, the actual execution might reveal further challenges or deviations. The project manager's role shifts to managing these new developments. The key distinction between option A and B is the authority and responsibility. A project manager cannot unilaterally authorize significant cost/schedule overruns. They must engage stakeholders to inform them of the situation, present the updated information, and collaboratively decide on the best path forward, which may include scope changes, timeline adjustments, or securing additional funds through a formal change request. This ensures that organizational governance is maintained.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q004",
+            "question_pmp": "A construction project faces a high probability of material price increases. The risk response plan included a strategy to purchase materials in bulk early in the project. Which risk response strategy does this BEST exemplify?",
+            "options_pmp": {
+              "OPTION_A": "Avoid",
+              "OPTION_B": "Transfer",
+              "OPTION_C": "Mitigate",
+              "OPTION_D": "Accept"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Avoidance means eliminating the threat entirely. Purchasing in bulk doesn't eliminate the threat of price increases, but rather reduces its impact.",
+              "option_b_result": "INCORRECT - Transferring risk involves shifting the impact or ownership to a third party (e.g., insurance). This action keeps the risk within the project, albeit with a reduced impact.",
+              "option_c_result": "CORRECT - Mitigation involves taking steps to reduce the probability or impact of a negative risk event. Purchasing materials early aims to reduce the impact of potential price increases on the project budget, thus 'mitigating' the risk.",
+              "option_d_result": "INCORRECT - Acceptance involves deciding not to change the project plan to deal with the risk. This action is proactive, meaning the risk is not simply being accepted.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": null,
+              "suggested_read": [
+                "PMBOK Guide - Section 11.5.2 Strategies for Negative Risks or Threats",
+                "PMBOK Guide - Section 11.6 Implement Risk Responses"
+              ],
+              "concepts_to_understand": "This question tests the understanding of common risk response strategies. Mitigation is a proactive approach to reduce the likelihood or impact of a threat. It's important to distinguish it from avoidance (eliminating the risk), transfer (shifting it to a third party), or acceptance (doing nothing active).",
+              "additional_notes": "The scenario describes a proactive action taken to reduce the *impact* of a potential future event (material price increases). By buying in bulk early, the project manager is attempting to lock in current prices, thereby reducing the financial exposure if prices were to rise significantly later. This fits the definition of mitigation perfectly, as the project is taking steps to lessen the degree of damage if the risk occurs.",
+              "difficulty_level": "easy"
+            }
+          },
+          {
+            "id": "IRR-Q005",
+            "question_pmp": "During the implementation of a new ERP system, a critical technical integration failure occurs, identified as a previously known risk. The project team immediately executes the pre-defined workaround described in the risk response plan. Following the successful implementation of this workaround, what is the MOST important step for the project manager to perform NEXT to ensure effective risk management?",
+            "options_pmp": {
+              "OPTION_A": "Update the risk register with the outcome of the risk event and the effectiveness of the workaround.",
+              "OPTION_B": "Conduct a lessons learned session to understand the root cause of the integration failure.",
+              "OPTION_C": "Communicate the successful resolution to all key stakeholders, reassuring them about project stability.",
+              "OPTION_D": "Direct the team to revert to the original integration method once the project is complete."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "CORRECT - After a risk response is implemented, it's crucial to update the risk register. This update reflects the actual outcome of the risk, the effectiveness of the response, and any residual or secondary risks that may have emerged. This ensures the risk management plan remains current and accurate for future monitoring and control, and contributes to organizational process assets.",
+              "option_b_result": "INCORRECT - While conducting a lessons learned session is vital for continuous improvement and often follows such events, it is typically performed as part of the Monitor Risks process or at project closure. The immediate priority after the response is to update the risk artifacts and then continue monitoring, not jump directly to a full lessons learned session, which is a broader activity.",
+              "option_c_result": "INCORRECT - Communicating the resolution is important for stakeholder engagement, but updating official project documents like the risk register takes precedence in terms of immediate risk management process closure for that specific event. Without proper documentation, future risk management can be compromised.",
+              "option_d_result": "INCORRECT - Reverting to an original method without a thorough analysis of why it failed in the first place, and without a formal change process, would be premature and potentially reintroduce the same risk. This is not the immediate or most important next step.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Risk Register Updates",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.6 Implement Risk Responses",
+                "PMBOK Guide - Section 11.7 Monitor Risks"
+              ],
+              "concepts_to_understand": "This question highlights the importance of updating project documentation, specifically the risk register, after implementing a risk response. This ensures the project records are accurate, lessons are captured, and ongoing risk monitoring can be effective. It connects the 'Implement Risk Responses' process with the 'Monitor Risks' process.",
+              "additional_notes": "Once a risk response is implemented, the immediate and most critical action in the context of risk management is to document the outcome. This involves updating the risk register to reflect that the risk has occurred, the response implemented, its effectiveness, and any residual or secondary risks that may now exist. This feeds directly into the Monitor Risks process, ensuring that the risk profile of the project is always current. While lessons learned and communication are important, they often follow or are enabled by the accurate documentation within the risk register.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q006",
+            "question_pmp": "A project manager is overseeing a product launch. A critical supply chain disruption, identified as a major risk during planning, has now occurred, threatening the launch date. The risk response plan included having a secondary supplier on standby. What action is crucial to initiating this response effectively?",
+            "options_pmp": {
+              "OPTION_A": "Revisiting the risk management plan to confirm the response strategy.",
+              "OPTION_B": "Issuing a new procurement contract to the secondary supplier immediately.",
+              "OPTION_C": "Activating the secondary supplier contract as per established project procedures.",
+              "OPTION_D": "Communicating the disruption and the planned response to the executive steering committee."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - While understanding the plan is good, revisiting it when the risk has materialized and time is critical can cause unnecessary delays. The focus should be on action, not re-planning.",
+              "option_b_result": "INCORRECT - Issuing a *new* contract might be necessary if the standby agreement wasn't a full contract. However, if the secondary supplier was truly on standby, a formal activation (as per existing agreements) is the immediate step, not drafting a whole new contract. This option is too broad and potentially inefficient if contracts are pre-negotiated.",
+              "option_c_result": "CORRECT - Activating the pre-negotiated or established contract with the secondary supplier is the direct and efficient action to implement the planned risk response. This assumes the 'standby' means there are already agreements in place to be triggered, which is typical for such a contingency. This aligns with executing the pre-defined plan.",
+              "option_d_result": "INCORRECT - Communication to the executive steering committee is important for governance and transparency, but it's a parallel or subsequent activity. The immediate action needs to be focused on mitigating the risk event itself by activating the planned response.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Decision Making",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.6 Implement Risk Responses",
+                "PMBOK Guide - Section 12.2 Conduct Procurements"
+              ],
+              "concepts_to_understand": "This question tests the immediate action required for a pre-planned risk response. When a risk materializes, the focus shifts to executing the defined response efficiently. This often involves activating pre-established agreements or procedures rather than re-planning or initiating new processes from scratch.",
+              "additional_notes": "The scenario emphasizes a 'standby' secondary supplier, implying that agreements are already in place. Therefore, the crucial step is to activate those agreements as per the project's established procedures. Option B, 'issuing a new procurement contract', suggests a potentially lengthy process that might not be necessary if a 'standby' arrangement implies a pre-existing contractual framework ready to be triggered. The focus is on the *implementation* of the planned response, which means taking the direct action to engage the alternative. Communication is important, but getting the response underway is the critical first step to address the threat.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q007",
+            "question_pmp": "During the build phase of an offshore wind farm, unexpected severe weather conditions occur, impacting construction schedules. The project's risk response plan included a contingency reserve for weather delays. Which project document will be directly updated as a result of allocating funds from this reserve?",
+            "options_pmp": {
+              "OPTION_A": "Risk Register",
+              "OPTION_B": "Cost Baseline",
+              "OPTION_C": "Project Management Plan",
+              "OPTION_D": "Issue Log"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - While the risk register will be updated to reflect the outcome of the risk, the direct financial allocation impacts the cost baseline.",
+              "option_b_result": "CORRECT - The cost baseline is the approved version of the project budget. When contingency reserves are used for known-unknown risks, the funds are moved from the reserve into the cost baseline, directly updating it to reflect the new allocation. This is part of integrated change control and managing financial resources.",
+              "option_c_result": "INCORRECT - The Project Management Plan is a comprehensive document. While parts of it (like the Cost Management Plan) might be affected, the *direct* update for allocating funds from a contingency reserve for a known-unknown risk is to the cost baseline. A change to the Project Management Plan itself would typically only occur if the contingency was insufficient or if a re-planning of major sections was needed.",
+              "option_d_result": "INCORRECT - An issue log tracks current problems. While the weather delay is an 'issue,' the financial impact and the allocation of contingency funds directly affect the project's financial plan, not just the issue log.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Cost Management Tools",
+              "suggested_read": [
+                "PMBOK Guide - Section 7.3 Determine Budget",
+                "PMBOK Guide - Section 4.6 Perform Integrated Change Control"
+              ],
+              "concepts_to_understand": "This question tests the understanding of contingency reserves and their impact on project baselines. Contingency reserves are for known-unknown risks and, when used, are added to the cost baseline, requiring a formal update. This is a key distinction from management reserves, which are for unknown-unknowns and do not update the cost baseline directly.",
+              "additional_notes": "The key here is understanding the nature of contingency reserves. They are held within the project budget for identified risks that materialize. When such a risk occurs and funds are drawn from the contingency reserve, those funds are allocated to the specific activity experiencing the impact. This allocation directly modifies the detailed cost baseline of the project, making it the most direct document update. While the Project Management Plan might be generally affected, the specific financial change is reflected in the cost baseline. This process is governed by the Perform Integrated Change Control process.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q008",
+            "question_pmp": "A project manager is implementing a response to a high-impact risk. The response requires the temporary reassignment of several key team members. To ensure the smooth execution of this response and minimize negative impact on other tasks, what is the BEST communication method?",
+            "options_pmp": {
+              "OPTION_A": "Sending an email to all project stakeholders outlining the reassignments.",
+              "OPTION_B": "Holding a direct meeting with affected team members and their functional managers.",
+              "OPTION_C": "Updating the resource management plan and circulating it for review.",
+              "OPTION_D": "Posting an announcement on the project management information system (PMIS)."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - An email might inform, but for reassignments involving key personnel, a direct, interactive method is preferable to ensure understanding and address concerns effectively, especially with functional managers who control resources.",
+              "option_b_result": "CORRECT - For sensitive issues like reassignments that impact individual workloads and potentially team dynamics, a direct meeting allows for immediate clarification, addressing concerns, and fostering buy-in. Involving functional managers is critical as they often control resource allocation and performance reviews.",
+              "option_c_result": "INCORRECT - Updating the resource management plan is a formal documentation step, not a communication method for the immediate practical implementation of reassignments. Circulating it for review might happen, but it won't replace direct conversation for sensitive changes.",
+              "option_d_result": "INCORRECT - A PMIS announcement is too impersonal and passive for changes involving key personnel reassignment. It lacks the interactive element needed to manage potential resistance or confusion.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Communication Methods",
+              "suggested_read": [
+                "PMBOK Guide - Section 10.1 Plan Communications Management",
+                "PMBOK Guide - Section 9.4 Develop Team"
+              ],
+              "concepts_to_understand": "This question tests the application of communication management principles, specifically choosing the appropriate communication method based on the sensitivity and impact of the information. Direct, interactive communication is best for complex or sensitive personnel changes to ensure clarity, address concerns, and secure commitment.",
+              "additional_notes": "The scenario describes a sensitive situation involving changes to team members' roles and potentially their workload, which can impact morale and other ongoing tasks. While all options represent forms of communication or documentation, a direct meeting (Option B) is the most effective. It allows for two-way communication, immediate feedback, and the ability to address concerns and secure buy-in from both the affected individuals and their functional managers, who are crucial for resource deployment. This approach minimizes misunderstandings and resistance, ensuring a smoother transition and reducing secondary negative impacts.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q009",
+            "question_pmp": "During the 'Implement Risk Responses' process, a project manager is dealing with a significant technical challenge that has materialized. The pre-planned response is to engage a specific external expert, but this expert is now unavailable. What is the MOST immediate action the project manager should take?",
+            "options_pmp": {
+              "OPTION_A": "Update the risk register to reflect the unavailability of the expert.",
+              "OPTION_B": "Analyze the remaining budget and schedule to identify contingency funds.",
+              "OPTION_C": "Evaluate alternative experts or solutions, consulting relevant stakeholders.",
+              "OPTION_D": "Raise an issue with the project sponsor regarding the lack of a suitable expert."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - While updating the risk register is eventually necessary, it's a documentation step that follows the immediate action to find a solution to the problem.",
+              "option_b_result": "INCORRECT - Analyzing budget/schedule is part of the overall assessment of the impact of the new issue, but the immediate action is to find an alternative to the unavailable expert.",
+              "option_c_result": "CORRECT - When a planned risk response cannot be executed, the immediate action is to find an alternative solution to address the materialized risk. This involves evaluating options and consulting stakeholders (including subject matter experts or the functional manager for alternative resources) to quickly adapt and implement a viable response. This leads to effective problem-solving in real-time.",
+              "option_d_result": "INCORRECT - Raising an issue with the sponsor is an escalation, which should occur after the project manager has exhausted immediate problem-solving options or if the impact is beyond their authority to resolve. Jumping to escalation is premature.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Problem Solving, Decision Making",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.6 Implement Risk Responses",
+                "PMBOK Guide - Section 4.5 Manage Project Knowledge"
+              ],
+              "concepts_to_understand": "This question emphasizes proactive problem-solving when a planned risk response fails. The immediate action is to seek viable alternatives and involve relevant experts or stakeholders in the decision-making process, rather than simply escalating or documenting the failure.",
+              "additional_notes": "The scenario describes a situation where the predefined risk response itself has become unfeasible. In such cases, the project manager's primary responsibility shifts to finding an immediate, viable alternative to address the materialized risk. This involves assessing other available resources or solutions and consulting with relevant parties (e.g., subject matter experts, functional managers, or even the project sponsor if necessary, but only after exploring options). Options A and D are reactive or premature, and B is a secondary consideration. The immediate need is to continue addressing the technical challenge effectively.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q010",
+            "question_pmp": "A project team is implementing a complex software module. A risk related to integration issues with an existing legacy system has materialized. The risk response plan specified performing extensive mock integration tests before the live deployment. Upon executing these tests, several unexpected critical failures are identified that were not foreseen. What is the MOST appropriate next action for the project manager?",
+            "options_pmp": {
+              "OPTION_A": "Proceed with the live deployment as scheduled, assuming the issues are minor.",
+              "OPTION_B": "Document the new failures in the risk register and develop new responses.",
+              "OPTION_C": "Escalate the unexpected failures to the project sponsor and key stakeholders immediately.",
+              "OPTION_D": "Initiate a detailed defect analysis and root cause investigation for the new failures."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Proceeding with live deployment despite critical failures is highly irresponsible and can lead to severe project or operational impacts. This demonstrates a lack of risk management discipline.",
+              "option_b_result": "INCORRECT - While documentation is important, simply documenting and developing *new* responses without understanding the *cause* of these new critical failures is inefficient. The immediate action should be to understand the problem fully before formulating solutions. This can lead to ineffective risk responses.",
+              "option_c_result": "INCORRECT - While these are critical failures that *will* eventually require stakeholder communication, jumping immediately to escalation without first understanding the scope, impact, and potential root cause of the *unexpected* failures can be perceived as lacking proactive problem-solving. The PM should first ascertain the nature of the issue.",
+              "option_d_result": "CORRECT - When unexpected critical failures emerge during the implementation of a risk response (like testing), the most appropriate next step is to conduct a detailed defect analysis and root cause investigation. This allows the team to understand why the failures occurred, assess their true impact, and then develop effective corrective actions or new risk responses based on accurate information, rather than reacting blindly. This is crucial for effective problem solving and preventing recurrence.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Root Cause Analysis",
+              "suggested_read": [
+                "PMBOK Guide - Section 8.3 Control Quality",
+                "PMBOK Guide - Section 4.3 Direct and Manage Project Work"
+              ],
+              "concepts_to_understand": "This question tests the project manager's ability to react to new, unexpected issues that arise during the implementation of a planned risk response. It emphasizes the need for thorough analysis (root cause, defect analysis) before jumping to solutions, documentation, or escalation, especially when critical failures are identified. This is part of integrated change control and quality management.",
+              "additional_notes": "The key here is the discovery of *unexpected critical failures* during the execution of a *planned risk response* (mock integration tests). This indicates a new, unforeseen problem. The most logical and effective next step is to understand the nature of these new critical failures before taking any other action. A detailed defect analysis and root cause investigation will provide the necessary information to assess impact, determine corrective actions, or create new risk responses. Options B and C are premature without this understanding, and Option A is reckless. This also ties into Quality Control and managing unexpected issues that become defects.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q011",
+            "question_pmp": "A project manager is implementing a response to a high-priority risk of a vendor's supply chain disruption. The response involves procuring materials from an alternative vendor. Which project management process is MOST directly informed by the outcomes of this implementation?",
+            "options_pmp": {
+              "OPTION_A": "Plan Risk Responses",
+              "OPTION_B": "Perform Integrated Change Control",
+              "OPTION_C": "Monitor Risks",
+              "OPTION_D": "Control Procurements"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Plan Risk Responses occurs *before* implementation. The outcomes of implementation inform subsequent monitoring and potential re-planning, not the initial planning.",
+              "option_b_result": "INCORRECT - While implementing a risk response might *lead* to a change request (and thus involve Perform Integrated Change Control) if the response deviates from the plan or impacts baselines, the question asks what process is *most directly informed* by the *outcomes* of the implementation. The primary process that consumes these outcomes for ongoing risk management is monitoring.",
+              "option_c_result": "CORRECT - The 'Implement Risk Responses' process generates information on whether the response was effective, if residual risks exist, or if new secondary risks have emerged. This information directly feeds into the 'Monitor Risks' process, which tracks identified risks, identifies new risks, monitors residual risks, and evaluates the effectiveness of risk responses throughout the project lifecycle.",
+              "option_d_result": "INCORRECT - Control Procurements manages the procurement relationships. While procuring from an alternative vendor is a procurement activity, the question is about the *outcomes of the risk response implementation* informing *which project management process*. The effectiveness of the risk response itself feeds into monitoring, not directly back into controlling the procurement contract itself.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Risk Audits, Variance and Trend Analysis",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.6 Implement Risk Responses",
+                "PMBOK Guide - Section 11.7 Monitor Risks"
+              ],
+              "concepts_to_understand": "This question highlights the continuous nature of risk management. The results of implementing risk responses are crucial inputs for the ongoing monitoring of risks, allowing the project manager to assess effectiveness, identify new risks, and decide if further actions are needed. It establishes the flow from executing a response to continually assessing the risk landscape.",
+              "additional_notes": "The 'Implement Risk Responses' process is where the planned actions are carried out. Once these actions are taken, the project manager needs to evaluate their effectiveness, whether new risks have been introduced (secondary risks), and if the initial risk has been successfully mitigated or avoided. This continuous evaluation and tracking of the risk situation is precisely what the 'Monitor Risks' process entails. It's the subsequent process that takes the outputs of implementation and uses them to assess the overall project risk exposure and the efficacy of the risk management efforts.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q012",
+            "question_pmp": "During the construction of a new bridge, a sudden, unforeseen geological instability is discovered at a critical foundation site. This was not identified in the initial risk analysis. The project manager and team decide to implement an adaptive approach, commissioning immediate geological surveys and engaging expert consultants to determine the best course of action. This situation leads to the creation of what type of new project artifact?",
+            "options_pmp": {
+              "OPTION_A": "Updated Risk Register",
+              "OPTION_B": "New Risk Management Plan",
+              "OPTION_C": "Contingency Response Strategy",
+              "OPTION_D": "Workaround"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - While the risk register will eventually be updated, the immediate product of dealing with an unforeseen issue is often a workaround to address the problem without a pre-defined plan. The risk register update comes after the response is formulated.",
+              "option_b_result": "INCORRECT - A new Risk Management Plan is highly unlikely unless the entire approach to risk management needs overhaul. This is about a specific unforeseen event.",
+              "option_c_result": "INCORRECT - Contingency response strategies are *pre-planned* for *identified* risks. This risk was 'unforeseen.' Therefore, a new contingency strategy isn't being created; a workaround is being developed for an emergent issue.",
+              "option_d_result": "CORRECT - When an unanticipated (unknown-unknown) risk materializes, and there is no pre-planned response, the project team often develops a workaround. A workaround is an unplanned response to an emergent risk or issue. The project manager and team are actively developing a solution (geological surveys, expert consultants) on the fly, which is characteristic of a workaround.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Problem Solving",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.7 Monitor Risks",
+                "PMBOK Guide - Section 4.3 Direct and Manage Project Work"
+              ],
+              "concepts_to_understand": "This question distinguishes between planned responses (contingency plans) and unplanned responses (workarounds) for risks. Workarounds are developed in response to emergent, previously unidentified risks, often requiring immediate problem-solving and adaptation.",
+              "additional_notes": "The crucial phrase here is 'unforeseen geological instability' and 'not identified in the initial risk analysis.' This indicates an 'unknown-unknown' risk has materialized. When such a risk occurs, and there's no predefined response, the team must develop a 'workaround' – an ad hoc solution to address the problem. While the risk register will be updated later, the immediate artifact of the team's problem-solving effort in this situation is the workaround plan being developed by engaging experts and surveys. This highlights the adaptive nature of project management in the face of true uncertainty.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q013",
+            "question_pmp": "A project manager is overseeing the deployment of a new healthcare application. A risk of data privacy breaches was identified, and the response plan included implementing advanced encryption protocols. During implementation, the team discovers that the encryption solution significantly degrades system performance, creating a secondary risk. What is the CORRECT response from the project manager?",
+            "options_pmp": {
+              "OPTION_A": "Stop the implementation of the encryption protocol and revert to the original less secure setup.",
+              "OPTION_B": "Ignore the performance degradation, prioritizing privacy over user experience.",
+              "OPTION_C": "Analyze the impact of the performance degradation and assess alternative solutions or mitigations for this new secondary risk.",
+              "OPTION_D": "Formally close the privacy breach risk as addressed and move on to other project tasks."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Reverting to a less secure setup without further analysis or stakeholder consultation would be irresponsible, especially in a healthcare application where data privacy is paramount.",
+              "option_b_result": "INCORRECT - Ignoring significant performance degradation could lead to user dissatisfaction, reduced adoption, and potentially project failure, even if privacy is maintained. A balance must be found.",
+              "option_c_result": "CORRECT - The performance degradation is a secondary risk resulting from the implementation of the primary risk response. The project manager must treat this new risk like any other, analyzing its impact and developing appropriate responses (e.g., optimizing the encryption, finding a different solution, or proposing a change to performance targets). This aligns with the 'Monitor Risks' process.",
+              "option_d_result": "INCORRECT - Closing the privacy risk as addressed while a critical secondary risk (performance degradation) is actively impacting the project is premature and overlooks ongoing risk management responsibilities. Risks are dynamically managed.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Risk Analysis, Problem Solving",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.7 Monitor Risks",
+                "PMBOK Guide - Section 11.2 Identify Risks"
+              ],
+              "concepts_to_understand": "This question introduces the concept of secondary risks, which are risks that arise as a direct result of implementing a risk response. When a secondary risk materializes, the project manager must treat it as a new risk, analyze its impact, and develop appropriate responses to manage it effectively, ensuring the overall project objectives are still met.",
+              "additional_notes": "The scenario describes a classic example of a 'secondary risk' – a new risk introduced as a result of implementing a response to an initial risk. When such a risk occurs, the project manager cannot simply ignore it or revert to a previous state. The correct approach is to formally acknowledge this new risk, analyze its impact on project objectives (e.g., user experience, system functionality), and then, as part of ongoing risk management (Monitor Risks), devise and implement appropriate responses to this secondary risk. This might involve optimizing the solution, seeking alternative technologies, or even adjusting project requirements through change control.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q014",
+            "question_pmp": "The project manager is implementing a risk response for potential resource unavailability, which involves cross-training existing team members. After several weeks, the project manager observes that the cross-training is progressing slower than anticipated and the team members are struggling to grasp the new skills, potentially jeopardizing the effectiveness of the response. Which document should the project manager review to assess the effectiveness criteria for this risk response?",
+            "options_pmp": {
+              "OPTION_A": "Project Schedule",
+              "OPTION_B": "Training Materials",
+              "OPTION_C": "Risk Management Plan",
+              "OPTION_D": "Resource Management Plan"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - The project schedule would show the timeline of the training, but not the effectiveness criteria for the risk response itself.",
+              "option_b_result": "INCORRECT - Training materials are inputs to the cross-training, but they don't define the criteria for the overall risk response effectiveness.",
+              "option_c_result": "CORRECT - The Risk Management Plan outlines how risk activities will be performed, including how risk responses will be implemented and how their effectiveness will be measured. It provides the framework for assessing if a response is working as intended.",
+              "option_d_result": "INCORRECT - The Resource Management Plan details how project resources are acquired, managed, and controlled. While cross-training involves resources, the *effectiveness criteria* for the *risk response* would be in the Risk Management Plan, which dictates how risks are managed.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Project Documents Analysis",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.1 Plan Risk Management",
+                "PMBOK Guide - Section 11.6 Implement Risk Responses"
+              ],
+              "concepts_to_understand": "This question tests the understanding that the Risk Management Plan provides the framework for all risk-related activities, including how the effectiveness of implemented risk responses will be measured and assessed. It's the overarching document for risk governance.",
+              "additional_notes": "The project manager is observing a potential issue with the *effectiveness* of a planned risk response. To properly assess if the response is working and what adjustments might be needed, the project manager should refer to the **Risk Management Plan**. This plan defines the processes for risk management, including how risk responses will be implemented and monitored, and what criteria will be used to determine their success. It's the guiding document for all risk activities, including evaluation.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q015",
+            "question_pmp": "In a highly regulated pharmaceutical project, a key piece of laboratory equipment unexpectedly breaks down, halting critical testing. This was a high-impact, low-probability risk for which the project had a well-defined contingency plan involving a rental agreement with a specialized third-party lab. Upon attempting to activate the rental, the project manager discovers the rental lab's certification has lapsed, rendering their services unusable for regulatory compliance. What is the BEST approach for the project manager?",
+            "options_pmp": {
+              "OPTION_A": "Immediately activate another general lab for temporary testing to avoid further delays.",
+              "OPTION_B": "Escalate the issue to the project sponsor and legal department for immediate resolution of the certification lapse.",
+              "OPTION_C": "Initiate an emergency change request to acquire a new, compliant rental solution and update the project management plan.",
+              "OPTION_D": "Direct the team to manually perform the tests, accepting the increased risk of human error and extended timelines."
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Activating a 'general lab' without verifying its compliance for a highly regulated project is reckless and could lead to major regulatory violations and invalidated test results, compounding the problem.",
+              "option_b_result": "INCORRECT - While the sponsor and legal team will need to be informed, seeking 'immediate resolution of the certification lapse' is not the project manager's primary responsibility or fastest path to address the *project's* halted testing. The focus should be on finding a compliant alternative quickly.",
+              "option_c_result": "CORRECT - The planned risk response (rental lab) is compromised due to a new, unforeseen issue (lapsed certification) impacting compliance. This necessitates finding a *new, compliant solution*. Since this will likely impact the project's baselines (cost, schedule) and potentially scope due to the urgent need, initiating an emergency change request to get approval for the new solution and update the plan is the most formal and appropriate way to manage this critical deviation in a regulated environment. This ensures compliance and formal approval for the new course of action.",
+              "option_d_result": "INCORRECT - Manually performing critical, complex tests in a regulated environment increases the risk of errors and is often not a viable or compliant alternative, especially when equipment is designed for precision and scale.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Integrated Change Control",
+              "suggested_read": [
+                "PMBOK Guide - Section 4.6 Perform Integrated Change Control",
+                "PMBOK Guide - Section 11.6 Implement Risk Responses"
+              ],
+              "concepts_to_understand": "This scenario highlights that even planned risk responses can encounter issues, especially in regulated environments where compliance is critical. When a planned response becomes unfeasible due to new constraints or compliance issues, it often triggers the need for an immediate, formal change request to identify and implement a new, compliant solution, ensuring project integrity and regulatory adherence.",
+              "additional_notes": "This question tests the project manager's ability to handle a complex situation where a pre-planned risk response becomes unviable due to a new, critical constraint (lapsed certification and regulatory compliance). The project manager must quickly adapt and find a compliant alternative. Given the 'highly regulated' nature of the project and the 'critical testing' implications, simply finding another lab (Option A) without ensuring compliance or manually testing (Option D) are too risky. While escalation (Option B) is part of communication, it doesn't solve the immediate need for a *compliant solution*. The most robust and appropriate action is to go through an expedited change control process to acquire a new, compliant rental, ensuring that all project and regulatory requirements are still met. This is a crucial aspect of integrated change control during the execution of risk responses.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q016",
+            "question_pmp": "The project team is actively implementing a risk response to mitigate a potential scope creep by strengthening the change control process. Which project management document needs to be rigorously followed and potentially refined during this implementation to ensure effectiveness?",
+            "options_pmp": {
+              "OPTION_A": "Stakeholder Engagement Plan",
+              "OPTION_B": "Communications Management Plan",
+              "OPTION_C": "Scope Management Plan",
+              "OPTION_D": "Project Charter"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - While stakeholder engagement is important for managing change requests, it's not the primary document that defines how scope will be controlled.",
+              "option_b_result": "INCORRECT - Communications Management Plan defines how communications are handled, but not the specific procedures for managing scope changes.",
+              "option_c_result": "CORRECT - The Scope Management Plan details how the scope will be defined, developed, monitored, controlled, and verified. Strengthening the change control process is a direct action to enforce scope management, making this the most relevant document to follow and refine.",
+              "option_d_result": "INCORRECT - The Project Charter authorizes the project and names the project manager. It does not contain the detailed procedures for managing project scope or changes.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Integrated Change Control System",
+              "suggested_read": [
+                "PMBOK Guide - Section 5.1 Plan Scope Management",
+                "PMBOK Guide - Section 4.6 Perform Integrated Change Control"
+              ],
+              "concepts_to_understand": "This question connects risk responses (mitigating scope creep) directly to the process area where those changes are managed (scope management). The Scope Management Plan provides the framework and procedures for how scope will be controlled, making it the most critical document for implementing a response to scope creep.",
+              "additional_notes": "The risk being addressed is 'scope creep.' The response is 'strengthening the change control process.' The document that defines how project scope will be managed, including how changes to that scope will be handled through the change control process, is the **Scope Management Plan**. Therefore, to effectively implement the risk response of strengthening change control, the project manager and team must rigorously follow and, if necessary, refine the procedures outlined in this plan to prevent unauthorized additions to the project scope. This directly reinforces the boundaries and procedures established for managing scope.",
+              "difficulty_level": "easy"
+            }
+          },
+          {
+            "id": "IRR-Q017",
+            "question_pmp": "A project manager is overseeing the implementation of a new manufacturing process. A risk related to potential equipment malfunction was identified, and a maintenance schedule was put in place as a mitigation strategy. During implementation, a piece of equipment fails despite the scheduled maintenance. The failure causes a significant delay and requires emergency repair. Which type of risk has primarily materialized in this scenario?",
+            "options_pmp": {
+              "OPTION_A": "Secondary Risk",
+              "OPTION_B": "Residual Risk",
+              "OPTION_C": "Emergent Risk",
+              "OPTION_D": "Unknown-Unknown Risk"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - A secondary risk arises as a *direct result* of implementing a risk response. Here, the failure is a direct occurrence of the initial risk, not a new risk caused by the maintenance activity itself.",
+              "option_b_result": "CORRECT - A residual risk is a risk that remains after risk responses have been implemented or that has been accepted. The maintenance schedule was a mitigation, but the equipment still failed. This indicates that some level of risk remained despite the implemented response; hence, it's a residual risk.",
+              "option_c_result": "INCORRECT - An emergent risk is typically a previously unidentified risk that suddenly appears. This risk was 'identified,' and a response was planned.",
+              "option_d_result": "INCORRECT - An unknown-unknown risk is completely unanticipated. This risk was 'identified' during planning.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Risk Audits",
+              "suggested_read": [
+                "PMBOK Guide - Section 11.2 Identify Risks",
+                "PMBOK Guide - Section 11.7 Monitor Risks"
+              ],
+              "concepts_to_understand": "This question differentiates between various types of risks that can occur during implementation. Residual risks are those that remain even after efforts to mitigate or respond to them. It highlights that risk responses may not completely eliminate a risk, leaving some level of exposure.",
+              "additional_notes": "The key to this question is that the equipment failure was a *known* risk (identified) and a response (maintenance schedule) was *implemented*. Despite the response, the failure still occurred. This means that some level of risk persisted even after the mitigation efforts. This remaining risk is classified as a **residual risk**. It's not a secondary risk (which would be a *new* risk caused by the maintenance activity itself) nor an emergent/unknown-unknown risk (as it was identified previously). The scenario describes the inherent uncertainty that remains even with proactive risk management.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q018",
+            "question_pmp": "A project team is implementing a complex data migration. A planned risk response to potential data corruption was to run a robust data validation script before and after the migration. During the 'Implement Risk Responses' process, the team executes this script. The script identifies a significant number of data inconsistencies that were not anticipated. The project manager needs to ensure the integrity of the data before proceeding. Which tool or technique would be MOST appropriate for the project manager to employ NEXT to address these inconsistencies effectively?",
+            "options_pmp": {
+              "OPTION_A": "Expert Judgment",
+              "OPTION_B": "Data Analysis",
+              "OPTION_C": "Meetings",
+              "OPTION_D": "Decision Making"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Expert judgment is a valuable input, but it's a source of information, not a direct technique for solving data inconsistencies. It would be *used within* data analysis.",
+              "option_b_result": "CORRECT - When unexpected data inconsistencies are found, the most appropriate next step is to conduct a detailed data analysis. This involves techniques like root cause analysis, trend analysis, and variance analysis to understand the nature, source, and impact of the inconsistencies, which is essential before corrective actions can be planned and implemented to ensure data integrity.",
+              "option_c_result": "INCORRECT - Meetings facilitate discussion, but they are not the primary technique for actually *addressing* or *resolving* complex data inconsistencies. Meetings might be used to discuss the findings from data analysis.",
+              "option_d_result": "INCORRECT - Decision making is the act of choosing from alternatives. Before making effective decisions about *how* to fix the inconsistencies, a thorough analysis of the problem is required.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Data Analysis (e.g., Root Cause Analysis, Variance Analysis)",
+              "suggested_read": [
+                "PMBOK Guide - Section 8.3 Control Quality",
+                "PMBOK Guide - Section 4.5 Manage Project Knowledge"
+              ],
+              "concepts_to_understand": "This question focuses on the application of analytical techniques when unexpected issues arise during risk response implementation. Data analysis, including techniques like root cause analysis, is critical for understanding the nature of problems (like data inconsistencies) before effective corrective actions can be determined and implemented. It ties into quality control aspects during execution.",
+              "additional_notes": "The scenario describes that the risk response (data validation script) has identified a new, unexpected problem: 'significant data inconsistencies.' Before the project manager can decide on a corrective action or update any plans, they need to fully understand *why* these inconsistencies exist and what their implications are. Therefore, performing **Data Analysis** (which could involve root cause analysis, statistical analysis, etc.) is the most appropriate immediate step to thoroughly investigate the problem. This analysis will then inform subsequent decision-making and planning for corrective actions. The other options are either inputs to analysis or subsequent steps after analysis is complete.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q019",
+            "question_pmp": "A project manager is overseeing a product development project. A key stakeholder identified a potential risk related to market acceptance if a specific feature was not included. The project team agreed to include the feature as an enhancement during execution, which was documented as a risk response. Which risk response strategy did the project team employ?",
+            "options_pmp": {
+              "OPTION_A": "Avoid",
+              "OPTION_B": "Mitigate",
+              "OPTION_C": "Exploit",
+              "OPTION_D": "Enhance"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - Avoidance means eliminating the threat entirely. Here, the team is proactively working to ensure market acceptance, not eliminating the concept of market acceptance.",
+              "option_b_result": "INCORRECT - Mitigation reduces the probability or impact of a negative risk. While this action reduces a negative impact, the underlying strategy for positive risks is more specific.",
+              "option_c_result": "INCORRECT - Exploit is a strategy for positive risks (opportunities) where the aim is to ensure the opportunity happens by allocating resources to it, but the scenario focuses on preventing a *negative* outcome (lack of market acceptance).",
+              "option_d_result": "CORRECT - The risk was 'lack of market acceptance' (a threat, or more accurately, the absence of an opportunity). By including a feature to increase market acceptance, the team is taking action to *increase the probability and/or positive impact* of achieving high market acceptance. This is the definition of the 'Enhance' strategy, which is applied to opportunities to maximize their realization.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": null,
+              "suggested_read": [
+                "PMBOK Guide - Section 11.5.3 Strategies for Positive Risks or Opportunities",
+                "PMBOK Guide - Section 11.6 Implement Risk Responses"
+              ],
+              "concepts_to_understand": "This question tests the understanding of strategies for positive risks (opportunities). While 'market acceptance' might seem like a neutral concept, the *risk* was the *lack* of it, implying a negative outcome. By taking proactive steps to ensure market acceptance, the team is enhancing the probability/impact of a positive outcome. The 'Enhance' strategy focuses on increasing the likelihood or positive impact of an opportunity.",
+              "additional_notes": "This question cleverly frames a potential negative outcome ('lack of market acceptance') as an opportunity to be seized. The team is not just trying to reduce the *negative* impact of poor market acceptance (mitigation), but proactively working to *increase the positive outcome* of strong market acceptance by adding a desirable feature. This fits the definition of 'Enhance' for opportunities, where the goal is to make a positive event more likely or impactful. It's a subtle but important distinction in risk management strategies.",
+              "difficulty_level": "difficult"
+            }
+          },
+          {
+            "id": "IRR-Q020",
+            "question_pmp": "A project manager is implementing a risk response to outsource a non-core activity to a specialized vendor to mitigate internal resource constraints. This response was documented in the risk register and approved. Which specific project document would the project manager primarily utilize during the execution of this outsourcing activity?",
+            "options_pmp": {
+              "OPTION_A": "Risk Report",
+              "OPTION_B": "Stakeholder Register",
+              "OPTION_C": "Procurement Management Plan",
+              "OPTION_D": "Resource Management Plan"
+            },
+            "is_attempted": false,
+            "selected_option": "",
+            "question_type": "Option",
+            "is_valid": false,
+            "analysis": {
+              "option_a_result": "INCORRECT - The Risk Report provides information on risk status, but it doesn't guide the execution of an outsourcing activity.",
+              "option_b_result": "INCORRECT - The Stakeholder Register lists stakeholders, but it does not detail the procedures for managing procurements.",
+              "option_c_result": "CORRECT - When outsourcing an activity, the Procurement Management Plan dictates how procurements will be planned, conducted, managed, and controlled. It includes the procedures for selecting vendors, contracting, and managing procurement relationships, which are essential for implementing an outsourcing risk response.",
+              "option_d_result": "INCORRECT - The Resource Management Plan outlines how project team resources are acquired and managed. While outsourcing affects internal resources, the *execution of the outsourcing itself* is governed by procurement processes, not resource management for internal teams.",
+              "process_group": "Executing",
+              "knowledge_area": "Integration",
+              "tool": "Procurement Tools and Techniques",
+              "suggested_read": [
+                "PMBOK Guide - Section 12.1 Plan Procurement Management",
+                "PMBOK Guide - Section 12.2 Conduct Procurements"
+              ],
+              "concepts_to_understand": "This question emphasizes the integration of risk management with other knowledge areas. When a risk response involves activities like outsourcing, the project manager must refer to the relevant management plans (e.g., Procurement Management Plan) to ensure the response is executed in alignment with established organizational processes and best practices.",
+              "additional_notes": "The scenario describes a risk response that involves 'outsourcing' to a 'specialized vendor.' This immediately flags the **Procurement Management Plan** as the primary guiding document. This plan details everything related to procurements, from planning the approach to selecting sellers, managing contracts, and closing out procurements. Therefore, for the project manager to effectively execute the outsourcing activity as a risk response, they must follow the procedures and guidelines established within the Procurement Management Plan. This demonstrates how risk responses often require actions that are managed by other knowledge areas.",
+              "difficulty_level": "easy"
+          }
+       } 
+    ]
+}
