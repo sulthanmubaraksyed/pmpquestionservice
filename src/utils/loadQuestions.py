@@ -30,7 +30,7 @@ class QuestionLoader:
             "is_attempted": bool,
             "selected_option": str,
             "question_type": str,
-            "is_valid": str,
+            "is_valid": bool,
             "analysis": dict
         }
         
