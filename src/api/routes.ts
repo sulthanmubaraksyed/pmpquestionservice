@@ -60,14 +60,14 @@ router.get('/pmp-questions', requireApiKey, async (req, res) => {
   try {
     console.log('=== ROUTE DEBUG ===');
     console.log('Query parameters received:', req.query);
-    console.log('isValid query param:', req.query.isValid);
-    console.log('isValid type:', typeof req.query.isValid);
+    console.log('isValid query param:', req.query["isValid"]);
+    console.log('isValid type:', typeof req.query["isValid"]);
     
     const params: RetrieveParams = {
-      processGroup: req.query.processGroup as string,
-      knowledgeArea: req.query.knowledgeArea as string,
-      count: req.query.count ? parseInt(req.query.count as string) : undefined,
-      ...(req.query.isValid !== undefined ? { isValid: req.query.isValid === 'true' } : {})
+      processGroup: req.query["processGroup"] as string,
+      knowledgeArea: req.query["knowledgeArea"] as string,
+      count: req.query["count"] ? parseInt(req.query["count"] as string) : undefined,
+      ...(req.query["isValid"] !== undefined ? { isValid: req.query["isValid"] === 'true' } : {})
     };
 
     console.log('Params object created:', params);

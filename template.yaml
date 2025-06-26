@@ -1,0 +1,108 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: PMP Question Service API
+
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 512
+    Runtime: nodejs18.x
+    Environment:
+      Variables:
+        NODE_ENV: production
+        API_KEY: pmp_service_key_2024
+
+Resources:
+  PMPQuestionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./
+      Handler: dist/api/lambda.lambdaHandler
+      Description: PMP Question Service API Lambda Function
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+            RestApiId: !Ref PMPApi
+        RootApi:
+          Type: Api
+          Properties:
+            Path: /
+            Method: ANY
+            RestApiId: !Ref PMPApi
+
+  PMPApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      Cors:
+        AllowMethods: "'GET,POST,PUT,DELETE,OPTIONS'"
+        AllowHeaders: "'Content-Type,X-API-Key'"
+        AllowOrigin: "'*'"
+      Auth:
+        DefaultAuthorizer: ApiKeyAuthorizer
+        AddDefaultAuthorizerToCorsPreflight: false
+
+  ApiKeyAuthorizer:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./
+      Handler: dist/api/auth.lambdaAuthorizer
+      Runtime: nodejs18.x
+      Timeout: 10
+      Environment:
+        Variables:
+          API_KEY: pmp_service_key_2024
+
+  PMPApiKey:
+    Type: AWS::ApiGateway::ApiKey
+    Properties:
+      Name: PMP-Service-API-Key
+      Description: API Key for PMP Question Service
+      Enabled: true
+      StageKeys:
+        - RestApiId: !Ref PMPApi
+          StageName: prod
+
+  PMPUsagePlan:
+    Type: AWS::ApiGateway::UsagePlan
+    Properties:
+      UsagePlanName: PMP-Service-Usage-Plan
+      Description: Usage plan for PMP Question Service
+      ApiStages:
+        - ApiId: !Ref PMPApi
+          Stage: prod
+      Throttle:
+        RateLimit: 100
+        BurstLimit: 200
+      Quota:
+        Limit: 10000
+        Period: DAY
+
+  PMPUsagePlanKey:
+    Type: AWS::ApiGateway::UsagePlanKey
+    Properties:
+      KeyId: !Ref PMPApiKey
+      KeyType: API_KEY
+      UsagePlanId: !Ref PMPUsagePlan
+
+Outputs:
+  PMPQuestionApi:
+    Description: "API Gateway endpoint URL for PMP Question Service"
+    Value: !Sub "https://${PMPApi}.execute-api.${AWS::Region}.amazonaws.com/prod/"
+    Export:
+      Name: !Sub "${AWS::StackName}-ApiUrl"
+
+  PMPQuestionFunction:
+    Description: "PMP Question Service Lambda Function ARN"
+    Value: !GetAtt PMPQuestionFunction.Arn
+    Export:
+      Name: !Sub "${AWS::StackName}-FunctionArn"
+
+  PMPApiKey:
+    Description: "API Key for PMP Question Service"
+    Value: !Ref PMPApiKey
+    Export:
+      Name: !Sub "${AWS::StackName}-ApiKey" 

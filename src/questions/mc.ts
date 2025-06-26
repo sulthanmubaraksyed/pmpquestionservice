@@ -2626,6 +2626,161 @@ export const questionsData = {
       },
       "process_group": "Monitoring and Controlling",
       "did_user_get_it_right": true
+    },
+    {
+      "id": "1750979512818",
+      "question_pmp": "A global tech company is launching an innovative cloud-based collaboration platform that relies heavily on integration with a third-party legacy system. The project manager has meticulously planned the integration and launch activities. However, there's a recognized significant risk that the third-party system could experience unexpected downtime, severely impacting the platform's functionality upon launch. What is the most crucial ongoing activity the project manager should prioritize to ensure the project's success in light of this risk?",
+      "options_pmp": {
+        "OPTION_A": "Eliminate the risk by mandating the third-party vendor to upgrade their legacy system to ensure seamless integration.",
+        "OPTION_B": "Continuously monitor the potential for the third-party system's unavailability and establish robust contingency plans.",
+        "OPTION_C": "Inform all project stakeholders that full integration may not be achievable and that project delays are probable.",
+        "OPTION_D": "Mitigate the risk by developing an alternative, standalone version of the platform without full legacy system integration."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Mandating a third-party vendor to change their system settings or upgrade is often unrealistic and can strain contractual relationships. It assumes a level of control that typically doesn't exist over external entities and is not a practical or feasible approach for risk elimination in most partnership scenarios.",
+        "option_b_result": "CORRECT - Continuous monitoring of a high-impact risk like system unavailability, coupled with the development of clear contingency plans, is a cornerstone of effective risk management. This proactive approach, aligned with PMI principles, allows the project manager to react swiftly and effectively if the risk materializes, minimizing disruption and protecting project objectives.",
+        "option_c_result": "INCORRECT - While communication is vital, prematurely declaring that full integration is impossible or that delays are probable without active risk management is defeatist and can erode stakeholder confidence. This is a reactive statement rather than a proactive strategy to address and manage the identified risk.",
+        "option_d_result": "INCORRECT - While having alternative plans is part of risk response, immediately developing a standalone version without full integration might represent a scope reduction or a less optimal solution, potentially sacrificing key functionality. It should be a last resort, not the initial proactive step. The first priority is to manage the risk to achieve the full scope.",
+        "process_group": "Monitoring and Controlling",
+        "knowledge_area": "Risk",
+        "tool": "Risk Register, Risk Audits, Performance Reviews",
+        "suggested_read": [
+          "['PMBOK Guide, Section 11.6: Monitor Risks', 'PMBOK Guide, Section 11.5: Plan Risk Responses']"
+        ],
+        "concepts_to_understand": "Risk monitoring, contingency planning, risk response strategies (avoid, mitigate, transfer, accept, escalate), and proactive risk management. Understanding that risks require continuous oversight and preparedness for potential impacts.",
+        "additional_notes": "The scenario describes a significant external risk that could severely impact the project's success. The most crucial activity for the project manager is not to ignore the risk, declare defeat, or make unrealistic demands on the third party, but to proactively manage it. This involves **continuous monitoring** of the risk's status and **developing robust contingency plans**. Continuous monitoring allows the project team to track any changes in the likelihood or impact of the third-party system's unavailability. Simultaneously, having well-defined contingency plans (e.g., alternative data feeds, manual workarounds, or temporary system bypasses) ensures that if the risk does materialize, the team can implement a prepared response quickly, minimizing disruption and keeping the project on track. This approach aligns with the PMI principle of comprehensive risk management, which emphasizes not just identifying risks but also actively tracking and responding to them to ensure project objectives are met."
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1750979515846",
+      "question_pmp": "A project manager is overseeing an agile software development project that falls under the scope of an upcoming corporate IT security audit. The project manager has been informed that they will represent the project in the initial meeting with the auditors next week. What is the most effective and comprehensive preparatory action the project manager should take for this audit meeting?",
+      "options_pmp": {
+        "OPTION_A": "Allocate a portion of the upcoming sprint's story points to specifically address potential audit findings.",
+        "OPTION_B": "Thoroughly review all pertinent project documentation, progress reports, and compliance records.",
+        "OPTION_C": "Delegate the task of compiling all required compliance information solely to the technical development team.",
+        "OPTION_D": "Request a formal waiver from the corporate audit committee to exempt the project from the audit."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Reserving story points is a tactical planning action for future work, which may be needed *after* the audit identifies findings. It is not a preparatory step for the initial audit meeting, where the focus is on presenting existing information and demonstrating compliance.",
+        "option_b_result": "CORRECT - Thoroughly reviewing all project information, including documentation, progress reports, and compliance records, is the most crucial and comprehensive preparatory step. This ensures the project manager is fully informed, can accurately answer questions, and demonstrate adherence to processes and standards, aligning with PMI's emphasis on information management and accountability.",
+        "option_c_result": "INCORRECT - While the development team provides valuable input, delegating the entire compilation process to them is insufficient. The project manager is ultimately accountable for the audit and needs to personally review and understand all information to present a coherent and comprehensive picture. Relying solely on the team could lead to gaps or misinterpretations.",
+        "option_d_result": "INCORRECT - Requesting a waiver from an audit is generally inappropriate and signals a potential lack of compliance or transparency, severely undermining credibility. Audits are standard governance procedures, and seeking exemption without compelling, valid reasons is not a recommended course of action for a PMP.",
+        "process_group": "Monitoring and Controlling",
+        "knowledge_area": "Integration",
+        "tool": "Document Analysis, Performance Reviews",
+        "suggested_read": [
+          "['PMBOK Guide, Section 4.6: Monitor and Control Project Work', 'PMBOK Guide, Section 1.5.2: Project Management Information System (PMIS)']"
+        ],
+        "concepts_to_understand": "Project audits, project governance, compliance, information management, and the project manager's accountability. Understanding the importance of being well-prepared and having a comprehensive understanding of the project's status and documentation for audit purposes.",
+        "additional_notes": "When facing a corporate audit, the project manager's primary objective is to present the project's status, processes, and compliance in a clear, accurate, and comprehensive manner. The most effective way to achieve this is by **thoroughly reviewing all pertinent project documentation, progress reports, and compliance records**. This includes project plans, scope documents, quality reports, risk logs, communication plans, and any records of adherence to organizational policies or regulatory requirements. By doing so, the project manager ensures they have a complete and up-to-date understanding of the project's activities and performance. This preparation allows them to confidently answer auditors' questions, provide evidence of sound project management practices, and address any potential concerns proactively. Simply relying on the team or attempting to avoid the audit altogether would be irresponsible and detrimental to the project's and the project manager's credibility."
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1750979523903",
+      "question_pmp": "A diverse project team responsible for developing a new customer relationship management (CRM) software is preparing their quarterly progress report for the executive steering committee. They have meticulously gathered a vast amount of raw data, including user adoption rates, bug reports, development hours, and feature completion metrics. What is the most important step the project manager should ensure the team takes before presenting this data in the report?",
+      "options_pmp": {
+        "OPTION_A": "Convert all numerical data into various graphical representations to enhance visual appeal and readability for the committee.",
+        "OPTION_B": "Schedule an initial meeting with key executive stakeholders to present the raw data and gather their preferences for report format.",
+        "OPTION_C": "Ensure the team rigorously analyzes and interprets the collected data to extract meaningful insights and actionable conclusions for the report.",
+        "OPTION_D": "Verify that all data collection processes adhered strictly to the established organizational standard operating procedures for reporting."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While graphical representations are valuable for clarity and visual appeal, simply converting raw data into graphs without prior analysis and interpretation can lead to misleading or irrelevant visualizations. The purpose of a report is to convey insights, which requires understanding the 'story' the data tells first, as per effective communication principles.",
+        "option_b_result": "INCORRECT - Presenting raw data directly to executive stakeholders is inefficient and could be overwhelming. Executives typically require summarized, analyzed information to make informed decisions, not raw data. Gathering format preferences should occur during communication planning, not as the final step before reporting raw, unanalyzed data.",
+        "option_c_result": "CORRECT - Analyzing and interpreting the data is the most critical step. Raw data itself is just numbers; it's the interpretation that provides meaningful insights into project performance, trends, and potential issues or successes. This allows the report to be strategic, informative, and actionable, enabling the executive committee to make informed decisions, aligning with effective communication management and performance reporting.",
+        "option_d_result": "INCORRECT - Ensuring adherence to SOPs for data collection is important for data integrity and consistency. However, this is a quality assurance step in the data gathering process, not the most important step *before* presenting the data in a report. Data can be collected meticulously according to SOPs but still lack interpretative value if not properly analyzed before presentation.",
+        "process_group": "Monitoring and Controlling",
+        "knowledge_area": "Communications",
+        "tool": "Data Analysis, Performance Reporting",
+        "suggested_read": [
+          "['PMBOK Guide - Section 10.3 Monitor Communications', 'PMBOK Guide - Section 4.5 Monitor and Control Project Work']"
+        ],
+        "concepts_to_understand": "This question pertains to effective performance reporting and communication. Data analysis transforms raw data into understandable, insightful information. Data interpretation involves drawing conclusions from analyzed data. The goal of a status report is to provide meaningful insights and actionable information to stakeholders, enabling informed decision-making. Simply presenting raw data or visual representations without analysis can lead to confusion or misinterpretation, undermining the report's effectiveness.",
+        "additional_notes": "The scenario describes a project team that has collected a vast amount of raw data for a quarterly progress report to an executive steering committee. The challenge is not just the volume of data, but how to make it useful and actionable for high-level decision-makers. Executives are interested in insights, trends, and conclusions that inform strategic decisions, not in sifting through raw numbers. Therefore, the most important step the project manager must ensure is that the team **rigorously analyzes and interprets the collected data**. Raw data, no matter how extensive, is just information; it lacks meaning until it is processed and understood. Analysis helps identify patterns, root causes, and correlations, while interpretation explains what those patterns mean for the project's health, risks, and progress toward objectives. This ensures the report provides valuable insights and actionable conclusions, making it relevant and effective for the executive committee, rather than merely a compilation of numbers."
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1750979974046",
+      "question_pmp": "A critical software integration project, following an iterative development approach, is in its penultimate (fifth out of six) iteration. During the iteration review, a key stakeholder introduces a new, mandatory regulatory compliance feature that, upon initial assessment, clearly exceeds the remaining capacity of the final iteration. What should the project lead do next?",
+      "options_pmp": {
+        "OPTION_A": "Log the new requirement as an issue and immediately escalate it to the project sponsor for a decision.",
+        "OPTION_B": "Facilitate a collaborative meeting with relevant stakeholders to discuss the new requirement's impact and re-prioritize the remaining project backlog.",
+        "OPTION_C": "Initiate performance management procedures to replace the stakeholder who introduced the late requirement to prevent future disruptions.",
+        "OPTION_D": "Direct the team to increase their velocity significantly to absorb the new feature within the original project timeline."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While logging the requirement as an issue is necessary for documentation, immediate escalation to the sponsor before exploring solutions with the team and stakeholders is premature. It bypasses collaborative problem-solving and places the burden solely on the sponsor, potentially without sufficient context or viable alternatives already discussed.",
+        "option_b_result": "CORRECT - This is the most appropriate next step in an iterative environment. When a significant new requirement emerges late in the project, the project lead must engage stakeholders to collectively understand its impact and make informed decisions about scope, schedule, or resources. Re-prioritization ensures that the most valuable features, including the new regulatory one, are delivered, even if it means deferring or descopeing other items. This aligns with agile principles of adapting to change and continuous stakeholder collaboration.",
+        "option_c_result": "INCORRECT - Attempting to replace a stakeholder for introducing a new requirement, especially a mandatory regulatory one, is highly unprofessional, counterproductive, and detrimental to project success and organizational relationships. Stakeholder needs evolve, and the project manager's role is to manage these changes, not eliminate the source of the change.",
+        "option_d_result": "INCORRECT - Unilaterally directing the team to increase velocity without a proper assessment and stakeholder discussion is unrealistic and often leads to burnout, reduced quality, and further delays. It ignores the constraints of team capacity and the impact of adding significant, un-planned work late in the project, potentially creating an unsustainable work environment.",
+        "process_group": "Monitoring and Controlling",
+        "knowledge_area": "Scope",
+        "tool": "Backlog Refinement, Meetings",
+        "suggested_read": [
+          "['PMBOK Guide, Section 5.5: Control Scope', 'Agile Practice Guide, Section 4.2: Adaptive Planning']"
+        ],
+        "concepts_to_understand": "In adaptive environments, responding to change is prioritized over strict adherence to a plan. When new, critical requirements emerge late in the project, the project manager must engage stakeholders in a collaborative discussion to re-evaluate priorities. This often involves backlog refinement and potentially adjusting the project's scope, schedule, or budget. The focus is on delivering maximum value given the new constraints, rather than rigidly maintaining the original plan at all costs. Transparency and collective decision-making are key to managing such changes effectively.",
+        "additional_notes": "This question describes a common challenge in iterative or agile projects: the introduction of new, critical requirements late in the lifecycle. In an adaptive environment, the expectation is not to rigidly stick to the original plan, but to respond to change in a structured manner. When a mandatory regulatory feature is introduced that exceeds remaining capacity, the project lead cannot simply ignore it or unilaterally force the team to overwork. The most effective approach is to bring all relevant stakeholders together. This meeting allows for a transparent discussion about the implications of the new requirement on the existing scope, schedule, and resources. By collaboratively re-prioritizing the remaining project backlog, stakeholders can collectively decide what features are most critical to deliver within the existing constraints or whether a scope adjustment, timeline extension, or additional resources are necessary. This approach ensures buy-in and a shared understanding of the revised project direction, aligning with agile principles of continuous stakeholder collaboration and value delivery."
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1750979975055",
+      "question_pmp": "A critical IT infrastructure upgrade project is in its sixth iteration of seven, operating under a rolling wave planning approach. During the daily stand-up meeting, a network engineer reports that a complex configuration task, which is a dependency for several upcoming activities, will require significantly more time than initially estimated due to unforeseen compatibility issues. What should the project manager's immediate next action be?",
+      "options_pmp": {
+        "OPTION_A": "Document the delay in the issue log and prepare an immediate escalation report for the project sponsor.",
+        "OPTION_B": "Request a formal project extension from the steering committee to accommodate the newly discovered delay.",
+        "OPTION_C": "Convene an immediate session with the project team to collaboratively analyze the impact of the delay and brainstorm potential solutions or workarounds.",
+        "OPTION_D": "Initiate a request for additional skilled resources to increase team capacity and accelerate completion of the delayed task."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While documenting the issue is important, immediately escalating to the sponsor without first exploring solutions with the team bypasses the principle of self-organizing teams and proactive internal problem-solving. This approach can be seen as reactive and may lead to unnecessary concern from the sponsor if the team could have resolved it themselves.",
+        "option_b_result": "INCORRECT - Requesting a formal project extension is a significant measure that should only be considered after all internal team-level options to mitigate the delay have been exhausted. It's premature to ask for an extension before understanding the full impact and potential internal solutions, as it could negatively affect stakeholder confidence and project perception.",
+        "option_c_result": "CORRECT - This is the most appropriate immediate action. In an agile or adaptive environment, when a team member identifies a problem, the first step is to leverage the collective intelligence of the team. A collaborative session allows for a quick assessment of the problem's scope, impact on dependencies, and brainstorming of various solutions like task re-prioritization, re-sequencing, or identifying expert support. This aligns with agile principles of self-organization and continuous improvement.",
+        "option_d_result": "INCORRECT - While increasing team capacity might be a potential solution, it should not be the immediate first step without understanding the root cause and exploring all other options with the current team. Simply adding more resources (as per Brooks' Law) can sometimes complicate matters, especially if the issue is complex and requires specialized knowledge, or if new resources need significant onboarding time.",
+        "process_group": "Monitoring and Controlling",
+        "knowledge_area": "Schedule",
+        "tool": "Meetings, Problem Solving",
+        "suggested_read": [
+          "['PMBOK Guide, Section 6.6: Control Schedule', 'Agile Practice Guide, Section 5.1: Adaptive Team Planning']"
+        ],
+        "concepts_to_understand": "In adaptive project management, team collaboration and self-organization are central to problem-solving. When schedule deviations occur, the immediate response should be to engage the project team to collectively analyze the issue, identify its impact, and brainstorm potential solutions. This iterative problem-solving approach allows the team to leverage their expertise to find the most efficient way to mitigate the delay, potentially through re-prioritization, task re-assignment, or process adjustments, before escalating or seeking external interventions.",
+        "additional_notes": "This question focuses on effective schedule management and problem-solving within an iterative project context. When a team member identifies a potential delay for a critical task, especially one with dependencies, the project manager's primary responsibility is to facilitate a rapid and collaborative response. Immediately escalating to the sponsor or requesting an extension bypasses the team's ability to self-organize and find internal solutions. The most effective first step is to bring the team together. This allows for a collective assessment of the problem's technical details, its impact on the overall project schedule and dependencies, and a brainstorming session for potential solutions. These solutions could range from re-allocating resources, adjusting task sequences, seeking specialized internal expertise, or even identifying minor scope adjustments to mitigate the impact. This approach aligns with agile principles, fostering team empowerment and leveraging collective intelligence to address challenges proactively before they escalate into major project issues."
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": false
     }
   ]
 };

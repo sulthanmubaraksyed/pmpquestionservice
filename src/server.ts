@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { generateApiKey } from './utils/apiKeyService.js';
+import { listApiKeys } from './utils/apiKeyService.js';
 
 const app = express();
 const port = 3001;
@@ -8,9 +8,9 @@ const port = 3001;
 app.use(cors());
 app.use(express.json());
 
-// Generate a default API key
-const defaultKey = generateApiKey('Default Key');
-console.log('Default API Key:', defaultKey);
+// List available API keys
+const keys = listApiKeys();
+console.log('Available API Keys:', keys);
 
 // Test endpoint
 app.get('/test', (req, res) => {
@@ -18,10 +18,9 @@ app.get('/test', (req, res) => {
 });
 
 // API key endpoint
-app.post('/api-key', (req, res) => {
-  const { name } = req.body;
-  const key = generateApiKey(name || 'New Key');
-  res.json({ key });
+app.get('/api-keys', (req, res) => {
+  const keys = listApiKeys();
+  res.json({ keys });
 });
 
 app.listen(port, () => {
