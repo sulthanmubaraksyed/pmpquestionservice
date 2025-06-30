@@ -1,4 +1,5 @@
-export const questionsData = {
+{
+  "is_sample": false,
   "questions": [
     {
       "id": "1717049950186",
@@ -3207,9 +3208,9 @@ export const questionsData = {
         "OPTION_C": "Start-to-Finish (SF)",
         "OPTION_D": "Finish-to-Start (FS)"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "D",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3220,14 +3221,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']",
         "concepts_to_understand": "The four types of logical relationships (FS, SS, FF, SF) and their application in activity sequencing. Understanding which type of dependency is most common and how to interpret project scenarios to correctly identify the relationship between activities is crucial for building a realistic project schedule. The Precedence Diagramming Method (PDM) is the primary tool used for visualizing these relationships.",
         "additional_notes": "This question assesses the understanding of activity sequencing, specifically the different types of logical relationships. The scenario presents a clear description of a Finish-to-Start dependency, which is the most common type. The challenge lies in distinguishing it from other plausible but incorrect options like Start-to-Start, especially when considering the phrasing 'must be completed before'. Correctly identifying the relationship is foundational to developing an accurate and viable project schedule, as misinterpreting these dependencies can lead to schedule delays or rework. The question also includes distractors that represent other relationship types, testing the candidate's precise knowledge of each one's meaning and application."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086246670",
@@ -3238,9 +3235,9 @@ export const questionsData = {
         "OPTION_C": "Resource Histogram",
         "OPTION_D": "Work Breakdown Structure (WBS)"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "B",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3251,14 +3248,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']",
         "concepts_to_understand": "The purpose of the Sequence Activities process is to identify and document relationships among project activities. The Precedence Diagramming Method (PDM) is the most common technique used, and its output is a project schedule network diagram. Understanding the distinction between a WBS (what needs to be done) and a network diagram (the order in which it will be done) is key.",
         "additional_notes": "This question tests fundamental knowledge about the tools and techniques used in the Sequence Activities process, specifically focusing on the visual representation of activity dependencies. The Precedence Diagramming Method (PDM) results in a network diagram, which graphically depicts the logical relationships. It's crucial for a PMP candidate to understand that while a Gantt chart displays activities over time, the network diagram is the primary output for establishing and visualizing the sequence. The other options are relevant project management documents or tools but serve different purposes in planning."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086247674",
@@ -3269,9 +3262,9 @@ export const questionsData = {
         "OPTION_C": "Project Management Information System (PMIS)",
         "OPTION_D": "Meetings and Expert Judgment"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "A",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3282,14 +3275,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Meetings, Expert Judgment",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2 - Tools and Techniques for Sequence Activities', 'PMBOK Guide - 6th Edition, Section 6.3.2 - Tools and Techniques']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2 - Tools and Techniques for Sequence Activities', 'PMBOK Guide - 6th Edition, Section 6.3.2 - Tools and Techniques']",
         "concepts_to_understand": "The importance of collaboration and expert input in the Sequence Activities process. While tools like PDM help visualize, resolving conflicting views and ensuring the accuracy of dependencies often requires facilitated discussions and reliance on the knowledge of experienced individuals. Expert judgment can come from various sources including project team members, subject matter experts, and industry consultants.",
         "additional_notes": "This question focuses on the human element and collaborative aspects of the Sequence Activities process. When a team faces disagreements on activity sequencing, simply using a software tool won't resolve the underlying conflict. Instead, the project manager needs to employ facilitated discussions (meetings) and leverage the knowledge of experienced individuals (expert judgment) to arrive at a consensus. This ensures that the logical relationships are not only technically correct but also accepted by the team, promoting buy-in and reducing future issues related to schedule adherence."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": false
+      }
     },
     {
       "id": "1751086248680",
@@ -3300,9 +3289,9 @@ export const questionsData = {
         "OPTION_C": "External dependency with a lag.",
         "OPTION_D": "Finish-to-Start with a lead."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "D",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3313,14 +3302,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']",
         "concepts_to_understand": "Understanding of leads and lags, and how they modify logical relationships. A lead allows an acceleration of the successor activity, meaning it can start before the predecessor is 100% complete. This differs from a simple FS relationship and is a common technique for schedule compression. It is important to also differentiate between mandatory and discretionary dependencies.",
         "additional_notes": "This question delves into the nuanced application of leads in activity sequencing, specifically how they modify underlying Finish-to-Start relationships. The key is recognizing that 'Foundation Pour' starting when 'Excavation' is '80% complete' implies an overlap, which is the definition of a lead. While the core relationship is still that of one activity depending on the completion (even partial) of another, the '80% complete' portion signifies the lead. Misunderstanding leads and lags can lead to inaccurate schedule forecasting and resource allocation. The question uses specific terminology to test a deep understanding of these concepts."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086249695",
@@ -3331,9 +3316,9 @@ export const questionsData = {
         "OPTION_C": "Discretionary dependency, allowing for flexibility.",
         "OPTION_D": "Logical dependency, due to its sequential nature."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "C",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3344,14 +3329,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Expert Judgment",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Dependency Determination', 'PMBOK Guide - 6th Edition, Section 6.3.2.4 - Dependency Determination']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Dependency Determination', 'PMBOK Guide - 6th Edition, Section 6.3.2.4 - Dependency Determination']",
         "concepts_to_understand": "The four types of dependencies: mandatory, discretionary, external, and internal. Understanding the source and implications of each dependency type is critical for effective schedule management, particularly for identifying areas of potential flexibility or constraint. Discretionary dependencies, often called 'soft logic,' are based on preferences or best practices and can be changed.",
         "additional_notes": "This question tests the understanding of discretionary dependencies, which are often based on best practices, preferred sequences, or organizational policies rather than hard physical or contractual requirements. The importance of identifying them lies in the fact that they offer opportunities for schedule compression or re-sequencing if the project schedule becomes constrained. Unlike mandatory dependencies, discretionary ones can be changed, though often with a trade-off in quality or risk. This distinction is vital for a project manager aiming to optimize the project timeline."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086250702",
@@ -3362,9 +3343,9 @@ export const questionsData = {
         "OPTION_C": "Start-to-Finish (SF)",
         "OPTION_D": "Finish-to-Start (FS)"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "D",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3375,14 +3356,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']",
         "concepts_to_understand": "The four types of logical relationships: Finish-to-Start (FS), Start-to-Start (SS), Finish-to-Finish (FF), and Start-to-Finish (SF). It is crucial to understand that Start-to-Finish (SF) is a rare but valid dependency where the predecessor's completion is tied to the successor's initiation. This scenario specifically tests the understanding of this less common relationship.",
         "additional_notes": "This question is designed to test the candidate's understanding of the less common Start-to-Finish (SF) relationship. While FS, SS, and FF are frequently encountered, SF relationships, though rare, do exist and signify specific operational constraints. The scenario clearly states that the *completion* of 'Website Content Finalization' is dependent on the *start* of 'Product Photography', making SF the only correct option. Misidentifying this could lead to an improperly sequenced schedule and potential delays or resource conflicts."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": false
+      }
     },
     {
       "id": "1751086251712",
@@ -3393,9 +3370,9 @@ export const questionsData = {
         "OPTION_C": "Enhanced stakeholder communication.",
         "OPTION_D": "Optimized project schedule and earlier completion."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "D",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3406,14 +3383,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.1.2 - Activity Attributes']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.1.2 - Activity Attributes']",
         "concepts_to_understand": "The purpose of the Sequence Activities process and its direct impact on schedule optimization. By identifying dependencies, especially those that allow for parallel work, project managers can apply schedule compression techniques like fast tracking to reduce the overall project duration. This directly addresses the goal of completing projects more efficiently.",
         "additional_notes": "This question focuses on the strategic benefit of effectively sequencing activities, particularly identifying opportunities for parallel work. The primary goal of such identification in the 'Sequence Activities' process is to optimize the project schedule, often leading to earlier completion. While other benefits like improved resource allocation or communication might indirectly arise, the direct and most significant impact is on the project timeline. This highlights the importance of thorough dependency identification as a foundational step for effective schedule management and project delivery."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086252713",
@@ -3424,9 +3397,9 @@ export const questionsData = {
         "OPTION_C": "Enterprise Environmental Factors (EEFs)",
         "OPTION_D": "Project Schedule Network Diagrams"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "A",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3437,14 +3410,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Activity Attributes",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.1.2 - Activity Attributes', 'PMBOK Guide - 6th Edition, Section 6.3.1.2 - Activity Attributes']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.1.2 - Activity Attributes', 'PMBOK Guide - 6th Edition, Section 6.3.1.2 - Activity Attributes']",
         "concepts_to_understand": "The various inputs to the Sequence Activities process and their specific utility. Activity attributes are crucial for capturing detailed information about each activity, which can include discretionary dependencies derived from best practices, past projects, or expert knowledge, even if not immediately obvious as a mandatory physical dependency.",
         "additional_notes": "This question highlights the importance of 'Activity Attributes' as a detailed input that can contain critical information for determining both explicit and implicit dependencies during the Sequence Activities process. While OPAs provide general guidelines, and EEFs impose broader constraints, the attributes attached to individual activities are where project-specific details about relationships, including 'soft' or discretionary dependencies, are documented and identified. This emphasizes the meticulous nature of capturing all relevant data to build an accurate schedule."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086253720",
@@ -3455,9 +3424,9 @@ export const questionsData = {
         "OPTION_C": "Assign additional resources to 'Server Migration'.",
         "OPTION_D": "Fast-track the 'Network Configuration' activity."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "A",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3468,14 +3437,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM), Leads and Lags",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Leads and Lags', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Leads and Lags', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']",
         "concepts_to_understand": "The application of leads and lags to adjust activity dependencies and manage schedule risk. A lag represents a waiting period between the finish of a predecessor activity and the start of a successor activity. This is a direct tool within the Sequence Activities process to build in necessary buffers or delays to manage project complexities or risks effectively.",
         "additional_notes": "This question specifically targets the use of lags as a tool within the Sequence Activities process to manage risk and provide necessary buffers between dependent activities. The stakeholder's concern about the lack of buffer time directly points to the need for a lag. The other options address different aspects of schedule management (duration estimation, crashing, fast-tracking) but do not directly resolve the dependency-related buffer issue. Understanding how to apply lags effectively is crucial for building a realistic and resilient project schedule, especially in high-risk environments like IT infrastructure upgrades."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086254729",
@@ -3486,9 +3451,9 @@ export const questionsData = {
         "OPTION_C": "To identify and define the logical relationships between activities.",
         "OPTION_D": "To finalize the project baseline schedule."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "C",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3499,14 +3464,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Meetings, Expert Judgment",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2 - Tools and Techniques for Sequence Activities', 'PMBOK Guide - 6th Edition, Section 6.3.2 - Tools and Techniques']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2 - Tools and Techniques for Sequence Activities', 'PMBOK Guide - 6th Edition, Section 6.3.2 - Tools and Techniques']",
         "concepts_to_understand": "The purpose and key activities of the 'Sequence Activities' process, which is to identify and document logical relationships between schedule activities using tools like PDM and techniques like expert judgment and meetings. Understanding the order of planning processes is essential.",
         "additional_notes": "This question reinforces the understanding of the specific objective of the 'Sequence Activities' process within the Planning Process Group. The meeting described is a direct application of the 'Meetings' and 'Expert Judgment' tools/techniques, with the explicit purpose of defining the logical flow of work. It distinguishes this process from related schedule management processes like 'Define Activities' or 'Estimate Activity Durations', ensuring the candidate understands where each activity fits in the overall planning sequence."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086255735",
@@ -3517,9 +3478,9 @@ export const questionsData = {
         "OPTION_C": "Implement a Finish-to-Finish (FF) dependency.",
         "OPTION_D": "Create a Start-to-Finish (SF) dependency."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "B",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3530,14 +3491,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']",
         "concepts_to_understand": "The nuances of logical relationships, particularly the difference between a direct Start-to-Start (SS) dependency and a Finish-to-Start (FS) dependency with a lead. While both can create overlap, SS is more precise when the triggering event is the *start* of the predecessor activity.",
         "additional_notes": "This question challenges the candidate to choose the most precise logical relationship. While an FS with a lead could technically create an overlap, the phrasing 'as soon as 'Draft Ad Copy' starts' most directly points to a Start-to-Start (SS) dependency. SS relationships are common when activities can begin concurrently or in close proximity, allowing for faster progress. Recognizing this distinction is vital for accurate schedule modeling and avoiding unnecessary delays."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086256741",
@@ -3548,9 +3505,9 @@ export const questionsData = {
         "OPTION_C": "Mandatory dependencies",
         "OPTION_D": "Preferred dependencies"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "C",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3561,14 +3518,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Dependency Determination",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Dependency Determination', 'PMBOK Guide - 6th Edition, Section 6.3.2.4 - Dependency Determination']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Dependency Determination', 'PMBOK Guide - 6th Edition, Section 6.3.2.4 - Dependency Determination']",
         "concepts_to_understand": "The four types of dependencies: mandatory, discretionary, external, and internal. Mandatory dependencies are critical to understand as they represent unchangeable constraints on the project schedule due to the fundamental nature of the work or contractual obligations.",
         "additional_notes": "This question tests the understanding of mandatory dependencies. The examples provided ('Venue Setup' after 'Venue Booking', 'Catering Order' after 'Menu Selection') illustrate clear physical or logical necessities. These types of dependencies are fundamental to project planning and cannot typically be altered, distinguishing them from discretionary dependencies which offer flexibility. Correctly identifying mandatory dependencies is crucial for building a realistic and executable project schedule."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086257751",
@@ -3579,9 +3532,9 @@ export const questionsData = {
         "OPTION_C": "A Finish-to-Finish (FF) dependency with a 3-day lead.",
         "OPTION_D": "A Finish-to-Start (FS) dependency with a 3-day lead."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "A",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3592,14 +3545,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM), Leads and Lags",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']",
         "concepts_to_understand": "The interplay between logical relationships (FS, SS, FF, SF) and the application of leads and lags. A lag indicates a delay after a predecessor activity's logical relationship has been satisfied and before the successor activity can begin. This is crucial for reflecting realistic waiting periods, such as curing concrete or data synchronization time.",
         "additional_notes": "This question is designed to test a comprehensive understanding of both logical relationships and the application of lags. The scenario clearly describes a Finish-to-Start relationship ('UAT cannot start until SIT is fully completed') and then introduces a waiting period ('3-day waiting period'), which is the definition of a lag. Incorrectly choosing a different dependency type or misinterpreting 'lead' for 'lag' would lead to an inaccurate schedule, emphasizing the importance of precise terminology and application in PMP. The options are crafted to be plausible if a key detail or term is misunderstood."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086258761",
@@ -3610,9 +3559,9 @@ export const questionsData = {
         "OPTION_C": "Activity List and Activity Attributes",
         "OPTION_D": "Basis of Estimates"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "C",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3623,14 +3572,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Project Management Information System (PMIS)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.1.2 - Activity List and Activity Attributes', 'PMBOK Guide - 6th Edition, Section 6.3.1.1 - Activity List and 6.3.1.2 - Activity Attributes']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.1.2 - Activity List and Activity Attributes', 'PMBOK Guide - 6th Edition, Section 6.3.1.1 - Activity List and 6.3.1.2 - Activity Attributes']",
         "concepts_to_understand": "The key inputs to the 'Sequence Activities' process, especially the direct outputs from preceding schedule management processes. The Activity List provides the 'what' and Activity Attributes provide the 'how' for initial dependency definition, enabling tools like PMIS to establish relationships.",
         "additional_notes": "This question focuses on understanding the critical inputs to the Sequence Activities process. The Activity List identifies all discrete activities, and critically, the Activity Attributes carry the descriptive information for each activity, including preliminary dependency indicators. This detailed information allows project management software (a PMIS) to begin modeling the relationships. Without these two specific inputs, the sequencing process cannot effectively begin, highlighting their foundational role in schedule development."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086259766",
@@ -3641,9 +3586,9 @@ export const questionsData = {
         "OPTION_C": "Project Schedule Network Diagram; to display logical relationships.",
         "OPTION_D": "Resource Breakdown Structure; to categorize resources."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "C",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3654,14 +3599,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.3.1 - Project Schedule Network Diagrams', 'PMBOK Guide - 6th Edition, Section 6.3.3.1 - Project Schedule Network Diagrams']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.3.1 - Project Schedule Network Diagrams', 'PMBOK Guide - 6th Edition, Section 6.3.3.1 - Project Schedule Network Diagrams']",
         "concepts_to_understand": "The direct outputs of the 'Sequence Activities' process and their role in overall schedule development. The Project Schedule Network Diagram is crucial as it graphically depicts the flow of work, making it easy to identify logical relationships and providing the foundation for critical path analysis.",
         "additional_notes": "This question reinforces the understanding of the key output of the Sequence Activities process. The Project Schedule Network Diagram is the direct result of applying tools and techniques like PDM. It serves as the foundation for all subsequent schedule analyses, including critical path determination. Distinguishing this output from other schedule-related documents like the Gantt chart or schedule baseline is essential for a PMP candidate to demonstrate a clear grasp of the progressive elaboration of the project schedule."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086260772",
@@ -3672,9 +3613,9 @@ export const questionsData = {
         "OPTION_C": "A Finish-to-Finish (FF) dependency with a lag.",
         "OPTION_D": "A Start-to-Finish (SF) dependency with a lead."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "B",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3685,14 +3626,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM), Leads and Lags",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.3 - Leads and Lags']",
         "concepts_to_understand": "The application of leads with different logical relationships, specifically with Start-to-Start (SS) dependencies, for schedule compression. When an activity can begin *after* its predecessor has started but *before* it finishes, it often indicates an SS relationship with a lead. This allows for effective fast-tracking.",
         "additional_notes": "This question tests a sophisticated understanding of how leads can be applied to different logical relationships to achieve schedule compression through fast-tracking. The crucial element here is the phrase 'ideally overlap' and 'highly dependent on early feedback', which suggests 'Marketing Material Development' can start as soon as 'Final Product Testing' starts (SS) and even accelerate its start through a lead, indicating that part of the information is available early. This requires a nuanced interpretation to select the most appropriate and aggressive scheduling technique for the scenario."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086261784",
@@ -3703,9 +3640,9 @@ export const questionsData = {
         "OPTION_C": "Fast Tracking",
         "OPTION_D": "Critical Chain Method"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "C",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3716,14 +3653,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Leads and Lags (implied by Fast Tracking)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.5.2.2 - Schedule Compression', 'PMBOK Guide - 6th Edition, Section 6.5.2.5 - Fast Tracking']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.5.2.2 - Schedule Compression', 'PMBOK Guide - 6th Edition, Section 6.5.2.5 - Fast Tracking']",
         "concepts_to_understand": "Schedule compression techniques, specifically fast tracking, and how they relate to activity sequencing. Fast tracking involves adjusting logical relationships (often by introducing leads or converting FS to SS/FF relationships) to allow for parallel work, thereby shortening the project duration. This is a common strategic decision made during schedule development based on the sequenced activities.",
         "additional_notes": "This question tests the understanding of 'Fast Tracking' as a schedule compression technique directly enabled by the flexible sequencing of activities using leads. The scenario describes a classic example of fast tracking, where 'Insulation Installation' overlaps with 'Framing Inspection' by starting early. This is a strategic decision made during planning, leveraging the definition of activity relationships to optimize the schedule rather than simply defining dependencies. It's important to differentiate fast tracking from other schedule techniques like crashing or resource leveling."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086262790",
@@ -3734,9 +3667,9 @@ export const questionsData = {
         "OPTION_C": "External dependency",
         "OPTION_D": "Resource-based dependency"
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "C",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3747,14 +3680,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Dependency Determination",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Dependency Determination', 'PMBOK Guide - 6th Edition, Section 6.3.2.4 - Dependency Determination']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.3 - Dependency Determination', 'PMBOK Guide - 6th Edition, Section 6.3.2.4 - Dependency Determination']",
         "concepts_to_understand": "The understanding of the different types of dependencies and their sources. External dependencies, which are outside the project team's direct control, are particularly important for risk management and realistic scheduling. They often come from regulatory bodies, suppliers, or other external stakeholders.",
         "additional_notes": "This question focuses on external dependencies, which are crucial for realistic schedule planning because they are outside the project team's direct control. The scenario clearly indicates that the initiation of 'Environmental Impact Assessment' is contingent upon an action (regulatory approval) from an entity outside the project, making it an external dependency. Recognizing and accurately documenting such dependencies is vital for identifying potential risks and managing stakeholder expectations regarding the project timeline."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     },
     {
       "id": "1751086263796",
@@ -3765,9 +3694,9 @@ export const questionsData = {
         "OPTION_C": "A Start-to-Start (SS) dependency from 'Database Design' to UAT.",
         "OPTION_D": "A Finish-to-Start (FS) dependency from the *earlier* finishing development activity to UAT."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "D",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3778,14 +3707,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.2.2 - Precedence Diagramming Method (PDM)', 'PMBOK Guide - 6th Edition, Section 6.3.2.2 - Precedence Diagramming Method']",
         "concepts_to_understand": "Modeling 'merge points' or multiple predecessor relationships in a schedule network diagram. When an activity relies on the completion of several preceding activities, each predecessor must have a Finish-to-Start dependency to the successor activity to ensure proper sequencing and avoid starting dependent work prematurely.",
         "additional_notes": "This question addresses the common scenario of a 'merge point' in a project schedule network diagram, where a single activity has multiple predecessors that must all be completed before it can begin. The most accurate way to model this is with separate Finish-to-Start dependencies from each preceding activity to the successor. This ensures that the successor activity is constrained by the latest completion of any of its predecessors, which is crucial for maintaining schedule integrity and preventing premature starts of dependent work."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": false
+      }
     },
     {
       "id": "1751086264804",
@@ -3796,9 +3721,9 @@ export const questionsData = {
         "OPTION_C": "To identify all project risks and develop responses.",
         "OPTION_D": "To facilitate stakeholder communication and engagement."
       },
-      "is_attempted": true,
-      "is_valid": true,
-      "selected_option": "B",
+      "is_attempted": false,
+      "is_valid": false,
+      "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3809,14 +3734,10 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Precedence Diagramming Method (PDM)",
-        "suggested_read": [
-          "['PMBOK Guide - 7th Edition, Section 6.4.3.1 - Project Schedule Network Diagrams', 'PMBOK Guide - 6th Edition, Section 6.4.2.2 - Critical Path Method']"
-        ],
+        "suggested_read": "['PMBOK Guide - 7th Edition, Section 6.4.3.1 - Project Schedule Network Diagrams', 'PMBOK Guide - 6th Edition, Section 6.4.2.2 - Critical Path Method']",
         "concepts_to_understand": "The direct link between activity sequencing and critical path calculation. Accurate logical relationships are fundamental for network analysis, which in turn defines the critical path and overall project duration. The critical path is a core concept in schedule management.",
         "additional_notes": "This question highlights the fundamental objective and direct consequence of effectively sequencing activities: enabling the accurate calculation of the critical path. The critical path is crucial for understanding the shortest possible project duration and identifying activities that, if delayed, will delay the entire project. Without precisely defined dependencies from the Sequence Activities process, critical path analysis would be flawed. This reinforces the foundational role of activity sequencing in comprehensive schedule management."
-      },
-      "process_group": "Planning",
-      "did_user_get_it_right": true
+      }
     }
   ]
-};
+}
