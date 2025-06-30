@@ -353,7 +353,9 @@ export class QuestionManager {
       ...currentQuestion,
       is_attempted: true,
       selected_option: selectedOption,
-      did_user_get_it_right: this.isAnswerCorrect(selectedOption, currentQuestion)
+      did_user_get_it_right: this.isAnswerCorrect(selectedOption, currentQuestion),
+      // Ensure is_sample attribute is preserved
+      is_sample: currentQuestion.is_sample || "No"
     };
 
     // Update both questionsData and responseArray

@@ -28,6 +28,7 @@ export interface QAResponseIndividual {
   did_user_get_it_right?: boolean;
   is_valid?: boolean;
   additional_notes?: string;
+  is_sample?: string;
 }
 
 export interface RetrieveParams {

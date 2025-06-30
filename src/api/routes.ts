@@ -130,6 +130,7 @@ const saveRecordHandler: RequestHandler = async (req, res) => {
     isAttempted: req.body.is_attempted,
     selectedOption: req.body.selected_option,
     didUserGetItRight: req.body.did_user_get_it_right,
+    isSample: req.body.is_sample,
     additionalNotes: req.body.analysis?.additional_notes
   });
   

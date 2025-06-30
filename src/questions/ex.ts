@@ -1492,6 +1492,485 @@ export const questionsData = {
       },
       "process_group": "Executing",
       "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309144472",
+      "question_pmp": "During the Conduct Procurements process for a large-scale IT infrastructure project, your team is reviewing proposals from various vendors. One vendor, a long-standing partner, submits a proposal that is technically strong but significantly over budget. Another new vendor offers a highly competitive price but has limited experience with projects of this size. The project sponsor is pushing for a quick decision to avoid schedule delays, emphasizing the need for cost control.",
+      "options_pmp": {
+        "OPTION_A": "Negotiate with the new vendor to strengthen their technical offering and reduce potential risks.",
+        "OPTION_B": "Re-evaluate the project budget to accommodate the long-standing partner's proposal given their proven reliability.",
+        "OPTION_C": "Initiate further negotiation with both vendors, focusing on value optimization and risk mitigation.",
+        "OPTION_D": "Select the new vendor due to cost savings and develop a robust risk management plan for their inexperience."
+      },
+      "is_attempted": false,
+      "is_valid": true,
+      "selected_option": "",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While negotiating with the new vendor is a valid step, focusing solely on strengthening their technical offering without considering the long-standing partner's proposal or a broader negotiation strategy might lead to a suboptimal outcome. The PMP emphasizes balancing multiple criteria, not just one aspect of a single vendor. This approach doesn't fully address the overall project objectives or the sponsor's concerns.",
+        "option_b_result": "INCORRECT - Re-evaluating the budget to accommodate a high-cost vendor, even a reliable one, without first attempting to negotiate or explore other options is not the most prudent financial management. The sponsor's emphasis on cost control indicates that simply increasing the budget is likely to be met with resistance and may not be in the project's best interest. A PMP should seek a balanced solution.",
+        "option_c_result": "CORRECT - Initiating further negotiation with both vendors, focusing on value optimization and risk mitigation, is the most appropriate action. The Conduct Procurements process involves negotiating contracts, and this scenario presents an opportunity to leverage both price and experience. Value optimization ensures the project receives the best overall solution, balancing cost, quality, and risk. This approach demonstrates proactive management and aligns with the need for cost control while not dismissing the value of experience.",
+        "option_d_result": "INCORRECT - Selecting the new vendor solely based on cost savings without thoroughly exploring negotiation opportunities with the established vendor or further mitigating the new vendor's inexperience could lead to significant project risks later on. While cost is important, a balanced decision considers all factors, including quality, experience, and risk. A PMP must avoid making decisions based on a single criterion when other factors are critical.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Negotiation",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 4.1 Develop Project Charter: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question assesses the project manager's ability to navigate complex procurement scenarios during the Executing process group. Key concepts include balancing competing objectives (cost vs. experience), the importance of negotiation as a tool in Conduct Procurements, and optimizing value. It also touches on stakeholder management and risk considerations during vendor selection, emphasizing that the 'best' solution often involves a trade-off and strategic discussion.",
+        "additional_notes": "The scenario highlights a common challenge in procurement: balancing cost, quality, and vendor experience. The project manager must engage in strategic negotiation rather than making a premature decision based on a single factor. Option C is correct because it suggests a balanced approach that seeks to optimize value, address the sponsor's concerns about cost, and mitigate risks associated with both vendors. Options A and B are too narrow in their focus, while Option D is too risky without further negotiation and risk mitigation. The difficulty lies in discerning the most comprehensive and strategic approach among plausible options."
+      },
+      "is_sample": true,
+      "process_group": "Executing"
+    },
+    {
+      "id": "1751309145476",
+      "question_pmp": "During contract negotiations, the selected seller proposes a change to the agreed-upon payment schedule, requesting an earlier upfront payment than initially specified in the Request for Proposal (RFP). What should the project manager do FIRST?",
+      "options_pmp": {
+        "OPTION_A": "Reject the proposal outright, adhering strictly to the original RFP terms.",
+        "OPTION_B": "Consult with the legal department to assess the contractual implications of the change.",
+        "OPTION_C": "Evaluate the impact of the proposed change on the project's cash flow and budget.",
+        "OPTION_D": "Negotiate a reduced overall contract price in exchange for the earlier payment."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Rejecting the proposal outright without evaluation can damage the negotiation process and potentially lose a valuable seller. While adhering to RFP terms is generally good practice, negotiation often involves flexibility within reasonable bounds. A project manager should always explore the implications before making a definitive decision, especially when a seller is proposing a change.",
+        "option_b_result": "INCORRECT - While consulting the legal department is crucial at some point, it's not the absolute first step. Before involving legal, the project manager needs to understand the project-specific impact of the proposed change. Without understanding the internal implications (cost, cash flow), legal counsel might not have sufficient context to advise effectively. The project's financial health is a primary concern.",
+        "option_c_result": "CORRECT - The FIRST action should be to evaluate the impact of the proposed change on the project's cash flow and budget. Understanding the financial implications is paramount before proceeding with any negotiation or involving other departments like legal. This internal assessment will determine the feasibility and acceptability of the seller's request from a project perspective, providing a basis for subsequent actions.",
+        "option_d_result": "INCORRECT - Negotiating a reduced price is a potential counter-offer, but it should come after understanding the impact of the seller's request on the project's finances. Without knowing the financial implications, the project manager cannot determine an appropriate negotiation strategy or whether a price reduction is truly necessary or sufficient to offset the earlier payment.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Analytical Techniques",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 7.3 Control Procurements: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question tests the sequencing of actions during procurement negotiations, emphasizing the 'FIRST' action. It highlights the importance of internal analysis (specifically financial impact) before engaging in external actions or seeking legal counsel. A project manager's primary responsibility is to protect the project's interests, and understanding the financial ramifications of a proposed change is a critical first step. It also indirectly touches upon cash flow management and budget control.",
+        "additional_notes": "In the Conduct Procurements process, when a seller proposes a change, the project manager's immediate priority is to assess the impact on the project itself. Before considering legal ramifications, negotiating, or outright rejecting, understanding the internal financial consequences (cash flow and budget) is essential. This allows the project manager to make an informed decision or develop a well-reasoned counter-proposal. The difficulty lies in differentiating between important subsequent steps and the foundational first step of internal assessment."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309146477",
+      "question_pmp": "During the Conduct Procurements process, the project manager identifies that a key supplier, essential for a critical component, has recently experienced significant financial difficulties. This information was not available during the Plan Procurements process. What is the MOST appropriate action for the project manager to take?",
+      "options_pmp": {
+        "OPTION_A": "Proceed with the supplier, but increase the frequency of financial audits.",
+        "OPTION_B": "Re-evaluate the procurement strategy for this critical component, considering alternative suppliers.",
+        "OPTION_C": "Inform the project sponsor and key stakeholders about the risk, requesting their guidance.",
+        "OPTION_D": "Delay the procurement until the supplier's financial situation stabilizes."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While increasing financial audits is a good control measure, it's a reactive step and doesn't address the fundamental risk of a financially unstable critical supplier. This approach might not prevent the supplier from failing or causing significant project delays or cost overruns. A more proactive measure is needed for such a significant risk.",
+        "option_b_result": "CORRECT - The MOST appropriate action is to re-evaluate the procurement strategy for this critical component, considering alternative suppliers. The financial instability of a key supplier introduces a significant risk to the project's ability to deliver. During Conduct Procurements, if new information emerges that impacts supplier viability, the PM must revisit the strategy to mitigate this risk, which may include identifying new potential sellers or adjusting the scope of the procurement. This is a proactive risk response.",
+        "option_c_result": "INCORRECT - While informing the sponsor and stakeholders is important for transparency and communication, it should follow an initial assessment and potential solution identification by the project manager. Simply requesting guidance without having explored potential solutions or impacts first is less proactive. The project manager's role is to assess and propose solutions before escalating.",
+        "option_d_result": "INCORRECT - Delaying the procurement without a clear plan or understanding of the supplier's recovery timeline is a passive and potentially detrimental approach. It could lead to significant project delays and does not actively mitigate the risk. The project needs to move forward, and a delay without an alternative solution is not a viable strategy.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Risk Management",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 11.6 Implement Risk Responses: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question focuses on risk management within the Conduct Procurements process. It assesses the project manager's ability to identify new risks (vendor financial instability) and react proactively. The key is to understand that a significant new risk requires a re-evaluation of the existing plan, possibly leading to a change in strategy (e.g., finding alternative suppliers) rather than just monitoring or escalating without an initial assessment.",
+        "additional_notes": "The scenario presents a critical risk that emerges during the execution of procurement. A project manager's primary responsibility is to protect the project from adverse impacts. Financial instability of a critical supplier is a high-impact risk. The most appropriate response is to proactively address this by re-evaluating the procurement strategy, which may involve looking for other viable suppliers or altering the approach. Simply monitoring, escalating without initial assessment, or delaying without a plan are less effective. The difficulty lies in choosing the most decisive and strategic risk mitigation action."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309147483",
+      "question_pmp": "During the Conduct Procurements process, the project manager and the selected seller cannot agree on a specific deliverable's acceptance criteria, which were vaguely defined in the original Procurement SOW. What is the BEST approach to resolve this disagreement?",
+      "options_pmp": {
+        "OPTION_A": "Refer the issue to the project sponsor for an executive decision.",
+        "OPTION_B": "Modify the contract to remove the problematic deliverable from the scope.",
+        "OPTION_C": "Engage a neutral third-party mediator to facilitate discussions and reach an agreement.",
+        "OPTION_D": "Negotiate with the seller to refine the acceptance criteria, possibly updating the Procurement SOW."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Referring the issue to the project sponsor should be a last resort after the project team has exhausted its options. Escalating immediately for a detail like acceptance criteria without attempting to resolve it through negotiation demonstrates a lack of proactive problem-solving by the project manager.",
+        "option_b_result": "INCORRECT - Modifying the contract to remove a deliverable is a drastic step that could impact the project's overall objectives and scope. This should only be considered if the deliverable is truly non-essential or if all other negotiation attempts have failed, which is not indicated here. It's a scope change, not a resolution to an acceptance criteria disagreement.",
+        "option_c_result": "INCORRECT - Engaging a neutral third-party mediator is a viable option for dispute resolution, but it's typically used when negotiations have reached an impasse and internal attempts to resolve the issue have failed. It's an escalation method, and the first attempt should be direct negotiation between the parties.",
+        "option_d_result": "CORRECT - The BEST approach is to negotiate with the seller to refine the acceptance criteria, possibly updating the Procurement Statement of Work (SOW). Negotiation is a key tool in the Conduct Procurements process, and it's essential for clarifying ambiguities. Since the original SOW was vague, this is a prime opportunity to work collaboratively to define clear, measurable, and verifiable acceptance criteria that both parties can agree upon, potentially leading to a change request.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Negotiation",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 4.3 Direct and Manage Project Work: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question tests the project manager's ability to handle disagreements during contract execution, specifically related to vaguely defined deliverables. It emphasizes negotiation as the primary tool to resolve such issues, leading to clearer contract terms. It also touches on the importance of well-defined statements of work and the potential need for change requests when ambiguities are resolved.",
+        "additional_notes": "Ambiguous contract terms, like vague acceptance criteria, are common challenges in procurement. The project manager's role is to facilitate understanding and agreement. Negotiation is the most direct and effective tool for resolving such disagreements before escalating. This demonstrates proactive problem-solving and collaboration with the seller. The difficulty lies in recognizing that direct negotiation is the most immediate and appropriate first step, rather than immediate escalation or drastic scope changes."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": false
+    },
+    {
+      "id": "1751309148489",
+      "question_pmp": "The project team is about to sign a complex, multi-year contract with a new technology vendor. To ensure all legal and commercial aspects are correctly addressed, which document should be created?",
+      "options_pmp": {
+        "OPTION_A": "Procurement Management Plan",
+        "OPTION_B": "Risk Register",
+        "OPTION_C": "Procurement Contract",
+        "OPTION_D": "Stakeholder Engagement Plan"
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - The Procurement Management Plan is created during the Planning process group and outlines how procurements will be managed from planning through closing. It's a guiding document, not the legal document created at the point of signing a specific vendor agreement.",
+        "option_b_result": "INCORRECT - The Risk Register is a document that records identified risks, their analysis, and responses. While risks related to the contract might be in the risk register, the risk register itself is not the document created to formalize the agreement with the vendor.",
+        "option_c_result": "CORRECT - The Procurement Contract is the legally binding agreement between the buyer and seller. During the Conduct Procurements process, after negotiation and selection, this is the primary document created to formalize the terms and conditions, outlining all legal and commercial aspects, deliverables, payment terms, and responsibilities. This document is essential for defining the relationship and managing expectations.",
+        "option_d_result": "INCORRECT - The Stakeholder Engagement Plan outlines strategies to effectively engage stakeholders throughout the project lifecycle. While the vendor is a key stakeholder, this plan does not formalize the legal agreement with them; it describes how to interact with them.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Procurement Negotiations",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.3 Conduct Procurements: Outputs', 'PMBOK Guide - 7.2 Conduct Procurements']"
+        ],
+        "concepts_to_understand": "This question tests knowledge of the outputs of the Conduct Procurements process, specifically the main output. It reinforces that the Procurement Contract is the formal, legally binding document established between the buyer and seller, detailing all terms and conditions agreed upon during negotiations. Understanding the purpose of various project documents and where they are created is key.",
+        "additional_notes": "The creation of the **Procurement Contract** is the ultimate goal of the negotiation and selection efforts within the Conduct Procurements process. It is the formal, legally enforceable agreement that binds both parties to specific terms, conditions, deliverables, and payment schedules. This contract serves as the foundation for the buyer-seller relationship and subsequent contract administration. The question emphasizes the formalization of legal and commercial aspects, directly pointing to the contract itself."
+      },
+      "is_sample": "No",
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309149498",
+      "question_pmp": "A project manager is overseeing the installation of specialized equipment for a manufacturing plant. During the Conduct Procurements process, the selected vendor informs the project manager that due to unforeseen global supply chain disruptions, a critical component will be delayed by three weeks, impacting the project's critical path. What should the project manager do NEXT?",
+      "options_pmp": {
+        "OPTION_A": "Update the project schedule to reflect the three-week delay and inform stakeholders.",
+        "OPTION_B": "Issue a change request to the contract, formally documenting the delay and potential impacts.",
+        "OPTION_C": "Work with the vendor to explore alternative solutions or expedited shipping options.",
+        "OPTION_D": "Initiate a claim against the vendor for breach of contract due to the delay."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While updating the schedule and informing stakeholders are necessary actions, they are reactive and come AFTER attempting to mitigate the delay. The primary goal is to minimize the impact of the delay, not just to document it. A project manager should first try to address the root cause or find a workaround.",
+        "option_b_result": "INCORRECT - Issuing a change request is an important step for formalizing changes, but it's premature as the NEXT step. Before formalizing a change, the project manager should actively work to mitigate the issue. A change request would follow the attempts to resolve or minimize the delay, documenting the agreed-upon solution.",
+        "option_c_result": "CORRECT - The project manager should NEXT work with the vendor to explore alternative solutions or expedited shipping options. This demonstrates proactive problem-solving and an attempt to mitigate the impact of the delay. The goal is to get the project back on track or minimize deviations, which involves collaborative efforts with the vendor before resorting to formal processes like claims or just updating schedules.",
+        "option_d_result": "INCORRECT - Initiating a claim for breach of contract is an aggressive, last-resort action, typically reserved for when all other attempts at resolution have failed or when the vendor is unwilling to cooperate. It can damage the relationship and lead to protracted legal battles, which is not the immediate or desired outcome when a solution might still be found collaboratively.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Negotiation / Problem Solving",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 4.3 Direct and Manage Project Work: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question tests the project manager's ability to respond to unexpected issues during procurement execution. It emphasizes proactive problem-solving and collaboration with the vendor to mitigate adverse impacts on the project. The concept of 'Next Best Action' is crucial, where immediate efforts to find solutions supersede administrative updates or legal actions.",
+        "additional_notes": "When faced with an unforeseen delay from a vendor, the project manager's immediate priority is to minimize the impact on the project. This involves active engagement with the vendor to explore solutions such as alternatives or expedited options. Only after exhausting these collaborative efforts should the project manager consider formal updates to project documents, change requests, or legal actions. The correct option reflects a proactive and solution-oriented approach, which is vital for effective project management."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309150503",
+      "question_pmp": "As part of the Conduct Procurements process for a government agency project, the project manager is required to adhere to strict regulatory compliance guidelines regarding vendor selection and contract award. Which tool or technique is MOST appropriate to ensure compliance throughout this phase?",
+      "options_pmp": {
+        "OPTION_A": "Bidder conferences and advertising.",
+        "OPTION_B": "Source selection analysis.",
+        "OPTION_C": "Procurement audits.",
+        "OPTION_D": "Expert judgment and data analysis."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Bidder conferences and advertising are tools used to solicit proposals from sellers during the Conduct Procurements process, not primarily to ensure ongoing regulatory compliance. While they follow compliance rules, they are not the main technique for *ensuring* compliance throughout the phase itself.",
+        "option_b_result": "INCORRECT - Source selection analysis is a tool used to review proposals and select the most qualified seller. While compliance is a criterion in selection, source selection analysis itself is not the overarching technique for *ensuring* adherence to regulatory guidelines throughout the entire Conduct Procurements phase.",
+        "option_c_result": "INCORRECT - Procurement audits are primarily used in the Control Procurements process to verify compliance with processes, policies, and contract terms. While they are crucial for compliance, they are typically performed *after* the Conduct Procurements phase, during contract administration, not primarily *during* the Conduct Procurements process itself to ensure compliance.",
+        "option_d_result": "CORRECT - Expert judgment and data analysis are MOST appropriate to ensure compliance throughout the Conduct Procurements phase. Expert judgment, especially from legal or compliance specialists, is critical for interpreting and applying complex regulatory guidelines during vendor evaluation, negotiation, and contract finalization. Data analysis can be used to compare proposals against compliance requirements. These are ongoing tools used proactively during the execution of procurements to ensure adherence.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Expert Judgment, Data Analysis",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.2 Conduct Procurements: Tools and Techniques', 'PMBOK Guide - 4.3 Direct and Manage Project Work: Tools and Techniques']"
+        ],
+        "concepts_to_understand": "This question assesses the understanding of tools and techniques used in Conduct Procurements, specifically in the context of regulatory compliance. It highlights the importance of proactive measures to ensure adherence to rules. Expert judgment, particularly from legal or compliance professionals, and analytical techniques are crucial during the process itself to interpret and apply complex regulations, differentiating them from post-execution audits or solicitation methods.",
+        "additional_notes": "In a highly regulated environment like a government agency project, ensuring compliance is not a one-time check but an ongoing effort throughout the Conduct Procurements process. Expert judgment, often from legal counsel or procurement specialists, is vital for interpreting and applying complex regulations during the evaluation of proposals, negotiations, and final contract drafting. Data analysis can support this by analyzing compliance aspects of various bids. While other options are related to procurement, they are either reactive (audits) or serve different primary purposes (solicitation, selection). The difficulty lies in identifying the proactive, ongoing tools for ensuring compliance within the 'Conduct Procurements' timeframe."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": false
+    },
+    {
+      "id": "1751309151512",
+      "question_pmp": "The project manager is reviewing bids for a new software development project. One bidder, highly recommended by a trusted colleague, submits a proposal that is technically sound but considerably higher in cost than other qualified bids. The project budget is tight. What is the MOST probable outcome if the project manager selects this high-cost bidder without further action?",
+      "options_pmp": {
+        "OPTION_A": "The project will likely experience significant quality issues due to budget constraints.",
+        "OPTION_B": "The project will have a higher probability of exceeding its allocated budget.",
+        "OPTION_C": "The selected vendor will deliver the project ahead of schedule.",
+        "OPTION_D": "The project team will be demotivated by the high procurement cost."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While budget constraints can indirectly lead to quality issues if scope is cut or resources are compromised, the direct and most probable outcome of selecting an expensive bidder is a budget overrun, not necessarily a quality issue. Quality can still be maintained if the higher cost is absorbed.",
+        "option_b_result": "CORRECT - The MOST probable outcome if the project manager selects a significantly high-cost bidder, especially when the budget is tight, is that the project will have a higher probability of exceeding its allocated budget. The Conduct Procurements process includes evaluating proposals against cost constraints, and ignoring a significant cost difference without mitigation directly impacts the project's financial performance. This is a direct consequence.",
+        "option_c_result": "INCORRECT - There is no direct correlation between a higher-cost bid and delivering a project ahead of schedule. While a more expensive vendor *might* offer expedited service, this is not a general or probable outcome without explicit commitments or negotiation. The primary impact of a high cost is financial.",
+        "option_d_result": "INCORRECT - While project team morale can be affected by various factors, a high procurement cost is not a direct or most probable cause of team demotivation in this context. Team demotivation is more likely linked to factors like scope creep, unreasonable deadlines, or poor leadership, rather than the initial cost of a vendor contract.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Bidder Conferences",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 6.4 Determine Budget: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question evaluates the project manager's understanding of the direct impact of procurement decisions on project constraints, specifically cost. It highlights that selecting a higher-cost option without careful consideration or negotiation directly jeopardizes the project budget. It tests the ability to foresee the most immediate and direct consequence of a financial decision in procurement.",
+        "additional_notes": "The scenario presents a common dilemma where a preferred vendor's cost conflicts with budget constraints. The most direct and probable consequence of choosing a significantly more expensive option without any mitigating action (like negotiation or scope adjustment) is a budget overrun. The project manager's role in Conduct Procurements includes selecting the best value, and cost is a major component of value. Other options represent less direct or probable consequences. The difficulty lies in identifying the most immediate and direct financial impact."
+      },
+      "is_sample": "No",
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309152520",
+      "question_pmp": "A project manager is finalizing a contract with a vendor for specialized software development. During the final review, the vendor insists on including a clause that limits their liability significantly beyond what was discussed in initial negotiations. What is the CORRECT response?",
+      "options_pmp": {
+        "OPTION_A": "Accept the clause to expedite contract signing and avoid further delays.",
+        "OPTION_B": "Consult with legal counsel to assess the implications of the liability clause and advise on negotiation strategies.",
+        "OPTION_C": "Reject the clause immediately and threaten to terminate negotiations if not removed.",
+        "OPTION_D": "Counter-offer with a more favorable payment schedule to offset the increased risk."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Accepting a significant, unexpected clause, especially one limiting liability, to expedite signing is a risky approach. It can expose the project to substantial unmitigated risks later. A project manager should prioritize protecting the project's interests over rushing the process.",
+        "option_b_result": "CORRECT - The CORRECT response is to consult with legal counsel to assess the implications of the liability clause and advise on negotiation strategies. Significant changes to liability clauses can have profound impacts on the project's risk exposure. A project manager is not a legal expert and must seek professional legal advice to understand the ramifications and to develop an informed negotiation position to protect the project's interests.",
+        "option_c_result": "INCORRECT - Immediately rejecting and threatening to terminate negotiations is an aggressive stance that can sour the relationship and potentially lead to losing a good vendor. Negotiation involves finding mutually agreeable terms, and such a response lacks the collaborative spirit required for successful procurements.",
+        "option_d_result": "INCORRECT - Counter-offering with a more favorable payment schedule without fully understanding the legal and financial implications of the increased liability is inappropriate. The project manager must first comprehend the risk associated with the liability clause before attempting to 'offset' it with other commercial terms. Legal implications are distinct from payment terms.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Negotiation, Expert Judgment",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 12.1 Plan Risk Management: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question highlights the importance of legal counsel and risk management during contract negotiation within the Conduct Procurements process. It emphasizes that a project manager should not unilaterally accept or reject significant legal clauses without expert advice, especially when they impact the project's risk exposure. The correct action involves seeking specialized knowledge to protect the project's interests.",
+        "additional_notes": "Contract negotiation often involves complex legal terms, particularly concerning liability. A project manager's expertise is in project management, not necessarily contract law. Therefore, when a vendor introduces a significant and unexpected legal clause that could impact the project's risk profile, the most responsible and correct action is to seek expert legal counsel. This allows for an informed decision and a well-prepared negotiation strategy, ensuring the project's interests are protected. The difficulty lies in identifying the most prudent and responsible course of action when faced with unexpected legal terms."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309153529",
+      "question_pmp": "The project manager is preparing to conduct bidder conferences for a critical component procurement. What is the PRIMARY purpose of conducting these conferences?",
+      "options_pmp": {
+        "OPTION_A": "To allow potential sellers to network with each other and form partnerships.",
+        "OPTION_B": "To clarify procurement document ambiguities and ensure all bidders have a common understanding.",
+        "OPTION_C": "To negotiate final contract terms and conditions with the most promising sellers.",
+        "OPTION_D": "To formally announce the selected seller for the contract award."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While networking might incidentally occur, it is not the primary purpose of bidder conferences. The main objective is to provide a fair and transparent environment for all potential sellers to understand the procurement requirements.",
+        "option_b_result": "CORRECT - The PRIMARY purpose of conducting bidder conferences (also known as pre-bid conferences or vendor conferences) is to ensure that all prospective sellers have a clear and common understanding of the procurement requirements, technical specifications, and contractual terms. It allows them to ask questions and receive clarifications, thereby reducing the likelihood of misinterpretations and ensuring fair and equitable bidding.",
+        "option_c_result": "INCORRECT - Negotiating final contract terms occurs later in the Conduct Procurements process, typically after proposals have been received and evaluated, and a preferred seller has been identified. Bidder conferences precede this stage.",
+        "option_d_result": "INCORRECT - Formally announcing the selected seller occurs at the end of the Conduct Procurements process, after evaluation, negotiation, and contract award. Bidder conferences happen much earlier in the process.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Bidder Conferences",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.2 Conduct Procurements: Tools and Techniques', 'PMBOK Guide - 7.2 Conduct Procurements']"
+        ],
+        "concepts_to_understand": "This question tests the understanding of a specific tool within the Conduct Procurements process: bidder conferences. It emphasizes their primary purpose, which is to ensure clarity and fairness in the bidding process by allowing all potential sellers to ask questions and receive uniform answers. This helps avoid misunderstandings and ensures competitive and accurate bids.",
+        "additional_notes": "Bidder conferences are a crucial part of the Conduct Procurements process. Their main objective is to create a level playing field for all potential sellers by clarifying any ambiguities in the procurement documents and ensuring everyone has the same information. This transparency helps in receiving accurate and comparable proposals. Other options describe activities that occur at different stages of the procurement process or are not the central purpose of these conferences."
+      },
+      "is_sample": "No",
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309154536",
+      "question_pmp": "During the Conduct Procurements process, a major architectural firm submits a proposal that is exceptionally innovative and promises significant long-term operational cost savings for the client, but it requires a 15% higher initial investment than the budgeted amount. The project manager's primary objective is to deliver within the approved budget. What is the MOST appropriate action?",
+      "options_pmp": {
+        "OPTION_A": "Reject the proposal immediately as it exceeds the budget, and focus on compliant bids.",
+        "OPTION_B": "Negotiate with the firm to reduce the initial investment while retaining the innovative aspects.",
+        "OPTION_C": "Present the innovative proposal to the project sponsor, highlighting the long-term benefits.",
+        "OPTION_D": "Award the contract to a lower-cost bidder that meets minimum requirements but offers no innovation."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - Rejecting a potentially valuable proposal without exploring options can lead to missed opportunities. While budget adherence is critical, a PM should assess value beyond just initial cost, especially when significant long-term benefits are identified. This is too rigid an approach.",
+        "option_b_result": "INCORRECT - While negotiation is an option, it may not be the *most* appropriate initial action if the innovation's value significantly outweighs the cost increase. The project manager needs to assess if the value proposition justifies a potential budget adjustment first. Negotiating without sponsor buy-in might be premature or limit the potential benefits.",
+        "option_c_result": "CORRECT - The MOST appropriate action is to present the innovative proposal to the project sponsor, highlighting the long-term benefits and the initial cost increase. While the primary objective is to stay within budget, significant long-term operational savings represent a compelling value proposition that warrants discussion with the sponsor. The sponsor has the authority to potentially adjust the budget or approve the higher initial investment for greater future returns, making this a strategic decision that needs to be escalated with a recommendation.",
+        "option_d_result": "INCORRECT - Awarding the contract to a lower-cost bidder without exploring the benefits of the innovative proposal would be a lost opportunity for the client and the project. It demonstrates a lack of value-added thinking and adherence to the budget at the expense of potential long-term strategic advantages.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Decision Making, Expert Judgment",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 13.2 Plan Stakeholder Engagement: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question tests the project manager's judgment in balancing project constraints (budget) with potential value creation (innovation and long-term savings). It emphasizes the role of the project manager in identifying strategic opportunities and engaging relevant stakeholders, especially the project sponsor, for decisions that impact core project objectives and financial parameters beyond the immediate budget.",
+        "additional_notes": "This scenario highlights a common tension between upfront cost and long-term value. While staying within budget is crucial, a project manager should act as a value-adder. When a proposal offers significant long-term benefits that could justify a budget adjustment, the most appropriate action is to present this strategic opportunity to the project sponsor. The sponsor is ultimately responsible for the project's overall success and financial health and has the authority to make such decisions. Simply rejecting, or negotiating without sponsor input, misses the bigger picture. The difficulty lies in discerning the best path that balances immediate constraints with strategic long-term benefits and appropriate stakeholder engagement."
+      },
+      "is_sample": "No",
+      "process_group": "Executing",
+      "did_user_get_it_right": false
+    },
+    {
+      "id": "1751309155542",
+      "question_pmp": "The project manager is in the process of selecting a vendor for an urgent data migration project. Due to the tight deadline, the project manager decides to use a single-source procurement approach. What is the PRIMARY reason for this decision?",
+      "options_pmp": {
+        "OPTION_A": "To encourage more competitive pricing from multiple vendors.",
+        "OPTION_B": "To leverage a pre-existing relationship with a trusted vendor for efficiency.",
+        "OPTION_C": "To comply with mandatory government procurement regulations.",
+        "OPTION_D": "To reduce the administrative burden of managing multiple bids."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - A single-source procurement approach limits competition, which typically leads to less competitive pricing, not more. This option contradicts the nature of single-source procurement.",
+        "option_b_result": "CORRECT - The PRIMARY reason for using a single-source procurement approach, especially for an urgent project, is often to leverage a pre-existing relationship with a trusted vendor. This allows for faster negotiation and contract finalization, reducing the time spent on the procurement process due to established trust and familiarity with the vendor's capabilities. While reducing administrative burden (Option D) is a benefit, leveraging a trusted relationship for speed and efficiency in urgent situations is the more fundamental driver.",
+        "option_c_result": "INCORRECT - Mandatory government procurement regulations typically *require* competitive bidding, not single-source procurement, unless very specific and limited justifications (like extreme urgency or unique capability) are met. This option is generally contrary to standard government procurement practices.",
+        "option_d_result": "INCORRECT - While reducing administrative burden is a *benefit* of single-source procurement, it is often a secondary reason. The primary driver, especially for an urgent project, is leveraging established relationships for speed and known capabilities, which naturally reduces the administrative overhead associated with competitive bidding. The core reason stems from the desire for efficiency and reliability in an urgent context.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Source Selection Criteria",
+        "suggested_read": [
+          "['PMBOK Guide - 7.1.2 Plan Procurements: Tools and Techniques', 'PMBOK Guide - 7.2 Conduct Procurements']"
+        ],
+        "concepts_to_understand": "This question delves into the rationale behind different procurement strategies, specifically single-source. It tests the understanding that while administrative ease is a benefit, the primary driver for single-source in urgent scenarios is the ability to quickly engage a trusted and known entity, leveraging an existing relationship for speed and efficiency, which is critical for time-sensitive projects.",
+        "additional_notes": "Single-source procurement is often chosen when urgency is a key factor, or when a unique capability is required from a specific vendor. In this scenario, the 'urgent data migration project' points to the need for speed. Leveraging a pre-existing, trusted relationship significantly reduces the time and effort typically involved in a competitive bidding process, making it the primary reason for choosing this approach in urgent situations. While administrative burden is reduced, it's a consequence of the efficiency gained through the trusted relationship, rather than the core motivation itself. The difficulty is discerning the most fundamental reason."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": false
+    },
+    {
+      "id": "1751309156548",
+      "question_pmp": "A project manager is about to issue a formal Purchase Order (PO) to a selected vendor for raw materials in a construction project. Before issuing the PO, what document should the project manager cross-reference to ensure that the terms and conditions align with the overall project strategy?",
+      "options_pmp": {
+        "OPTION_A": "Risk Management Plan",
+        "OPTION_B": "Cost Baseline",
+        "OPTION_C": "Procurement Management Plan",
+        "OPTION_D": "Stakeholder Register"
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While the Risk Management Plan helps identify and plan responses to procurement risks, it does not detail the specific terms and conditions for a purchase order. It guides risk assessment, but not the contractual specifics.",
+        "option_b_result": "INCORRECT - The Cost Baseline provides the authorized budget for the project. While the PO needs to align with the budget, the Cost Baseline itself doesn't contain the detailed terms and conditions of a specific procurement and isn't the primary document to cross-reference for contractual alignment.",
+        "option_c_result": "CORRECT - The Procurement Management Plan is the key document that describes how procurement processes will be managed from start to finish, including the types of contracts to be used, roles and responsibilities, and standardized procurement documents like purchase order templates. Cross-referencing it ensures that the PO aligns with the established procurement strategy and principles for the project. It ensures consistency and adherence to planned processes.",
+        "option_d_result": "INCORRECT - The Stakeholder Register lists project stakeholders and their attributes. While the vendor is a stakeholder, the Stakeholder Register does not contain information about the terms and conditions of procurement contracts. It's used for stakeholder engagement, not procurement specifics.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Procurement Documents",
+        "suggested_read": [
+          "['PMBOK Guide - 7.1.3 Plan Procurements: Outputs', 'PMBOK Guide - 7.2.1 Conduct Procurements: Inputs']"
+        ],
+        "concepts_to_understand": "This question tests the project manager's understanding of the inputs and guiding documents in the Conduct Procurements process. The Procurement Management Plan serves as the foundational document that outlines the entire procurement strategy and how individual procurements, like issuing a PO, should be conducted in alignment with overall project objectives and organizational policies.",
+        "additional_notes": "The Procurement Management Plan is essentially the 'rulebook' for all procurements on a project. Before issuing any formal procurement document like a Purchase Order, it is crucial to ensure that its terms and conditions are consistent with the overall strategy defined in this plan. This ensures that the procurement aligns with project objectives, organizational policies, and risk management approaches. The other options are relevant project documents but do not serve the specific purpose of guiding the terms and conditions of individual procurement agreements."
+      },
+      "is_sample": "No",
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309157559",
+      "question_pmp": "A project manager is evaluating potential sellers for a new CRM system. During the evaluation process, it becomes apparent that one highly-rated vendor's proposal relies heavily on a proprietary technology with limited market alternatives. If selected, this could create vendor lock-in. What is the GREATEST risk associated with selecting this vendor without mitigation?",
+      "options_pmp": {
+        "OPTION_A": "The project team will require extensive training on the new technology.",
+        "OPTION_B": "Future modifications or expansions of the system may incur excessive costs.",
+        "OPTION_C": "The vendor may struggle to meet the project's demanding schedule.",
+        "OPTION_D": "Integration with existing legacy systems will become overly complex."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While training is often required for new technology, it's a manageable aspect of project execution and not the 'greatest risk' directly associated with vendor lock-in due to proprietary technology. It's a project cost/effort, not a systemic risk of being tied to a single vendor.",
+        "option_b_result": "CORRECT - The GREATEST risk associated with selecting a vendor whose solution relies heavily on proprietary technology with limited alternatives is that future modifications, upgrades, or expansions of the system may incur excessive costs (vendor lock-in). Without competition or alternative providers, the vendor has significant leverage to dictate future pricing and terms, which is a major long-term financial and strategic risk for the organization.",
+        "option_c_result": "INCORRECT - The vendor's ability to meet the schedule is a general project risk, but it's not the *greatest* risk specifically stemming from the 'proprietary technology with limited market alternatives' aspect. That aspect primarily relates to future flexibility and cost leverage.",
+        "option_d_result": "INCORRECT - While integrating proprietary systems can be complex, the core issue with 'vendor lock-in' is not primarily the initial integration complexity, but rather the long-term dependency and lack of leverage for future changes or replacements. Integration challenges can often be overcome with proper planning, but lock-in creates ongoing strategic vulnerability.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Risk Analysis",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 11.2 Identify Risks: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question focuses on identifying specific risks associated with vendor lock-in, which is a common concern in procurement, especially with specialized or proprietary solutions. It requires understanding that the greatest long-term risk of lock-in is the loss of negotiation power, leading to excessive costs for future changes or lack of ability to switch vendors.",
+        "additional_notes": "Vendor lock-in is a significant strategic risk in procurement. When a solution relies on proprietary technology with no easy alternatives, the buyer becomes highly dependent on that single vendor. This dependency translates into a lack of leverage for future negotiations, leading to potentially excessive costs for upgrades, maintenance, or modifications. It's a long-term financial and strategic vulnerability. While other options might be valid risks, they are not the *greatest* risk directly stemming from the described vendor lock-in scenario. The difficulty lies in pinpointing the most critical risk associated with the specific scenario of proprietary technology and limited alternatives."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": true
+    },
+    {
+      "id": "1751309158569",
+      "question_pmp": "The project manager is finalizing a contract for a specialized consulting service. The chosen consulting firm, known for its expertise, has proposed a fixed-price contract, but with certain exclusions and limitations of liability for specific project risks. The project manager's priority is to minimize project financial risk. What is the BEST mitigation strategy?",
+      "options_pmp": {
+        "OPTION_A": "Accept the fixed-price contract with exclusions and allocate a larger contingency reserve for the identified risks.",
+        "OPTION_B": "Insist on converting the contract to a Time and Material (T&M) contract to shift more risk to the vendor.",
+        "OPTION_C": "Negotiate with the consulting firm to include specific clauses addressing the excluded risks, potentially increasing the fixed price.",
+        "OPTION_D": "Seek an alternative consulting firm that offers a comprehensive fixed-price contract without exclusions."
+      },
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
+      "question_type": "Option",
+      "correct_answer": "",
+      "analysis": {
+        "option_a_result": "INCORRECT - While adding contingency reserves is a risk response, simply accepting the exclusions and relying on reserves doesn't actively mitigate the risk from the vendor's side. It places the burden of specific project risks entirely on the buyer, which might not be optimal if those risks could be managed or shared differently through negotiation.",
+        "option_b_result": "INCORRECT - Converting to a Time and Material (T&M) contract would shift *more* financial risk to the buyer, as T&M contracts typically involve hourly rates and material costs without a firm total price, making the final cost uncertain. This contradicts the project manager's priority to minimize financial risk.",
+        "option_c_result": "CORRECT - The BEST mitigation strategy is to negotiate with the consulting firm to include specific clauses addressing the excluded risks, potentially by increasing the fixed price. This directly addresses the risk identified in the exclusions and aligns with the fixed-price contract type, where the seller bears most of the risk. By negotiating, the project manager seeks to transfer or share these specific risks back to the seller, even if it means a slight increase in the contract value, thereby minimizing the project's financial risk in those areas.",
+        "option_d_result": "INCORRECT - While seeking an alternative firm is an option, it's a drastic step, potentially delaying the project and losing the expertise of the current firm. It should be considered if negotiations fail, but the first attempt should be to mitigate the risk with the chosen, expert vendor through negotiation, as the priority is specific risk minimization, not just changing vendors.",
+        "process_group": "Executing",
+        "knowledge_area": "Procurement",
+        "tool": "Negotiation",
+        "suggested_read": [
+          "['PMBOK Guide - 7.2.1 Conduct Procurements: Inputs, Tools and Techniques, Outputs', 'PMBOK Guide - 11.5 Plan Risk Responses: Inputs, Tools and Techniques, Outputs']"
+        ],
+        "concepts_to_understand": "This question tests the project manager's understanding of risk mitigation strategies within the context of contract negotiation in the Conduct Procurements process. It focuses on the principle that in a fixed-price contract, the buyer typically wants the seller to bear the risk. The best approach is to negotiate specific clauses to transfer or share identified risks, even if it impacts the price, rather than unilaterally accepting them or changing the contract type to one that increases buyer risk.",
+        "additional_notes": "The scenario presents a conflict: a fixed-price contract (preferred for minimizing buyer financial risk) but with specific risk exclusions by the seller. The project manager's priority is to minimize project financial risk. The most effective strategy is to negotiate with the chosen expert firm to cover these excluded risks within the contract, even if it means a higher fixed price. This actively transfers or shares the risk with the party best equipped to manage it. Simply adding contingency or switching to T&M (which increases buyer risk) or immediately seeking a new vendor (which has its own risks and delays) are less optimal initial responses. The difficulty lies in identifying the most effective negotiation strategy for risk transfer in a fixed-price context."
+      },
+      "is_sample": true,
+      "process_group": "Executing",
+      "did_user_get_it_right": true
     }
   ]
 };

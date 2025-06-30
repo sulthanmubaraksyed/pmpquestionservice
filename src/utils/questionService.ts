@@ -146,10 +146,16 @@ export async function retrieveRecordsFromFile({
     // Shuffle the questions to avoid ordered results
     const shuffledQuestions = shuffleArray(filteredQuestions);
     
-    console.log(`Final result: ${shuffledQuestions.length} questions`);
+    // Ensure all questions have the is_sample attribute set to "No" by default
+    const questionsWithDefaultSample = shuffledQuestions.map(question => ({
+      ...question,
+      is_sample: question.is_sample || "No"
+    }));
+    
+    console.log(`Final result: ${questionsWithDefaultSample.length} questions`);
     console.log('=== retrieveRecordsFromFile Service Call Completed Successfully ===');
     
-    return shuffledQuestions;
+    return questionsWithDefaultSample;
   } catch (error) {
     console.error('Error retrieving questions:', error);
     console.log('=== retrieveRecordsFromFile Service Call Failed ===');
@@ -268,6 +274,8 @@ export async function saveRecordToFile(record: QAResponseIndividual): Promise<vo
     data.questions[questionIndex] = {
       ...data.questions[questionIndex],
       ...record,
+      // Ensure is_sample has a default value of "No" if not present
+      is_sample: record.is_sample || data.questions[questionIndex].is_sample || "No",
       // Ensure analysis field is properly structured
       analysis: {
         ...data.questions[questionIndex].analysis,
@@ -322,7 +330,15 @@ export async function getQuestion(id: string): Promise<QAResponseIndividual | nu
     const results = await Promise.all(searchPromises);
     const foundQuestion = results.find(result => result !== null);
     
-    return foundQuestion || null;
+    // Ensure the found question has the is_sample attribute set to "No" by default
+    if (foundQuestion) {
+      return {
+        ...foundQuestion,
+        is_sample: foundQuestion.is_sample || "No"
+      };
+    }
+    
+    return null;
   } catch (error) {
     console.error('❌ Error in getQuestion:', error);
     throw error;
