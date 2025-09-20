@@ -2251,9 +2251,9 @@ export const questionsData = {
         "OPTION_C": "Escalate the unexpected failures to the project sponsor and key stakeholders immediately.",
         "OPTION_D": "Initiate a detailed defect analysis and root cause investigation for the new failures."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -2270,7 +2270,10 @@ export const questionsData = {
         "concepts_to_understand": "This question tests the project manager's ability to react to new, unexpected issues that arise during the implementation of a planned risk response. It emphasizes the need for thorough analysis (root cause, defect analysis) before jumping to solutions, documentation, or escalation, especially when critical failures are identified. This is part of integrated change control and quality management.",
         "additional_notes": "The key here is the discovery of *unexpected critical failures* during the execution of a *planned risk response* (mock integration tests). This indicates a new, unforeseen problem. The most logical and effective next step is to understand the nature of these new critical failures before taking any other action. A detailed defect analysis and root cause investigation will provide the necessary information to assess impact, determine corrective actions, or create new risk responses. Options B and C are premature without this understanding, and Option A is reckless. This also ties into Quality Control and managing unexpected issues that become defects.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756632798118",
@@ -2372,7 +2375,7 @@ export const questionsData = {
         "OPTION_D": "Resource Management Plan"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -2390,7 +2393,9 @@ export const questionsData = {
         "concepts_to_understand": "This question tests the understanding that the Risk Management Plan provides the framework for all risk-related activities, including how the effectiveness of implemented risk responses will be measured and assessed. It's the overarching document for risk governance.",
         "additional_notes": "The project manager is observing a potential issue with the *effectiveness* of a planned risk response. To properly assess if the response is working and what adjustments might be needed, the project manager should refer to the **Risk Management Plan**. This plan defines the processes for risk management, including how risk responses will be implemented and monitored, and what criteria will be used to determine their success. It's the guiding document for all risk activities, including evaluation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756632802145",
@@ -3301,7 +3306,7 @@ export const questionsData = {
         "OPTION_D": "Nominal Group Technique"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3313,11 +3318,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Affinity Diagrams",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.1.2.1 Data Analysis', 'Agile Practice Guide: 4.2.1.2 Product Backlog Refinement']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.1.2.1 Data Analysis', 'Agile Practice Guide: 4.2.1.2 Product Backlog Refinement']"
+        ],
         "concepts_to_understand": "Affinity Diagrams are a valuable tool for organizing unstructured ideas and creating a shared understanding among a team. By collaboratively grouping ideas, the team members can see how their individual thoughts relate to those of others, which helps build consensus and a shared vision. In the context of team management, this technique is highly effective for developing a team charter or team norms by distilling many ideas into a few core themes.",
         "additional_notes": "This is a difficult question because it presents two very similar and plausible options: Affinity Diagrams and Nominal Group Technique (NGT). Both are used for group decision-making. However, the prompt specifically asks for the technique to 'organize the notes to identify common patterns.' This is the precise function of an Affinity Diagram. NGT, by contrast, is more focused on a structured way to prioritize and rank ideas, which would happen after the ideas are organized. The question tests the candidate's ability to distinguish between these two similar, yet distinct, group-based tools and their specific purposes.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756637866058",
@@ -3804,9 +3813,9 @@ export const questionsData = {
         "OPTION_C": "Reassign the developer to a less critical project or task where their delays will not impact the project schedule.",
         "OPTION_D": "Provide a detailed report to the developer's functional manager, requesting a formal warning or a different assignment for the team member."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3817,11 +3826,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Coaching & Mentoring",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 9.5: Develop Team', 'PMI PMP Exam Content Outline, Task 9 of the People Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 9.5: Develop Team', 'PMI PMP Exam Content Outline, Task 9 of the People Domain']"
+        ],
         "concepts_to_understand": "The difference between coaching and mentoring. The appropriate use of coaching to address performance gaps and develop soft skills. The importance of a collaborative and empowering approach to performance management.",
         "additional_notes": "The question presents a situation where a team member is underperforming due to a lack of a specific soft skill. Coaching is the most effective intervention because it is a collaborative, empowering process that helps the team member identify and solve their own problems. It is a much better approach than a directive one (A), an avoidance one (C), or a confrontational one (D). The two close options are B and A, but B is a professional, empathetic, and long-term solution, while A is a directive and potentially damaging one. This tests the project manager's ability to act as a leader and a coach.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756648473862",
@@ -3889,7 +3903,7 @@ export const questionsData = {
         "OPTION_D": "Directly address the disengaged team members in a private meeting and ask them to be more attentive during stand-ups."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3901,11 +3915,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Stand-ups",
-        "suggested_read": "['Agile Practice Guide, Section 4.5: Daily Stand-ups', 'PMBOK Guide, 6th Ed., Section 10.2: Manage Communications']",
+        "suggested_read": [
+          "['Agile Practice Guide, Section 4.5: Daily Stand-ups', 'PMBOK Guide, 6th Ed., Section 10.2: Manage Communications']"
+        ],
         "concepts_to_understand": "The purpose of a daily stand-up. The difference between a round-robin stand-up and a 'walk the board' stand-up. The importance of a facilitator's role in making meetings engaging and effective. The principle of fixing the process before blaming the people.",
         "additional_notes": "The scenario describes a classic problem with virtual team meetings: disengagement. The project manager's role is to find a way to make the meeting more effective. A 'walk the board' approach is the most effective way to do this because it changes the meeting's dynamic from passive reporting to active collaboration. The other options are either confrontational (A, D) or do not address the root cause of the problem (B). This question tests the understanding of agile best practices for virtual teams.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756648481965",
@@ -3945,7 +3963,7 @@ export const questionsData = {
         "OPTION_D": "The stand-up must be a meeting where team members share what they did yesterday, what they will do today, and if they have any impediments."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3957,11 +3975,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Stand-ups",
-        "suggested_read": "['Agile Practice Guide, Section 4.5: Daily Stand-ups', 'PMI PMP Exam Content Outline, Task 7 of the Process Domain']",
+        "suggested_read": [
+          "['Agile Practice Guide, Section 4.5: Daily Stand-ups', 'PMI PMP Exam Content Outline, Task 7 of the Process Domain']"
+        ],
         "concepts_to_understand": "The core principles of an agile daily stand-up. The importance of the 'three questions' as the foundational structure of the meeting. The difference between the purpose of the meeting and its logistical details.",
         "additional_notes": "This is a straightforward question about the core principles of an agile stand-up. The three questions ('What did I do yesterday?', 'What will I do today?', 'Are there any impediments?') are the fundamental building blocks of the meeting. While other options (timing, timebox) are important guidelines, they are not the central purpose of the stand-up. This question tests a basic understanding of agile ceremonies.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756648483989",
@@ -4365,7 +4387,7 @@ export const questionsData = {
         "OPTION_D": "Acknowledge the stakeholder's question and use the 'parking lot' technique to address it after the planned agenda items have been covered."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4377,11 +4399,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Meeting Management",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 10.2 on Manage Communications', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation and Meeting Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 10.2 on Manage Communications', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation and Meeting Management']"
+        ],
         "concepts_to_understand": "This question tests a project manager's ability to manage a meeting and to handle a disruptive stakeholder. The core concept is that a project manager must be a proactive facilitator who protects the meeting's agenda and respects the time of all attendees. The 'parking lot' technique is the best tool for this, as it allows the project manager to capture the off-topic discussion and to address it at a later time, without derailing the meeting. The incorrect options all represent less effective or unprofessional approaches that are likely to lead to a poor outcome. The correct option demonstrates a deep understanding of effective meeting management and a proactive approach to facilitation.",
         "difficulty_level": "difficult",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756649231757",
@@ -4393,7 +4419,7 @@ export const questionsData = {
         "OPTION_D": "The project manager should use a 'Transactional' leadership style, where they will provide clear rewards for good performance and clear punishments for poor performance."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4405,11 +4431,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Leadership",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Servant Leadership']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Servant Leadership']"
+        ],
         "concepts_to_understand": "This question tests a project manager's understanding of different leadership styles and when to apply them. The core concept is that a project manager should be a servant leader who focuses on supporting the team. This is especially important in a matrixed organization where the project manager does not have direct authority over the team members. The project manager's role is to be a coach and a mentor, not a boss. The incorrect options all represent less effective or unprofessional approaches that are likely to lead to a poor outcome. The correct option demonstrates a deep understanding of effective leadership and a proactive approach to team management.",
         "difficulty_level": "easy",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756649232761",
@@ -5848,9 +5878,9 @@ export const questionsData = {
         "OPTION_C": "A mismatch between intrinsic and extrinsic motivation.",
         "OPTION_D": "A failure to address higher-level needs, such as self-actualization."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -5861,11 +5891,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Herzberg's Motivation-Hygiene Theory",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Herzberg's Two-Factor Theory\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Herzberg's Two-Factor Theory\"]"
+        ],
         "concepts_to_understand": "This question tests the critical distinction in Herzberg's theory: while motivation factors lead to satisfaction, their absence does not necessarily lead to dissatisfaction. It is the absence of hygiene factors that leads to dissatisfaction and, as shown in the scenario, high turnover. The issues cited are external to the work itself and are the primary source of the problem.",
         "additional_notes": "This is a difficult question because it requires the candidate to correctly categorize the issues cited in the scenario and then apply the correct part of the theory. The key is to recognize that 'ambiguous project charter' and 'unfair performance reviews' are hygiene factors. The fact that the employees find the work itself 'challenging and rewarding' is a distractor; it confirms that the motivation factors are in place, but that the hygiene factors are so bad they are causing people to leave. The correct answer requires the candidate to understand that a lack of hygiene factors can lead to extreme dissatisfaction and turnover, which is a common misinterpretation of the theory.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756657591123",
@@ -6016,9 +6051,9 @@ export const questionsData = {
         "OPTION_C": "Acknowledge their Theory X behavior and coach them to develop a Theory Y mindset by providing more opportunities for self-management.",
         "OPTION_D": "Provide more opportunities for team-building to improve their social connections and motivation."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6029,11 +6064,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "McGregor's Theory X & Theory Y",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"McGregor's Theory X and Theory Y\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"McGregor's Theory X and Theory Y\"]"
+        ],
         "concepts_to_understand": "This question tests a critical nuance of McGregor's theory: a good project manager's role is not just to classify a team as Theory X or Theory Y, but to act in a way that encourages a more positive, Theory Y mindset and behavior. This is an active, leadership-oriented approach, not a passive, reactive one.",
         "additional_notes": "This is a difficult question because it presents a complex ethical and practical dilemma. Option B is a plausible but outdated approach. A modern project manager, especially one with a PMP mindset, would not simply accept a negative situation. They would actively work to improve it. The correct answer, coaching the team to develop a Theory Y mindset, is the most professional and effective long-term solution. It reflects a servant leader mindset and a focus on empowering the team, which is a core PMP concept.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756657597267",
@@ -6100,9 +6140,9 @@ export const questionsData = {
         "OPTION_C": "Both, as a combination of intrinsic and extrinsic motivators is the most effective approach.",
         "OPTION_D": "Neither, as introducing any new motivator would confuse the team's current motivation."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6113,11 +6153,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Intrinsic/Extrinsic Motivation",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Pink's Drive: The Surprising Truth About What Motivates Us\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Pink's Drive: The Surprising Truth About What Motivates Us\"]"
+        ],
         "concepts_to_understand": "This question tests the project manager's ability to select the right type of motivator for the right team. For a team of knowledge workers, intrinsic motivators are often more powerful and effective. A public presentation is a perfect example of an intrinsic motivator because it reinforces a sense of achievement and purpose.",
         "additional_notes": "This is a difficult question because both options seem plausible. The key is to recognize that for a team that is already intrinsically motivated, the best approach is to reinforce that motivation. A large bonus (extrinsic) could be seen as an attempt to control the team and could even reduce their intrinsic motivation. The public presentation (intrinsic) aligns with their existing drivers and is a more effective and sustainable solution. This tests a nuanced understanding of motivational theories.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756657600294",
@@ -6156,9 +6201,9 @@ export const questionsData = {
         "OPTION_C": "Purpose",
         "OPTION_D": "Hygiene"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6169,11 +6214,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Pink's Drive (Autonomy, Mastery, Purpose)",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Pink's Drive: The Surprising Truth About What Motivates Us\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Pink's Drive: The Surprising Truth About What Motivates Us\"]"
+        ],
         "concepts_to_understand": "Daniel Pink's Drive theory proposes that for creative, knowledge-based work, the most powerful motivators are intrinsic, and they are built on three pillars: Autonomy, Mastery, and Purpose. Autonomy is the freedom to direct your own work and make decisions about it.",
         "additional_notes": "This is an easy question that directly tests the definition of 'Autonomy' from Daniel Pink's theory. The keywords 'freedom,' 'manage their own schedules,' and 'choose their own tools' are the clear indicators. The project manager is not providing rewards or punishments; they are providing freedom, which is the essence of Autonomy.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756657602319",
@@ -6353,7 +6403,7 @@ export const questionsData = {
         "OPTION_D": "Disengagement; The project manager should immediately enforce the new policies and escalate non-compliance."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6365,11 +6415,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Integration",
         "tool": "Bridges Transition Model",
-        "suggested_read": "['PMBOK Guide, 7th Edition: 2.4.4.1 People and Change', \"William Bridges' 'Managing Transitions'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 7th Edition: 2.4.4.1 People and Change', \"William Bridges' 'Managing Transitions'\"]"
+        ],
         "concepts_to_understand": "The Bridges Transition Model differentiates between change (the external event) and transition (the internal psychological process). The three phases are: Ending, Neutral Zone, and New Beginning. Each phase requires a different leadership approach. The Ending phase is marked by resistance, fear, and a sense of loss, and a leader must acknowledge and validate these feelings to help people let go. The Neutral Zone is characterized by confusion and creativity, and the New Beginning is about acceptance and building new identities.",
         "additional_notes": "This question tests the understanding that organizational change is not just a technical process but a psychological one. The scenario's key phrase, 'feelings of loss and sadness for the old processes,' is a direct indicator of the 'Ending' phase. A common mistake is to confuse the external change event with the internal transition, leading project managers to focus on new processes (Neutral Zone/New Beginning) before the team has psychologically let go of the old ones. The correct answer emphasizes the empathetic and human-centric approach required by the Bridges model, which is a core tenet of effective change management in the PMP context.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657942600",
@@ -6408,9 +6462,9 @@ export const questionsData = {
         "OPTION_C": "Return to a more traditional, top-down leadership style to maintain control and performance.",
         "OPTION_D": "Provide additional training on the legacy systems to ensure no skills are lost."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6421,11 +6475,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Integration",
         "tool": "Bridges Transition Model",
-        "suggested_read": "['PMBOK Guide, 7th Edition: 2.4.4.1 People and Change', \"William Bridges' 'Managing Transitions'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 7th Edition: 2.4.4.1 People and Change', \"William Bridges' 'Managing Transitions'\"]"
+        ],
         "concepts_to_understand": "The 'New Beginning' phase is the final stage of the Bridges Transition Model. It is characterized by acceptance, renewed energy, and a sense of purpose. A project manager's role is to reinforce the change, celebrate achievements, and ensure the new way of working is institutionalized. This phase is crucial for achieving the full benefits of the change and preventing regression. The focus is on embedding the change into the organizational culture.",
         "additional_notes": "This question tests the understanding of the final phase of the Bridges Transition Model, the 'New Beginning.' The scenario provides clear cues such as 'renewed energy and commitment,' 'taking initiative,' and 'clear understanding of their new roles.' These are all hallmarks of a successful transition. The correct answer highlights the importance of reinforcement and celebration, which are key to making the change stick. The incorrect options represent common project management pitfalls, such as rushing to the next change or reverting to an inappropriate leadership style, which would undermine the project's success.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756657944614",
@@ -6605,7 +6664,7 @@ export const questionsData = {
         "OPTION_D": "Collaborating, as a new solution was created by combining ideas."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6617,11 +6676,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Procurement",
         "tool": "Thomas-Kilmann Conflict Mode Instrument",
-        "suggested_read": "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Thomas-Kilmann 'Introduction to Conflict-Handling Modes'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Thomas-Kilmann 'Introduction to Conflict-Handling Modes'\"]"
+        ],
         "concepts_to_understand": "The Thomas-Kilmann Conflict Mode Instrument identifies 'Compromising' as a style that is intermediate in both assertiveness and cooperativeness. It is often a quick and effective way to resolve conflicts when both parties have equally important concerns and a full 'win-win' solution is not possible. It is characterized by 'splitting the difference' or 'giving and taking' to reach an acceptable outcome for both sides.",
         "additional_notes": "This question tests the ability to distinguish between 'Compromising' and 'Collaborating,' which is a common point of confusion. The key phrase 'find a middle ground' and the description of both sides making concessions directly point to 'Compromising.' If the scenario had said the project manager helped them create a novel solution that met all the needs of both parties, then 'Collaborating' would have been the correct answer. The question's description of 'deferring a few of the more complex specifications' reinforces the idea of concessions.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657956737",
@@ -6632,9 +6695,9 @@ export const questionsData = {
         "OPTION_C": "Compromising, because both teams had to give up something.",
         "OPTION_D": "Win-Win, because a new solution was created to fully satisfy the needs of both parties."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6645,11 +6708,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Win-Win Conflict Resolution Model",
-        "suggested_read": "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Stephen Covey's 'The 7 Habits of Highly Effective People'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Stephen Covey's 'The 7 Habits of Highly Effective People'\"]"
+        ],
         "concepts_to_understand": "The Win-Win Conflict Resolution Model (often associated with Stephen Covey's 'Habit 4: Think Win-Win') is a collaborative approach to conflict that seeks to find a solution that satisfies the needs of all parties involved. This differs from a 'compromise,' which often results in a 'lose-lose' outcome where everyone gives up something. The key to a win-win solution is to focus on the underlying interests, not just the stated positions.",
         "additional_notes": "This question tests the ability to distinguish between 'Compromising' and a true 'Win-Win' solution. The key to identifying a win-win is that a new, creative solution is developed that addresses the core needs of both parties, rather than just splitting the difference. The project manager's role in facilitating a 'jointly brainstormed' solution and the resulting 'phased launch' are the hallmarks of a win-win outcome. The incorrect options describe less effective conflict resolution styles that do not result in a superior outcome for the project.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756657957749",
@@ -6689,7 +6757,7 @@ export const questionsData = {
         "OPTION_D": "Separate the two managers and have them work on different parts of the project to avoid future conflict."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6701,11 +6769,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Win-Win Conflict Resolution Model",
-        "suggested_read": "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Stephen Covey's 'The 7 Habits of Highly Effective People'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Stephen Covey's 'The 7 Habits of Highly Effective People'\"]"
+        ],
         "concepts_to_understand": "The Win-Win Conflict Resolution Model is a foundational concept in collaborative leadership. It emphasizes that the most effective way to resolve a conflict is not to choose a side or find a middle ground, but to seek a solution that is mutually beneficial. This requires a shift from focusing on positions to focusing on the underlying needs and interests. The goal is a superior outcome that is better for everyone involved.",
         "additional_notes": "This question tests the project manager's understanding of the core principle of a 'win-win' resolution. The key is to move from the 'what' (the design) to the 'why' (minimal training, scalability). The correct answer, which is to facilitate a discussion focused on 'core needs,' is the first and most critical step in achieving a win-win outcome. The incorrect options describe less effective or inappropriate conflict resolution strategies that do not align with the desired 'win-win' goal.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657959774",
@@ -6745,7 +6817,7 @@ export const questionsData = {
         "OPTION_D": "Form a new, cross-functional team to evaluate both proposals and make a recommendation."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6757,11 +6829,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Win-Win Conflict Resolution Model",
-        "suggested_read": "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Stephen Covey's 'The 7 Habits of Highly Effective People'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition: 9.5.2.3 Conflict Management', \"Stephen Covey's 'The 7 Habits of Highly Effective People'\"]"
+        ],
         "concepts_to_understand": "The Win-Win Conflict Resolution Model is a structured approach. The first step is to listen and understand the 'why' behind each person's position. The second step is to use that information to generate creative options that address the underlying needs. The final step is to select a mutually beneficial solution. The question tests the understanding of the proper sequence of these steps.",
         "additional_notes": "This question tests the project manager's ability to apply the steps of the win-win model sequentially. By identifying that the project manager has already uncovered the underlying goals, the question directs the candidate to the next logical step in the process. The correct answer is to facilitate brainstorming, which is the action that leads to a creative, mutually beneficial solution. The incorrect options represent either a step out of sequence or a less effective conflict resolution style.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657967851",
@@ -6913,7 +6989,7 @@ export const questionsData = {
         "OPTION_D": "Update the Stakeholder Register to note the supplier's reliability issues."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6925,11 +7001,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Integration",
         "tool": "Issue Log",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.3.3.1 Issue Log']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.3.3.1 Issue Log']"
+        ],
         "concepts_to_understand": "A core project management responsibility is to effectively manage issues as they arise. The Issue Log is a simple yet powerful tool for this. It ensures that problems are not just discussed but are formally documented, assigned to a person responsible for resolving them, and tracked until they are closed. This process is crucial for maintaining project control and preventing current problems from escalating into unmanageable crises.",
         "additional_notes": "The scenario clearly states that a problem has occurred ('component delivery issue') and that it 'will likely delay a major milestone.' This is no longer a risk; it's a materialized problem, an issue. The project manager's responsibility is to get this problem under control and ensure it's addressed. The Issue Log is the single best tool for this. While a change request may follow, the first logical action is to formally log the problem. Updating the Risk Register is incorrect because it's a current issue, and updating the Stakeholder Register is a secondary action.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756658497575",
@@ -6941,7 +7021,7 @@ export const questionsData = {
         "OPTION_D": "Risk Register"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6953,11 +7033,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Issue Log",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.3.3.1 Issue Log']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.3.3.1 Issue Log']"
+        ],
         "concepts_to_understand": "The Issue Log is a formal project document used for proactive problem management. Unlike a Risk Register, which deals with future uncertainties, the Issue Log is for problems that have already materialized. It serves as a central repository for all current problems and conflicts, ensuring they are not forgotten and are managed in a structured way to a final resolution.",
         "additional_notes": "The question presents a straightforward scenario with multiple, diverse problems. The key to answering this question is knowing the function of each project log. The Decision Log is for decisions, the Assumption Log is for assumptions, and the Risk Register is for future risks. The Issue Log is the only one designed to handle current problems and conflicts, making it the most appropriate tool for the project manager to use.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756658500600",
@@ -6968,9 +7052,9 @@ export const questionsData = {
         "OPTION_C": "Update the Stakeholder Register to note the stakeholder’s lack of engagement.",
         "OPTION_D": "Issue a Change Request to extend the project schedule."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6981,11 +7065,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Assumption Log",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.2.3.1 Assumption Log']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.2.3.1 Assumption Log']"
+        ],
         "concepts_to_understand": "The Assumption Log is a forward-looking document. When an assumption is proven false, it often turns into a risk or, as in this case, a direct issue that must be addressed immediately. A project manager must be disciplined in tracing the root cause of an issue back to its source, which in this case is a failed assumption. Documenting this in the Assumption Log provides a record for lessons learned and future projects. Logging the problem in the Issue Log ensures it is actively managed to resolution.",
         "additional_notes": "This question is difficult because it requires a two-step mental process. A project manager must first identify that the root of the problem is a failed assumption and then recognize that it has now become a current issue. The most disciplined and PMP-aligned answer is the one that addresses both aspects. Documenting the failed assumption in the Assumption Log and then tracking the resulting problem in the Issue Log demonstrates a thorough and systematic approach to managing project documentation and challenges. The other options are either incomplete (updating just the Stakeholder Register) or premature (escalating or submitting a change request).",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756658501604",
@@ -7755,7 +7844,7 @@ export const questionsData = {
         "OPTION_D": "Reassign their tasks to other, high-performing team members to maintain the schedule."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7773,7 +7862,9 @@ export const questionsData = {
         "concepts_to_understand": "This question assesses the project manager's approach to team performance issues within the Direct and Manage Project Work process. It highlights the importance of managing project team members effectively, which includes providing opportunities for growth and addressing performance gaps constructively. Before punitive measures, the PMBOK emphasizes development and support. Understanding the distinction between corrective actions that develop the team and those that are merely reactive or punitive is crucial for PMP certification.",
         "additional_notes": "During the Direct and Manage Project Work process, the project manager is actively managing the project team, which includes ensuring their performance. When underperformance is identified, the most appropriate initial action is to understand the root cause and provide developmental support. Reviewing the resource management plan helps confirm if initial allocations or training plans were sufficient. Offering targeted training or coaching aligns with the 'Develop Team' and 'Manage Team' processes, focusing on improving individual and team capabilities. This approach is more sustainable and beneficial for the project and the organization long-term compared to immediate disciplinary action or replacement, which can lead to morale issues and further project delays due to knowledge transfer and onboarding complexities. The question emphasizes a PM's role as a leader and enabler, not just a taskmaster.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662549880",
@@ -7807,16 +7898,16 @@ export const questionsData = {
     },
     {
       "id": "1756662550913",
-      "question_pmp": "A project manager is reviewing work performance data for a construction project and notices a significant deviation between planned and actual costs for a critical work package.",
+      "question_pmp": "A project manager is reviewing work performance data for a construction project and notices a significant deviation between planned and actual costs for a critical work package. what is the next best action?",
       "options_pmp": {
         "OPTION_A": "Update the cost baseline immediately to reflect the actual costs and deviations.",
         "OPTION_B": "Request additional funding from the sponsor to cover the cost variance.",
         "OPTION_C": "Investigate the root cause of the deviation and determine if a change request is needed.",
         "OPTION_D": "Direct the team to reduce future spending on other work packages to compensate for the overrun."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -7833,7 +7924,10 @@ export const questionsData = {
         "concepts_to_understand": "This question assesses the project manager's actions upon identifying a significant deviation during project execution. The core concept is that work performance data should lead to analysis and potential corrective actions, not immediate baseline changes or funding requests. Root cause analysis is a fundamental practice in project management to address issues systematically and make informed decisions, ensuring appropriate responses are developed and implemented.",
         "additional_notes": "The Direct and Manage Project Work process generates work performance data, which then becomes work performance information as it's analyzed. A significant deviation between planned and actual costs is a trigger for further investigation. The project manager's role is not just to report the deviation, but to understand its underlying causes. This root cause analysis is critical for determining the most effective course of action, which might range from implementing corrective actions to submitting a change request if a baseline adjustment is truly warranted. Acting without understanding the 'why' can lead to ineffective solutions and further project issues. This approach is fundamental to proactive project control and problem-solving.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No",
+      "did_user_get_it_right": true
     },
     {
       "id": "1756662551940",
@@ -8084,9 +8178,9 @@ export const questionsData = {
         "OPTION_C": "The project manager is failing to manage stakeholder expectations effectively.",
         "OPTION_D": "External market prices for materials have increased unexpectedly."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -8103,7 +8197,10 @@ export const questionsData = {
         "concepts_to_understand": "This question assesses the project manager's ability to identify root causes for recurring issues during project execution, specifically cost overruns. It emphasizes that consistent problems often stem from flawed planning processes rather than just execution failures. Understanding the linkages between planning and execution is crucial.",
         "additional_notes": "The Direct and Manage Project Work process involves executing the planned activities. When recurring budget overruns occur for several work packages, despite active cost control efforts during execution, it strongly suggests a problem upstream in the planning processes. This could be inaccurate initial cost estimates, flawed resource assignments, or an inadequate understanding of the work scope during planning. The project manager needs to perform a root cause analysis that goes beyond the 'Executing' process group and looks back at the 'Planning' processes to identify and rectify the systemic flaw. This proactive problem-solving ensures more accurate future planning and better project performance.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662561124",
@@ -8167,7 +8264,7 @@ export const questionsData = {
     },
     {
       "id": "1756662563153",
-      "question_pmp": "A project manager is overseeing the installation of new equipment in a manufacturing plant. During execution, it becomes clear that the initial risk assessment failed to identify a significant environmental compliance risk related to waste disposal from the new equipment. This could lead to severe penalties.",
+      "question_pmp": "A project manager is overseeing the installation of new equipment in a manufacturing plant. During execution, it becomes clear that the initial risk assessment failed to identify a significant environmental compliance risk related to waste disposal from the new equipment. This could lead to severe penalties. What should you do next?",
       "options_pmp": {
         "OPTION_A": "Proceed with the installation as planned and hope the environmental issue is not discovered by regulators.",
         "OPTION_B": "Immediately halt the installation, update the risk register, and engage environmental experts to assess and mitigate the compliance risk.",
@@ -8175,7 +8272,7 @@ export const questionsData = {
         "OPTION_D": "Inform the legal department and wait for their instructions on how to proceed."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8193,7 +8290,9 @@ export const questionsData = {
         "concepts_to_understand": "This question emphasizes the critical importance of identifying and managing new risks, particularly those related to compliance and legal issues, during project execution. It tests the project manager's ethical responsibility and the need for immediate, proactive measures to mitigate severe threats. The risk register is a living document that must be continuously updated.",
         "additional_notes": "The Direct and Manage Project Work process requires continuous vigilance for emerging risks, especially those with high impact like environmental compliance. When a significant, unaddressed compliance risk is identified, the project manager has an ethical and professional obligation to take immediate action. This involves stopping the activity that creates the risk, formally updating the risk register, and bringing in relevant experts (e.g., environmental consultants) to develop proper mitigation and compliance strategies. Ignoring such a risk or attempting to conceal it is unacceptable and can lead to severe legal, financial, and reputational consequences for the organization and the project manager.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662564175",
@@ -8445,7 +8544,7 @@ export const questionsData = {
         "OPTION_D": "Regular email updates summarizing project progress and issues."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8463,7 +8562,9 @@ export const questionsData = {
         "concepts_to_understand": "Effective communication technology is critical for managing project knowledge, especially in distributed environments. Asynchronous methods are often superior for knowledge transfer when team members are geographically dispersed or operate in different time zones, as they allow for flexible engagement and structured content organization. The goal is to make knowledge accessible and usable by all, facilitating explicit and tacit knowledge sharing.",
         "additional_notes": "This question focuses on selecting the most appropriate tool/technique (communication method) to address a specific challenge in knowledge sharing – geographical dispersion and time zone differences. Asynchronous platforms are purpose-built to overcome these barriers, enabling continuous collaboration and documentation. Synchronous meetings are impractical, and informal calls or emails lack the structure and reach for effective best practice dissemination across a dispersed team. Options A and B are close in terms of technology, but asynchronous is clearly superior given the constraints.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662573373",
@@ -8564,9 +8665,9 @@ export const questionsData = {
         "OPTION_C": "Focus solely on positive achievements to maintain team morale.",
         "OPTION_D": "Postpone the session until all project issues have been formally closed."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -8583,7 +8684,10 @@ export const questionsData = {
         "concepts_to_understand": "Effective knowledge management, particularly through lessons learned, requires a culture of trust and psychological safety. Facilitation skills are essential for encouraging open communication. The focus should be on process improvement and organizational learning, not on individual fault, to ensure that valuable tacit knowledge is converted into explicit knowledge for future benefit.",
         "additional_notes": "This question highlights a common challenge in knowledge management: overcoming resistance to sharing negative experiences. The project manager's role is to facilitate an environment conducive to open dialogue. Option A directly addresses the core concern of the team (fear of blame) by establishing a clear, non-judgmental purpose for the session, which is fundamental to successful knowledge capture. Options B, C, and D are counterproductive or delay the process. Options A and C are close, as both relate to the tone of the session, but C is detrimental to the learning objective, while A fosters it.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662577465",
@@ -8984,9 +9088,9 @@ export const questionsData = {
         "OPTION_C": "To re-evaluate the project's performance against its original baselines.",
         "OPTION_D": "To conduct a final review of all project deliverables for quality assurance."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -9003,7 +9107,10 @@ export const questionsData = {
         "concepts_to_understand": "Lessons learned are a cornerstone of project and organizational learning. The 'Manage Project Knowledge' process uses these sessions to capture insights (both positive and negative) from project execution. The main goal is to convert these experiences into explicit knowledge and update organizational process assets, enabling the organization to improve its future project performance.",
         "additional_notes": "This is an easy question that directly tests the core objective of lessons learned sessions within the 'Manage Project Knowledge' process. The purpose is unequivocally to capture and transfer knowledge for organizational learning and future benefit. Options A, C, and D describe other project activities that are not the primary focus of lessons learned. This question is foundational to understanding the output of the process.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662591748",
@@ -9160,7 +9267,7 @@ export const questionsData = {
         "OPTION_D": "Implement a performance review system that heavily penalizes individual contributions and rewards only team-based achievements to force behavioral change."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9177,7 +9284,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Team development strategies, cultural integration, training as a tool for skill development and behavioral change, and fostering a collaborative environment. The question tests the understanding that building a collaborative culture requires more than just mandates; it involves education, practice, and a supportive environment.",
         "additional_notes": "This question delves into the challenge of integrating team members into a specific project delivery methodology (IPD) that requires a different mindset and approach to collaboration. The best approach involves active team development, specifically through targeted training and practical application (workshops). This builds competence and confidence, fostering genuine buy-in to the collaborative culture. The incorrect options represent either superficial fixes, overly punitive measures, or premature drastic actions, none of which address the core need for skill and mindset development for the new IPD environment."
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662597870",
@@ -9304,9 +9413,9 @@ export const questionsData = {
         "OPTION_C": "Focus on building strong relationships and negotiating with functional managers to gain their support for project priorities.",
         "OPTION_D": "Implement a performance review system that ties individual bonuses to project milestone achievements rather than functional performance."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -9322,7 +9431,10 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Managing in a functional organization, influence without authority, negotiation skills, and stakeholder management. The question highlights the importance of soft skills and relationship building when formal authority is limited, a common challenge for project managers.",
         "additional_notes": "This question tests the project manager's ability to navigate challenges in a functional organizational structure, where formal authority over team members is limited. The core issue is conflicting priorities between project tasks and functional work. The most effective approach is to leverage influence and negotiation skills with functional managers, as they hold the authority over the resources. This fosters collaboration and gains the necessary support for project objectives, which is a key aspect of managing teams indirectly. The other options either represent impractical demands, overly aggressive actions, or solutions that might not be feasible or effective without prior stakeholder buy-in."
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662602982",
@@ -9333,9 +9445,9 @@ export const questionsData = {
         "OPTION_C": "Hold individual, confidential discussions with team members to assess workload, well-being, and identify opportunities for workload rebalancing or support.",
         "OPTION_D": "Increase the project budget to hire additional temporary resources to alleviate the workload of the current team members."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -9351,7 +9463,10 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Team well-being, sustainability of performance, burnout prevention, active listening, and individual motivation. The question emphasizes the project manager's responsibility to manage team health and prevent long-term negative impacts, even when performance is currently high. Proactive engagement and tailored solutions are key.",
         "additional_notes": "This question addresses a nuanced aspect of 'Manage Team': sustaining high performance while preventing burnout. It highlights that even high-performing teams require careful management to ensure their well-being and long-term effectiveness. The best approach is proactive and personalized: engaging in individual, confidential discussions to understand specific pressures and collaboratively find solutions for workload management or support. This contrasts with either ignoring the issue, implementing blanket solutions that might not fit all, or immediately jumping to costly resource additions without proper assessment. It underscores the project manager's role in fostering a sustainable and healthy work environment."
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662604008",

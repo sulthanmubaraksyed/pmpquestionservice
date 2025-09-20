@@ -426,7 +426,7 @@ export const questionsData = {
         "OPTION_D": "Data Modeling"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -438,11 +438,15 @@ export const questionsData = {
         "process_group": "Initiating",
         "knowledge_area": "Integration",
         "tool": "Document Analysis",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 5.2.2.3 Data Analysis', 'PMBOK® Guide - 6th Edition: 4.1.2.3 Data Analysis']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 5.2.2.3 Data Analysis', 'PMBOK® Guide - 6th Edition: 4.1.2.3 Data Analysis']"
+        ],
         "concepts_to_understand": "Document Analysis is a data gathering and analysis technique used across multiple knowledge areas. It involves systematically reviewing and evaluating project-related documents to gather information, identify trends, and understand historical context. It is an efficient way to get up to speed on a project and to find patterns in past performance. Examples of documents to analyze include the project charter, business case, project management plan, change log, lessons learned register, and risk register.",
         "additional_notes": "This is an easy question that directly tests the definition and purpose of Document Analysis. The scenario is a straightforward, real-world application of the tool: a new project manager reviewing existing records. The prompt lists the specific documents being reviewed and the objective of finding patterns and understanding the history, which are the core functions of this technique. The other options are clearly for different purposes, making the correct answer stand out.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Initiating",
+      "is_sample": "No"
     },
     {
       "id": "1756634985188",
@@ -537,9 +541,9 @@ export const questionsData = {
         "OPTION_C": "To review the project charter, clarify roles and responsibilities, and create a shared understanding of the project's goals and objectives.",
         "OPTION_D": "To get formal sign-off from all stakeholders on the project's scope statement and requirements document."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -550,11 +554,16 @@ export const questionsData = {
         "process_group": "Initiating",
         "knowledge_area": "Integration",
         "tool": "Kick-off",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 4.3: Direct and Manage Project Work', 'Agile Practice Guide, Section 4.4: Kick-off Meetings']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 4.3: Direct and Manage Project Work', 'Agile Practice Guide, Section 4.4: Kick-off Meetings']"
+        ],
         "concepts_to_understand": "The core purpose of a project kick-off meeting. The distinction between the kick-off's primary objectives (alignment, shared vision, roles) and other project management activities (formal sign-off, detailed planning). The importance of a kick-off in fostering a collaborative environment.",
         "additional_notes": "The scenario emphasizes a need for 'shared ownership' and 'getting everyone on the same page.' The most effective way to achieve this is through a collaborative review of the foundational project documents and concepts. Option C directly addresses all of these needs. The other options are either too detailed (A), too superficial (B), or focused on a single task (D) rather than the holistic purpose of a kick-off meeting. This question tests the understanding of the strategic value of a kick-off meeting beyond just a formal announcement.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Initiating",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756648476894",
@@ -594,7 +603,7 @@ export const questionsData = {
         "OPTION_D": "To get all functional managers to formally sign-off on the high-level project charter."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -606,11 +615,15 @@ export const questionsData = {
         "process_group": "Initiating",
         "knowledge_area": "Integration",
         "tool": "Kick-off",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 4.3: Direct and Manage Project Work', 'PMI PMP Exam Content Outline, Task 4 of the Process Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 4.3: Direct and Manage Project Work', 'PMI PMP Exam Content Outline, Task 4 of the Process Domain']"
+        ],
         "concepts_to_understand": "The purpose of a kick-off meeting in a functional or matrix environment. The distinction between a kick-off as a formal announcement versus a collaborative working session. The use of a kick-off meeting to bridge the gap between high-level authorization (charter) and detailed planning.",
         "additional_notes": "The scenario describes a project in a functional organization where resource commitment is a key challenge. The most effective use of a kick-off meeting in this context is to get the key functional managers involved in the detailed planning. This collaborative approach gives them a sense of ownership and helps them see the value of their contribution. Options C and A are too confrontational or administrative, and Option D is an outcome, not the purpose of the meeting. This question tests the understanding of how to adapt a standard process to a specific organizational context.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Initiating",
+      "is_sample": "No"
     },
     {
       "id": "1756648478917",
@@ -705,9 +718,9 @@ export const questionsData = {
         "OPTION_C": "The local city council, because they possess power, legitimacy, and urgency.",
         "OPTION_D": "The public at large, because they are the ultimate end-users of the infrastructure."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -718,11 +731,16 @@ export const questionsData = {
         "process_group": "Initiating",
         "knowledge_area": "Stakeholders",
         "tool": "Stakeholder Salience Model",
-        "suggested_read": "['PMBOK Guide, 6th Edition: 13.1 Identify Stakeholders', 'PMBOK Guide, 7th Edition: 2.3.2.1 Stakeholder Analysis']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition: 13.1 Identify Stakeholders', 'PMBOK Guide, 7th Edition: 2.3.2.1 Stakeholder Analysis']"
+        ],
         "concepts_to_understand": "The Stakeholder Salience Model is a tool for prioritizing stakeholders based on their power, legitimacy, and urgency. Power is the ability to influence the project's outcome. Legitimacy is the formal right or authority to be involved. Urgency is the need for immediate attention. Stakeholders with all three attributes are the most salient and should be given the highest priority.",
         "additional_notes": "This question tests the ability to apply the Stakeholder Salience Model to a realistic scenario. The key is to correctly identify the presence or absence of the three attributes (power, legitimacy, urgency) for each stakeholder group. The city council is the only group with all three, making them the most salient. The other options describe groups that have one or two of the attributes but lack the full set, which is a common distraction on the PMP exam.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Initiating",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756657962803",
@@ -1014,7 +1032,7 @@ export const questionsData = {
         "OPTION_D": "A detailed list of all project deliverables and their quality standards."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -1026,11 +1044,15 @@ export const questionsData = {
         "process_group": "Initiating",
         "knowledge_area": "Integration",
         "tool": "Business Case",
-        "suggested_read": "['PMBOK® Guide, 7th Edition, Business Case section', 'PMBOK® Guide, 6th Edition, Chapter 1.2']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition, Business Case section', 'PMBOK® Guide, 6th Edition, Chapter 1.2']"
+        ],
         "concepts_to_understand": "A Business Case is a pre-project document that provides the justification for a project. Its purpose is to demonstrate that the project is a good investment for the organization. This is achieved by outlining the project's benefits, costs, and risks, and by showing how the project aligns with the organization's strategic goals. The PMP exam tests the candidate's understanding of this foundational document and its purpose. It is the core of the 'why' a project is being done.",
         "additional_notes": "This is an easy question that tests the candidate's understanding of the core purpose of a business case. The scenario asks for the 'most important element to include' to justify the investment. The correct answer (C) is a textbook definition of the components of a business case that provide this justification. The other options are components of a detailed project plan and are clearly inappropriate for this stage of the project. The question is straightforward, and the correct answer is a direct and simple application of a core PMP concept.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Initiating",
+      "is_sample": "No"
     },
     {
       "id": "1756661208439",

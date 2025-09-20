@@ -4221,9 +4221,9 @@ export const questionsData = {
         "OPTION_C": "Perform an Earned Value Analysis to measure the project's schedule performance index (SPI).",
         "OPTION_D": "Create a scatter diagram to analyze the relationship between the number of stories completed and the team's size."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4234,11 +4234,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Schedule",
         "tool": "Trend Analysis",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 6.7.2.3', 'PMI Agile Practice Guide, Section 4.2.22']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 6.7.2.3', 'PMI Agile Practice Guide, Section 4.2.22']"
+        ],
         "concepts_to_understand": "Trend analysis is a key predictive tool, especially in agile environments. A burn-down chart is a visual tool for tracking work remaining, and its trend line can be used to forecast the project's completion. This allows the project manager to proactively manage expectations and take corrective action if the project is not on track. It is a fundamental technique for monitoring and controlling an agile project's schedule.",
         "additional_notes": "This question tests the candidate's understanding of how a traditional project management tool (trend analysis) is applied in an agile context. The key phrases 'burn-down chart' and 'predict the future' are direct cues to the correct answer. The other options are incorrect because they are for different purposes: RCA for diagnosis, EVA for measurement, and a scatter diagram for analysis. The question requires the candidate to understand the specific purpose of each tool in an agile setting.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756633803365",
@@ -4277,9 +4282,9 @@ export const questionsData = {
         "OPTION_C": "Earned Value Analysis",
         "OPTION_D": "What-if Scenario Analysis"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4290,11 +4295,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Schedule",
         "tool": "Trend Analysis",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 6.7.2.3', 'PMI Agile Practice Guide, Section 4.2.22']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 6.7.2.3', 'PMI Agile Practice Guide, Section 4.2.22']"
+        ],
         "concepts_to_understand": "Trend analysis is a key predictive tool for project management. It involves examining project data over time to identify patterns and trends that can be used to forecast future performance. It is a fundamental technique for monitoring and controlling a project's performance and is applied across all project dimensions, including quality, schedule, and cost.",
         "additional_notes": "This is an easy question that tests the fundamental definition and purpose of trend analysis. The key phrases 'steadily increasing' and 'update the project's forecast' are direct cues to the correct answer. The other options are incorrect because they are for different purposes. The question is a straightforward check of the candidate's foundational knowledge.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756633806392",
@@ -4389,9 +4399,9 @@ export const questionsData = {
         "OPTION_C": "$16.0 million",
         "OPTION_D": "$15.5 million"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4402,11 +4412,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Cost",
         "tool": "Earned Value Analysis",
-        "suggested_read": "['PMBOK® Guide - 7th Edition: 4.4.1.3 Earned Value Management', 'PMI Practice Standard for Earned Value Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition: 4.4.1.3 Earned Value Management', 'PMI Practice Standard for Earned Value Management']"
+        ],
         "concepts_to_understand": "Earned Value Management (EVM) includes forecasting project outcomes based on current performance. The Estimate at Completion (EAC) is the forecast of the total cost of the project at its completion. The formula used for EAC depends on the assumptions made about future performance. The most common and default assumption is that the project's performance efficiency will remain the same. In this case, the formula is EAC = Budget at Completion (BAC) / Cost Performance Index (CPI). It's crucial to first calculate the CPI (CPI = EV/AC) to determine the cost efficiency before applying it to the total budget to forecast the final cost.",
         "additional_notes": "This question tests a fundamental calculation within Earned Value Analysis. The challenge is in selecting the correct formula for EAC, as there are a few options depending on the assumed performance. The phrase 'assuming the current efficiency will continue' is the key phrase that directs the candidate to use the EAC = BAC / CPI formula. This formula is the most common and logical one for this type of scenario. The other options are distractors that represent either the original budget, or values derived from incorrect calculations. A candidate must know both the formulas and the context in which to apply them. Understanding that EAC is a forecast and not a current measurement is also critical. A common mistake is to confuse EAC with ETC (Estimate to Complete), which is a forecast of the remaining work, not the total project cost.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756634970014",
@@ -4586,7 +4601,7 @@ export const questionsData = {
         "OPTION_D": "Pareto Chart"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4598,11 +4613,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Cause-and-Effect Diagrams",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis', 'PMBOK® Guide - 6th Edition: 8.2 Plan Quality Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis', 'PMBOK® Guide - 6th Edition: 8.2 Plan Quality Management']"
+        ],
         "concepts_to_understand": "A Cause-and-Effect Diagram, also known as a Fishbone or Ishikawa Diagram, is a visual tool used for Root Cause Analysis. It helps a team systematically identify, explore, and display all the possible causes of a specific problem or a 'defect.' By organizing potential causes into major categories (e.g., the 4Ms, 6Ms, or 8Ps), the tool ensures that the analysis is comprehensive and helps the team pinpoint the underlying issues, leading to more effective corrective actions.",
         "additional_notes": "This is a difficult question because it presents a scenario that could be confused with other quality management tools. The key to the correct answer is the specific combination of a known 'effect' (missing requirements) and the need to 'brainstorm and identify all the potential factors' and 'organize these potential causes into specific categories.' This is the direct purpose of a Cause-and-Effect Diagram. While Affinity Diagrams are also used for grouping, they are for a general set of ideas, whereas a Cause-and-Effect Diagram is specifically for organizing causes of a known problem. This question tests a nuanced understanding of the application of these tools.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756635004402",
@@ -4669,9 +4688,9 @@ export const questionsData = {
         "OPTION_C": "Control Chart",
         "OPTION_D": "Pareto Chart"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4682,11 +4701,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Cause-and-Effect Diagrams",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis', 'PMI Practice Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis', 'PMI Practice Standard for Project Management']"
+        ],
         "concepts_to_understand": "A Cause-and-Effect Diagram is an indispensable tool for quality control and problem-solving. It helps a project manager and team move beyond symptoms to identify the true root causes of a problem. By visually representing all potential causes in a structured format, the diagram encourages a thorough investigation and helps the team develop effective corrective actions that address the underlying issues rather than just the visible symptoms.",
         "additional_notes": "This is a difficult question that presents a plausible but incorrect alternative in the form of a Pareto Chart. Both are quality tools. However, a Pareto Chart is for prioritization ('which problem should we address first?'), while a Cause-and-Effect Diagram is for investigation ('why is this problem happening?'). The question specifically asks for a tool to 'visually represent all these potential causes... to identify the most likely root cause,' which is the exact purpose of the Cause-and-Effect Diagram. This tests a nuanced understanding of the application of different quality tools.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756635007435",
@@ -4697,9 +4721,9 @@ export const questionsData = {
         "OPTION_C": "Affinity Diagram",
         "OPTION_D": "Histogram"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4710,11 +4734,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Cause-and-Effect Diagrams",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis', 'PMI Practice Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis', 'PMI Practice Standard for Project Management']"
+        ],
         "concepts_to_understand": "A Cause-and-Effect Diagram is a primary tool for quality control and process improvement. It is used to get to the root of a problem by visually representing all potential causes and their relationships to the final effect. This is a proactive step that enables a project team to address systemic issues rather than just the surface-level symptoms, leading to long-term process improvements.",
         "additional_notes": "This is an easy question that presents a clear scenario for a Cause-and-Effect Diagram. The prompt 'investigating a performance issue' and 'identify all potential causes to find the root cause' are direct keywords that point to this tool. The other options are valid project management tools but are used for different purposes, making the correct answer straightforward. This question tests the foundational understanding of the tool's purpose.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756637879194",
@@ -6209,9 +6238,9 @@ export const questionsData = {
         "OPTION_C": "A Histogram to show the frequency distribution of the different types of defects.",
         "OPTION_D": "A Pareto Chart to identify the most frequent types of defects."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6222,11 +6251,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Run Chart",
-        "suggested_read": "['PMBOK® Guide, 6th Ed. - 8.2.2.7 Run Chart', 'PMI PMP Exam Prep']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Ed. - 8.2.2.7 Run Chart', 'PMI PMP Exam Prep']"
+        ],
         "concepts_to_understand": "Run Chart, Trend Analysis, Quality Control. A run chart is a time-series plot that is used to monitor a process over time. It helps to detect trends, shifts, or patterns in the data. It is a simple yet effective tool for visually assessing the impact of process changes and for seeing if a process is improving or deteriorating.",
         "additional_notes": "The key phrase in the question is 'visually displaying this trend.' The project manager wants to see if the new process has resulted in a decrease in defects over time. A run chart is the perfect tool for this. While a control chart (Option B) also shows data over time, its primary purpose is to analyze if the process is in statistical control, which is a different level of analysis. A run chart is the most direct tool for simply showing the trend. The other options (Histogram and Pareto Chart) are for different types of analysis (distribution and prioritization, respectively). The correct answer requires the candidate to select the most precise tool for the specific task described.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756654660922",
@@ -7077,9 +7111,9 @@ export const questionsData = {
         "OPTION_C": "Conduct another Monte Carlo Simulation with more optimistic inputs.",
         "OPTION_D": "Do nothing, as there is still a 25% chance of meeting the deadline."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -7090,11 +7124,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Risk",
         "tool": "Monte Carlo Simulation",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 11.4.2.3', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 11.4.2.3', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "Monte Carlo Simulation is a tool for quantitative risk analysis. Its output is not just data; it is actionable information. When the simulation shows a low probability of meeting a key objective, the project manager must use this information to develop and implement a risk response plan. The simulation helps in making data-driven decisions about the project's schedule and budget.",
         "additional_notes": "This question tests the candidate's ability to interpret the output of a Monte Carlo Simulation and determine the appropriate 'next' action. The simulation has provided a clear picture of the risk (low probability of meeting the deadline), and the project manager must now move into the 'Plan Risk Responses' and 'Implement Risk Responses' processes. The correct answer reflects a proactive, data-driven approach to solving the problem. The distractors represent either a failure to act, an irresponsible action, or a misuse of the tool. The question is difficult because it requires the candidate to understand the link between quantitative analysis and response planning.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756655980852",
@@ -7329,9 +7368,9 @@ export const questionsData = {
         "OPTION_C": "The change is likely to be rejected, and the CCB needs to formally document the rejection.",
         "OPTION_D": "The change is a part of 'Perform Integrated Change Control' and requires a documented review to maintain a project baseline."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -7342,11 +7381,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Change Control Meetings",
-        "suggested_read": "['PMBOK Guide, 6th Edition - Section 4.6 Perform Integrated Change Control', 'Agile Practice Guide - Section 2.1.2 Agile Approaches']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition - Section 4.6 Perform Integrated Change Control', 'Agile Practice Guide - Section 2.1.2 Agile Approaches']"
+        ],
         "concepts_to_understand": "The purpose of a Change Control Board (CCB) and its meetings is to provide a formal, documented process for managing changes. The project's change management plan defines which changes require a CCB review. The primary trigger for a CCB review is a proposed change that impacts a project baseline (scope, schedule, or cost). This process ensures that all changes are handled consistently and that the project remains on a controlled path.",
         "additional_notes": "This is a difficult question because it presents a subtle distinction. While the change doesn't impact budget or schedule, it does impact a deliverable, which is part of the scope baseline. The correct answer highlights that it is the governance process itself, outlined in the change management plan, that dictates whether a CCB review is required. The distractors are plausible but incorrect reasons. A PMP candidate must understand that the CCB is part of a formal governance structure, not an informal forum for senior stakeholders or a place to simply reject changes.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756656000051",
@@ -8002,7 +8046,7 @@ export const questionsData = {
         "OPTION_D": "Update the Risk Register with the new information from the stakeholder."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8014,11 +8058,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Change Log",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.6 Perform Integrated Change Control']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.6 Perform Integrated Change Control']"
+        ],
         "concepts_to_understand": "The Change Log and the change control system are intrinsically linked. The project manager's role is to ensure that change requests are properly documented and that the process is followed. Once a change request has been analyzed and its impact determined, the next step is to present it to the Change Control Board (CCB). The CCB is the designated body for making the final decision on changes that affect the project's baselines.",
         "additional_notes": "This is a challenging question that tests the project manager's understanding of the change control process and their authority within that process. The key insight is that a change with a 'significant positive impact' and a 'minor negative impact' on cost is a change that affects the baselines. Therefore, it requires CCB approval. The project manager's next action is to facilitate this approval by presenting the request to the board. The other options are either a violation of project governance (unilateral approval) or are premature (updating baselines).",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756658513734",
@@ -8198,7 +8246,7 @@ export const questionsData = {
         "OPTION_D": "A Gantt chart with risk milestones to show when each risk is addressed."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8210,11 +8258,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Risk",
         "tool": "Risk Burn Down Chart",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.3', 'PMBOK® Guide, 7th Edition, Risk Management']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.3', 'PMBOK® Guide, 7th Edition, Risk Management']"
+        ],
         "concepts_to_understand": "A Risk Burn Down Chart is a visual tool used to track the reduction of project risks over time. It is an adaptation of the traditional Burn Down Chart. The chart's vertical axis represents the total risk exposure (often a calculated value based on probability and impact), and the horizontal axis represents time. As risks are mitigated or resolved, the line on the chart 'burns down,' showing a decrease in overall project risk. This is a powerful tool for communicating risk management progress to stakeholders.",
         "additional_notes": "This question tests the candidate's knowledge of a specific, advanced agile project management tool. The scenario provides a clear problem: the sponsor wants to see a visual representation of risk reduction over time. The correct answer, a Risk Burn Down Chart, is the only tool listed that is specifically designed for this purpose. The other options are plausible project management tools, but they serve different purposes. The question is 'easy' because the correct answer is a direct and simple application of a specific tool to a well-defined problem, with the distractors being clearly inappropriate for the stated goal.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756660570921",
@@ -8882,44 +8934,17 @@ export const questionsData = {
       }
     },
     {
-      "id": "1756662614250",
-      "question_pmp": "A project is midway through execution. The project manager observes that the team is spending significant time on gold-plating, adding extra features not requested by the client and not defined in the scope baseline. While these features are high quality, they are consuming unplanned resources.",
-      "options_pmp": {
-        "OPTION_A": "What is the MAIN objective for the project manager to achieve in this scenario?",
-        "OPTION_B": "Ensure that the team's efforts are solely directed towards completing the approved scope.",
-        "OPTION_C": "Encourage the team's initiative to exceed client expectations for future engagements.",
-        "OPTION_D": "Facilitate a meeting with the client to secure approval for the added features."
-      },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - This is not a valid answer for the options provided. It is the question itself.",
-        "option_b_result": "CORRECT - Gold-plating, or adding features beyond the agreed-upon scope, is a form of scope creep. The main objective of the project manager in Control Scope is to ensure that the team's work is strictly focused on and limited to the formally approved scope baseline. This prevents wasted resources, schedule delays, and potential dissatisfaction from a client who didn't request or fund the extra work.",
-        "option_c_result": "INCORRECT - Encouraging gold-plating is detrimental to project success. While team initiative is valuable, it must be channeled towards the approved scope. Exceeding client expectations should happen within the boundaries of the approved scope or through a formal change request process, not through unmanaged additions that consume unplanned resources.",
-        "option_d_result": "INCORRECT - While securing approval for the added features is part of a change control process *if* they are desired, the *main objective* is to stop the uncontrolled work. Seeking approval for features already being worked on without authorization puts the project manager in a reactive position and does not proactively maintain scope control.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Scope",
-        "tool": "Work Performance Information",
-        "suggested_read": "[\"['PMBOK Guide - Section 5.6 - Control Scope', 'PMBOK Guide - Section 4.6 - Perform Integrated Change Control']\"]",
-        "concepts_to_understand": "Gold-plating is a significant threat to project success. It refers to adding extra features or functionalities that were not requested or approved. While seemingly beneficial, it leads to wasted resources (time, money), potential delays, and can even cause client dissatisfaction if the added features are not desired or create complexity. The project manager's core responsibility in Control Scope is to ensure adherence to the approved scope, preventing any unmanaged additions.",
-        "additional_notes": "This difficult question addresses the concept of 'gold-plating,' a specific form of scope creep. Even though the added features are 'high quality,' they are still unauthorized work consuming unplanned resources. The project manager's paramount objective in the Control Scope process is to ensure that the project delivers exactly what was defined and approved in the scope baseline, no more and no less. Allowing or encouraging gold-plating undermines project control, leads to resource waste, and can jeopardize the successful delivery of the actual, approved scope. The initial goal is to stop this deviation, not legitimize it retrospectively."
-      }
-    },
-    {
       "id": "1756662615271",
-      "question_pmp": "A critical defect is discovered late in the testing phase of a software development project. The project manager identifies an immediate need for a design change to mitigate significant project risks and ensure product viability. The change requires re-prioritizing tasks and reallocating resources.",
+      "question_pmp": "A critical defect is discovered late in the testing phase of a software development project. The project manager identifies an immediate need for a design change to mitigate significant project risks and ensure product viability. The change requires re-prioritizing tasks and reallocating resources. What should be the project manager next action?",
       "options_pmp": {
         "OPTION_A": "Implement the design change immediately and then update the project management plan.",
         "OPTION_B": "Submit a change request to the Change Control Board (CCB) for approval.",
         "OPTION_C": "Inform the key stakeholders about the defect and the proposed solution.",
         "OPTION_D": "Update the risk register with the new defect and its potential impact."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -8936,37 +8961,10 @@ export const questionsData = {
         "concepts_to_understand": "The Perform Integrated Change Control process is where all change requests are reviewed, analyzed, approved, or rejected. The CCB is integral to this, ensuring that all impacts are considered. Even in urgent situations, formal change control is paramount to maintain project governance and prevent uncontrolled modifications. Understanding the sequence of actions in this process is critical, where formal submission precedes any implementation or widespread communication regarding the change.",
         "additional_notes": "This question tests the understanding of the strict protocol around change control in project management. The core concept is that any change to baselines or project documents must follow a formal process, even if the change seems critically necessary. The Change Control Board (CCB) is the authority for approving or rejecting changes. Option B is correct because it ensures adherence to the change management plan and integrated change control procedures. Options A, C, and D represent actions that either bypass the formal process, are premature, or are secondary to initiating the change request itself. The difficulty lies in differentiating between the urgent need for action and the disciplined approach required by integrated change control, particularly when two options like A and B present very plausible, but ultimately different, first steps.",
         "difficulty_level": "difficult"
-      }
-    },
-    {
-      "id": "1756662616301",
-      "question_pmp": "During a large-scale infrastructure project, a major stakeholder submits a request to add a new, significant feature not originally in the scope baseline. The project manager analyzes the request's impact on cost, schedule, and resources.",
-      "options_pmp": {
-        "OPTION_A": "What should the project manager do NEXT?",
-        "OPTION_B": "What is the primary purpose of this analysis?",
-        "OPTION_C": "What is the MOST appropriate action to take after this analysis?",
-        "OPTION_D": "What is the BEST approach to manage stakeholder expectations?"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
-      "question_type": "Option",
-      "correct_answer": "",
-      "analysis": {
-        "option_a_result": "INCORRECT - This is a question about an action, not a question itself. The PMP exam asks what *should* be done, not to rephrase the question type.",
-        "option_b_result": "INCORRECT - While understanding the purpose of analysis is good, the question asks for the *most appropriate action* after the analysis, not a description of the analysis itself. The primary purpose of the analysis is to inform the decision-making process for the change.",
-        "option_c_result": "CORRECT - After analyzing the impact of a significant change request on project baselines, the MOST appropriate action is to formally submit the change request to the Change Control Board (CCB) for review and approval. This aligns with the Perform Integrated Change Control process, ensuring all impacts are considered before a decision is made and preventing scope creep.",
-        "option_d_result": "INCORRECT - Managing stakeholder expectations is an ongoing communication activity, but it's not the direct next step after analyzing a formal change request that impacts baselines. The formal change control process must precede any broad communication about approval or rejection. Managing expectations comes later, based on the CCB's decision.",
-        "process_group": "Monitoring and Controlling",
-        "knowledge_area": "Integration",
-        "tool": "None",
-        "suggested_read": [
-          "['PMBOK Guide, Section 4.6 - Perform Integrated Change Control', 'PMBOK Guide, Section 4.6.3.2 - Change Control Meetings']"
-        ],
-        "concepts_to_understand": "The integrated change control process involves a structured approach to managing changes. After a change request is received, it must be analyzed for its impact on all project aspects. Following this analysis, the formal step is to present it to the Change Control Board (CCB) for approval or rejection. This ensures that changes are systematically evaluated and controlled, maintaining project integrity and preventing uncontrolled modifications.",
-        "additional_notes": "This question assesses the project manager's understanding of the sequence of activities within the Perform Integrated Change Control process. The scenario describes the initial steps of receiving and analyzing a change request. The critical next step is to formally submit the request to the governing body, the CCB, for a decision. Option C directly addresses this critical step, emphasizing the formal governance required for significant changes. Options A and B are metalinguistic errors or descriptive, not actionable. Option D, while important for stakeholder management, is premature as the decision on the change has not yet been made, highlighting the need to follow process before communication about outcomes.",
-        "difficulty_level": "difficult"
-      }
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No",
+      "did_user_get_it_right": true
     },
     {
       "id": "1756662617329",
@@ -9638,7 +9636,7 @@ export const questionsData = {
         "OPTION_D": "Enhanced team autonomy and decision-making."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9656,7 +9654,9 @@ export const questionsData = {
         "concepts_to_understand": "Validate Scope involves formal acceptance. Accepting undocumented changes bypasses the Perform Integrated Change Control process, leading to 'scope creep.' Scope creep is the uncontrolled expansion to product or project scope without adjustments to time, cost, and resources. It can severely impact project baselines and overall success. The project manager's role is to ensure all changes go through a formal process.",
         "additional_notes": "This question highlights a critical aspect of scope management: the danger of 'scope creep' when changes are not managed formally. Even 'minor adjustments' can accumulate over time, significantly impacting project baselines (cost, schedule, scope, quality). The Validate Scope process is the point where the formally accepted scope is confirmed. If this confirmation is undermined by informal changes, the project's ability to deliver within its original constraints is severely compromised, leading to the most probable outcome of cost overruns and schedule delays. The project manager must enforce the change control process to maintain control.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756662640848",
@@ -9787,9 +9787,9 @@ export const questionsData = {
         "OPTION_C": "Accepted Deliverables",
         "OPTION_D": "Validated Changes"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -9806,7 +9806,10 @@ export const questionsData = {
         "concepts_to_understand": "The Validate Scope process aims to formalize the acceptance of completed project deliverables by the customer or sponsor. The direct output of this process is 'Accepted Deliverables.' While issues or change requests might arise during this process, the overarching goal is to gain formal sign-off for the deliverables, indicating they meet the agreed-upon scope.",
         "additional_notes": "This question focuses on the direct output of the Validate Scope process. Despite the client raising a minor discrepancy, the project manager's immediate goal in Validate Scope is to secure 'Accepted Deliverables.' Even if the discrepancy leads to a change request (which is an *output* of Validate Scope if the deliverable is rejected or modified), the ultimate objective of the process, if successful, is the formal acceptance of what has been delivered against the current scope. This highlights that formal acceptance is the ultimate aim of Validate Scope, even when challenges arise.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662645970",
@@ -10117,9 +10120,9 @@ export const questionsData = {
         "OPTION_C": "Update the communication management plan to reflect the need for more detailed and frequent reports.",
         "OPTION_D": "Assign a dedicated technical writer to review and edit all reports before submission to the project manager."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -10136,7 +10139,10 @@ export const questionsData = {
         "concepts_to_understand": "The Monitor Communications process involves ensuring communications are effective. When deficiencies are identified, corrective actions are needed. Standardized templates and training are effective ways to improve the quality, consistency, and clarity of project communications, especially in technical or complex environments. This addresses the 'how' of communication delivery directly.",
         "additional_notes": "This question requires the project manager to identify the most effective corrective action in the Monitor Communications process. The core problem is the quality and clarity of reports despite existing requirements. Requesting standardized templates directly addresses consistency and format, while providing training empowers the team to improve their reporting skills, thus addressing ambiguity and quality. The other options are either reactive (scheduling meetings for clarification), potentially counterproductive (adding more detail without addressing clarity), or costly and not empowering (hiring a dedicated writer). The chosen solution offers a sustainable and proactive approach to improve communication effectiveness at the source, which is a key objective of monitoring communications.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662657237",
@@ -10388,7 +10394,7 @@ export const questionsData = {
         "OPTION_D": "Monitor Stakeholder Engagement."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10406,7 +10412,9 @@ export const questionsData = {
         "concepts_to_understand": "While Monitor Communications focuses on the effectiveness of information flow, Monitor Stakeholder Engagement looks at the broader relationship with stakeholders and whether their participation and support are at the desired level. If communication delivery is technically correct but a stakeholder remains dissatisfied, it often indicates a breakdown in engagement rather than just communication. Understanding stakeholder expectations, influence, and overall perception is key to addressing such issues.",
         "additional_notes": "This is a challenging question that requires distinguishing between the Communications Management and Stakeholder Engagement Knowledge Areas. The key phrase 'underlying issue beyond just information delivery' and 'stakeholder's behavior' strongly points to the Monitor Stakeholder Engagement process. While Monitor Communications might reveal that feedback is negative, it's the Monitor Stakeholder Engagement process that delves into the *reasons* for this negative behavior and how to improve the overall relationship and engagement level, which often involves adjusting communication strategies. It's about ensuring their *effective participation and support*, not just their receipt of information. This question highlights the overlap and subtle differences between these two closely related monitoring processes.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756662666421",

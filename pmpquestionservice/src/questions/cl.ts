@@ -852,9 +852,9 @@ export const questionsData = {
         "OPTION_C": "Flowchart",
         "OPTION_D": "Alternatives Analysis"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -865,11 +865,16 @@ export const questionsData = {
         "process_group": "Closing",
         "knowledge_area": "Integration",
         "tool": "Affinity Diagrams",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 4.7.2.2 Data Analysis', 'PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 4.7.2.2 Data Analysis', 'PMBOK® Guide - 6th Edition: 8.3.2.2 Data Analysis']"
+        ],
         "concepts_to_understand": "Affinity Diagrams are a versatile tool for organizing qualitative data. They are particularly useful in a retrospective setting, such as a lessons learned session, where a large number of individual observations, ideas, or problems are generated. By clustering these items, the team can identify recurring themes and prioritize which lessons are most important to document and share with the organization. This process helps convert raw data into actionable knowledge.",
         "additional_notes": "This is a difficult question because it presents a scenario where a few different tools could be tangentially related. However, the core activity described is organizing a large amount of unstructured data from a brainstorming session ('notes'). While a Cause-and-Effect Diagram might be used on a specific problem identified from the notes, the initial organization of the notes themselves is the primary function of an Affinity Diagram. The question tests the candidate's ability to identify the most direct and appropriate tool for the specific task described.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Closing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756649206518",
@@ -936,9 +941,9 @@ export const questionsData = {
         "OPTION_C": "A failure to empower broad-based action.",
         "OPTION_D": "A failure to anchor the new approaches in the culture."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -949,11 +954,16 @@ export const questionsData = {
         "process_group": "Closing",
         "knowledge_area": "Integration",
         "tool": "Kotter's 8-Step Change Model",
-        "suggested_read": "['PMBOK® Guide - 7th Edition: 3.3.1.2 Leadership', \"Kotter's 8-Step Change Model\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition: 3.3.1.2 Leadership', \"Kotter's 8-Step Change Model\"]"
+        ],
         "concepts_to_understand": "The final step of Kotter's model, 'Anchoring the Changes in Corporate Culture,' is critical for the long-term success of any change initiative. Without this step, the change is not sustainable and the organization will likely revert to its old ways. This is a common failure point for many projects.",
         "additional_notes": "This is a difficult question because it tests the candidate's understanding of the later stages of Kotter's model. The scenario describes a successful implementation, but a failed sustainment. The key is to correctly identify 'reverted to using the old system' as the primary indicator of a failure to anchor the change in the culture. The other options are failures of earlier steps in the model, which the scenario suggests were successfully completed.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Closing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756657610634",
@@ -992,9 +1002,9 @@ export const questionsData = {
         "OPTION_C": "Generate an Assumption Log entry to record the new understanding.",
         "OPTION_D": "Execute a Memorandum of Understanding (MOU) to document the support agreement."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1005,11 +1015,16 @@ export const questionsData = {
         "process_group": "Closing",
         "knowledge_area": "Procurement",
         "tool": "Memorandums of Understanding (MOUs)",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 2.4.2.5 Agreements', 'PMBOK® Guide, 6th Edition: 12.1.2.5 Agreements']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 2.4.2.5 Agreements', 'PMBOK® Guide, 6th Edition: 12.1.2.5 Agreements']"
+        ],
         "concepts_to_understand": "An MOU is a flexible document that can be used at various stages of a project lifecycle, including post-delivery, to formalize a mutual understanding that is not yet ready for, or does not require, a full legal contract. It bridges the gap between a casual verbal agreement and a formal, binding contract, making it ideal for situations where parties want a written record of their intent and responsibilities without the legal complexity.",
         "additional_notes": "The core of this question lies in recognizing the difference between a formal contract amendment and a non-binding agreement like an MOU. The vendor's request for a 'non-binding agreement' is the key phrase. An MOU is precisely that: a formal document that records a mutual understanding without legal obligation. An SOW is for defining project scope, an Assumption Log is for planning-phase assumptions, and a contract amendment is a legally binding change. The project manager's best action is to honor the vendor's request for a non-binding document that will still formally record the new support arrangement.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Closing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756660542658",
@@ -1076,9 +1091,9 @@ export const questionsData = {
         "OPTION_C": "In the lessons learned register.",
         "OPTION_D": "In the project team's meeting minutes."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -1089,11 +1104,16 @@ export const questionsData = {
         "process_group": "Closing",
         "knowledge_area": "Integration",
         "tool": "Lessons Learned Register",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Project Performance Domains', 'PMBOK® Guide - 6th Edition, Close Project or Phase Process']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Project Performance Domains', 'PMBOK® Guide - 6th Edition, Close Project or Phase Process']"
+        ],
         "concepts_to_understand": "The lessons learned register is a key output of the project close-out process. It is the formal repository for the knowledge and insights gained during the project. It is crucial for organizational learning and for feeding into the knowledge base that can be used for future projects.",
         "additional_notes": "This question tests a project manager's understanding of the specific document used for a project close-out review. The scenario describes a classic lessons learned session. The key is to know which document is the formal, structured repository for this information. Options A and D are less formal or are summary documents. Option B is the final storage location, not the document itself. The lessons learned register is the specific artifact designed for this purpose. The question is difficult because the options are plausible, but only one is the specific, official document for capturing project lessons. It requires a precise understanding of project documents and their purposes.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Closing",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756661214498",
