@@ -2132,7 +2132,7 @@ export const questionsData = {
         "OPTION_D": "Communicating the disruption and the planned response to the executive steering committee."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -2150,7 +2150,9 @@ export const questionsData = {
         "concepts_to_understand": "This question tests the immediate action required for a pre-planned risk response. When a risk materializes, the focus shifts to executing the defined response efficiently. This often involves activating pre-established agreements or procedures rather than re-planning or initiating new processes from scratch.",
         "additional_notes": "The scenario emphasizes a 'standby' secondary supplier, implying that agreements are already in place. Therefore, the crucial step is to activate those agreements as per the project's established procedures. Option B, 'issuing a new procurement contract', suggests a potentially lengthy process that might not be necessary if a 'standby' arrangement implies a pre-existing contractual framework ready to be triggered. The focus is on the *implementation* of the planned response, which means taking the direct action to engage the alternative. Communication is important, but getting the response underway is the critical first step to address the threat.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756632794090",
@@ -2315,7 +2317,7 @@ export const questionsData = {
         "OPTION_D": "Workaround"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -2333,7 +2335,9 @@ export const questionsData = {
         "concepts_to_understand": "This question distinguishes between planned responses (contingency plans) and unplanned responses (workarounds) for risks. Workarounds are developed in response to emergent, previously unidentified risks, often requiring immediate problem-solving and adaptation.",
         "additional_notes": "The crucial phrase here is 'unforeseen geological instability' and 'not identified in the initial risk analysis.' This indicates an 'unknown-unknown' risk has materialized. When such a risk occurs, and there's no predefined response, the team must develop a 'workaround' – an ad hoc solution to address the problem. While the risk register will be updated later, the immediate artifact of the team's problem-solving effort in this situation is the workaround plan being developed by engaging experts and surveys. This highlights the adaptive nature of project management in the face of true uncertainty.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756632800132",
@@ -2467,7 +2471,7 @@ export const questionsData = {
         "OPTION_D": "Unknown-Unknown Risk"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -2485,7 +2489,9 @@ export const questionsData = {
         "concepts_to_understand": "This question differentiates between various types of risks that can occur during implementation. Residual risks are those that remain even after efforts to mitigate or respond to them. It highlights that risk responses may not completely eliminate a risk, leaving some level of exposure.",
         "additional_notes": "The key to this question is that the equipment failure was a *known* risk (identified) and a response (maintenance schedule) was *implemented*. Despite the response, the failure still occurred. This means that some level of risk persisted even after the mitigation efforts. This remaining risk is classified as a **residual risk**. It's not a secondary risk (which would be a *new* risk caused by the maintenance activity itself) nor an emergent/unknown-unknown risk (as it was identified previously). The scenario describes the inherent uncertainty that remains even with proactive risk management.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756632805167",
@@ -3278,7 +3284,7 @@ export const questionsData = {
         "OPTION_D": "A risk register to identify and manage potential risks to the release."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3290,11 +3296,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Quality",
         "tool": "Checklists",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 8.2.2.2', 'PMI Agile Practice Guide, Section 4.2.11']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 8.2.2.2', 'PMI Agile Practice Guide, Section 4.2.11']"
+        ],
         "concepts_to_understand": "Checklists are a simple but effective quality management and control tool. They are particularly useful for complex, multi-step processes where consistency and completeness are critical. They help to prevent errors of omission and ensure that the process is followed as planned. This makes them essential for high-risk activities like product releases, system migrations, or project closures.",
         "additional_notes": "This question tests the candidate's understanding of the practical application of a checklist. The scenario's key phrase is 'ensure the release process is followed completely and consistently,' which is a direct description of a checklist's purpose. The incorrect options represent other valid project management tools, but they serve different functions. The question highlights the importance of choosing the right tool for the specific task at hand, which in this case is process verification.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756635001373",
@@ -3478,7 +3488,7 @@ export const questionsData = {
         "OPTION_D": "Delay the decision until the project is officially closed."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3490,11 +3500,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Stakeholders",
         "tool": "Autocratic Decision-Making",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Process Groups: Executing', 'Practice Standard for Project Stakeholder Management, Section 4.5']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Process Groups: Executing', 'Practice Standard for Project Stakeholder Management, Section 4.5']"
+        ],
         "concepts_to_understand": "A project manager must balance project constraints with stakeholder expectations. In some cases, a small, quick, and low-impact decision (autocratic) can provide a significant increase in stakeholder satisfaction and buy-in, which is a valuable project outcome.",
         "additional_notes": "This is a difficult question because it presents a trade-off between following a formal process (C) and making a pragmatic, quick decision (B) to satisfy a key stakeholder. The key phrases are 'minor change,' 'non-critical feature,' and 'high-priority stakeholder.' The project manager must use their judgment to determine that the benefits of quickly accommodating the stakeholder outweigh the need for a full, formal process. Autocratic decision-making is the tool that allows for this. The other options are either too slow or inappropriate, making them incorrect.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756648459685",
@@ -3534,7 +3548,7 @@ export const questionsData = {
         "OPTION_D": "Implement a 'gamification' challenge with daily leaderboards and prizes to motivate team members to fix defects faster."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3546,11 +3560,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Team Building",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 9.4.2.3: Team Building', 'PMI PMP Exam Content Outline, Tasks 9 and 10 of the People Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 9.4.2.3: Team Building', 'PMI PMP Exam Content Outline, Tasks 9 and 10 of the People Domain']"
+        ],
         "concepts_to_understand": "Different types of team-building activities (social, recognition, work-oriented) and their appropriate use. The importance of morale and team cohesion in a project's final phases. Recognizing that team-building isn't just for the start of a project, but is a continuous effort to maintain a healthy team environment.",
         "additional_notes": "The scenario highlights a fatigued, high-stress team in the final phase of a project. The primary goal is to re-energize them and boost morale, not to add more work or create competition. A social event is the most direct and effective way to achieve this. It offers a clear break and focuses on celebrating the team as a whole, which is vital for cohesion. The other options either add more work (lessons learned), risk demotivating parts of the team (individual rewards), or could increase stress and competition (gamification), making them less appropriate for this specific situation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756648461714",
@@ -3589,9 +3607,9 @@ export const questionsData = {
         "OPTION_C": "Implement a performance management plan with clear metrics for individual contributions and collaboration.",
         "OPTION_D": "Conduct individual one-on-one meetings with each team member to understand their perspective on the project issues."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -3602,11 +3620,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Team Building",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 9.4.2.3: Team Building', 'Agile Practice Guide, Section 4.3: Building the Team']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 9.4.2.3: Team Building', 'Agile Practice Guide, Section 4.3: Building the Team']"
+        ],
         "concepts_to_understand": "The importance of foundational team-building activities, such as creating a team charter, to establish a framework for collaboration. Understanding the appropriate sequence of interventions for a dysfunctional team. The difference between addressing symptoms (low morale) and root causes (role confusion, poor communication).",
         "additional_notes": "The scenario describes a highly dysfunctional team with root causes in poor communication and undefined roles. The most fundamental and 'first' step is to establish a clear operating framework for the team. A team charter serves this purpose perfectly by having the team collectively define their rules of engagement. This is a far more effective and sustainable approach than a social retreat (which is superficial) or individual performance metrics (which are too aggressive and potentially counterproductive without a baseline of trust). This question tests the understanding of the proper sequence of team development interventions.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756648463742",
@@ -3646,7 +3669,7 @@ export const questionsData = {
         "OPTION_D": "Circumvent the legal manager and send the document directly to another legal team member for sign-off."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3658,11 +3681,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Stakeholders",
         "tool": "Political Awareness",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 13.2.2.4: Interpersonal and Team Skills (e.g., Political Awareness)', 'PMI PMP Exam Content Outline, Task 2 of the People Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 13.2.2.4: Interpersonal and Team Skills (e.g., Political Awareness)', 'PMI PMP Exam Content Outline, Task 2 of the People Domain']"
+        ],
         "concepts_to_understand": "The importance of identifying the motivations behind stakeholder behavior. The difference between a process issue and a political issue. The power of influence and persuasion over confrontation and escalation. The risks of circumvention and formal escalation.",
         "additional_notes": "This question presents a classic PMP-style scenario where a stakeholder's behavior is creating an issue. The key is to recognize that the problem is not a lack of a clear plan but an underlying political issue. The best approach is to first seek to understand the political landscape and motivations of the stakeholder. This is the core of political awareness. All other options are reactive, confrontational, or unethical, and will likely worsen the situation. The correct option is the only one that seeks to solve the root cause of the problem by building a collaborative relationship rather than an adversarial one.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756648467792",
@@ -4023,7 +4050,7 @@ export const questionsData = {
         "OPTION_D": "A series of weekly team meetings via video conference to discuss all project updates and share documents."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4035,11 +4062,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Project Management Information System (PMIS)",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 4.3.2.4: Project Management Information System', 'PMI PMP Exam Content Outline, Task 8 of the Process Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 4.3.2.4: Project Management Information System', 'PMI PMP Exam Content Outline, Task 8 of the Process Domain']"
+        ],
         "concepts_to_understand": "The definition and purpose of a PMIS. The value of a PMIS for virtual team collaboration, document management, and centralized communication. The limitations of email and shared drives for complex projects.",
         "additional_notes": "The scenario describes a virtual team with a need for centralized collaboration and communication. A PMIS is the only tool that can effectively address all of these needs. The other options are either too manual, too passive, or do not provide a centralized platform for all project information. This question tests the understanding of a PMIS as a holistic solution for project management.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756648493109",
@@ -4163,7 +4194,7 @@ export const questionsData = {
         "OPTION_D": "Ask the rest of the team if they have any initial thoughts on the risk to get a quick collaborative assessment."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4175,11 +4206,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Active Listening",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 10.1 on Plan Communications Management', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation and Active Listening']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 10.1 on Plan Communications Management', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation and Active Listening']"
+        ],
         "concepts_to_understand": "This question tests a project manager's ability to apply active listening and a servant leadership mindset in a team environment. The core concept is that a project manager must prioritize building psychological safety and trust within the team. The first action in this scenario must be an acknowledgment that validates the team member's input, rather than immediately moving to a procedural or task-oriented response. This simple act of validation is crucial for fostering a culture where team members feel comfortable and empowered to raise potential issues early, which is a key to successful project management.",
         "additional_notes": "The scenario is designed to test a project manager's understanding of psychological safety and how it is built through communication. The team member is taking a small risk by raising an unanalyzed concern. The project manager's response is critical in either rewarding this behavior or discouraging it. The correct answer, a simple 'thank you' with a validating statement, is a low-effort, high-impact action that reinforces the project's values around open communication. The other options, while not inherently wrong in a different context, are not the BEST first step. Pushing the team member to do more work (Option A), simply tabling the issue (Option B), or immediately shifting the focus to the group (Option D) all fail to provide the immediate and personal validation that is necessary to build a culture of trust. A project manager's first priority in this situation is to make the individual feel heard, which is the essence of active listening. This is a straightforward, easy-level question because the correct answer is the most emotionally intelligent and team-focused response, and the incorrect answers are clearly procedural or dismissive.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756649198418",
@@ -4359,7 +4394,7 @@ export const questionsData = {
         "OPTION_D": "Directly ask Maria to provide more data and analysis to back up her claim to ensure that her points are given proper consideration."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4371,11 +4406,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Conflict Management",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation']"
+        ],
         "concepts_to_understand": "This question tests a project manager's ability to manage a team-level conflict in real-time. The core concept is that a project manager must be a proactive facilitator who creates a safe and inclusive environment for all team members. The best approach is to use a facilitation technique to ensure that all voices are heard and that the conflict is resolved constructively. The incorrect options are all less effective, as they either allow the conflict to escalate, fail to resolve the core issue, or put the burden on the wrong person. The correct option demonstrates a deep understanding of team dynamics and a proactive approach to conflict management.",
         "difficulty_level": "difficult",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756649223680",
@@ -4479,7 +4518,7 @@ export const questionsData = {
         "OPTION_D": "The project manager should use a 'Delegative' leadership style, where they will delegate the task of resolving the conflict to a senior team member, as this will help them to grow and to learn how to solve problems."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4491,11 +4530,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Leadership",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Coaching']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Coaching']"
+        ],
         "concepts_to_understand": "This question tests a project manager's understanding of different leadership styles and when to apply them. The core concept is that a project manager should be a coach who helps the team to solve their own problems. This is a key principle of a project manager's role and is a crucial skill for a project manager. The incorrect options all represent less effective or unprofessional approaches that are likely to lead to a poor outcome. The correct option demonstrates a deep understanding of effective leadership and a proactive approach to team management.",
         "difficulty_level": "easy",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756649234780",
@@ -4534,9 +4577,9 @@ export const questionsData = {
         "OPTION_C": "The project manager should use a 'Participating' or 'Supporting' leadership style, where they will focus on supporting the team, removing obstacles, and helping them to achieve their full potential.",
         "OPTION_D": "The project manager should use a 'Delegating' leadership style, where they will delegate the task of managing the project to the team, as they are highly skilled and motivated."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4547,11 +4590,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Leadership",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Coaching']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 9.5 on Develop Team', 'PMI Agile Practice Guide, Section 4.5.3 on Coaching']"
+        ],
         "concepts_to_understand": "This question tests a project manager's understanding of different leadership styles and when to apply them. The core concept is that a project manager should be a servant leader who focuses on supporting the team. This is a key principle of a project manager's role and is a crucial skill for a project manager. The incorrect options all represent less effective or unprofessional approaches that are likely to lead to a poor outcome. The correct option demonstrates a deep understanding of effective leadership and a proactive approach to team management.",
         "difficulty_level": "difficult",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654597083",
@@ -4786,9 +4834,9 @@ export const questionsData = {
         "OPTION_C": "Extend the deadline for all bidders to allow the local vendor to submit a bid.",
         "OPTION_D": "Provide the local vendor with the procurement documents and allow them to submit a late bid, as it is only one vendor."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4799,11 +4847,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Procurement",
         "tool": "Advertising",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 12.2.2.4', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 12.2.2.4', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "The purpose of advertising in procurement is to ensure a fair and competitive process. The project manager must take reasonable steps to ensure the opportunity is widely publicized, but they cannot guarantee that every single vendor sees it. The project manager's duty is to maintain the integrity and fairness of the process, even when faced with complaints or requests for special treatment.",
         "additional_notes": "This question tests the candidate's understanding of the ethical and procedural aspects of 'Advertising' in procurement. The scenario presents a situation where the project manager has fulfilled their responsibility to advertise widely, but a single vendor has a complaint. The correct answer is to stand by the integrity of the process and not give special treatment. The distractors are all examples of poor ethical or procedural practices that would compromise the integrity of the procurement process. The question is difficult because it requires a nuanced understanding of procurement ethics.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654744091",
@@ -5039,7 +5092,7 @@ export const questionsData = {
         "OPTION_D": "A Formal Change Control Meeting to address coordination issues."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5051,11 +5104,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Daily Stand-ups",
-        "suggested_read": "['Agile Practice Guide - Section 4.5.1 Daily Scrum', \"PMI's The Agile Manifesto\"]",
+        "suggested_read": [
+          "['Agile Practice Guide - Section 4.5.1 Daily Scrum', \"PMI's The Agile Manifesto\"]"
+        ],
         "concepts_to_understand": "Daily stand-ups are a cornerstone of agile methodologies. They are designed to be short (15 minutes or less) and to be a forum for the team to self-organize and coordinate their work. The key is that they are for the team, by the team, and they focus on progress, not just on status. They are a powerful tool for improving team communication and collaboration.",
         "additional_notes": "This is an easy, definitional question. The scenario describes a classic problem that is solved by a daily stand-up. The key phrases 'brief, daily meeting,' 'coordination,' and 'synchronization' point directly to the correct answer. The distractors describe other project management meetings that serve different, specific purposes.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756656014193",
@@ -5179,7 +5236,7 @@ export const questionsData = {
         "OPTION_D": "Assign a different team member to be responsible for each issue identified in the meeting."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5191,11 +5248,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Integration",
         "tool": "Retrospectives",
-        "suggested_read": "['Agile Practice Guide - Section 4.5.2 Retrospectives', 'Agile Retrospectives: Making Good Teams Great by Esther Derby and Diana Larsen']",
+        "suggested_read": [
+          "['Agile Practice Guide - Section 4.5.2 Retrospectives', 'Agile Retrospectives: Making Good Teams Great by Esther Derby and Diana Larsen']"
+        ],
         "concepts_to_understand": "The retrospective is more than just a meeting to vent. It is a disciplined process for continuous improvement. The project manager's role is to facilitate the meeting and help the team create an actionable plan. The best way to do this is to focus on a few key, high-impact improvements that the team can commit to and track in the next sprint.",
         "additional_notes": "This is a difficult question that tests the project manager's ability to facilitate a productive retrospective. The correct answer demonstrates an understanding of the purpose of the meeting and the best practices for creating an actionable plan. The distractors are all plausible but incorrect actions that would either violate agile principles or would not lead to an effective outcome.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756656025308",
@@ -5291,7 +5352,7 @@ export const questionsData = {
         "OPTION_D": "Coaching (S2)"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5303,11 +5364,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Stakeholders",
         "tool": "Situational Leadership®",
-        "suggested_read": "['PMBOK® Guide - 7th Edition: 3.3.1.2 Leadership', 'Situational Leadership® Model by Hersey and Blanchard']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition: 3.3.1.2 Leadership', 'Situational Leadership® Model by Hersey and Blanchard']"
+        ],
         "concepts_to_understand": "This question requires a nuanced application of the Situational Leadership® model. It's not just about a team member's skill but also their commitment to the project's goals and processes. The 'high competence, low commitment' profile of the stakeholder, often seen in experienced individuals who resist new processes, perfectly aligns with the R3 readiness level. The correct leadership response is to provide high support and low direction (S3), encouraging buy-in and collaboration rather than attempting to direct them, which would fail.",
         "additional_notes": "This is a difficult question because it requires a precise understanding of the nuance between competence and commitment. The stakeholder is a 'veteran' who is not 'bought in' to the process. Many people incorrectly choose 'Delegating' because the person is senior, but this ignores their lack of commitment to the project's process, which is the root of the problem. Others might choose 'Directing,' which is an overly aggressive and likely to fail approach. The key is to recognize that the problem is not a lack of skill (competence) but a lack of willingness to follow the process (commitment). Therefore, the project manager needs to provide support and encourage buy-in, which is the essence of the S3, Supporting style.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657563397",
@@ -5599,7 +5664,7 @@ export const questionsData = {
         "OPTION_D": "Provide them with an even larger bonus and public recognition to increase their motivation."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5611,11 +5676,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Theory of Needs (Motivation Theory)",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"McClelland's Theory of Needs\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"McClelland's Theory of Needs\"]"
+        ],
         "concepts_to_understand": "McClelland's Theory of Needs posits that people are motivated by one of three core needs: achievement, power, or affiliation. The 'need for affiliation' is the desire for friendly and close interpersonal relationships. People with a high need for affiliation are motivated by social connection, collaboration, and a sense of belonging.",
         "additional_notes": "This question tests the ability to diagnose a team member's motivational needs based on their stated preferences and apply the appropriate motivational strategy. The keywords 'highly social' and 'feel disconnected' are the clear indicators of a high need for affiliation. The incorrect options represent strategies for the other two needs (achievement and power), which would be ineffective and counterproductive in this situation.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657578605",
@@ -5654,9 +5723,9 @@ export const questionsData = {
         "OPTION_C": "Esteem needs, as they are seeking recognition, respect, and a sense of accomplishment from their peers.",
         "OPTION_D": "Self-actualization needs, as they are trying to reach their full potential and find a greater sense of purpose."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "D",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -5667,11 +5736,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Theory of Needs (Motivation Theory)",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Maslow's Hierarchy of Needs\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Maslow's Hierarchy of Needs\"]"
+        ],
         "concepts_to_understand": "This question tests the ability to differentiate between the higher levels of Maslow's Hierarchy. Esteem needs include the need for recognition, respect from others, a sense of accomplishment, and status. It is a lower-level need than self-actualization, which is about personal growth and fulfilling one's potential.",
         "additional_notes": "This is a difficult question because the distinction between 'Esteem' and 'Self-actualization' can be subtle. The key is to look at the specific behaviors described in the scenario. The engineer is not described as pursuing personal growth for its own sake, but as 'taking on extra responsibilities' and being 'sought out for advice.' These are actions that lead to external validation and respect from their peers, which is the core of an 'Esteem' need. The other options are clearly incorrect as the scenario does not indicate any threat to the team member's basic or safety needs.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756657580644",
@@ -5822,9 +5896,9 @@ export const questionsData = {
         "OPTION_C": "Address the bureaucratic issues and improve communication with senior management to eliminate sources of dissatisfaction.",
         "OPTION_D": "Provide them with a new title and a promotion to a more senior role to satisfy their need for advancement."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -5835,11 +5909,16 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Herzberg's Motivation-Hygiene Theory",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Herzberg's Two-Factor Theory\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Herzberg's Two-Factor Theory\"]"
+        ],
         "concepts_to_understand": "Herzberg's theory posits that a project manager must first eliminate the sources of dissatisfaction (hygiene factors) before the motivation factors can have any effect. In this scenario, the team has plenty of motivation factors (challenging work, autonomy), but the hygiene factors are preventing them from being effective. The project manager's job is to remove the barriers to satisfaction.",
         "additional_notes": "This is a difficult question because it presents a scenario where a project manager must differentiate between hygiene factors and motivation factors to find the correct solution. The team is already in a good position regarding motivation factors. The key is to correctly identify the 'complaints' as hygiene factors. Many candidates might be tempted to choose an option that offers more motivation, but that would be a misapplication of the theory. The correct answer requires the project manager to address the hygiene factors first, which is the core of Herzberg's model.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756657589061",
@@ -6113,7 +6192,7 @@ export const questionsData = {
         "OPTION_D": "Self-actualization motivation"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6125,11 +6204,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Intrinsic/Extrinsic Motivation",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Pink's Drive: The Surprising Truth About What Motivates Us\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Pink's Drive: The Surprising Truth About What Motivates Us\"]"
+        ],
         "concepts_to_understand": "Extrinsic motivation is driven by external factors like money, titles, or promotions. It is a common form of motivation in many organizations. However, it can sometimes lead to a 'just-enough' mindset, where employees do only what is required to get the reward, without going the extra mile.",
         "additional_notes": "This is an easy question that directly tests the definition of extrinsic motivation. The keywords 'performance-based bonus' and 'promise of a promotion' are the clear indicators. The project manager's job in this scenario is to recognize that the team's motivation is externally driven and that if they want to encourage more initiative, they may need to introduce intrinsic motivators.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657599284",
@@ -6174,7 +6257,7 @@ export const questionsData = {
         "OPTION_D": "Reassign them to a more challenging and innovative task that offers an opportunity for personal growth."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6186,11 +6269,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Intrinsic/Extrinsic Motivation",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Herzberg's Motivation-Hygiene Theory\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 9.5.2.2 Motivation Theories', \"Herzberg's Motivation-Hygiene Theory\"]"
+        ],
         "concepts_to_understand": "This question tests the project manager's ability to diagnose a lack of intrinsic motivation and provide a solution that aligns with the individual's needs. For a high achiever, the work itself is a key motivator. When the work becomes routine, the project manager must provide opportunities for new challenges and personal growth.",
         "additional_notes": "This is a difficult question because it presents several plausible options. However, the key to the correct answer is the explicit statement that the team member is dissatisfied with the 'routine nature' of the work. This immediately rules out extrinsic motivators (A and B) and a focus on social connection (C). The only option that directly addresses the core problem is to provide a new intrinsic challenge that will re-engage the team member. This demonstrates a deep understanding of motivational theory and a project manager's role as a leader.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657601306",
@@ -6435,7 +6522,7 @@ export const questionsData = {
         "OPTION_D": "Implementation; The team is executing the plan, and any drop in productivity is a normal part of the process."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6447,11 +6534,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Integration",
         "tool": "Bridges Transition Model",
-        "suggested_read": "['PMBOK Guide, 7th Edition: 2.4.4.1 People and Change', \"William Bridges' 'Managing Transitions'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 7th Edition: 2.4.4.1 People and Change', \"William Bridges' 'Managing Transitions'\"]"
+        ],
         "concepts_to_understand": "The Neutral Zone is the core of the Bridges Transition Model, often the most challenging phase. It is characterized by confusion, uncertainty, and a temporary dip in performance as old routines are discarded and new ones are not yet established. Project managers must provide strong support, clear communication, and a sense of purpose to help teams navigate this period effectively. Understanding this phase is crucial for managing organizational change.",
         "additional_notes": "This question tests the ability to distinguish between the three phases of the Bridges Transition Model. The key phrases are 'high anxiety and confusion,' 'productivity is temporarily down,' and 'experimenting with new processes.' These all point to the 'in-between' state of the Neutral Zone. A project manager who understands this will not become alarmed by the temporary dip in performance but will instead focus on providing the support and structure needed for the team to navigate this uncertain period and move toward the 'New Beginning.' This is a critical skill for managing the human side of projects.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657943607",
@@ -6552,7 +6643,7 @@ export const questionsData = {
         "OPTION_D": "Competing, as they are assertive and focused on their own goals."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6564,11 +6655,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Resources",
         "tool": "Thomas-Kilmann Conflict Mode Instrument",
-        "suggested_read": "['PMBOK Guide, 6th Edition: 9.5 Develop Team', \"PMI 'Navigating Conflict in Projects'\"]",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition: 9.5 Develop Team', \"PMI 'Navigating Conflict in Projects'\"]"
+        ],
         "concepts_to_understand": "The Thomas-Kilmann Conflict Mode Instrument (TKI) is a tool that helps individuals understand their conflict-handling style. The five modes are: Competing (assertive, uncooperative), Collaborating (assertive, cooperative), Compromising (intermediate in both), Accommodating (unassertive, cooperative), and Avoiding (unassertive, uncooperative). Understanding these modes helps a project manager choose the best approach to resolve a conflict.",
         "additional_notes": "This question tests a direct application of the Thomas-Kilmann Conflict Mode Instrument. The key phrases 'assertive' and 'prioritize their own goals above the relationship' are direct descriptors of the 'Competing' mode. The scenario is designed to be a straightforward test of the definition. A project manager who recognizes this mode would understand that facilitating a compromise or a collaborative discussion would be necessary to move the project forward, as a head-on confrontation would likely lead to a stalemate. The other options describe modes that are inconsistent with the behavior described in the scenario.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756657952691",
@@ -6933,7 +7028,7 @@ export const questionsData = {
         "OPTION_D": "Issue a change request to modify the project's scope statement."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6945,11 +7040,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Integration",
         "tool": "Memorandums of Understanding (MOUs)",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 2.4.2.5 Agreements', 'PMBOK® Guide, 6th Edition: 12.1.2.5 Agreements']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 2.4.2.5 Agreements', 'PMBOK® Guide, 6th Edition: 12.1.2.5 Agreements']"
+        ],
         "concepts_to_understand": "An MOU serves to clarify and formalize a mutual understanding between parties, often for specific components of a project or for a subset of responsibilities. It is particularly useful in complex projects with multiple partners where formal contracts for every detail would be cumbersome. An MOU can exist alongside a primary contract to provide additional detail and alignment on specific, often non-binding, aspects of the collaboration. It helps to prevent misunderstandings and aligns expectations without triggering a full change control process for every minor detail.",
         "additional_notes": "The scenario describes a conflict arising from a lack of detail in a high-level document (the project charter). The project manager's task is to formalize a specific aspect of the relationship (maintenance responsibilities) without the complexity of a full contract renegotiation. An MOU is a perfect fit for this purpose, as it provides a written record of the agreed-upon terms for a particular component. A change request might be part of the solution, but the MOU is the artifact that contains the detailed agreement itself. Updating the stakeholder register is an outcome, not the action. Creating a new charter is an overreaction. Therefore, drafting an MOU is the most direct and appropriate action to resolve the ambiguity and formalize the agreement.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756658494551",
@@ -6961,7 +7060,7 @@ export const questionsData = {
         "OPTION_D": "The Risk Register"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6973,11 +7072,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Communications",
         "tool": "Issue Log",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.3.3.1 Issue Log']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 4.3.3.1 Issue Log']"
+        ],
         "concepts_to_understand": "A key distinction in project management is between a risk and an issue. A risk is an uncertain future event that, if it occurs, will have an effect on the project. An issue, on the other hand, is a current problem or a concern that is already happening. The Issue Log is the dedicated project document for tracking these existing problems, ensuring they are not lost and are actively managed until they are resolved.",
         "additional_notes": "This is a fundamental concept question that tests the difference between an issue and a risk and the corresponding tool. The user's frustration and the 'delays in their daily work' signify that this is an issue, a problem that has already materialized. Therefore, the project manager must use the Issue Log to formally track it, assign an owner, set a priority, and monitor its resolution. Using any other log would be a misapplication of the tool and could lead to the problem being overlooked.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756658495558",
@@ -7282,7 +7385,7 @@ export const questionsData = {
         "OPTION_D": "Initiate a new predictive project for the new feature and run it concurrently with the main project."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7294,11 +7397,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Scope",
         "tool": "Hybrid Approaches",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.1', 'PMBOK® Guide, 7th Edition, Project Management Approaches']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.1', 'PMBOK® Guide, 7th Edition, Project Management Approaches']"
+        ],
         "concepts_to_understand": "A key challenge of hybrid project management is managing change across the different parts of the project. Changes to the predictive components (e.g., fixed architecture, core components) are typically managed with a formal change control process. Changes to the adaptive components (e.g., features, UI) are typically managed through the agile framework, by prioritizing them in the product backlog. The project manager must understand this distinction and apply the appropriate change management process for the part of the project being affected. This allows the project to be flexible where needed while maintaining control over the fixed parts.",
         "additional_notes": "This is a difficult question because it tests a nuanced and subtle point about hybrid project management: the different ways of managing change based on which part of the project is affected. The scenario describes a change to the 'feature,' which is clearly part of the agile, uncertain component. Therefore, the change should be managed with an agile approach (backlog prioritization). Options A and C are plausible but incorrect. Option A describes a formal change control process, which is likely too heavyweight for a feature change in a hybrid model and would lead to unnecessary bureaucracy. Option C describes a reactive and unstructured response that violates the principles of both agile and predictive governance. The ability to distinguish between a change that needs formal control and one that can be managed through the backlog is the key to this question. The distinction is what makes it 'difficult' and a good test of a PMP candidate's understanding of hybrid approaches.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756660548712",
@@ -7366,7 +7473,7 @@ export const questionsData = {
         "OPTION_D": "To develop a detailed marketing plan for the new website to be launched."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7378,11 +7485,15 @@ export const questionsData = {
         "process_group": "Executing",
         "knowledge_area": "Scope",
         "tool": "Design Thinking",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.3', 'Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.3', 'Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation']"
+        ],
         "concepts_to_understand": "Design Thinking is an iterative process. The 'Prototype' phase is a crucial part of this. Its purpose is to turn an idea into a tangible artifact that can be tested with users. The key is that a prototype is not a finished product; it's a vehicle for learning. The most effective prototypes are often low-fidelity, as they are quick and cheap to create and allow for easy changes based on user feedback. The 'Prototype' and 'Test' phases form a continuous feedback loop that helps the team refine their solution before committing to a full-scale build. The PMP exam tests the candidate's understanding of this 'fail fast, learn quickly' approach.",
         "additional_notes": "This is an easy question that tests the candidate's understanding of the purpose of the 'Prototype' phase of Design Thinking. The scenario places the project manager after the 'Ideate' phase and asks for the purpose of the next step. The correct answer (C) is a textbook definition of the 'Prototype' phase's goal. The other options are from different, later phases or are general project management activities that are not the primary goal of this specific phase. The clear distinction between the correct answer and the distractors makes this a straightforward question for a candidate with a basic understanding of the Design Thinking process.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756660561829",
@@ -8334,7 +8445,7 @@ export const questionsData = {
         "OPTION_D": "Reduce team size to minimize potential for future interpersonal conflicts."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8352,7 +8463,9 @@ export const questionsData = {
         "concepts_to_understand": "This question assesses the project manager's ability to manage team dynamics and improve communication during project execution. It emphasizes that interpersonal conflicts and unclear communication channels are common barriers to progress and require proactive team development and communication management strategies. The focus should be on building a cohesive and effective team.",
         "additional_notes": "The Direct and Manage Project Work process is highly dependent on effective teamwork and communication. When a team is struggling with interpersonal conflicts and communication challenges, it directly impacts their ability to make progress. Simply focusing on individual productivity or punitive measures will not resolve the underlying systemic issues. The project manager's role is to facilitate a healthy team environment by addressing these root causes. Team-building activities can help improve relationships and trust, while clearly defining communication protocols ensures that information flows efficiently and misunderstandings are minimized. This holistic approach to team management is essential for successful project execution.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662566219",
@@ -8484,7 +8597,7 @@ export const questionsData = {
         "OPTION_D": "Escalate the issue to senior management, highlighting the lack of an organizational knowledge-sharing culture."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8502,7 +8615,9 @@ export const questionsData = {
         "concepts_to_understand": "Manage Project Knowledge focuses on using existing knowledge and creating new knowledge to achieve project objectives and contribute to organizational learning. Key to this is establishing an environment that encourages sharing, capturing, and disseminating knowledge. Tools and techniques like knowledge management systems and information management tools are crucial for success. The process aims to improve both the project's and the organization's performance.",
         "additional_notes": "This question assesses the understanding of the core purpose of Manage Project Knowledge. The scenario clearly indicates a deficiency in knowledge sharing, leading to inefficiency. The best immediate action is to implement a systematic solution (knowledge management system) that aligns with the process's objectives. Options A and C are insufficient, and Option D, while a possibility, is not the first or most direct action a project manager should take to solve a knowledge management problem within their project's and organization's context. The two close options are B and A, where B provides a sustainable solution while A is a temporary patch.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662571337",
@@ -8514,7 +8629,7 @@ export const questionsData = {
         "OPTION_D": "The project's risk register will automatically update with the known issue."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8532,7 +8647,9 @@ export const questionsData = {
         "concepts_to_understand": "This question highlights the importance of knowledge management, particularly information management, in preventing rework and ensuring organizational learning. When knowledge, especially explicit knowledge, is not captured and made accessible, the organization loses valuable insights, leading to inefficiencies and repeated mistakes. Lessons learned repositories and OPA updates are crucial for avoiding such scenarios.",
         "additional_notes": "The scenario emphasizes the failure to capture explicit knowledge, leading to a foreseeable negative impact on the current project. The most direct and logical outcome of 'undocumented knowledge' and the 'absence of the expert' is that the project team will be forced to re-solve a previously addressed problem, which inevitably consumes time and resources. This illustrates the value lost when the Manage Project Knowledge process is not effectively implemented. Options A and C are directly contradicted by the scenario, and D is a secondary action rather than the primary outcome. Options B and C are close, but C implies easy adaptation, which is not possible without documentation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662572363",
@@ -8789,7 +8906,7 @@ export const questionsData = {
         "OPTION_D": "Conduct interviews with senior employees who worked on similar past projects."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8807,7 +8924,9 @@ export const questionsData = {
         "concepts_to_understand": "The 'Manage Project Knowledge' process emphasizes using existing organizational knowledge. Organizational Process Assets (OPAs) are a key input. The first step in leveraging past knowledge is always to seek out existing explicit knowledge through documented sources, typically found within the PMO or other organizational repositories. If these are insufficient, then other methods for tapping into tacit knowledge can be pursued.",
         "additional_notes": "This question is about the 'FIRST' step. The scenario explicitly states that similar projects have been done, implying existing knowledge. The initial action should be to attempt to retrieve any existing explicit knowledge. The most direct path to this is through the formal channels of the PMO or functional managers who would oversee project documentation. While Option D (interviews) is also about leveraging knowledge, it's typically done when formal documentation is scarce or insufficient. Thus, B is the more logical 'first' step to try. The two close options are B and D, where B emphasizes explicit knowledge and D focuses on tacit.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662581527",
@@ -9028,9 +9147,9 @@ export const questionsData = {
         "OPTION_C": "Work performance data.",
         "OPTION_D": "Project management plan."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -9047,7 +9166,10 @@ export const questionsData = {
         "concepts_to_understand": "Effective knowledge management requires not just the 'what' but also the 'why' and 'how'. Organizational Process Assets (OPAs), particularly lessons learned repositories, should contain comprehensive explicit knowledge, including the context, assumptions, and rationale behind decisions. Incomplete OPAs hinder True organizational learning and make it difficult to apply past experiences effectively.",
         "additional_notes": "The scenario explicitly states that the team struggles because the 'underlying reasoning and assumptions are missing' despite documentation. This signifies a flaw in the completeness and quality of the stored organizational knowledge. Organizational Process Assets (OPAs) are the repository for such knowledge. If the reasoning isn't there, the OPAs related to lessons learned are incomplete. Options B, C, and D are inputs or components that do not specifically account for the detailed rationale behind past project decisions in the way that comprehensive OPAs should. The two close options are A and D, but D outlines *how* the project will be managed, not the historical *reasoning* for past technical decisions, which falls under OPAs.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Executing",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756662589695",
@@ -9143,7 +9265,7 @@ export const questionsData = {
     },
     {
       "id": "1756662592775",
-      "question_pmp": "A junior team member in a manufacturing project is struggling with a complex technical task, causing delays. The project manager observes the situation.",
+      "question_pmp": "A junior team member in a manufacturing project is struggling with a complex technical task, causing delays. The project manager observes the situation. What should be do?",
       "options_pmp": {
         "OPTION_A": "The project manager should immediately reassign the task to a more experienced team member to avoid further delays.",
         "OPTION_B": "The project manager should offer direct guidance and coaching to the team member to build their capability.",
@@ -9151,7 +9273,7 @@ export const questionsData = {
         "OPTION_D": "The project manager should inform the functional manager about the team member's underperformance for resolution."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9168,7 +9290,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Team development, performance management, coaching, and conflict resolution. The project manager's role extends beyond simply assigning tasks to actively fostering a supportive environment that enables team members to grow and overcome challenges. Early intervention through coaching is a key aspect of proactive team management.",
         "additional_notes": "This question assesses the project manager's understanding of their responsibility in team development and performance management. A struggling junior team member presents an opportunity for coaching and support rather than immediate punishment or reassignment. The 'Manage Team' process emphasizes building team capabilities. The key here is to identify the most constructive and empowering approach for the team member's growth and project success, which is offering direct guidance. The incorrect options represent either an overreaction or a delegation of responsibility that the project manager should initially handle."
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662593788",
@@ -9385,7 +9509,7 @@ export const questionsData = {
         "OPTION_D": "Assign a less critical, but equally complex, task to the team member to see if their engagement improves with a change of pace."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9402,7 +9526,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Team motivation, retention strategies, active listening, and understanding individual needs. The scenario tests the project manager's ability to proactively manage team satisfaction to prevent critical resource loss, emphasizing direct communication and problem-solving over reactive or punitive measures.",
         "additional_notes": "This question addresses a critical aspect of 'Manage Team': retaining key talent. When a crucial team member expresses dissatisfaction, the best approach is to proactively engage them in a direct, confidential discussion to understand their concerns. This allows for tailoring solutions, such as workload adjustment or role modification, which can significantly improve satisfaction and prevent attrition. The incorrect options are either reactive, superficial, or don't address the core issue of the team member's dissatisfaction and potential departure. It underscores the importance of empathetic and active management of human resources within a project."
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662601956",
@@ -9478,7 +9604,7 @@ export const questionsData = {
         "OPTION_D": "Interpersonal and Team Skills, specifically active listening and empathy, to delve deeper into their concerns and explore solutions."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9495,7 +9621,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Team motivation, emotional intelligence, active listening, and conflict/issue resolution. The question tests the project manager's ability to use soft skills to diagnose and address subtle signs of disengagement in a highly valuable team member, focusing on empathetic communication to uncover and resolve underlying issues.",
         "additional_notes": "This question highlights the importance of the project manager's soft skills in managing team dynamics, specifically when a valuable team member shows subtle signs of disengagement due to feeling undervalued. The 'Manage Team' process heavily relies on effective interpersonal skills. The most effective next step is to use active listening and empathy to conduct a private, open discussion to uncover the root cause of their feelings and collaboratively find a solution. The incorrect options are either too formal, too superficial, or not the immediate 'next' action required for a nuanced issue like feeling undervalued."
-      }
+      },
+      "process_group": "Executing",
+      "is_sample": "No"
     },
     {
       "id": "1756662605027",

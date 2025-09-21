@@ -4698,9 +4698,9 @@ export const questionsData = {
         "OPTION_C": "The company will save $32,000.",
         "OPTION_D": "The company will save $29,500."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -4714,7 +4714,10 @@ export const questionsData = {
         "concepts_to_understand": "Cost-benefit analysis involves evaluating the total estimated cost of a project against the total estimated benefits to determine if it's a worthwhile investment. PERT is a statistical method used to analyze the tasks involved in completing a project, especially the time needed to complete each task, and to identify the minimum time needed to complete the total project. This technique uses optimistic, pessimistic, and most likely estimates to provide a more realistic duration, which is then used for cost calculations. The formula for PERT expected time is TE = (O + 4M + P) / 6.",
         "additional_notes": "This question assesses a project manager's ability to apply quantitative analysis techniques, specifically PERT and cost-benefit analysis, in a real-world project scenario. The core concept revolves around making informed decisions about resource allocation and project execution based on financial viability.",
         "suggested_read": []
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756632703942",
@@ -4869,7 +4872,7 @@ export const questionsData = {
         "OPTION_D": "A Delphi Technique survey to collect and refine expert opinions on the product features."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4881,11 +4884,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Scope",
         "tool": "Brainstorming",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 5.2.2.3', 'PMI Agile Practice Guide, Section 4.2.4']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 5.2.2.3', 'PMI Agile Practice Guide, Section 4.2.4']"
+        ],
         "concepts_to_understand": "Brainstorming is a creative group technique for generating a wide range of ideas on a specific topic. The key rules of a brainstorming session are to defer judgment, encourage wild ideas, and build on the ideas of others. This makes it an ideal tool for eliciting requirements, identifying risks, or solving complex problems in a collaborative and open environment. It is a foundational tool for encouraging team creativity.",
         "additional_notes": "This question tests a fundamental concept of project management: using the right tool for the right situation. The scenario emphasizes the need for a 'creative environment' where 'all ideas are welcomed without immediate criticism.' This is the textbook definition of brainstorming. The other options, while valid project management tools, are for different purposes. Interviews are for one-on-one information gathering, focus groups are for structured discussion, and the Delphi technique is for anonymous consensus-building. The correct answer requires the candidate to understand the specific purpose and rules of brainstorming and how it aligns with the scenario's objective.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756633755857",
@@ -5214,7 +5221,7 @@ export const questionsData = {
         "OPTION_D": "Perform individual interviews with a select group of the most active users to understand their needs."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5226,11 +5233,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Scope",
         "tool": "Questionnaires",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 5.2.2.8', 'PMI Agile Practice Guide, Section 4.2.9']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 5.2.2.8', 'PMI Agile Practice Guide, Section 4.2.9']"
+        ],
         "concepts_to_understand": "Questionnaires are the most efficient and effective tool for gathering standardized, quantifiable data from a large population. They are particularly useful for product development and requirements gathering when the user base is large and geographically dispersed. They allow for a statistical analysis of the data, which can inform key decisions about features and functionality.",
         "additional_notes": "This question is a straightforward test of the scalability and purpose of a questionnaire. The key phrases 'large user base,' 'statistical sample,' and 'standardized for easy analysis' are direct clues that point to a survey. The other options are for different purposes or scales. The contrast between a survey (broad, quantitative) and a focus group (deep, qualitative) is a key distinction tested here. The question is well-designed to check for a fundamental understanding of these tools.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756633774081",
@@ -5270,7 +5281,7 @@ export const questionsData = {
         "OPTION_D": "Conduct a brainstorming session with the team to generate a list of potential project metrics."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5282,11 +5293,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Quality",
         "tool": "Benchmarking",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 8.1.2.2', 'PMI Agile Practice Guide, Section 4.2.13']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 8.1.2.2', 'PMI Agile Practice Guide, Section 4.2.13']"
+        ],
         "concepts_to_understand": "Benchmarking is a data-gathering and analysis technique used to compare a project's practices, processes, or performance against those of other, similar projects or organizations. It is particularly valuable when an organization lacks its own historical data or when it wants to improve its performance to meet or exceed industry standards. It can be used to set realistic baselines for quality, schedule, and cost.",
         "additional_notes": "This question tests the candidate's understanding of the specific purpose of benchmarking. The key phrases 'no internal historical data' and 'align with industry best practices' are direct cues to the correct answer. The other options are incorrect because they either serve a different purpose (what-if analysis, brainstorming) or are less effective for the problem at hand (expert judgment alone). The question highlights the importance of using external data when internal data is unavailable, which is a key concept in project management.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756633781141",
@@ -5494,7 +5509,7 @@ export const questionsData = {
         "OPTION_D": "To determine the project's earned value and performance metrics."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5506,11 +5521,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Integration",
         "tool": "SWOT Analysis",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 4.2.2.3', 'PMI Agile Practice Guide, Section 4.2.17']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 4.2.2.3', 'PMI Agile Practice Guide, Section 4.2.17']"
+        ],
         "concepts_to_understand": "A SWOT analysis is a core strategic planning tool. Its primary purpose is to provide a holistic framework for understanding a project's context and for developing a strategic plan that maximizes its chances of success. It is a foundational step in the project management life cycle and a key input to other planning processes.",
         "additional_notes": "This is an easy question that tests the fundamental purpose of a SWOT analysis. The scenario describes all four elements of the analysis, and the question asks for the 'purpose' of performing it. The correct answer is the textbook definition of what a SWOT analysis is used for. The other options are incorrect because they are either for a different purpose (scheduling, EVA) or are only a subset of the analysis's purpose (risk prioritization). The question is a straightforward check of the candidate's foundational knowledge.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756633795296",
@@ -5577,9 +5596,9 @@ export const questionsData = {
         "OPTION_C": "Conduct a what-if scenario analysis to evaluate the impact of the delays.",
         "OPTION_D": "Update the risk register with the identified risks and assign a responsible party."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -5590,11 +5609,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Reserve Analysis",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 6.6.2.3', 'PMI Agile Practice Guide, Section 4.2.20']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 6.6.2.3', 'PMI Agile Practice Guide, Section 4.2.20']"
+        ],
         "concepts_to_understand": "Reserve analysis is a critical tool for managing both cost and schedule uncertainty. It involves adding a buffer to the project's baseline to account for identified and unidentified risks. Contingency reserves are for identified risks, and a project manager is typically authorized to use them. This is a key part of creating a realistic and robust project schedule.",
         "additional_notes": "This question tests the candidate's understanding of the application of reserve analysis to the project schedule. The key phrases 'buffer to the schedule' and 'identified risks' are direct cues to the correct answer. The incorrect options are either for a different type of reserve (management reserve), a different purpose (what-if analysis), or are an incomplete step (updating the risk register). The question requires the candidate to understand the specific role of reserve analysis in schedule management.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756633798324",
@@ -5751,7 +5775,7 @@ export const questionsData = {
         "OPTION_D": "The project manager should use Monte Carlo Simulation to further analyze the impact of labor costs."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5763,11 +5787,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Sensitivity Analysis",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 11.4.2.3 Quantitative Risk Analysis and Modeling', 'PMI Practice Standard for Project Risk Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 11.4.2.3 Quantitative Risk Analysis and Modeling', 'PMI Practice Standard for Project Risk Management']"
+        ],
         "concepts_to_understand": "Sensitivity analysis is a quantitative risk analysis technique used to determine which individual risks or variables have the most significant impact on project outcomes. The results show how much a project's objective (e.g., final cost or schedule) is affected by a change in a specific variable. The greater the effect of a variable's change, the more 'sensitive' the project is to that variable. The output of this analysis helps the project manager prioritize which risks to focus on for a more effective risk response plan.",
         "additional_notes": "This is a difficult question because it presents a quantitative scenario and requires a conceptual understanding of sensitivity analysis to interpret it correctly. The numbers provided are the direct output of a sensitivity analysis, and the candidate must understand what they mean. The challenge is in correctly interpreting that a larger output change (20%) for a given input change (10%) means the project is more sensitive to that variable. The two incorrect options reverse the correct conclusion or propose a wrong next step, testing both understanding of the concept and logical project management actions.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756634977094",
@@ -5807,7 +5835,7 @@ export const questionsData = {
         "OPTION_D": "Regression Analysis"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5819,11 +5847,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "What-if Scenario Analysis",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 11.4.2.3 Quantitative Risk Analysis and Modeling', 'PMI Practice Standard for Project Risk Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 11.4.2.3 Quantitative Risk Analysis and Modeling', 'PMI Practice Standard for Project Risk Management']"
+        ],
         "concepts_to_understand": "What-if Scenario Analysis is a technique used in project management to evaluate the effect of a specific, known event on a project's objectives. It involves simulating the project's schedule and cost under a particular set of conditions or a specific scenario, such as a major delay, loss of a key resource, or a change in a regulation. Unlike sensitivity analysis, it can model the combined effects of multiple changes simultaneously. It is a powerful tool for proactively planning for potential high-impact events.",
         "additional_notes": "This question is difficult because it distinguishes between two similar-sounding but distinct risk analysis techniques: What-if Scenario Analysis and Sensitivity Analysis. The key phrase in the scenario is 'the combined impact of these two events occurring.' This immediately points to What-if Scenario Analysis, which is designed to evaluate a complete scenario with multiple factors. Sensitivity Analysis, by contrast, isolates one variable at a time. Both are plausible choices, but only What-if is the best fit for the specific problem described. The question tests a nuanced understanding of when to apply each tool.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756634979113",
@@ -5834,9 +5866,9 @@ export const questionsData = {
         "OPTION_C": "Regression Analysis",
         "OPTION_D": "Affinity Diagrams"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -5847,11 +5879,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Integration",
         "tool": "What-if Scenario Analysis",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 6.5.2.3 Data Analysis', 'PMI Practice Standard for Project Risk Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 6.5.2.3 Data Analysis', 'PMI Practice Standard for Project Risk Management']"
+        ],
         "concepts_to_understand": "What-if Scenario Analysis is a powerful tool for project managers to test the feasibility of different approaches or to model potential risks and opportunities. It involves creating a simulation of the project's schedule, cost, or other objectives under different predefined conditions or strategies. This analysis helps the project manager and stakeholders make informed decisions by providing a clear understanding of the potential outcomes of each option before committing resources.",
         "additional_notes": "This is a difficult question because it presents a scenario that could potentially involve multiple tools, such as Alternatives Analysis and What-if Scenario Analysis. The key is to recognize that the prompt asks to 'evaluate the potential cost and schedule implications of each of these options.' This specific focus on modeling the impact on project objectives for each distinct strategy points directly to What-if Scenario Analysis. While Alternatives Analysis might be part of the larger decision-making process, the detailed modeling and evaluation of the different 'what-if' situations is the specific function of What-if Scenario Analysis. The correct answer requires the candidate to understand the specific purpose of each tool.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756634980126",
@@ -5863,7 +5900,7 @@ export const questionsData = {
         "OPTION_D": "Root Cause Analysis to understand the reason for the regulation."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5875,11 +5912,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "What-if Scenario Analysis",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 11.4.2.3 Quantitative Risk Analysis and Modeling', 'PMI Practice Standard for Project Risk Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 11.4.2.3 Quantitative Risk Analysis and Modeling', 'PMI Practice Standard for Project Risk Management']"
+        ],
         "concepts_to_understand": "What-if Scenario Analysis is a powerful quantitative risk analysis technique. It involves simulating the project's schedule and budget under a specific set of conditions to see the potential impact. This is particularly useful for analyzing the effect of a specific risk event, such as a regulation change, a strike, or the failure of a key vendor. The results of this analysis allow a project manager to prepare contingency plans and communicate the potential impact to stakeholders.",
         "additional_notes": "This is an easy question that presents a clear scenario for the application of What-if Scenario Analysis. The prompt's language, 'models the impact of this specific event' and 'if a key government regulation changes,' directly points to the correct tool. The other options are incorrect as they are used for different purposes. Monte Carlo is for probabilistic modeling, Regression Analysis is for forecasting based on historical data, and Root Cause Analysis is for existing problems. This question tests a foundational understanding of the tool's purpose.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756634981138",
@@ -6030,9 +6071,9 @@ export const questionsData = {
         "OPTION_C": "Regression Analysis",
         "OPTION_D": "Monte Carlo Simulation"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6043,11 +6084,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Procurement",
         "tool": "Alternatives Analysis",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 12.1 Plan Procurement Management', 'PMBOK® Guide - 6th Edition: 12.1.2.2 Data Analysis']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 12.1 Plan Procurement Management', 'PMBOK® Guide - 6th Edition: 12.1.2.2 Data Analysis']"
+        ],
         "concepts_to_understand": "Alternatives Analysis is a powerful decision-making tool that helps project managers evaluate and select the best course of action from a set of competing options. It is used in many project management processes, including planning the project management plan, developing the schedule, and managing procurements. The technique involves a formal comparison of various alternatives based on pre-defined criteria to ensure the chosen option aligns with the project's and organization's goals.",
         "additional_notes": "This is a difficult question because it presents a complex scenario and a context where other tools might seem loosely related. The key to the correct answer is the phrase 'formally review and compare these options.' The core of the problem is the need to select the best option from a set of alternatives. What-if Scenario Analysis, while a useful tool, is not the best fit as it's more for modeling a specific risk event. This question tests the candidate's ability to apply the correct tool to the specific decision-making context, which is a core PMP skill.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756634990251",
@@ -6204,7 +6250,7 @@ export const questionsData = {
         "OPTION_D": "What-if Scenario Analysis"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6216,11 +6262,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Regression Analysis",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 6.4.2.3 Data Analysis', 'PMI Practice Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 6.4.2.3 Data Analysis', 'PMI Practice Standard for Project Management']"
+        ],
         "concepts_to_understand": "Regression Analysis is a powerful statistical tool for forecasting. It is a technique that analyzes the relationship between a dependent variable and one or more independent variables. By using historical data, a project manager can create a regression model that helps predict future outcomes. In this case, a 'multiple regression' model would be used to predict project completion time based on two or more factors. This provides a more data-driven and accurate estimate for the project's schedule.",
         "additional_notes": "This is a difficult question because it presents a scenario that could be confused with other forecasting tools. The key phrases 'determine how... influence' and 'statistical model' and 'forecast the schedule' point directly to Regression Analysis. The distinction between Regression Analysis and Trend Analysis is a common point of confusion; the former finds a relationship between variables, while the latter looks at a single variable's performance over time. Monte Carlo is also a plausible distractor, but it is for probabilistic modeling, not for finding a direct relationship to create a forecast.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756634998337",
@@ -6288,7 +6338,7 @@ export const questionsData = {
         "OPTION_D": "Work Breakdown Structure"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6300,11 +6350,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Scope",
         "tool": "Flowcharts",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 8.1 Plan Quality Management', 'PMBOK® Guide - 6th Edition: 8.1.2.3 Data Representation']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 8.1 Plan Quality Management', 'PMBOK® Guide - 6th Edition: 8.1.2.3 Data Representation']"
+        ],
         "concepts_to_understand": "Flowcharts are a visual representation of a process. They use standardized symbols to show the sequence of steps, decisions, inputs, and outputs. They are a valuable tool for quality management, process analysis, and communication. By mapping a process, a project manager can identify bottlenecks, inefficiencies, and areas for improvement, leading to a more streamlined and effective workflow.",
         "additional_notes": "This is an easy question that directly describes a classic use case for a Flowchart. The prompt's language, 'visually represent the sequence of all steps' and 'decision points and alternative paths,' is the definition of a flowchart. The other options are clearly for different purposes, making the correct answer straightforward. This question tests a foundational understanding of the tool's purpose.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756635009451",
@@ -6685,7 +6739,7 @@ export const questionsData = {
         "OPTION_D": "A cause-and-effect diagram."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6697,11 +6751,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Scope",
         "tool": "Mind Mapping",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Section 4.5.1', 'Agile Practice Guide, Section 4.4']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Section 4.5.1', 'Agile Practice Guide, Section 4.4']"
+        ],
         "concepts_to_understand": "Mind mapping is a visual, non-linear brainstorming technique used to generate, structure, and classify ideas. It starts with a central concept and branches outward to show relationships between ideas. This method is excellent for creativity and exploring a wide range of options without the constraints of a hierarchical or linear format.",
         "additional_notes": "This is an easy-level question. The scenario describes a situation where a project manager needs a creative, non-linear way to generate a broad range of ideas. The key phrase 'non-linear, collaborative way' directly points to mind mapping. The other options are all structured tools for different purposes (WBS for decomposition, process flow for sequences, cause-and-effect for problem-solving), making them easy to eliminate. The question tests a basic understanding of a specific brainstorming technique.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756637870094",
@@ -7110,7 +7168,7 @@ export const questionsData = {
         "OPTION_D": "Delay the decision until a consensus can be reached among all stakeholders."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7122,11 +7180,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Cost",
         "tool": "Multicriteria Decision Analysis",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Process Groups: Planning', 'Business Analysis for Practitioners: A Practice Guide, Section 4.5.1']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Process Groups: Planning', 'Business Analysis for Practitioners: A Practice Guide, Section 4.5.1']"
+        ],
         "concepts_to_understand": "Multicriteria decision analysis is a powerful tool for making complex decisions that involve multiple stakeholders with competing priorities. It provides a systematic and objective way to evaluate options, ensuring that the final decision is based on a clear, data-driven process that can be easily communicated to all parties.",
         "additional_notes": "This is a difficult question. The key phrases are 'complicated by the need to consider multiple factors' and 'stakeholders have different priorities.' These are classic indicators that a simple vote or autocratic decision is not appropriate. Multicriteria decision analysis is the only tool that can handle this complexity and provide a transparent, data-driven solution. The question tests the candidate's ability to apply the correct tool to a complex, real-world problem.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756637907507",
@@ -7254,7 +7316,7 @@ export const questionsData = {
         "OPTION_D": "The Delphi technique, as it is anonymous and iterative."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7266,11 +7328,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Delphi Technique",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Process Groups: Planning', 'Practice Standard for Project Risk Management, Section 4.3']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Process Groups: Planning', 'Practice Standard for Project Risk Management, Section 4.3']"
+        ],
         "concepts_to_understand": "The Delphi technique is a powerful forecasting and consensus-building method. It is particularly useful for estimating or forecasting a complex topic with high uncertainty and little historical data. The anonymity and iterative feedback loops are the key features that make it effective for this purpose.",
         "additional_notes": "This is a difficult question because it presents a scenario where a simple solution (a survey) is plausible but incorrect. The key phrase 'no historical data' and the need for a 'reliable, objective forecast' point to a more sophisticated tool than a simple survey. The anonymity and iterative feedback of the Delphi technique are what make it superior to a simple survey for this purpose. The question tests the candidate's ability to choose the most effective tool for a complex problem.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756637912561",
@@ -7505,9 +7571,9 @@ export const questionsData = {
         "OPTION_C": "Running a simulation to model the project's schedule and cost outcomes based on a range of possible inputs.",
         "OPTION_D": "Using a historical project's data to estimate the new project's schedule and budget."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -7518,11 +7584,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Simulation",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 11.4.2.5: Quantitative Risk Analysis and Modeling Techniques (e.g., Simulation)', 'PMI PMP Exam Content Outline, Task 6 of the Process Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 11.4.2.5: Quantitative Risk Analysis and Modeling Techniques (e.g., Simulation)', 'PMI PMP Exam Content Outline, Task 6 of the Process Domain']"
+        ],
         "concepts_to_understand": "The purpose of a simulation in quantitative risk analysis. The distinction between a simulation and a simple 'what-if' analysis. The value of a simulation for modeling complex project uncertainties and generating a range of possible outcomes.",
         "additional_notes": "The scenario describes a complex project with many uncertain variables. The project manager needs a tool that can analyze the combined impact of these variables. Simulation is the most appropriate tool for this. It is a robust and powerful technique that goes far beyond a simple 'what-if' analysis. The other options are either too simplistic, too rigid, or are for a different purpose entirely. The close options are B and C, but B is a basic, limited technique, while C is a more advanced, comprehensive one that is a better fit for the scenario's complexity.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756648496141",
@@ -7677,9 +7748,9 @@ export const questionsData = {
         "OPTION_C": "Using the historical data from a similar project to estimate the new project's schedule.",
         "OPTION_D": "Creating a detailed project schedule with a fixed completion date and a contingency reserve."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -7690,11 +7761,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Monte Carlo",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 11.4.2.5: Quantitative Risk Analysis and Modeling Techniques (e.g., Monte Carlo)', 'PMI PMP Exam Content Outline, Task 6 of the Process Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 11.4.2.5: Quantitative Risk Analysis and Modeling Techniques (e.g., Monte Carlo)', 'PMI PMP Exam Content Outline, Task 6 of the Process Domain']"
+        ],
         "concepts_to_understand": "The purpose of a Monte Carlo simulation. The value of a Monte Carlo simulation for modeling a project's schedule based on a range of estimates for each task. The distinction between a Monte Carlo simulation and a simple 'what-if' analysis.",
         "additional_notes": "The scenario describes a project with a need to analyze a range of estimates for each task. A Monte Carlo simulation is the only tool that can effectively address this need. The other options are either too simplistic or are for a different purpose entirely. The correct option is a classic example of a quantitative risk analysis technique.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756648502206",
@@ -7882,9 +7958,9 @@ export const questionsData = {
         "OPTION_C": "It is a statistical estimating technique.",
         "OPTION_D": "It is a definitive estimating technique."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -7895,11 +7971,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Cost",
         "tool": "Analogous Estimating",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 7.2.2.1: Analogous Estimating', 'PMI PMP Exam Content Outline, Task 5 of the Process Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 7.2.2.1: Analogous Estimating', 'PMI PMP Exam Content Outline, Task 5 of the Process Domain']"
+        ],
         "concepts_to_understand": "The definition and purpose of analogous estimating. The distinction between analogous, parametric, and bottom-up estimating. The appropriate use of analogous estimating for a high-level, quick estimate.",
         "additional_notes": "The scenario asks for a key 'characteristic' of analogous estimating. The key characteristic is that it is a 'top-down' technique. This is a fundamental concept in project management estimating. The other options are incorrect descriptions of analogous estimating. This question tests a basic understanding of estimating techniques.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No",
+      "did_user_get_it_right": true
     },
     {
       "id": "1756648509295",
@@ -7939,7 +8020,7 @@ export const questionsData = {
         "OPTION_D": "Three-point estimating, using optimistic, pessimistic, and most likely estimates for each task."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7951,11 +8032,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Cost",
         "tool": "Parametric Estimating",
-        "suggested_read": "['PMBOK Guide, 6th Ed., Section 7.2.2.2: Parametric Estimating', 'PMI PMP Exam Content Outline, Task 5 of the Process Domain']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Ed., Section 7.2.2.2: Parametric Estimating', 'PMI PMP Exam Content Outline, Task 5 of the Process Domain']"
+        ],
         "concepts_to_understand": "The definition and purpose of parametric estimating. The distinction between parametric, analogous, and bottom-up estimating. The appropriate use of parametric estimating when a statistical relationship exists.",
         "additional_notes": "The scenario provides a clear set of project parameters and a 'statistical relationship' with cost. This is a classic description of when to use parametric estimating. It is a more accurate and objective technique than analogous estimating and is more efficient than a full bottom-up estimate. The correct option directly addresses the key elements of the scenario.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756648511312",
@@ -8363,7 +8448,7 @@ export const questionsData = {
         "OPTION_D": "The project manager should use a 'win-lose' negotiation strategy, where they will tell the functional manager that the project is a high priority and that the resource must be allocated."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8375,11 +8460,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Resources",
         "tool": "Negotiation",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 9.3 on Acquire Resources', 'PMI Agile Practice Guide, Section 4.5.3 on Negotiation and Collaboration']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 9.3 on Acquire Resources', 'PMI Agile Practice Guide, Section 4.5.3 on Negotiation and Collaboration']"
+        ],
         "concepts_to_understand": "This question tests a project manager's understanding of negotiation in a resource management context. The core concept is that a project manager should always aim for a 'win-win' outcome when negotiating for resources. The project manager's role is to find a creative solution that works for both parties, rather than to resort to a forceful or a compromising approach. This is a key part of effective project management and is a crucial skill for a project manager. The incorrect options all represent less effective or unprofessional approaches that are likely to lead to a poor outcome. The correct option demonstrates a deep understanding of effective negotiation and a proactive approach to conflict resolution.",
         "difficulty_level": "difficult",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654584814",
@@ -8730,9 +8819,9 @@ export const questionsData = {
         "OPTION_C": "Crash the project by adding more resources to critical path activities.",
         "OPTION_D": "Inform the sponsor that the project cannot be completed earlier because the critical path has no float."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -8743,11 +8832,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Critical Path",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.6.2.1, Crashing', 'PMBOK® Guide, 7th Edition, Knowledge Area: Project Schedule Management']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.6.2.1, Crashing', 'PMBOK® Guide, 7th Edition, Knowledge Area: Project Schedule Management']"
+        ],
         "concepts_to_understand": "The critical path is the longest sequence of activities and determines the project's duration. When a project must be shortened, the project manager must focus on the critical path. Crashing is a schedule compression technique that involves adding resources (money) to shorten the duration of critical path activities, often at an increased cost. Fast-tracking is another technique that involves performing activities in parallel, often increasing risk. Crashing is the most direct way to achieve a specific time reduction.",
         "additional_notes": "This question tests a project manager's ability to apply a schedule compression technique to the critical path. The key is to recognize that the sponsor's request to shorten the project's duration requires an action that directly impacts the critical path. Both crashing and fast-tracking are plausible, but crashing is the more direct and controlled approach when a specific time reduction is needed, and the option's wording 'adding more resources' directly describes the technique. Fast-tracking can introduce significant risk. The question's difficulty is difficult because it requires distinguishing between two similar schedule compression techniques and selecting the most appropriate one in the given context.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654605236",
@@ -8787,7 +8881,7 @@ export const questionsData = {
         "OPTION_D": "To allow for changes in project scope during the execution phase."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8799,11 +8893,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Critical Chain",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.5.2.7', \"Eliyahu M. Goldratt, 'Critical Chain'\"]",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.5.2.7', \"Eliyahu M. Goldratt, 'Critical Chain'\"]"
+        ],
         "concepts_to_understand": "Critical Chain Method (CCM) is a scheduling technique that focuses on resource dependencies. Unlike the Critical Path Method (CPM), which uses float, CCM uses buffers to manage uncertainty. Project buffers protect the end of the critical chain, and feeding buffers protect the critical chain from delays on resource-dependent paths. The goal is to prevent delays from accumulating and ensure the project finishes on time.",
         "additional_notes": "This question tests the core purpose of Critical Chain Method (CCM) buffers. The key is to understand that CCM is a response to the behavioral issues and resource conflicts that are common in traditional scheduling. The buffers are not for individual tasks but for the project as a whole. The distractors are designed to confuse the candidate with concepts from other methodologies or a misunderstanding of the CCM's purpose. The correct answer clearly states the primary purpose of the buffers, which is to protect the project's end date from resource-related delays.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654607274",
@@ -8842,9 +8940,9 @@ export const questionsData = {
         "OPTION_C": "Apply fast-tracking to perform the two tasks in parallel.",
         "OPTION_D": "Inform the sponsor that the schedule is impossible and request a scope change."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -8855,11 +8953,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Resources",
         "tool": "Resource Leveling",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.5.2.4', 'PMI.org, Project Management Terminology']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.5.2.4', 'PMI.org, Project Management Terminology']"
+        ],
         "concepts_to_understand": "Resource leveling is a technique used to resolve resource conflicts by adjusting the project schedule. It is most often used when a shared resource is over-allocated, meaning they are assigned to more work than they can handle. This technique may increase the project's duration. It is a critical tool for ensuring a feasible and realistic schedule, especially in resource-constrained environments.",
         "additional_notes": "This question tests a candidate's ability to identify and solve a resource conflict. The scenario provides a clear example of resource over-allocation. The key is to recognize that the problem is a resource conflict, not a simple schedule overrun. Resource leveling is the specific tool designed to solve this problem. The other options are incorrect because they either address a different problem (crashing, fast-tracking) or are an inappropriate response (informing the sponsor). The question is easy because the problem and solution are a direct match.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654611335",
@@ -8955,7 +9058,7 @@ export const questionsData = {
         "OPTION_D": "Fast-tracking, by performing the tasks in parallel."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8967,11 +9070,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Resources",
         "tool": "Resource Leveling",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.6.2.1', 'PMI.org, Project Management Terminology']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.6.2.1', 'PMI.org, Project Management Terminology']"
+        ],
         "concepts_to_understand": "Resource leveling is a technique used to resolve resource over-allocation by delaying tasks to a later time when the resource is available. This often results in an extended project duration. It is necessary when a project has a resource over-allocation and there is no float available to use a technique like resource smoothing. The distinction between leveling and smoothing is a key point in resource management.",
         "additional_notes": "This question is difficult because it requires a precise understanding of the conditions under which resource leveling versus resource smoothing is appropriate. The key phrase 'no float on the critical path' is the critical piece of information. Since the critical path has no float, any resource conflict on it cannot be resolved with smoothing. The only option is to use leveling, which will extend the project's duration. The other options, while plausible in other scenarios, are incorrect here because they either don't address the problem or are not applicable due to the lack of float. The question tests a deep understanding of the tool's application.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654615375",
@@ -9207,7 +9314,7 @@ export const questionsData = {
         "OPTION_D": "Recommend crashing the critical path activity and fast-tracking the non-critical path activity."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9219,11 +9326,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Schedule",
         "tool": "Schedule Compression",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.6.2.1', 'PMI.org, Project Management Terminology']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.6.2.1', 'PMI.org, Project Management Terminology']"
+        ],
         "concepts_to_understand": "Schedule compression techniques, such as crashing and fast-tracking, must be applied to the critical path to be effective. Shortening an activity on a non-critical path will not shorten the project's duration unless that path becomes the new critical path. Crashing is the act of adding resources to shorten the duration of a critical path activity, often at an increased cost. It is a direct way to shorten a project schedule.",
         "additional_notes": "This question is difficult because it tests a candidate's understanding of a critical concept: schedule compression techniques are only effective on the critical path. The scenario provides a plausible distractor (fast-tracking a non-critical path activity) that would not work. The key is to recognize that the project needs to be shortened by 5 days, and only the crashing option provides a direct way to achieve this. The other options are either incorrect in their application (A, D) or unprofessional (C). This question requires a deep understanding of the interrelationship between the critical path and schedule compression techniques.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654625531",
@@ -9347,7 +9458,7 @@ export const questionsData = {
         "OPTION_D": "Switch to an Agile methodology and plan each phase as a separate sprint."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9359,11 +9470,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Scope",
         "tool": "Rolling Wave Planning",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.2.2.3', 'PMI Agile Practice Guide, Section 4.3.4']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.2.2.3', 'PMI Agile Practice Guide, Section 4.3.4']"
+        ],
         "concepts_to_understand": "Rolling Wave Planning is a progressive elaboration technique that is ideal for projects with a high degree of uncertainty. It allows the project manager to plan in detail for the near-term work and at a high level for the future work. This is a pragmatic and efficient approach that prevents the team from spending too much time on details that are likely to change. It is a key tool for managing project uncertainty.",
         "additional_notes": "This question is difficult because it requires a candidate to choose between several plausible but incorrect options. The scenario describes a classic use case for Rolling Wave Planning. The key phrases 'high level of uncertainty' and 'depend on the results of the first two' are all direct indicators that a flexible, progressive approach is needed. The other options are all inappropriate for a project with these characteristics. The difficulty lies in recognizing that a detailed upfront plan (A) or a predictive life cycle (C) is a poor choice, and that Rolling Wave Planning (B) is the most appropriate, as it is a specific technique that fits the situation perfectly.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654636638",
@@ -9458,9 +9573,9 @@ export const questionsData = {
         "OPTION_C": "Perform a Funding Limit Reconciliation to adjust the project's schedule and re-align it with the funding tranches.",
         "OPTION_D": "Develop a new cost baseline to reflect the project's current financial reality and communicate the changes to the team."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -9471,11 +9586,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Cost",
         "tool": "Funding Limit Reconciliation",
-        "suggested_read": "['PMBOK® Guide, 6th Ed. - 7.2.2.6 Funding Limit Reconciliation', 'PMI PMP Exam Prep']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Ed. - 7.2.2.6 Funding Limit Reconciliation', 'PMI PMP Exam Prep']"
+        ],
         "concepts_to_understand": "Funding Limit Reconciliation, Cost Management Plan, Cost Baseline. Funding limit reconciliation is the process of adjusting the project schedule and cost plan to ensure that the project's financial needs do not exceed the funding available in any given period. It is a proactive process used to manage cash flow and prevent financial shortfalls.",
         "additional_notes": "This is a straightforward question that tests the candidate's knowledge of a specific tool and its application. The scenario describes a classic cash flow problem in a project with phased funding. The only tool designed specifically for this problem is Funding Limit Reconciliation. The other options are either incorrect, reactive, or represent a step that would occur after the reconciliation has been performed. The correct answer requires a direct link between the problem described and the specific tool designed to solve it. This is a key concept to understand for the PMP exam.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756654652837",
@@ -9627,7 +9747,7 @@ export const questionsData = {
         "OPTION_D": "A Histogram to show the frequency distribution of the different types of delays."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9639,11 +9759,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Quality",
         "tool": "Flowchart",
-        "suggested_read": "['PMBOK® Guide, 6th Ed. - 8.1.2.1 Flowcharts', 'PMI PMP Exam Prep']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Ed. - 8.1.2.1 Flowcharts', 'PMI PMP Exam Prep']"
+        ],
         "concepts_to_understand": "Flowchart, Process Mapping, Quality Management. A flowchart is a fundamental tool for visualizing a process. It helps a project manager and team understand the sequence of events, inputs, outputs, and decision points. By mapping a process, the team can gain a shared understanding and identify areas for improvement or potential points of failure. This is a key step in quality planning and process improvement.",
         "additional_notes": "The scenario's core task is to 'visually map out the process' and identify the 'sequence of steps and decision points.' This is the exact purpose of a flowchart. The other options are also valid quality tools, but they serve different purposes: a cause-and-effect diagram is for brainstorming causes, a control chart is for monitoring process stability, and a histogram is for showing data frequency. The correct answer requires the candidate to understand the specific application of each tool and select the one that best fits the task of process mapping.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654691232",
@@ -10084,7 +10208,7 @@ export const questionsData = {
         "OPTION_D": "Remove the risk from the risk register since the data is not reliable."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10096,11 +10220,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Data Quality Assessment",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 11.3.2.1', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 11.3.2.1', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "Risk Data Quality Assessment is a technique for ensuring that the data used for risk analysis is credible and reliable. The findings of this assessment inform the project manager on whether they can move forward with the analysis or if more work is needed. The proper response to low-quality data is to actively seek out higher-quality data, not to ignore the risk or make arbitrary decisions.",
         "additional_notes": "This question presents a clear-cut case of poor data quality and asks for the correct corrective action. The correct response, gathering more data from multiple sources, is the most logical and a direct application of risk management best practices. The distractors represent common but incorrect reactions to such a problem. The difficulty lies in distinguishing between the correct, proactive approach and the incorrect, reactive or passive ones.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654712574",
@@ -10111,9 +10239,9 @@ export const questionsData = {
         "OPTION_C": "Immediately develop a robust risk response plan to mitigate the potential delay.",
         "OPTION_D": "Dismiss the risk assessment as invalid and remove it from the risk register."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -10124,11 +10252,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Data Quality Assessment",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 11.3.2.1', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 11.3.2.1', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "The Risk Data Quality Assessment is the tool for addressing a project manager's concern about the quality of the information used to analyze a risk. When the data is subjective, incomplete, or unreliable, this assessment is the first step to confirm the issue and decide how to proceed. It ensures that subsequent analysis and planning are based on a credible foundation.",
         "additional_notes": "This question tests the candidate's ability to identify the correct 'first' action when faced with a specific problem. The problem is not the risk itself, but the quality of the data used to assess it. The correct action is to apply the tool specifically designed for this purpose: Risk Data Quality Assessment. The distractors are all actions that would be taken either later in the process or that are completely inappropriate. The question's difficulty lies in recognizing that the initial problem is with the data, not the risk itself.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654713591",
@@ -10252,7 +10385,7 @@ export const questionsData = {
         "OPTION_D": "Do nothing and wait for the hardware to arrive."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10264,11 +10397,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Urgency Assessment",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 11.3.2.4', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 11.3.2.4', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "Risk Urgency Assessment evaluates the immediacy of a risk. Once a risk is determined to be urgent, the project manager must move from the 'planning' phase to 'implementing' a response. The scenario's key elements are a 'critical path' and a 'known delay,' which mean the risk is no longer just a possibility but is becoming a reality and requires a direct, immediate response.",
         "additional_notes": "This is an easy question because the scenario provides a very clear and urgent situation. The candidate needs to recognize that a delay on the critical path means the risk is now a high-priority, time-sensitive event. The correct response is a logical and immediate action to address the problem. The distractors represent either a previous process step or a failure to act, which are clearly incorrect in this context.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654718681",
@@ -10364,7 +10501,7 @@ export const questionsData = {
         "OPTION_D": "As an 'Organizational' risk, as it is related to the internal corporate processes."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10376,11 +10513,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Breakdown Structure",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 11.2.2.4', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 11.2.2.4', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "A Risk Breakdown Structure (RBS) organizes risks by their source. 'Technical' risks are those that arise from the technology, design, and scientific processes of the project. A clinical trial failure is a prime example of a technical risk in a pharmaceutical project. It is crucial to distinguish the source of the risk from its impact on the project's objectives.",
         "additional_notes": "This question is a good test of the candidate's ability to correctly categorize a risk based on its source, a key function of a Risk Breakdown Structure (RBS). The scenario presents a risk that has both internal and external components, which can be confusing. However, the source of the risk—the trial itself—is a technical and scientific endeavor, making 'Technical' the correct category. The other options describe the risk's impact or a secondary aspect of it. This is a difficult question because it requires a nuanced understanding of risk sources versus risk impacts.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654722758",
@@ -10448,7 +10589,7 @@ export const questionsData = {
         "OPTION_D": "Escalate the low-priority risks to the project sponsor for a final decision on their status."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10460,11 +10601,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Register",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 11.2.3.1', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 11.2.3.1', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "The Risk Register is a living document. It should be used dynamically to manage risks. For low-priority risks, the most appropriate strategy is often 'acceptance,' which may involve placing them on a watch list for periodic monitoring. This is a pragmatic approach that allows the project team to focus on the more critical, high-priority risks.",
         "additional_notes": "This question tests the candidate's understanding of how to manage the Risk Register effectively. The scenario presents a common real-world problem of a long list of low-priority risks. The correct action is to manage them efficiently by placing them on a watch list. The distractors are all examples of poor project management practices, such as ignoring risks, being inefficient with resources, or inappropriately escalating issues. The difficulty lies in distinguishing between the correct, pragmatic approach and the incorrect, overly cautious or reckless ones.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654726827",
@@ -10643,9 +10788,9 @@ export const questionsData = {
         "OPTION_C": "To create a list of all potential sellers for the project.",
         "OPTION_D": "To get a final bid price from each prospective seller."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -10656,11 +10801,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Procurement",
         "tool": "Bidder Conferences",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 12.2.2.3', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 12.2.2.3', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "A Bidder Conference is a key tool in the 'Conduct Procurements' process. Its main objective is to provide a level playing field for all potential sellers and to ensure that they have a clear and common understanding of the procurement's requirements. This transparency is crucial for the integrity of the procurement process.",
         "additional_notes": "This question is an easy one that tests the candidate's understanding of the core purpose of a Bidder Conference. The correct answer is a direct definition of the tool's primary objective. The distractors are all other procurement-related activities, but they are either performed at a different stage or are not the main objective of the conference. This is a good example of a straightforward 'knowledge recall' question.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654738995",
@@ -10728,7 +10878,7 @@ export const questionsData = {
         "OPTION_D": "The number of potential bidders who see the advertisement."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10740,11 +10890,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Procurement",
         "tool": "Advertising",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 12.2.2.4', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 12.2.2.4', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "In government-funded projects, there are often strict legal and regulatory requirements that must be followed during procurement. These rules are designed to ensure transparency, fairness, and accountability. The project manager's most important consideration is to ensure that all procurement activities, including advertising, are in full compliance with these rules.",
         "additional_notes": "This question tests the candidate's understanding of the importance of legal and regulatory compliance in a specific context (government-funded projects). The scenario provides a clear cue with the phrase 'government agency' and 'strict rules.' The correct answer is the one that prioritizes compliance over other, less critical considerations. The distractors are all plausible considerations, but they are secondary to the legal requirements. The difficulty lies in recognizing the hierarchy of importance in a constrained procurement environment.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756654742045",
@@ -10873,7 +11027,7 @@ export const questionsData = {
         "OPTION_D": "To avoid the need for formal contracts and legal review, which can delay the project."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10885,11 +11039,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Procurement",
         "tool": "Make-or-Buy",
-        "suggested_read": "['PMBOK Guide, 6th Edition - Section 12.1 Plan Procurement Management', 'Project Management: A Managerial Approach by Jack Meredith and Samuel Mantel']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition - Section 12.1 Plan Procurement Management', 'Project Management: A Managerial Approach by Jack Meredith and Samuel Mantel']"
+        ],
         "concepts_to_understand": "Make-or-Buy decisions are not solely based on cost. Qualitative factors often play a critical role, especially in complex or strategically important projects. These factors include: control over the work, retention of intellectual property, proprietary information, security, and the ability to tightly integrate the work with other project activities. A project manager must weigh these strategic benefits against the total cost of ownership and the risks of a given approach.",
         "additional_notes": "This question tests the qualitative aspect of the Make-or-Buy decision, which is a common point of confusion for PMP candidates. It challenges the assumption that the lowest cost is always the best option. The scenario highlights a classic trade-off: higher cost and greater control for the 'Make' option versus lower cost and less control for the 'Buy' option. The correct answer highlights the strategic value of control and intellectual property, which are often the primary drivers for an organization to take on more expensive internal work. The distractors are plausible but less comprehensive or contradict the question's premise.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756655979845",
@@ -11041,7 +11199,7 @@ export const questionsData = {
         "OPTION_D": "To determine the most efficient method for project team communication."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -11053,11 +11211,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Scope",
         "tool": "Product Analysis",
-        "suggested_read": "['PMBOK Guide, 6th Edition - Section 5.3 Define Scope', 'Business Analysis for Practitioners: A Practice Guide']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition - Section 5.3 Define Scope', 'Business Analysis for Practitioners: A Practice Guide']"
+        ],
         "concepts_to_understand": "A key challenge in project management is to avoid 'scope creep,' which often results from poorly defined requirements. Product analysis is a proactive technique that addresses this risk by forcing a detailed examination and clarification of the product's characteristics and requirements at the outset. This ensures all stakeholders have a shared understanding of what the project will deliver.",
         "additional_notes": "This is an easy question that tests the fundamental reason for using product analysis. It presents a common project problem: a high-level, ambiguous scope statement. The correct answer links the tool directly to the solution to this problem, which is preventing scope creep. The other options describe activities that are either unrelated or are outputs of later processes, making them clearly incorrect choices.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756655990951",
@@ -11270,7 +11432,7 @@ export const questionsData = {
         "OPTION_D": "Change the message's encoding by using more technical jargon."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -11282,11 +11444,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Communications",
         "tool": "Communication Models",
-        "suggested_read": "['PMBOK® Guide - 6th Edition: 10.1.2.1 Communication Models', 'Interactive Communication Model']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition: 10.1.2.1 Communication Models', 'Interactive Communication Model']"
+        ],
         "concepts_to_understand": "The interactive communication model emphasizes two-way communication and the importance of a feedback loop. Unlike the basic sender-receiver model, it recognizes that communication is a dynamic process where both parties must work to ensure mutual understanding. A robust feedback loop is essential for clarifying ambiguous messages.",
         "additional_notes": "This is a difficult question because it presents a common real-world communication problem. The key is to correctly diagnose the issue as a failure in the feedback loop. The project manager is asking questions, but the answers are not useful. The project manager's job is to close that loop by ensuring the stakeholder's message is correctly received and understood. The other options are either incorrect or would be ineffective in solving the root cause of the problem.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756657604342",
@@ -11728,7 +11894,7 @@ export const questionsData = {
         "OPTION_D": "Use a Three-Point Estimating technique to create a more detailed estimate."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -11740,11 +11906,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Cost",
         "tool": "Top-Down Estimating",
-        "suggested_read": "['PMBOK Guide, 6th Edition: 7.2 Estimate Costs', 'PMBOK Guide, 7th Edition: 2.5.3 Estimates']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition: 7.2 Estimate Costs', 'PMBOK Guide, 7th Edition: 2.5.3 Estimates']"
+        ],
         "concepts_to_understand": "Top-Down Estimating includes two main techniques: Analogous and Parametric. Analogous is less accurate and is based on a similar project. Parametric is more accurate and is based on a statistical relationship between historical data and a variable. This question tests the distinction between the two. When a quantifiable relationship exists (e.g., cost per feature), Parametric Estimating is the most appropriate top-down approach.",
         "additional_notes": "This question tests the project manager's ability to select the most accurate top-down estimating technique. The presence of a quantifiable metric ('cost per feature') and a known change ('20% more features') makes Parametric Estimating the most logical and correct choice. The incorrect options represent less accurate techniques or a completely different approach. This is a classic PMP-style question that requires a nuanced understanding of the different types of estimation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756657978952",
@@ -12325,7 +12495,7 @@ export const questionsData = {
         "OPTION_D": "Resource Management Plan"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -12337,11 +12507,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Resources",
         "tool": "Resource Breakdown Structure (RBS)",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 9.2 Estimate Activity Resources']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 9.2 Estimate Activity Resources']"
+        ],
         "concepts_to_understand": "The RBS is a fundamental project document for resource planning. It provides a structured way to identify and categorize all resources required for a project, which is a crucial first step in resource estimation and management. By using the RBS, a project manager can ensure that no resource is overlooked and that the project's resource needs are clearly defined.",
         "additional_notes": "This is a straightforward definition-based question. The prompt describes a 'hierarchical list of resources categorized by type.' This is the textbook definition of a Resource Breakdown Structure (RBS). The other options are documents that serve different purposes.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756660530556",
@@ -12437,7 +12611,7 @@ export const questionsData = {
         "OPTION_D": "Conduct a comprehensive risk management workshop with key stakeholders to create a detailed risk register."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -12449,11 +12623,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Integration",
         "tool": "PRINCE2",
-        "suggested_read": "['PRINCE2® 6th Edition, Managing Successful Projects with PRINCE2', 'Project Management Institute (PMI) standards on project methodologies']",
+        "suggested_read": [
+          "['PRINCE2® 6th Edition, Managing Successful Projects with PRINCE2', 'Project Management Institute (PMI) standards on project methodologies']"
+        ],
         "concepts_to_understand": "PRINCE2 is a structured project management methodology. Its processes provide a detailed, step-by-step approach to managing a project. The key processes are Starting up a Project (SU), Initiating a Project (IP), Directing a Project (DP), Controlling a Stage (CS), Managing Product Delivery (MP), and Closing a Project (CP). Understanding the sequence of these processes and the key documents they produce is crucial. The Project Initiation Documentation (PID) is the single most important document produced during the 'Initiating a Project' process, which follows the initial 'Starting up' phase. It contains all the baselines and management strategies that will guide the rest of the project.",
         "additional_notes": "This question tests the candidate's knowledge of the PRINCE2 process model, a common subject on the PMP exam, especially for those working in organizations that use structured methodologies. The scenario sets the stage immediately after the 'Starting up a Project' process. The key is to know that the 'Initiating a Project' process is the next step, and the PID is its central output. This makes the question difficult because it presents other plausible PRINCE2 activities. For instance, developing the business case happens in the initial phase, not the current one. The risk workshop is a component of the PID, not the comprehensive next step. The correct answer requires a precise understanding of the PRINCE2 process flow, specifically the relationship between the 'Starting up a Project' process and the 'Initiating a Project' process, and the central role of the PID. This distinction between the overall document and one of its components is a common feature of difficult PMP questions.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756660543668",
@@ -12520,9 +12698,9 @@ export const questionsData = {
         "OPTION_C": "Use an agile approach for both the user interface and the core data migration to ensure maximum flexibility and speed.",
         "OPTION_D": "Use a predictive approach for both the user interface and the data migration to ensure a high level of control and low risk."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -12533,11 +12711,16 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Integration",
         "tool": "Hybrid Approaches",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.1', 'PMBOK® Guide, 7th Edition, Project Management Approaches']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.1', 'PMBOK® Guide, 7th Edition, Project Management Approaches']"
+        ],
         "concepts_to_understand": "Hybrid approaches are a blend of predictive and adaptive methodologies. They are used when a project has characteristics that are best suited for both. The key is to match the right approach to the right part of the project. Predictive (waterfall) is ideal for stable, well-understood requirements, while adaptive (agile) is best for uncertain or evolving requirements that require experimentation and frequent feedback. The most effective hybrid approach is to apply a predictive framework to the stable components of the project and an adaptive framework to the uncertain or innovative components. The PMP exam tests the candidate's ability to not just identify the need for a hybrid approach but to apply it logically and strategically.",
         "additional_notes": "This question tests the candidate's ability to apply the concept of hybrid approaches strategically. The scenario presents two distinct parts of a single project, each with different characteristics. The correct answer identifies the most logical and effective way to combine the two methodologies. It's a difficult question because it presents multiple options that might seem plausible at first glance. For example, option B is also a hybrid approach, but the sequence of activities is highly illogical and risky, making it a strong distractor for a less experienced candidate. The key is to understand that the project's foundation (data migration) must be built with a high degree of certainty before the flexible elements (UI) can be effectively developed. This strategic thinking is what is being tested here, not just a simple knowledge of the definition of a hybrid approach.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756660547702",
@@ -12866,7 +13049,7 @@ export const questionsData = {
         "OPTION_D": "A detailed project plan, to provide a clear schedule and a list of all project activities."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -12878,11 +13061,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Adjusted Backlog",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.3', 'Agile Retrospectives: Making Good Teams Great']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.3', 'Agile Retrospectives: Making Good Teams Great']"
+        ],
         "concepts_to_understand": "A Risk-Adjusted Backlog is a technique that expands on traditional backlog prioritization. Traditional prioritization is often based solely on business value. A Risk-Adjusted Backlog adds the dimensions of risk and effort. This allows the team to proactively address risks by prioritizing risky items earlier, to break them down into smaller pieces, or to make a conscious decision to de-prioritize them. This technique brings transparency and objectivity to the prioritization process, which helps to build trust and alignment between the product owner and the development team.",
         "additional_notes": "This question tests the candidate's understanding of how a specific agile technique can solve a classic project management problem: a lack of transparency and team buy-in. The scenario provides a clear problem statement, and the correct answer (C) is the specific tool designed to solve it. The other options are either general project management documents (A, B) or an inappropriate tool for an agile project (D). The question is 'difficult' because it requires the candidate to know the specific purpose of a Risk-Adjusted Backlog and how it is used to solve a practical problem, rather than just knowing its definition. The subtle distinction between a general risk register and a risk-adjusted backlog is the key to getting this question right.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756660566877",
@@ -12950,7 +13137,7 @@ export const questionsData = {
         "OPTION_D": "Create a separate risk register for the technical debt and present it to the product owner for a formal review."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -12962,11 +13149,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Adjusted Backlog",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.3', 'Agile Retrospectives: Making Good Teams Great']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.3', 'Agile Retrospectives: Making Good Teams Great']"
+        ],
         "concepts_to_understand": "A Risk-Adjusted Backlog is a powerful tool for managing technical debt and other non-feature work. It provides a formal framework for justifying the prioritization of items that may not have a clear, immediate business value but are critical for the project's long-term health. The project manager can use a scoring model (e.g., using a scale for value, risk, and effort) to make the case to stakeholders that these items are just as important as new features. This ensures that the team is not just delivering new features but is also building a sustainable product.",
         "additional_notes": "This is a difficult question because it tests the project manager's communication and influence skills in an agile context. The scenario presents a classic conflict between the product owner's desire for new features and the team's need to address technical debt. The correct answer is to use the Risk-Adjusted Backlog as a communication tool to provide a data-driven justification for the team's position. The other options are either a poor communication approach (A), a confrontational approach (C), or a less effective alternative (D). The ability to use a specific tool to influence a key stakeholder is what makes this question 'difficult' and a good test of a PMP candidate's real-world skills.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756660573942",
@@ -12978,7 +13169,7 @@ export const questionsData = {
         "OPTION_D": "To avoid the risk completely by eliminating the cause of the risk."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -12990,11 +13181,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Risk",
         "tool": "Risk Burn Down Chart",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.3', 'PMBOK® Guide, 7th Edition, Risk Management']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.3', 'PMBOK® Guide, 7th Edition, Risk Management']"
+        ],
         "concepts_to_understand": "A Risk Burn Down Chart is a visual tool for tracking the effectiveness of a risk management plan. A risk management plan consists of different risk response strategies, including: Avoid (eliminate the risk), Mitigate (reduce the probability or impact), Transfer (shift the risk to a third party), and Accept (do nothing). A 'mitigation' activity is a specific type of risk response that is designed to reduce the risk. The Risk Burn Down Chart is a tool that shows if the mitigation activities are having their intended effect. The PMP exam tests the candidate's understanding of these different risk response strategies and their relationship to a risk burn down chart.",
         "additional_notes": "This is an easy question that tests the candidate's understanding of the relationship between a risk burn down chart and the purpose of a risk mitigation activity. The scenario describes a project manager's action (adding a mitigation activity) and a tool (a risk burn down chart) and asks for the purpose of the action. The correct answer is a direct and simple definition of a risk mitigation activity. The other options are descriptions of other risk response strategies (Transfer, Avoid) or are a misrepresentation of the purpose of the activity. The clear distinction between the correct answer and the distractors makes this a straightforward question.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756661180149",
@@ -13006,7 +13201,7 @@ export const questionsData = {
         "OPTION_D": "A burndown chart illustrating remaining work for the current sprint."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -13018,11 +13213,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Integration",
         "tool": "Roadmaps",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Project Performance Domains', 'Agile Practice Guide, Planning']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Project Performance Domains', 'Agile Practice Guide, Planning']"
+        ],
         "concepts_to_understand": "Roadmaps are high-level, strategic documents that provide a long-term view of a project or product's direction. They differ from detailed schedules like Gantt charts by focusing on key milestones and strategic themes, not individual tasks. They are excellent for communicating vision and alignment to senior stakeholders.",
         "additional_notes": "This question tests the candidate's understanding of the strategic purpose of a project roadmap. The scenario describes a classic situation where a project manager must communicate a high-level plan to an executive audience. The key phrases are 'high-level plan,' 'executive team,' 'strategic business goals,' and 'next three years,' which all point directly to the function of a roadmap. The incorrect options are all valid project management tools, but they serve different purposes. The Gantt Chart (Option A) and WBS (Option C) are too detailed and tactical for this audience and purpose. The burndown chart (Option D) is a tactical agile tool for sprint-level tracking, not a long-term strategic communication tool. The correct answer, the project roadmap, is a visual tool that provides this long-term, strategic context, making it the most suitable choice. The distinction lies in the level of detail and the target audience, which is a common theme in PMP questions. The question requires a candidate to think critically about which tool serves the specific communication need of the executive stakeholders.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756661181156",
@@ -13378,7 +13577,7 @@ export const questionsData = {
         "OPTION_D": "Independent estimates."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -13390,11 +13589,15 @@ export const questionsData = {
         "process_group": "Planning",
         "knowledge_area": "Cost",
         "tool": "Independent Estimates",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Cost Performance Domain', 'PMBOK® Guide - 6th Edition, Estimate Costs Process']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Cost Performance Domain', 'PMBOK® Guide - 6th Edition, Estimate Costs Process']"
+        ],
         "concepts_to_understand": "Independent estimates are a valuable tool for validating and reconciling cost or schedule discrepancies. They are particularly useful when there is a significant difference between the project's budget and its internal estimates. They provide an external perspective that can help identify potential biases, errors, or overinflated numbers in the internal estimate.",
         "additional_notes": "This is an easy question that tests a core concept in cost management. The scenario explicitly states the need for an 'unbiased, objective assessment' from an external source to validate an internal estimate. This is the direct definition of an independent estimate. The other options are all internal estimating techniques and do not provide the objective, third-party validation that the project manager needs. The question is straightforward because the problem statement directly points to the correct solution, making it easy to identify.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756661226619",
@@ -13580,7 +13783,7 @@ export const questionsData = {
         "OPTION_D": "Focus groups with selected representatives."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -13597,7 +13800,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "The Collect Requirements process utilizes various tools and techniques to define and document stakeholder needs. When dealing with diverse technical backgrounds, visual and interactive methods like prototyping are highly effective. Prototyping allows stakeholders to visualize and interact with a preliminary version of the product, helping to clarify requirements, reduce ambiguity, and ensure a common understanding among all parties involved, regardless of their technical proficiency.",
         "additional_notes": "This question highlights the importance of choosing the right tool for the specific challenges faced during requirements collection, particularly when dealing with communication gaps due to varying technical understandings. Prototyping provides a tangible representation that can bridge these gaps much more effectively than purely verbal or written methods. User stories complement this by focusing on value from the user's perspective, making requirements more relatable and understandable. The key is to select a method that actively promotes a shared visual and experiential understanding, rather than relying solely on abstract communication or expert interpretation."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662420128",
@@ -13697,9 +13902,9 @@ export const questionsData = {
         "OPTION_C": "Requirements documentation.",
         "OPTION_D": "Stakeholder register."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -13715,7 +13920,10 @@ export const questionsData = {
         ],
         "concepts_to_understand": "The Collect Requirements process focuses on gathering and documenting stakeholder needs and expectations. The output, Requirements Documentation, serves as the critical foundation for defining the project scope, which then informs the creation of the Work Breakdown Structure (WBS). The WBS systematically decomposes the project's scope into manageable components, ensuring that all defined requirements are addressed.",
         "additional_notes": "This question tests the understanding of the direct outputs of the Collect Requirements process and how they feed into subsequent planning processes. Specifically, it clarifies that 'Requirements Documentation' is the detailed collection of all gathered requirements, forming the essential basis for the 'Define Scope' process and, subsequently, the 'Create WBS' process. The project charter provides high-level objectives, but not the granular detail for scope. The RTM helps manage these requirements, but the documentation itself contains the content. The stakeholder register is an input, not the output for scope definition."
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662424219",
@@ -13988,7 +14196,7 @@ export const questionsData = {
         "OPTION_D": "Work Breakdown Structure (WBS)."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -14005,7 +14213,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "The Collect Requirements process's primary output, Requirements Documentation, provides the detailed articulation of all stakeholder needs. This document is critical for ensuring that subsequent project phases, especially design and development, accurately reflect the intended functionality and performance. Without clear and comprehensive requirements documentation, there's a high risk of misalignment between what is built and what is truly needed.",
         "additional_notes": "This question focuses on identifying the direct output of the Collect Requirements process that serves as the foundation for technical execution. While all options are related to scope, the 'Requirements Documentation' is the specific artifact that holds the detailed, granular information needed for precise technical design and development. The Project Scope Statement is higher level, the Requirements Management Plan is about process, and the WBS is about work breakdown, not the detailed definition of features and functions. For 'precision' and 'alignment' with technical phases, the actual documented requirements are indispensable."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662434462",
@@ -14163,11 +14373,10 @@ export const questionsData = {
         "OPTION_A": "Parametric Estimating",
         "OPTION_B": "Analogous Estimating",
         "OPTION_C": "Bottom-Up Estimating",
-        "OPTION_D": "Three-Point Estimating",
-        "id": "e969d7b4-3a5a-4e20-9943-4b67912d0912"
+        "OPTION_D": "Three-Point Estimating"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -14185,7 +14394,9 @@ export const questionsData = {
         "concepts_to_understand": "Understand the differences and appropriate applications of various estimation techniques: bottom-up (detailed, accurate, for later stages), analogous (quick, less accurate, for early stages), parametric (statistical relationships), and three-point (improves individual activity accuracy). 'Determine Budget' relies heavily on the aggregation of detailed estimates.",
         "additional_notes": "This question is designed to test the project manager's understanding of different cost estimation techniques and their application in the 'Determine Budget' process. While all options are estimation techniques, the scenario specifies that estimates for various activities have already been aggregated, and the goal is to refine these and establish a *precise* cost baseline. **Bottom-up estimating**, in its essence, is the aggregation of these detailed estimates. While Three-Point Estimating is good for individual activity estimates, and Parametric and Analogous are generally used earlier or at higher levels, to take already aggregated estimates and refine them into a precise cost baseline, a thorough bottom-up approach of reviewing and consolidating these details is the most fitting. This emphasizes the meticulous nature of 'Determine Budget'.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662443663",
@@ -14258,11 +14469,10 @@ export const questionsData = {
         "OPTION_A": "Submit the aggregated cost estimates for approval, noting the potential for fluctuation.",
         "OPTION_B": "Conduct a reserve analysis to determine an appropriate contingency reserve for technical risks.",
         "OPTION_C": "Request additional funding from the sponsor to cover the 10-15% potential fluctuation.",
-        "OPTION_D": "Revisit individual activity estimates to reduce potential cost fluctuation.",
-        "id": "c33b91a7-e547-49f3-8f55-66774a383d47"
+        "OPTION_D": "Revisit individual activity estimates to reduce potential cost fluctuation."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -14280,7 +14490,9 @@ export const questionsData = {
         "concepts_to_understand": "Reserve analysis is a technique used in the 'Determine Budget' process to establish contingency reserves for identified risks. It is crucial to distinguish between contingency reserves (for known-unknowns) and management reserves (for unknown-unknowns). Recognizing the need for and appropriately calculating reserves is vital for a realistic project budget.",
         "additional_notes": "This question requires the project manager to identify the appropriate next step in the 'Determine Budget' process when confronted with historical data indicating cost fluctuations due to identified risks. The key here is the phrase 'identified technical risks' and '10-15% cost fluctuation'. This immediately points to the need for a **contingency reserve**. Therefore, performing a **reserve analysis** is the most appropriate action. This process involves calculating and adding the necessary contingency funds to the aggregated cost estimates, thereby creating a more realistic and comprehensive budget that accounts for these known uncertainties. The other options either bypass proper risk accounting or attempt to mitigate risks through re-estimation when the immediate need is to budget for their potential impact.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662449804",
@@ -14383,12 +14595,11 @@ export const questionsData = {
         "OPTION_A": "Increase the contingency reserve to cover the potential labor cost increases.",
         "OPTION_B": "Update the risk register with the identified risk and analyze its impact, then determine if a reserve is needed.",
         "OPTION_C": "Consult with human resources to see if internal resources can be trained to avoid external hiring.",
-        "OPTION_D": "Request additional management reserve from the steering committee to cover the uncertainty.",
-        "id": "89b52a78-2d88-4682-9f93-516142171542"
+        "OPTION_D": "Request additional management reserve from the steering committee to cover the uncertainty."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "A",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -14405,7 +14616,10 @@ export const questionsData = {
         "concepts_to_understand": "The iterative nature of planning processes, especially the interplay between risk management and cost management. Newly identified risks should be formally captured in the risk register and then analyzed to determine their impact on the project budget, potentially leading to the allocation of contingency reserves.",
         "additional_notes": "This question emphasizes the integration between Risk Management and Cost Management, specifically within the 'Determine Budget' process. When a project manager identifies a new, significant risk (like a potential labor cost increase due to market conditions) that was not initially factored into detailed activity cost estimates, the **first** and most appropriate action is to formally address it within the project's risk management framework. This means updating the **risk register** and performing the necessary **risk analysis** (qualitative or quantitative) to understand its potential impact. Only after this analysis can an informed decision be made regarding the need for, and amount of, an appropriate reserve (likely a contingency reserve since it's an identified risk to the project's cost). Arbitrarily increasing reserves or jumping to solutions without proper risk assessment is not a disciplined project management approach.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756662457980",
@@ -14572,11 +14786,10 @@ export const questionsData = {
         "OPTION_A": "Reduce the contingency reserve to fit within the budget limit, as the variance is small.",
         "OPTION_B": "Initiate a change request to formally adjust the project scope and budget.",
         "OPTION_C": "Inform the sponsor of the slight overage and proceed with the current budget as is.",
-        "OPTION_D": "Seek a management reserve from senior stakeholders to cover the minor overage.",
-        "id": "e969d7b4-3a5a-4e20-9943-4b67912d0912"
+        "OPTION_D": "Seek a management reserve from senior stakeholders to cover the minor overage."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -14594,7 +14807,9 @@ export const questionsData = {
         "concepts_to_understand": "Integrated change control is paramount. Any proposed changes to the project baseline (scope, schedule, cost) must go through a formal change request process. This ensures transparency, proper analysis of impacts, and formal approval before implementation, maintaining control over the project's baselines.",
         "additional_notes": "This question presents a common dilemma: a project budget exceeding a strict limit, with an identifiable way to reduce costs by adjusting scope. The key is recognizing that reducing 'optional features' constitutes a **scope change**. Any change to the project's scope, schedule, or cost baseline, no matter how small, should ideally go through a **formal change request** process. This ensures that stakeholders are aware, impacts are assessed, and approvals are documented, maintaining control over the project. Unilaterally reducing scope or reserves, or simply informing the sponsor without a formal resolution, would be a deviation from best practices and could lead to issues later.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662470286",
@@ -14757,7 +14972,7 @@ export const questionsData = {
         "OPTION_D": "Utilize parametric estimating by identifying a proxy variable for cost."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -14774,7 +14989,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Bottom-up estimating, three-point estimating, analogous estimating, parametric estimating, expert judgment, managing uncertainty in cost estimates, and combining estimation techniques.",
         "additional_notes": "This question tests the project manager's ability to select appropriate estimation techniques based on specific project constraints: complexity, unique challenges, and limited historical data. The best approach in such a scenario is often a blend of techniques. Bottom-up estimating provides the necessary detail and precision for complex tasks, while three-point estimating is critical for addressing the inherent uncertainty of unique challenges where historical data is scarce. This combination offers a comprehensive and robust estimate, mitigating the risks associated with relying on a single, less suitable method. The other options either offer insufficient rigor or are ill-suited given the stated constraints."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662479486",
@@ -14907,7 +15124,7 @@ export const questionsData = {
         "OPTION_D": "It simplifies communication with stakeholders by showing only high-level deliverables."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -14924,7 +15141,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Work Breakdown Structure (WBS), decomposition, scope baseline, bottom-up estimating, and the relationship between scope definition and cost estimation.",
         "additional_notes": "This question highlights the fundamental role of the Work Breakdown Structure (WBS) in the Estimate Costs process. The WBS is the output of the 'Create WBS' process, defining the scope baseline. Its primary benefit for cost estimation is enabling **decomposition** of the project work into smaller, more manageable components (work packages). This allows for a more accurate and detailed estimation of resources and costs at a lower level of granularity, which can then be rolled up to the total project cost. Without a detailed WBS, cost estimates would be based on a high-level view, leading to less reliable figures and higher uncertainty."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662484565",
@@ -14996,7 +15215,7 @@ export const questionsData = {
         "OPTION_D": "Bottom-up estimating to break down the hardware component into smaller pieces."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -15013,7 +15232,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Three-point estimating, PERT formula, uncertainty in estimates, different estimation techniques, and selecting appropriate tools for specific scenarios.",
         "additional_notes": "This question specifically targets the most appropriate technique for addressing high variability and uncertainty in cost inputs. While other estimation techniques have their uses, **three-point estimating** (e.g., using PERT or triangular distribution) is explicitly designed to handle uncertainty by considering optimistic, pessimistic, and most likely scenarios. This method naturally generates a range of possible costs and a more robust weighted average, which directly addresses the project manager's need to reflect the fluctuating material prices due to volatile supply chains. It's a key tool for managing 'known-unknowns' in the estimation process."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662487630",
@@ -15024,9 +15245,9 @@ export const questionsData = {
         "OPTION_C": "A comprehensive cost management plan.",
         "OPTION_D": "The project funding requirements."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -15042,7 +15263,10 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Contingency reserves, management reserves, cost baseline, risk management integration with cost, and types of risks (known-unknowns vs. unknown-unknowns).",
         "additional_notes": "This question tests the understanding of different types of reserves and their application in cost estimation related to risk management. The key distinction is between **contingency reserves** (for identified risks or 'known-unknowns') and management reserves (for unidentified risks or 'unknown-unknowns'). Since supplier delays and material price increases are explicitly identified risks, the project manager should allocate contingency reserves to account for their potential financial impact. This ensures that the cost estimate is realistic and includes a buffer for foreseeable uncertainties. This is a critical concept for realistic project budgeting and risk mitigation."
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662488641",
@@ -15260,7 +15484,7 @@ export const questionsData = {
         "OPTION_D": "Parametric estimating based on machine capacity."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -15277,7 +15501,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Accuracy vs. precision in estimates, types of estimation techniques, role of procurement in cost estimation, and how different tools provide varying levels of accuracy.",
         "additional_notes": "This question focuses on achieving high precision for a specific, high-value cost component. While all options have their place in cost estimation, for something as critical as significant capital expenditure on new machinery, obtaining actual bids through **vendor bid analysis** (a tool often used in the Plan Procurement Management process but whose outputs are inputs to Estimate Costs) provides the most accurate and precise cost information. This is because it reflects current market conditions, specific configurations, and competitive pricing, leading to the narrowest and most reliable range for the estimate. The other options provide less detailed or less current information, which would result in broader ranges."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662496800",
@@ -15347,7 +15573,7 @@ export const questionsData = {
         "OPTION_D": "SWOT analysis to identify internal strengths/weaknesses and external opportunities/threats."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -15364,7 +15590,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Various data gathering techniques are used in Identify Risks. Brainstorming facilitates creative thinking and broad risk identification in a group setting. The Delphi technique gathers expert opinions, often anonymously over several rounds, to achieve consensus on risks without direct interpersonal influence. Both are suitable for collaborative, comprehensive risk identification.",
         "additional_notes": "This question focuses on the tools and techniques used in the Identify Risks process, specifically those that facilitate collaborative discussion and diverse input. Brainstorming is a direct fit for 'open discussion' and 'diverse perspectives.' The Delphi technique complements this by seeking expert consensus, which can be part of a broader workshop approach. The other options are valid project management tools but less aligned with the specific need for fostering open, collaborative group discussions to identify risks. The difficulty lies in selecting the most fitting combination for the scenario's emphasis on open discussion and diverse input."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662499880",
@@ -15588,7 +15816,7 @@ export const questionsData = {
         "OPTION_D": "Assumption and Constraint Analysis, examining the validity of project assumptions."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -15605,7 +15833,9 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Document analysis is a critical data analysis technique in Identify Risks, involving a systematic review of project documentation (e.g., project management plan components, project documents, agreements) to identify risks, inconsistencies, or ambiguities that could lead to risks. This approach ensures a comprehensive, evidence-based identification of risks across all project facets.",
         "additional_notes": "This question tests the understanding of 'Document Analysis' as a data analysis technique within the Identify Risks process. The scenario describes a thorough review of various project artifacts (work packages, activities, schedule, cost estimates) for potential uncertainties. This perfectly aligns with the definition and application of document analysis, which is a systematic examination of project documents to identify risks. The other options are also risk identification tools, but they do not specifically match the detailed, document-centric review described in the scenario as closely as document analysis."
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662508043",
@@ -15674,9 +15904,9 @@ export const questionsData = {
         "OPTION_C": "Document analysis to review existing project documentation.",
         "OPTION_D": "SWOT analysis to identify strategic threats and opportunities."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -15692,7 +15922,10 @@ export const questionsData = {
         ],
         "concepts_to_understand": "Document analysis is a technique used in the Identify Risks process. It involves a systematic review of various project documents (e.g., project plans, scope baseline, contracts, regulatory documents, technical documentation) to identify potential sources of risk, inconsistencies, or ambiguities that could lead to risks.",
         "additional_notes": "This question clearly describes the application of 'Document Analysis' as a risk identification technique. The project manager and team are actively reviewing specific, existing project documents (contracts, regulatory compliance) to uncover risks. This is a direct match for document analysis, which is a key data analysis tool in the Identify Risks process. The other options describe different, less direct methods for the activity mentioned."
-      }
+      },
+      "process_group": "Planning",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756662511109",
@@ -15883,7 +16116,7 @@ export const questionsData = {
         "OPTION_D": "Activity resource requirements."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -15901,7 +16134,9 @@ export const questionsData = {
         "concepts_to_understand": "It's vital to differentiate between inputs and outputs of various processes, especially within a knowledge area like Schedule Management. Activity resource requirements are an output of 'Estimate Activity Resources', providing input for 'Develop Schedule'. The 'Develop Schedule' process then takes these, along with activity durations and dependencies, to create the schedule baseline, schedule data, and schedule network diagrams.",
         "additional_notes": "This question tests the understanding of inputs and outputs within the Project Schedule Management processes. Many PMP questions focus on knowing what information flows into and out of each process. Activity resource requirements are determined prior to developing the full schedule, as the schedule development process uses these requirements to assign resources and build out the detailed timeline. Confusing inputs with outputs is a common trap. The question specifically asks what is *NOT* an output, making it crucial to correctly identify the one item generated by a preceding process.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662518241",
@@ -15973,7 +16208,7 @@ export const questionsData = {
         "OPTION_D": "Initiate a change request to modify the project schedule baseline."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -15991,7 +16226,9 @@ export const questionsData = {
         "concepts_to_understand": "When encountering resource constraints during schedule development, the project manager should first attempt to resolve the issue directly by communicating with relevant stakeholders, like resource managers. This aligns with proactive problem-solving and stakeholder management before resorting to formal schedule adjustments or change requests. Understanding the sequence of problem resolution is key.",
         "additional_notes": "This question tests the project manager's practical problem-solving approach when encountering a resource constraint during schedule development. The 'FIRST' action is always critical in PMP questions. Before performing complex analyses (like resource leveling) or initiating formal changes, the most pragmatic and direct approach is to communicate with the person responsible for resources (the resource manager) to see if the constraint can be resolved directly. This demonstrates proactive management and stakeholder engagement. Resource leveling, while a valid technique, comes after exploring direct resource acquisition. Changing the baseline or project plan are subsequent steps if the issue cannot be resolved otherwise. The two close options here are 'Perform resource leveling' and 'Consult with the resource manager.' The latter is the immediate, proactive step to address the root cause of the resource problem, whereas resource leveling is a scheduling technique that might be applied if direct resource acquisition fails.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662521292",
@@ -16213,7 +16450,7 @@ export const questionsData = {
         "OPTION_D": "Resource leveling."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -16231,7 +16468,9 @@ export const questionsData = {
         "concepts_to_understand": "Expert judgment is a widely applicable tool in project management, particularly valuable in planning processes like estimating activity durations. It leverages specialized knowledge and experience to provide informed approximations where empirical data might be limited, serving as a primary method for initial duration estimation.",
         "additional_notes": "This question specifically asks for the tool or technique used to approximate the duration of *individual* activities. Among the given options, expert judgment is the most direct and initial method for this purpose, as it relies on specialists to provide their best estimates. The other options are either analysis techniques that operate on already estimated durations (CPM, schedule network analysis) or resource optimization techniques (resource leveling) that adjust the schedule, but do not determine the fundamental duration of a single activity. This is an easier question that tests foundational knowledge of estimating inputs.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662529451",
@@ -16273,7 +16512,7 @@ export const questionsData = {
         "OPTION_D": "Create a comprehensive stakeholder register, documenting all identified stakeholders and their key attributes for future reference."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -16291,7 +16530,9 @@ export const questionsData = {
         "concepts_to_understand": "The Plan Stakeholder Engagement process involves developing appropriate management strategies to effectively engage stakeholders throughout the project lifecycle. This process occurs after stakeholders have been identified and registered. Key inputs include the project management plan and project documents like the stakeholder register. Tools and techniques such as stakeholder analysis, decision-making, and meetings are used. The primary output is the Stakeholder Engagement Plan, which outlines how stakeholders will be engaged based on their assessed power, interest, influence, and impact. Understanding the sequence and purpose of these steps is critical.",
         "additional_notes": "This question tests the understanding of the logical flow within the Stakeholder Management Knowledge Area, specifically the transition from identifying stakeholders to planning their engagement. The core concept here is that simply identifying stakeholders isn't enough; they must be analyzed to understand their characteristics before a plan can be developed. Option B is correct because stakeholder analysis is the foundational step that informs all subsequent engagement strategies. Options A and C represent activities that occur later in the stakeholder engagement lifecycle or are outputs of the planning process rather than the immediate next step. Option D is incorrect because the stakeholder register is created during stakeholder identification, which the question implies has already been completed. The subtle distinction between analyzing stakeholders and immediately engaging or communicating highlights the importance of the planning step.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662531482",
@@ -16543,7 +16784,7 @@ export const questionsData = {
         "OPTION_D": "Delegate all engagement responsibilities for this group to the business analyst."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -16561,7 +16802,9 @@ export const questionsData = {
         "concepts_to_understand": "Effective stakeholder engagement involves tailoring strategies to specific stakeholder characteristics. For end-users with low awareness but high potential influence, hands-on, interactive, and personalized methods are often more effective than formal, one-way communication. Demonstrating tangible benefits, addressing concerns directly, and fostering a sense of involvement can significantly increase their understanding, buy-in, and ultimate adoption of the project's outcomes.",
         "additional_notes": "This question emphasizes tailoring engagement strategies based on stakeholder analysis. The scenario describes a key end-user group with low awareness but high potential influence, implying a need to educate and build support. Option B, which suggests informal, personalized activities like workshops and demonstrations, is the most effective way to convey benefits directly and increase understanding among end-users. Options A and C are too formal or high-level for this specific stakeholder characteristic. Option D is an irresponsible delegation of critical project management responsibility. The core concept is matching the engagement method to the stakeholder's characteristics and the desired outcome (increased awareness and influence).",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Planning",
+      "is_sample": "No"
     },
     {
       "id": "1756662540669",

@@ -797,7 +797,7 @@ export const questionsData = {
         "OPTION_D": "A Control Chart to show the project's performance over time."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -809,11 +809,15 @@ export const questionsData = {
         "process_group": "Closing",
         "knowledge_area": "Integration",
         "tool": "SWOT Analysis",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 4.7.2.5', 'PMI Agile Practice Guide, Section 4.2.17']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 4.7.2.5', 'PMI Agile Practice Guide, Section 4.2.17']"
+        ],
         "concepts_to_understand": "A SWOT analysis is a versatile tool that can be used not only for planning but also for documenting lessons learned during project closure. By formally documenting the project's strengths, weaknesses, opportunities, and threats, the project manager contributes valuable knowledge to the organization's process assets. This information is critical for continuous improvement and for enabling future project teams to plan more effectively.",
         "additional_notes": "This question tests the candidate's understanding of the dual use of a SWOT analysis in both planning and closing. The scenario's key phrases 'shortage of skilled resources (a Weakness)' and 'new, more efficient technology (an Opportunity)' are direct cues to the correct answer. The other options are incorrect because they are either for a different purpose (Scatter Diagram) or lack the strategic, qualitative context needed for the lessons learned report (EVA, Control Chart). The question requires the candidate to understand that a SWOT analysis is a formal framework for capturing and communicating strategic insights.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Closing",
+      "is_sample": "No"
     },
     {
       "id": "1756634986202",
@@ -974,9 +978,9 @@ export const questionsData = {
         "OPTION_C": "Chaos",
         "OPTION_D": "Resistance"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -987,11 +991,16 @@ export const questionsData = {
         "process_group": "Closing",
         "knowledge_area": "Integration",
         "tool": "Satir Change Model",
-        "suggested_read": "['PMBOK® Guide - 7th Edition: 3.3.1.2 Leadership', 'Satir Change Model']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition: 3.3.1.2 Leadership', 'Satir Change Model']"
+        ],
         "concepts_to_understand": "The Satir Change Model describes a transition from a low-performance 'Chaos' stage to a high-performance 'New Status Quo.' This is the ultimate goal of any change initiative. The project manager's job is to recognize this and celebrate the team's success to reinforce the new way of working.",
         "additional_notes": "This is an easy question that directly tests the definition of the final stage of the Satir Change Model. The keywords 'exceeding its previous level,' 'new way of working is becoming the norm,' and 'sense of pride' are the clear indicators. The question is a straightforward application of the model and is a good check of a candidate's foundational knowledge.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Closing",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756658488508",
@@ -1125,7 +1134,7 @@ export const questionsData = {
         "OPTION_D": "Create a new project plan to incorporate the lessons learned."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -1137,11 +1146,15 @@ export const questionsData = {
         "process_group": "Closing",
         "knowledge_area": "Integration",
         "tool": "Lessons Learned Register",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Project Performance Domains', 'PMBOK® Guide - 6th Edition, Close Project or Phase Process']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Project Performance Domains', 'PMBOK® Guide - 6th Edition, Close Project or Phase Process']"
+        ],
         "concepts_to_understand": "The lessons learned register is part of the 'organizational process assets' (OPAs). The primary purpose of creating and updating this document is to contribute to organizational learning. Therefore, the most critical step is to ensure that the information is formally made available to the wider organization, typically through a PMO or a central knowledge repository, for the benefit of future projects.",
         "additional_notes": "This question tests the candidate's understanding of the ultimate purpose of the lessons learned process. The scenario describes a project manager who has completed the documentation step. The next and most critical step is the dissemination of that knowledge. Options A and B are plausible but secondary. Communicating to the sponsor is a good practice, and archiving is the final administrative step. However, the core purpose of the lessons learned exercise is to contribute to the organization's knowledge base. Therefore, Option C is the most important and a fundamental part of the 'Close Project or Phase' process. The question is difficult because it requires the candidate to prioritize the most important step of a sequence of events.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Closing",
+      "is_sample": "No"
     }
   ]
 };

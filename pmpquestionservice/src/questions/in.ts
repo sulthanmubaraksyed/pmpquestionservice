@@ -369,9 +369,9 @@ export const questionsData = {
         "OPTION_C": "Distribute a questionnaire to all departments to collect information on potential stakeholders and their project interests.",
         "OPTION_D": "Utilize expert judgment by consulting with a senior project manager who has successfully managed similar projects in the past."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -382,11 +382,16 @@ export const questionsData = {
         "process_group": "Initiating",
         "knowledge_area": "Stakeholder",
         "tool": "Expert Judgment",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 13.1.2.1', 'PMI Agile Practice Guide, Section 4.2.3']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 13.1.2.1', 'PMI Agile Practice Guide, Section 4.2.3']"
+        ],
         "concepts_to_understand": "Expert judgment is a critical tool for identifying stakeholders, especially in the early phases of a project. When a project team lacks experience or institutional knowledge, consulting with internal or external subject matter experts (SMEs), such as senior project managers, business analysts, or organizational development experts, is the most efficient way to ensure a comprehensive and accurate list of stakeholders. This approach helps to avoid missing key individuals who could later cause issues or delays.",
         "additional_notes": "This question highlights a key application of Expert Judgment in the Initiating process group. The project manager needs to identify stakeholders, a task that requires an understanding of the organizational and political landscape. Since the team is new to this type of project, they lack this institutional knowledge. The most direct and efficient solution is to tap into the experience of someone who has it—a senior project manager. This is a more targeted and effective approach than broad interviews or surveys, which are better suited for collecting data from already-identified groups. The question tests the candidate's ability to discern when to use a specialized, high-impact tool like expert judgment versus a more general data-gathering technique.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Initiating",
+      "did_user_get_it_right": false,
+      "is_sample": "No"
     },
     {
       "id": "1756633760918",
@@ -864,7 +869,7 @@ export const questionsData = {
         "OPTION_D": "The document is an Issue Log to record future problems."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -876,11 +881,15 @@ export const questionsData = {
         "process_group": "Initiating",
         "knowledge_area": "Integration",
         "tool": "Memorandums of Understanding (MOUs)",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 2.4.2.5 Agreements', 'PMBOK® Guide, 6th Edition: 12.1.2.5 Agreements']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 2.4.2.5 Agreements', 'PMBOK® Guide, 6th Edition: 12.1.2.5 Agreements']"
+        ],
         "concepts_to_understand": "A Memorandum of Understanding (MOU) is a formal, non-binding document used to express mutual understanding and alignment between parties. It is a valuable tool for complex or multi-organizational projects where a full contract may not be practical in the early stages. The MOU sets the stage for future collaboration and serves as a record of shared intent, which can be an input to the project charter or other planning documents.",
         "additional_notes": "The scenario clearly describes the purpose of an MOU. The key phrases are 'general high-level purpose,' 'mutual goals,' and 'without any financial or legal obligations.' These details immediately rule out a formal contract. A WBS is a detailed scope document and an Issue Log is for tracking problems. The only option that fits the description of a preliminary, non-binding agreement for collaboration is the MOU. This question tests the fundamental purpose and application of an MOU in the early stages of a project.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Initiating",
+      "is_sample": "No"
     },
     {
       "id": "1756658491528",

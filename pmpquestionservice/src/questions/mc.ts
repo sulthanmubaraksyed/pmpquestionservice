@@ -3942,7 +3942,7 @@ export const questionsData = {
         "OPTION_D": "The project team, as they are most familiar with the current project tasks and dependencies."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -3954,11 +3954,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Expert Judgment",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 4.6.2.1', 'PMI Agile Practice Guide, Section 4.2.3']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 4.6.2.1', 'PMI Agile Practice Guide, Section 4.2.3']"
+        ],
         "concepts_to_understand": "Expert judgment is a formal technique for gaining specialized knowledge from an expert source. In the context of a change request, it's crucial for assessing the viability and impact of proposed changes, especially when they involve new or unfamiliar technology. The best source of expert judgment is an individual with direct, relevant experience and technical knowledge.",
         "additional_notes": "This question is a straightforward test of the definition and application of expert judgment. The scenario clearly outlines a knowledge gap—the team's lack of experience with a new technology—and asks for the best source to fill that gap. The correct answer is the individual with the most direct and relevant expertise. The incorrect options represent individuals with important but different roles (sponsor, business analyst) or a group that is explicitly stated to be lacking the required knowledge (the project team). This is an easy question because the correct answer is a direct and logical application of the concept, and the incorrect answers are clearly unsuitable for the specific problem at hand.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756633756865",
@@ -4255,7 +4259,7 @@ export const questionsData = {
         "OPTION_D": "Perform an Earned Value Analysis calculation to find the current EAC."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4267,11 +4271,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Cost",
         "tool": "Trend Analysis",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 7.4.2.3', 'PMI Agile Practice Guide, Section 4.2.22']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 7.4.2.3', 'PMI Agile Practice Guide, Section 4.2.22']"
+        ],
         "concepts_to_understand": "Trend analysis is a key predictive tool for project cost management. It involves analyzing historical cost performance data (such as CPI) to identify patterns and trends. This information is then used to create a new Estimate at Completion (EAC), which is a forecast of the total project cost based on the current performance trend. It is a critical part of the 'Forecast' process in Earned Value Management.",
         "additional_notes": "This question tests the candidate's understanding of the relationship between trend analysis and earned value management. The key phrases 'consistently below 1.0' and 'provide a new Estimate at Completion (EAC)' are direct cues to the correct answer. The most plausible but incorrect option is D, as EAC is a part of EVA, but the specific method for calculating it based on a historical trend is trend analysis. This requires a nuanced understanding of the terminology and the specific application of the tools.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756633804374",
@@ -4811,7 +4819,7 @@ export const questionsData = {
         "OPTION_D": "A Pareto chart to identify the most significant sources of sign-ups."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4823,11 +4831,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Scatter Diagrams",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', \"Project Management Institute, 'Quality Management' sections\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', \"Project Management Institute, 'Quality Management' sections\"]"
+        ],
         "concepts_to_understand": "Scatter diagrams are used to visually test for correlation between two variables. A pattern of dots that moves upward from left to right indicates a positive correlation, while a pattern that moves downward indicates a negative correlation. If the dots are scattered randomly, it indicates no correlation, which is what the project manager suspects in this scenario.",
         "additional_notes": "This is an easy-level question. The scenario explicitly mentions the need to 'prove' a relationship (or lack thereof) between 'marketing spend' and 'new user sign-ups.' This is a classic example of a correlation analysis problem. A scatter diagram is the only tool listed that is designed for this purpose. The other options are quality management tools, but they are used for different types of analysis, making them easy to rule out.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756637882227",
@@ -4867,7 +4879,7 @@ export const questionsData = {
         "OPTION_D": "A cause-and-effect diagram to identify the reasons for the incidents."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4879,11 +4891,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Scatter Diagrams",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', \"Project Management Institute, 'Quality Management' sections\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', \"Project Management Institute, 'Quality Management' sections\"]"
+        ],
         "concepts_to_understand": "A scatter diagram is a foundational quality management tool for correlation analysis. It plots pairs of numerical data to show if there is a relationship between two variables. It is the ideal tool for visually inspecting data to confirm a suspected correlation before proceeding with further analysis or decision-making.",
         "additional_notes": "This is an easy-level question. The core of the problem is the need to 'visually inspect the data to confirm if a positive correlation exists' between 'hours worked' and 'safety incidents.' This is a textbook use case for a scatter diagram. The other options are all valid quality tools, but they are used for different purposes, making them clearly incorrect. The question tests a basic understanding of a scatter diagram's function.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756637884249",
@@ -4923,7 +4939,7 @@ export const questionsData = {
         "OPTION_D": "A Pareto chart to identify the most frequent complaints."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -4935,11 +4951,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Histograms",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', \"Project Management Institute, 'Quality Management' sections\"]",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', \"Project Management Institute, 'Quality Management' sections\"]"
+        ],
         "concepts_to_understand": "A histogram is a fundamental tool for understanding the distribution of data. It is a bar chart that displays the frequency of data points within specified ranges. In this case, each satisfaction rating (1, 2, 3, 4, 5) would be a 'bin' and the height of the bar would be the number of responses for that rating.",
         "additional_notes": "This is an easy-level question. The scenario's goal is to 'determine the most common rating and see the overall distribution.' This is the exact purpose of a histogram. The other options are all quality tools, but they are used for different types of analysis, making them clearly incorrect. The question tests a basic understanding of a histogram's function.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756637886281",
@@ -5174,9 +5194,9 @@ export const questionsData = {
         "OPTION_C": "Plurality voting, where the option with the most votes wins.",
         "OPTION_D": "Autocratic decision-making, where the project manager makes the final decision."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -5187,11 +5207,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Voting",
-        "suggested_read": "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', 'Agile Practice Guide, Section 4.4']",
+        "suggested_read": [
+          "['PMBOK® Guide - 7th Edition, Process Groups: Monitoring and Controlling', 'Agile Practice Guide, Section 4.4']"
+        ],
         "concepts_to_understand": "Majority voting is a democratic decision-making method that is used when a consensus is not possible. It is a practical and efficient way to make a decision and move a project forward, especially when there is a clear divide on an issue. The project manager's role is to facilitate the decision, not to make it themselves.",
         "additional_notes": "This is a difficult question because it requires distinguishing between plurality and majority voting. The key phrase 'nearly even split' indicates that a majority vote is the most suitable and strongest form of voting to use. If the split were more fragmented (e.g., among three or four options), plurality might be appropriate. But for a two-option split, majority voting is the correct and most effective approach. This tests a precise understanding of the different types of voting.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756637901439",
@@ -5315,7 +5340,7 @@ export const questionsData = {
         "OPTION_D": "Present the data using highly technical charts and graphs to demonstrate the rigor of the project's financial management."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5327,11 +5352,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Communications",
         "tool": "Presentation",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 10.2 on Manage Communications', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation and Communication']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 10.2 on Manage Communications', 'PMI Agile Practice Guide, Section 4.5.3 on Facilitation and Communication']"
+        ],
         "concepts_to_understand": "This question tests a project manager's ability to tailor a presentation to a specific audience, which is a key component of effective communication. The core concept is that the content and delivery must be adapted to the audience's needs and level of understanding. For senior management, the focus should be on the strategic implications, not the technical details. A project manager must be able to translate complex project information into a simple, high-level message that is relevant to the audience's priorities. The incorrect options all represent a failure to understand the audience, which is a critical mistake in project communications.",
         "additional_notes": "The scenario highlights a classic communication challenge: presenting complex information to a high-level audience. The key to success is to understand the audience's perspective and their priorities. Senior managers are not concerned with the 'how' or the 'what' of the project's earned value calculation; they are concerned with the 'so what'—the impact on the business, the profitability, and the plan to get back on track. The project manager's job is to act as a translator, summarizing the data and providing a clear action plan. The correct answer, therefore, is the one that is most focused on the audience's needs. The incorrect options are all valid actions in different contexts (e.g., presenting to a technical team), but they are inappropriate for the specific audience in the scenario. This question is easy because the principle of 'know your audience' is a fundamental concept in project management and communication, and the correct answer is a direct application of that principle. The incorrect options are clearly not suitable for the audience described in the prompt.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756649205509",
@@ -5539,7 +5568,7 @@ export const questionsData = {
         "OPTION_D": "The project manager should use a 'win-lose' negotiation strategy, where they will accept the scope change and then file a formal change request to increase the project's budget and schedule."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5551,11 +5580,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Scope",
         "tool": "Negotiation",
-        "suggested_read": "['PMBOK® Guide - 6th Edition, Section 4.6 on Perform Integrated Change Control', 'PMI Agile Practice Guide, Section 4.5.3 on Negotiation and Collaboration']",
+        "suggested_read": [
+          "['PMBOK® Guide - 6th Edition, Section 4.6 on Perform Integrated Change Control', 'PMI Agile Practice Guide, Section 4.5.3 on Negotiation and Collaboration']"
+        ],
         "concepts_to_understand": "This question tests a project manager's understanding of negotiation in a change management context. The core concept is that a project manager must be a proactive leader who uses a 'win-win' negotiation strategy to manage a stakeholder's expectations and to protect the project's baseline. The project manager's role is to find a creative solution that works for both parties, rather than to resort to a forceful or a compromising approach. This is a key part of effective project management and is a crucial skill for a project manager. The incorrect options all represent less effective or unprofessional approaches that are likely to lead to a poor outcome. The correct option demonstrates a deep understanding of effective negotiation and a proactive approach to conflict resolution.",
         "difficulty_level": "difficult",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756654599135",
@@ -5594,9 +5627,9 @@ export const questionsData = {
         "OPTION_C": "The activities can be delayed without affecting the project's completion date.",
         "OPTION_D": "The project is ahead of schedule and will finish early."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -5607,11 +5640,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Schedule",
         "tool": "Critical Path",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.5.2.4', 'PMI.org, Critical Path Method']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.5.2.4', 'PMI.org, Critical Path Method']"
+        ],
         "concepts_to_understand": "Float is a key concept in Critical Path Method (CPM) scheduling. It is the amount of time an activity can be delayed without impacting other activities or the project's final deadline. Activities on the critical path have a total float of zero, while non-critical activities have positive float. Understanding float is essential for managing project schedules and prioritizing work.",
         "additional_notes": "This is an easy question that tests a fundamental concept of Critical Path Method (CPM). The definition of float is central to understanding how to manage a schedule. The question directly asks for the meaning of 'positive float' and the correct answer is the textbook definition. The distractors are designed to confuse the candidate with related but incorrect concepts, such as a zero float (critical path) or an overall project status. The question is a straightforward knowledge check.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654603206",
@@ -5679,7 +5717,7 @@ export const questionsData = {
         "OPTION_D": "Remove the remaining project buffer to reflect the project's new, shorter duration."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5691,11 +5729,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Schedule",
         "tool": "Critical Chain",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 6.5.2.7', \"Eliyahu M. Goldratt, 'Critical Chain'\"]",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 6.5.2.7', \"Eliyahu M. Goldratt, 'Critical Chain'\"]"
+        ],
         "concepts_to_understand": "In Critical Chain Method (CCM), the project buffer is a key performance indicator. The consumption of the buffer is a direct measure of the project's health. The project manager should monitor the 'buffer consumption rate' against the 'critical chain progress rate.' If the buffer consumption exceeds the project's progress, it signals a problem that requires immediate investigation and corrective action. This proactive monitoring and management is a core principle of CCM.",
         "additional_notes": "This question tests a project manager's ability to interpret a key metric in a Critical Chain Method (CCM) project. The scenario provides a clear red flag: the buffer is being consumed at a rate more than double the project's progress. This is a classic PMP-style question that requires the candidate to choose the correct next step. The most plausible distractor is adding more time, which is a reactive, less effective solution. The correct answer, to analyze the root cause and take action, is the most proactive and professional response. This question is difficult because it requires an understanding of a specific project management methodology and its key performance indicators.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756654631589",
@@ -5735,7 +5777,7 @@ export const questionsData = {
         "OPTION_D": "$1,250,000"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -5747,11 +5789,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Cost",
         "tool": "Earned Value Management (EVM)",
-        "suggested_read": "['PMBOK® Guide, 6th Edition, Section 7.4.2.2', 'PMI.org, Earned Value Management']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Edition, Section 7.4.2.2', 'PMI.org, Earned Value Management']"
+        ],
         "concepts_to_understand": "Estimate at Completion (EAC) is a forecast of the total project cost based on current performance. The most common formula for EAC assumes that future performance will be the same as past performance. This formula is EAC = BAC / CPI. A different formula, EAC = AC + (BAC - EV), is used when it is assumed that future performance will not be the same as past performance and that a new estimate is needed. The PMP exam requires a candidate to choose the most appropriate formula based on the scenario.",
         "additional_notes": "This question is difficult because it requires a candidate to choose the correct EAC formula based on a specific scenario. The key phrase 'performance will remain the same' is the critical clue. This indicates that the EAC = BAC / CPI formula is the most appropriate. The distractors are the results of other, less appropriate EAC formulas. This tests a deep understanding of EVM and the context in which each formula should be used. The two close options are A and B, which are the results of two different but plausible formulas. A candidate who doesn't understand the nuance of the 'performance will remain the same' phrase would likely choose the wrong formula.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756654634618",
@@ -6042,9 +6088,9 @@ export const questionsData = {
         "OPTION_C": "EAC (Estimate at Completion) = BAC (Budget at Completion) / CPI (Cost Performance Index)",
         "OPTION_D": "EAC (Estimate at Completion) = AC (Actual Cost) + (BAC - EV) / (SPI * CPI)"
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "C",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -6055,11 +6101,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Cost",
         "tool": "Forecasting",
-        "suggested_read": "['PMBOK® Guide, 6th Ed. - 7.4.2.5 Forecasting', 'PMI PMP Exam Prep']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Ed. - 7.4.2.5 Forecasting', 'PMI PMP Exam Prep']"
+        ],
         "concepts_to_understand": "Forecasting, Estimate at Completion (EAC), Cost Performance Index (CPI), Earned Value Management (EVM). Forecasting is the process of estimating future project costs based on current performance. The choice of EAC formula depends on the assumption about future performance. When the project manager expects the current performance trend (good or bad) to continue, the EAC = BAC / CPI formula is the most appropriate choice.",
         "additional_notes": "This question tests a very specific and subtle aspect of EAC forecasting. The key phrase is 'believes that this trend will continue.' This is the trigger that points directly to the EAC formula that assumes future performance will be similar to past performance. Option B is a close distracter because it is also a valid EAC formula, but it is used when the past performance is considered irrelevant or invalid. The scenario specifically states the opposite. The correct answer requires the candidate to read the nuances of the scenario and select the most fitting formula, not just a valid one. The other formulas are either incorrect or less appropriate for the specific context provided.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756654648781",
@@ -6412,7 +6463,7 @@ export const questionsData = {
         "OPTION_D": "The process is in statistical control, but it is not meeting the customer's quality standards, and a process improvement initiative is needed to change the mean of the process."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6424,11 +6475,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Control Chart",
-        "suggested_read": "['PMBOK® Guide, 6th Ed. - 8.2.2.1 Control Charts', 'PMI PMP Exam Prep']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Ed. - 8.2.2.1 Control Charts', 'PMI PMP Exam Prep']"
+        ],
         "concepts_to_understand": "Control Chart, Statistical Process Control, Common Cause Variation, Special Cause Variation, Specification Limits vs. Control Limits. This question tests the crucial difference between a process being 'in control' (predictable) and a process being 'capable' (meeting customer requirements). A process can be in control but not capable. The control limits are a function of the process's own variation, while the specification limits are the customer's requirements. The problem in this scenario is with the process's mean, not its variation.",
         "additional_notes": "This is a very difficult and nuanced question that tests a deep understanding of statistical process control. The key is to distinguish between 'statistical control' and 'meeting customer specifications.' The control chart determines the former, while the SLA determines the latter. The scenario clearly states that the process is in control (data points are within control limits) but not meeting the SLA (the mean is too high). Therefore, the correct answer is to initiate a process improvement that changes the mean of the process. Options A and B are factually incorrect based on the scenario. Option C is a very close distracter, as it suggests process improvement, but it focuses on reducing variation, which is not the root of the problem. The correct answer requires the candidate to identify that the problem is with the process's central tendency (the mean), not its natural variation.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756654666984",
@@ -6832,7 +6887,7 @@ export const questionsData = {
         "OPTION_D": "Investigate the process to find the assignable cause of the variation."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -6844,11 +6899,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Quality",
         "tool": "Control Chart",
-        "suggested_read": "['PMBOK® Guide, 6th Ed. - 8.2.2.1 Control Charts', 'PMI PMP Exam Prep']",
+        "suggested_read": [
+          "['PMBOK® Guide, 6th Ed. - 8.2.2.1 Control Charts', 'PMI PMP Exam Prep']"
+        ],
         "concepts_to_understand": "Control Chart, Statistical Process Control, Common Cause Variation, Special Cause Variation. This question tests the candidate's understanding of how to react when a process is in statistical control. The key is to recognize that a process in control is not a 'set it and forget it' situation. It still requires continuous monitoring to ensure it remains stable. The distinction between 'common cause' (normal) variation and 'special cause' (abnormal) variation is fundamental to answering this question correctly.",
         "difficulty_level": "difficult",
         "additional_notes": ""
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756654684153",
@@ -7084,7 +7143,7 @@ export const questionsData = {
         "OPTION_D": "A summary of the risk's impact on the project's overall budget."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7096,11 +7155,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Risk",
         "tool": "Risk Register",
-        "suggested_read": "['PMBOK Guide, 6th Edition, Section 11.2.3.1', 'PMI Standards+™ - The Standard for Project Management']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition, Section 11.2.3.1', 'PMI Standards+™ - The Standard for Project Management']"
+        ],
         "concepts_to_understand": "The Risk Register is a comprehensive document that serves as a single source of truth for all project risks. For a risk to be effectively monitored, the register must contain all key information, including its category, root cause, and the person accountable for its management (the risk owner). This structure helps in the 'Monitor Risks' process.",
         "additional_notes": "This question tests the candidate's understanding of the specific contents of a Risk Register, which is a key PMP concept. The scenario describes a risk that is a 'watch item' and asks for the most appropriate information to add. The correct answer includes key fields from a standard Risk Register. The distractors are all plausible but incorrect, either suggesting an inefficient use of resources (A), including subjective information (C), or providing an incomplete picture of the risk (D). The question is difficult because it requires a precise knowledge of what belongs in a Risk Register.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756654729865",
@@ -7401,9 +7464,9 @@ export const questionsData = {
         "OPTION_C": "Reject the change immediately since it impacts the scope baseline and could lead to scope creep.",
         "OPTION_D": "Direct the team to start the implementation of the new library, since it will benefit the project, then update the documentation retroactively."
       },
-      "is_attempted": false,
-      "is_valid": false,
-      "selected_option": "",
+      "is_attempted": true,
+      "is_valid": true,
+      "selected_option": "B",
       "question_type": "Option",
       "correct_answer": "",
       "analysis": {
@@ -7414,11 +7477,16 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Change Control Meetings",
-        "suggested_read": "['PMBOK Guide, 6th Edition - Section 4.6 Perform Integrated Change Control', 'Agile Practice Guide - Section 2.1.2 Agile Approaches']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition - Section 4.6 Perform Integrated Change Control', 'Agile Practice Guide - Section 2.1.2 Agile Approaches']"
+        ],
         "concepts_to_understand": "The 'Perform Integrated Change Control' process ensures that all changes are handled in a formal, structured way. The key steps are: a change is identified, a formal change request is submitted, an impact analysis is performed, the change is reviewed and decided upon by the appropriate authority (e.g., the CCB), and finally, the decision is communicated and the baselines are updated.",
         "additional_notes": "This is an easy question that tests the sequence of steps in the change control process. The scenario provides a clear-cut situation where a change request impacts a baseline and must follow a formal process. The correct answer is a direct and logical sequence of actions. The distractors represent various forms of project mismanagement, such as unilateral decisions, premature rejections, and retroactive documentation, making the correct answer stand out.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "did_user_get_it_right": true,
+      "is_sample": "No"
     },
     {
       "id": "1756656001061",
@@ -7430,7 +7498,7 @@ export const questionsData = {
         "OPTION_D": "A Document Management System (DMS) to organize and store project documents."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7442,11 +7510,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Configuration Management System",
-        "suggested_read": "['PMBOK Guide, 6th Edition - Section 4.6.3.1 Configuration Management System', 'Agile Practice Guide - Section 2.5.1 Governance']",
+        "suggested_read": [
+          "['PMBOK Guide, 6th Edition - Section 4.6.3.1 Configuration Management System', 'Agile Practice Guide - Section 2.5.1 Governance']"
+        ],
         "concepts_to_understand": "A Configuration Management System (CMS) is a crucial component of project governance, especially in complex projects. It's a set of procedures and tools for managing the lifecycle of project artifacts. It includes: configuration identification (what needs to be controlled), configuration status accounting (tracking versions and changes), and configuration verification and auditing. The goal is to maintain the integrity of project deliverables and ensure all team members are working from the correct versions.",
         "additional_notes": "This is a difficult question because the distractors are all plausible project management tools. However, they are not as specific or as correct as the 'Configuration Management System.' The key is to distinguish between a Change Control System (which manages changes to baselines) and a Configuration Management System (which manages changes to the actual project artifacts). The scenario's emphasis on 'outdated versions of code, documentation, and requirements' points directly to the need for a CMS. A PMP must understand this subtle but critical distinction.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756656002072",
@@ -7738,7 +7810,7 @@ export const questionsData = {
         "OPTION_D": "To reflect on the project and identify actionable improvements to the team's processes and collaboration."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7750,11 +7822,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Retrospectives",
-        "suggested_read": "['Agile Practice Guide - Section 4.5.2 Retrospectives', 'Agile Retrospectives: Making Good Teams Great by Esther Derby and Diana Larsen']",
+        "suggested_read": [
+          "['Agile Practice Guide - Section 4.5.2 Retrospectives', 'Agile Retrospectives: Making Good Teams Great by Esther Derby and Diana Larsen']"
+        ],
         "concepts_to_understand": "Retrospectives are a key part of the agile mindset of 'inspect and adapt.' They are a regular, structured way for the team to look at their own processes and find ways to work more effectively. They are not a forum for assigning blame or for celebrating. Their purpose is to drive continuous improvement by focusing on the 'what' and 'how' of the work, not the 'who.'",
         "additional_notes": "This is a difficult question because it presents a complex scenario. The project was a success, but there were internal challenges. The correct answer focuses on the core purpose of a retrospective: process improvement. The distractors are all plausible but incorrect. The question tests the project manager's ability to differentiate between celebrating success, which is important, and the formal process of continuous improvement, which is the purpose of the retrospective.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756657574550",
@@ -7906,7 +7982,7 @@ export const questionsData = {
         "OPTION_D": "Report the team's performance to the sponsor and ask for a revised budget and timeline."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7918,11 +7994,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Integration",
         "tool": "Scrum",
-        "suggested_read": "[\"PMI 'Agile Practice Guide'\", 'The Scrum Guide']",
+        "suggested_read": [
+          "[\"PMI 'Agile Practice Guide'\", 'The Scrum Guide']"
+        ],
         "concepts_to_understand": "In the Scrum framework, the project manager's role is to act as a servant leader, coaching the team and removing impediments. The problem described in the scenario is a process problem that can be addressed by coaching the team on better estimation and backlog refinement. This is a core part of the project manager's role in the agile framework, and it is the most effective and appropriate action to take.",
         "additional_notes": "This question tests a project manager's ability to apply the principles of the Scrum framework to a real-world problem. The scenario is a classic example of a team struggling with estimation and backlog refinement. The correct answer highlights the project manager's role as a coach and facilitator, which is a key part of the agile mindset. The incorrect options represent either a misapplication of an inappropriate framework (waterfall) or a reactive and ineffective response.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756657991090",
@@ -7934,7 +8014,7 @@ export const questionsData = {
         "OPTION_D": "Revert the project to a traditional waterfall approach to ensure all requirements are formally signed off."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -7946,11 +8026,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Stakeholders",
         "tool": "Scrum",
-        "suggested_read": "[\"PMI 'Agile Practice Guide'\", 'The Scrum Guide']",
+        "suggested_read": [
+          "[\"PMI 'Agile Practice Guide'\", 'The Scrum Guide']"
+        ],
         "concepts_to_understand": "The Scrum framework is designed to embrace change and to get feedback early and often. The 'Sprint Review' is the key event for this. The product owner's role is to manage the product backlog and to act as the voice of the customer and the stakeholders. This is a core part of the project manager's role in the agile framework, and it is the most effective and appropriate action to take.",
         "additional_notes": "This question tests the project manager's understanding of the roles and events in the Scrum framework. The scenario describes a common situation where a stakeholder provides feedback. The correct answer highlights the product owner's role in managing this feedback and updating the product backlog. This is the essence of an agile response to change. The incorrect options represent either a misapplication of an inappropriate framework or a reactive and ineffective response.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756658496567",
@@ -8078,7 +8162,7 @@ export const questionsData = {
         "OPTION_D": "Create a new entry in the Issue Log to track the need for the new role."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8090,11 +8174,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Resources",
         "tool": "Resource Breakdown Structure (RBS)",
-        "suggested_read": "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 9.2 Estimate Activity Resources']",
+        "suggested_read": [
+          "['PMBOK® Guide, 7th Edition: 3.5 Project Artifacts', 'PMBOK® Guide, 6th Edition: 9.2 Estimate Activity Resources']"
+        ],
         "concepts_to_understand": "The RBS is a dynamic document that should be updated as new resource requirements are identified. This is a critical step in maintaining a comprehensive and accurate project plan. By formally documenting the new role, the project manager ensures that the project's resource needs are clearly defined and can be managed effectively. The update to the RBS often precedes a change request to get approval for the new role and its budget.",
         "additional_notes": "This question tests the iterative nature of the planning process. The project manager identifies a new resource need during execution. The first and most appropriate action is to formally document this need in the correct project artifact, which is the RBS. The other options are either incorrect applications of different documents (OBS, Issue Log) or are a subsequent step in the process (Change Request). The core of the problem is a new resource need, and the RBS is the document for that purpose.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756658514745",
@@ -8334,7 +8422,7 @@ export const questionsData = {
         "OPTION_D": "The project's scope has not changed, and the team is adhering to the original plan."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8346,11 +8434,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Risk",
         "tool": "Risk Burn Down Chart",
-        "suggested_read": "['PMI Agile Practice Guide, Section 4.5.3', 'PMBOK® Guide, 7th Edition, Risk Management']",
+        "suggested_read": [
+          "['PMI Agile Practice Guide, Section 4.5.3', 'PMBOK® Guide, 7th Edition, Risk Management']"
+        ],
         "concepts_to_understand": "A Risk Burn Down Chart is a visual tool for communicating the effectiveness of a project's risk management efforts. A project manager can use this chart to show stakeholders that the team is proactively managing risk and that the overall project is becoming less risky over time. This is a powerful way to build confidence and trust with stakeholders. The PMP exam tests the candidate's ability to use a specific tool to communicate a specific message to a stakeholder.",
         "additional_notes": "This is an easy question that tests the candidate's understanding of the purpose of a Risk Burn Down Chart. The scenario describes a chart that is performing as it should, and the question asks what message this chart conveys. The correct answer (C) is a direct and simple application of the chart's purpose. The other options are about different aspects of project management (budget, schedule, scope) and are not represented by the chart. The clear distinction between the correct answer and the distractors makes this a straightforward question for a candidate with a basic understanding of the tool.",
         "difficulty_level": "easy"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756661184181",
@@ -8390,7 +8482,7 @@ export const questionsData = {
         "OPTION_D": "The project manager has been misinterpreting the chart, which is a common issue."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -8402,11 +8494,15 @@ export const questionsData = {
         "process_group": "Monitoring and Controlling",
         "knowledge_area": "Schedule",
         "tool": "Burndown Charts",
-        "suggested_read": "['Agile Practice Guide, Burndown Chart', 'PMBOK® Guide - 7th Edition, Measurement Performance Domain']",
+        "suggested_read": [
+          "['Agile Practice Guide, Burndown Chart', 'PMBOK® Guide - 7th Edition, Measurement Performance Domain']"
+        ],
         "concepts_to_understand": "A burndown chart is a visual tool that tracks the amount of work remaining versus the time available. The chart's primary function is to show the rate at which work is being completed. A flat line on a burndown chart is a strong indicator that the data inputs (remaining work) are not being updated by the team.",
         "additional_notes": "This question tests a fundamental concept of burndown charts and agile project management. The scenario presents a direct contradiction between team communication (reporting progress) and the data visualization (flat line). This is a common real-world problem. The key to solving this is to understand what a flat line on a burndown chart means. It means that the 'y' axis, which represents remaining work, has not changed. This can only happen if the data is not being updated. Options A and B would cause different behaviors on the chart—slower progress or an upward spike, respectively. Option D is a distraction; while a manager could misinterpret the chart, the root cause of the flat line itself is the lack of data updates. The correct answer points to the direct cause of the data issue, which is a core concept of this tool. The question is difficult because the incorrect options are plausible but would manifest differently on the chart, requiring a precise understanding of the tool's behavior.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756661186207",
@@ -9456,7 +9552,7 @@ export const questionsData = {
         "OPTION_D": "Which communication channel is most effective for presenting to the CCB?"
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9474,7 +9570,9 @@ export const questionsData = {
         "concepts_to_understand": "Perform Integrated Change Control relies heavily on robust data analysis to support informed decision-making by the CCB. When a proposed corrective action impacts baselines, various analytical techniques (e.g., cost-benefit analysis to weigh the pros and cons, trend analysis to understand the impact on future performance, and alternative analysis to compare different solutions) are crucial inputs for the CCB to evaluate the change request and its overall impact on the project's objectives and constraints.",
         "additional_notes": "This question focuses on the type of analytical support required for the CCB to make an informed decision on a proposed corrective action that affects baselines. The scenario describes a situation where both schedule and cost are impacted, necessitating a multi-faceted analysis. Option A, 'What type of data analysis should be performed to support the CCB's decision-making?', directly addresses this need. The suggested data analyses (cost-benefit, trend, alternative) are precise tools within the Perform Integrated Change Control process for evaluating such complex changes. Options B, C, and D are either outputs, conceptual objectives, or communication methods, not the specific analytical methods requested by the question. The difficulty lies in selecting the most comprehensive analytical approach.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756662634709",
@@ -9668,7 +9766,7 @@ export const questionsData = {
         "OPTION_D": "Escalate the issue to senior management for a definitive decision."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9686,7 +9784,9 @@ export const questionsData = {
         "concepts_to_understand": "Validate Scope involves confirming that completed deliverables meet project requirements. Disagreements, especially on subjective criteria, necessitate a return to the documented scope. The Requirements Traceability Matrix and detailed design documents are essential tools for clarifying and validating against agreed-upon requirements, providing an objective basis for discussion and resolution during the formal acceptance process.",
         "additional_notes": "This question addresses a common challenge in Validate Scope: managing subjective requirements and stakeholder disagreements. The project manager's primary responsibility is to ensure that deliverables meet the documented scope. When disagreements arise, the first and most effective step is to refer back to the official project documentation – the requirements traceability matrix, scope statement, and design documents. These provide the objective baseline against which acceptance is sought. This approach promotes transparency, grounds the discussion in agreed-upon terms, and avoids subjective arguments, thereby facilitating a more efficient path to formal acceptance.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756662641872",
@@ -9758,7 +9858,7 @@ export const questionsData = {
         "OPTION_D": "Offer a discount on future work if the client accepts the current deliverable."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9776,7 +9876,9 @@ export const questionsData = {
         "concepts_to_understand": "Validate Scope involves gaining formal acceptance of deliverables. Any request for changes or additions to the scope, even during the acceptance phase, must be managed through the Perform Integrated Change Control process. This ensures that changes are formally documented, assessed for impact, and approved before implementation, preventing scope creep and maintaining control over the project baselines.",
         "additional_notes": "This question tests the project manager's understanding of how to handle new requirements or scope changes that arise during the Validate Scope process. The key concept is that 'scope creep' occurs when changes are implemented informally. Regardless of how 'essential' the client now deems a feature, if it's not in the agreed-upon scope baseline, it must go through a formal change request. This ensures all impacts are assessed and a conscious decision is made, preserving the project's integrity and allowing for potential adjustments to budget and schedule. This is the cornerstone of disciplined project management.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756662644949",
@@ -9941,7 +10043,7 @@ export const questionsData = {
         "OPTION_D": "Explain that only formally documented specifications can be considered during validation."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -9959,7 +10061,9 @@ export const questionsData = {
         "concepts_to_understand": "The Validate Scope process is about formal acceptance. Any deviation from the agreed-upon scope, regardless of how 'minor' it seems, must be managed through the Perform Integrated Change Control process. This maintains project discipline, prevents scope creep, and ensures all changes are formally assessed and approved.",
         "additional_notes": "This question tests the project manager's commitment to maintaining project discipline and adhering to the change control process, even for seemingly small or positive changes. The core principle of 'Perform Integrated Change Control' is that all changes, once a baseline is established, must be formally reviewed and approved. Bypassing this process, even for minor tweaks, can set a dangerous precedent, leading to uncontrolled scope creep over time. Therefore, the 'most appropriate' action is to initiate a formal change request, ensuring the project remains under control and all alterations are properly documented and approved.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756662651096",
@@ -10516,7 +10620,7 @@ export const questionsData = {
         "OPTION_D": "Provide weekly comprehensive written reports to all external stakeholders, detailing every task completed."
       },
       "is_attempted": false,
-      "is_valid": false,
+      "is_valid": true,
       "selected_option": "",
       "question_type": "Option",
       "correct_answer": "",
@@ -10534,7 +10638,9 @@ export const questionsData = {
         "concepts_to_understand": "Effective communication in agile environments requires adapting strategies to different audiences. While internal agile teams thrive on informal, frequent communication, external stakeholders often require more formal, structured updates. The Monitor Communications process involves identifying gaps in communication effectiveness and adjusting the communication strategy to meet diverse stakeholder needs, ensuring both internal efficiency and external satisfaction.",
         "additional_notes": "This question highlights a common challenge in agile projects: balancing rapid, informal internal communication with the need for more structured, formal updates for external stakeholders. The best approach is to recognize that different audiences have different communication requirements. Therefore, a *complementary* formal plan for external parties is essential. This allows the team to maintain its agile efficiency while ensuring external stakeholders receive the type and frequency of information they need. Options A and C fail to address external needs effectively, and Option D could lead to information overload, demonstrating a lack of understanding of tailored communication.",
         "difficulty_level": "difficult"
-      }
+      },
+      "process_group": "Monitoring and Controlling",
+      "is_sample": "No"
     },
     {
       "id": "1756662670512",
